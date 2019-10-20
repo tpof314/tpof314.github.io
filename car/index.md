@@ -25,3 +25,6 @@ section.page-header {
     display: none;    
 }
 </style>
+<script>
+    document.title = "出售二手车一辆 | 小广告";
+</script>
