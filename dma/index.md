@@ -39,24 +39,23 @@
 
 * 相关导师
 
-> [Professor Neal Peres Da Costa](https://www.sydney.edu.au/music/about/our-people/academic-staff/neal-peresdacosta.html)
+> (1) [Professor Neal Peres Da Costa](https://www.sydney.edu.au/music/about/our-people/academic-staff/neal-peresdacosta.html)
 > 	* Performing Practices in Romantic Piano Playing
 > 	* performance research in 19th-century piano playing
 > 	* 他的学生比较多 ...
 
 
-> [Dr David Larkin](https://www.sydney.edu.au/music/about/our-people/academic-staff/david-larkin.html#collapseReStudents)
+> (2) [Dr David Larkin](https://www.sydney.edu.au/music/about/our-people/academic-staff/david-larkin.html#collapseReStudents)
 > 	* piano, violin and organ
 > 	* Aesthetics of Richard Strauss, Franz Liszt, and Richard Wagner
 
 
-
-> [Dr Alan Maddox](https://www.sydney.edu.au/music/about/our-people/academic-staff/alan-maddox.html)
+> (3) [Dr Alan Maddox](https://www.sydney.edu.au/music/about/our-people/academic-staff/alan-maddox.html)
 > 	* performance practice of European music before 1800
 > 	* music in Australian colonial society (1788-1900)
 
 
-> [AProfessor Kathleen Nelson](https://www.sydney.edu.au/music/about/our-people/academic-staff/kathleen-nelson.html#collapseIntlLinks)
+> (4) [AProfessor Kathleen Nelson](https://www.sydney.edu.au/music/about/our-people/academic-staff/kathleen-nelson.html#collapseIntlLinks)
 > 	* Associate Dean
 > 	* Chair of Musicology Unit
 > 	* research: medieval music - chant and polyphony in Spanish manuscript
