@@ -4,6 +4,8 @@
 * DMA - more experience with composition and performance (偏表演)
 * PhD - focus on theory and analysis / more experience with teaching (偏理论)
 
+---
+
 ## University of Sydney (Sydney Conservatorium of Music) - **DMA**
 [https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html](https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html)
 
@@ -35,35 +37,32 @@
 * 申请步骤
 	+ [https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html](https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html)
 
-* 导师
+* 相关导师
 
-```
-[Professor Neal Peres Da Costa](https://www.sydney.edu.au/music/about/our-people/academic-staff/neal-peresdacosta.html)
-	* Performing Practices in Romantic Piano Playing
-	* performance research in 19th-century piano playing
-	* 他的学生比较多 ...
-```
-
-```
-[Dr David Larkin](https://www.sydney.edu.au/music/about/our-people/academic-staff/david-larkin.html#collapseReStudents)
-	* piano, violin and organ
-	* Aesthetics of Richard Strauss, Franz Liszt, and Richard Wagner
-```
-
-```
-[Dr Alan Maddox](https://www.sydney.edu.au/music/about/our-people/academic-staff/alan-maddox.html)
-	* performance practice of European music before 1800
-	* music in Australian colonial society (1788-1900)
-```
-
-```
-[AProfessor Kathleen Nelson](https://www.sydney.edu.au/music/about/our-people/academic-staff/kathleen-nelson.html#collapseIntlLinks)
-	* Associate Dean
-	* Chair of Musicology Unit
-	* research: medieval music - chant and polyphony in Spanish manuscript
-```
+> [Professor Neal Peres Da Costa](https://www.sydney.edu.au/music/about/our-people/academic-staff/neal-peresdacosta.html)
+> 	* Performing Practices in Romantic Piano Playing
+> 	* performance research in 19th-century piano playing
+> 	* 他的学生比较多 ...
 
 
+> [Dr David Larkin](https://www.sydney.edu.au/music/about/our-people/academic-staff/david-larkin.html#collapseReStudents)
+> 	* piano, violin and organ
+> 	* Aesthetics of Richard Strauss, Franz Liszt, and Richard Wagner
+
+
+
+> [Dr Alan Maddox](https://www.sydney.edu.au/music/about/our-people/academic-staff/alan-maddox.html)
+> 	* performance practice of European music before 1800
+> 	* music in Australian colonial society (1788-1900)
+
+
+> [AProfessor Kathleen Nelson](https://www.sydney.edu.au/music/about/our-people/academic-staff/kathleen-nelson.html#collapseIntlLinks)
+> 	* Associate Dean
+> 	* Chair of Musicology Unit
+> 	* research: medieval music - chant and polyphony in Spanish manuscript
+
+
+---
 
 University of Melbourne - **PhD - (Music Performance)**
 [https://study.unimelb.edu.au/find/courses/graduate/doctor-of-philosophy-fine-arts-and-music](https://study.unimelb.edu.au/find/courses/graduate/doctor-of-philosophy-fine-arts-and-music)
@@ -86,12 +85,21 @@ University of Melbourne - **PhD - (Music Performance)**
 
 * 导师
 
-> [Associate Professor Jerry Wong](https://findanexpert.unimelb.edu.au/profile/852511-jerry-wong)
+> (1) [Associate Professor Jerry Wong](https://findanexpert.unimelb.edu.au/profile/852511-jerry-wong)
 > 	* Associate Professor In Piano
 > 	* 个人网站 http://www.jerrywongpiano.com/
 
-
-
-> [Professor Ian Holtham](https://findanexpert.unimelb.edu.au/profile/14245-ian-holtham)
+> (2) [Professor Ian Holtham](https://findanexpert.unimelb.edu.au/profile/14245-ian-holtham)
 > 	* Piano literature and performance from the mid-eighteenth century to the present
 > 	* Fellow of Trinity College of Music, London (1976)
+
+
+
+<style>
+section.page-header {
+    display: none;    
+}
+</style>
+<script>
+    document.title = "DMA";
+</script>
