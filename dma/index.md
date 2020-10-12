@@ -33,7 +33,7 @@
 	+ 20 in Reading/Listening/Speaking, 22 in Writing
 
 * 申请步骤
-	- [https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html](https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html)
+	+ [https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html](https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html)
 
 * 导师
 
@@ -85,14 +85,13 @@ University of Melbourne - **PhD - (Music Performance)**
 	[https://study.unimelb.edu.au/find/courses/graduate/doctor-of-philosophy-fine-arts-and-music/how-to-apply/](https://study.unimelb.edu.au/find/courses/graduate/doctor-of-philosophy-fine-arts-and-music/how-to-apply/)
 
 * 导师
-```
-[Associate Professor Jerry Wong](https://findanexpert.unimelb.edu.au/profile/852511-jerry-wong)
-	* Associate Professor In Piano
-	* 个人网站 http://www.jerrywongpiano.com/
-```
 
-```
-[Professor Ian Holtham](https://findanexpert.unimelb.edu.au/profile/14245-ian-holtham)
-	* Piano literature and performance from the mid-eighteenth century to the present
-	* Fellow of Trinity College of Music, London (1976)
-```
+> [Associate Professor Jerry Wong](https://findanexpert.unimelb.edu.au/profile/852511-jerry-wong)
+> 	* Associate Professor In Piano
+> 	* 个人网站 http://www.jerrywongpiano.com/
+
+
+
+> [Professor Ian Holtham](https://findanexpert.unimelb.edu.au/profile/14245-ian-holtham)
+> 	* Piano literature and performance from the mid-eighteenth century to the present
+> 	* Fellow of Trinity College of Music, London (1976)
