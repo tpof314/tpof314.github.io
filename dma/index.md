@@ -98,11 +98,17 @@
 section.page-header {
     display: none;    
 }
+
 section ul li {
 	margin-top: 6px;
 }
+
 section ul li ul li {
 	margin-top: 1px;
+}
+
+blockquote {
+	width: 105%;
 }
 </style>
 <script>
