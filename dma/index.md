@@ -17,10 +17,10 @@
 	+ AUD $37,500 / year (后面每年可能都有变动)
 
 * 奖学金
-	+ https://www.sydney.edu.au/scholarships/a/bruce-a-pontin-memorial-scholarship.html
-	+ https://www.sydney.edu.au/scholarships/a/chapple-bremner-scholarship.html
-	+ https://www.sydney.edu.au/scholarships/a/geoffrey-parsons-australian-scholarship.html
-	+ https://www.sydney.edu.au/scholarships/a/george-margaret-henderson-scholarship.html
+	+ [https://www.sydney.edu.au/scholarships/a/bruce-a-pontin-memorial-scholarship.html](https://www.sydney.edu.au/scholarships/a/bruce-a-pontin-memorial-scholarship.html)
+	+ [https://www.sydney.edu.au/scholarships/a/chapple-bremner-scholarship.html](https://www.sydney.edu.au/scholarships/a/chapple-bremner-scholarship.html)
+	+ [https://www.sydney.edu.au/scholarships/a/geoffrey-parsons-australian-scholarship.html](https://www.sydney.edu.au/scholarships/a/geoffrey-parsons-australian-scholarship.html)
+	+ [https://www.sydney.edu.au/scholarships/a/george-margaret-henderson-scholarship.html](https://www.sydney.edu.au/scholarships/a/george-margaret-henderson-scholarship.html)
 
 * 总时间
 	+ 3 ~ 4 years full time
@@ -40,30 +40,30 @@
 * 相关导师
 
 > (1) [Professor Neal Peres Da Costa](https://www.sydney.edu.au/music/about/our-people/academic-staff/neal-peresdacosta.html)
-> 	* Performing Practices in Romantic Piano Playing
-> 	* performance research in 19th-century piano playing
-> 	* 他的学生比较多 ...
+>> 	* Performing Practices in Romantic Piano Playing
+>> 	* performance research in 19th-century piano playing
+>> 	* 他的学生比较多 ...
 
 
 > (2) [Dr David Larkin](https://www.sydney.edu.au/music/about/our-people/academic-staff/david-larkin.html#collapseReStudents)
-> 	* piano, violin and organ
-> 	* Aesthetics of Richard Strauss, Franz Liszt, and Richard Wagner
+>> 	* piano, violin and organ
+>> 	* Aesthetics of Richard Strauss, Franz Liszt, and Richard Wagner
 
 
 > (3) [Dr Alan Maddox](https://www.sydney.edu.au/music/about/our-people/academic-staff/alan-maddox.html)
-> 	* performance practice of European music before 1800
-> 	* music in Australian colonial society (1788-1900)
+>> 	* performance practice of European music before 1800
+>> 	* music in Australian colonial society (1788-1900)
 
 
 > (4) [AProfessor Kathleen Nelson](https://www.sydney.edu.au/music/about/our-people/academic-staff/kathleen-nelson.html#collapseIntlLinks)
-> 	* Associate Dean
-> 	* Chair of Musicology Unit
-> 	* research: medieval music - chant and polyphony in Spanish manuscript
+>> 	* Associate Dean
+>> 	* Chair of Musicology Unit
+>> 	* research: medieval music - chant and polyphony in Spanish manuscript
 
 
 ---
 
-University of Melbourne - **PhD - (Music Performance)**
+## University of Melbourne - **PhD - (Music Performance)**
 [https://study.unimelb.edu.au/find/courses/graduate/doctor-of-philosophy-fine-arts-and-music](https://study.unimelb.edu.au/find/courses/graduate/doctor-of-philosophy-fine-arts-and-music)
 	
 * 毕业论文要求
@@ -85,18 +85,24 @@ University of Melbourne - **PhD - (Music Performance)**
 * 导师
 
 > (1) [Associate Professor Jerry Wong](https://findanexpert.unimelb.edu.au/profile/852511-jerry-wong)
-> 	* Associate Professor In Piano
-> 	* 个人网站 http://www.jerrywongpiano.com/
+>> 	* Associate Professor In Piano
+>> 	* 个人网站 http://www.jerrywongpiano.com/
 
 > (2) [Professor Ian Holtham](https://findanexpert.unimelb.edu.au/profile/14245-ian-holtham)
-> 	* Piano literature and performance from the mid-eighteenth century to the present
-> 	* Fellow of Trinity College of Music, London (1976)
+>> 	* Piano literature and performance from the mid-eighteenth century to the present
+>> 	* Fellow of Trinity College of Music, London (1976)
 
 
 
 <style>
 section.page-header {
     display: none;    
+}
+section ul li {
+	margin-top: 6px;
+}
+section ul li ul li {
+	margin-top: 1px;
 }
 </style>
 <script>
