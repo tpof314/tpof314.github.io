@@ -1,39 +1,44 @@
-## DMA - more experience with composition and performance
-## PhD - focus on theory and analysis / more experience with teaching
+
+## 博士类型
+
+* DMA - more experience with composition and performance
+* PhD - focus on theory and analysis / more experience with teaching
 
 ## University of Sydney (Sydney Conservatorium of Music)
-[https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html]
-	* 毕业论文要求
-		+ 演奏会、演奏讲座
-		+ 加上25000 ~ 30000 字的毕业论文
-	* Fee
-		+ $37,500 / year (后面每年可能都有变动)
+[https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html](https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html)
 
-	* 奖学金:
-		+ https://www.sydney.edu.au/scholarships/a/bruce-a-pontin-memorial-scholarship.html
-		+ https://www.sydney.edu.au/scholarships/a/chapple-bremner-scholarship.html
-		+ https://www.sydney.edu.au/scholarships/a/geoffrey-parsons-australian-scholarship.html
-		+ https://www.sydney.edu.au/scholarships/a/george-margaret-henderson-scholarship.html
-	Time: 
-		3 ~ 4 years full time
-		Start time: 1 Jan / 1 Mar / 1 Jul / 1 Oct
+* 毕业论文要求
+	+ 演奏会、演奏讲座
+	+ 加上25000 ~ 30000 字的毕业论文
+* Fee
+	+ $37,500 / year (后面每年可能都有变动)
 
-	IELTS: 
-		A minimum result of 7.0 overall and 
-		A minimum result of 6.5 in each band
+* 奖学金:
+	+ https://www.sydney.edu.au/scholarships/a/bruce-a-pontin-memorial-scholarship.html
+	+ https://www.sydney.edu.au/scholarships/a/chapple-bremner-scholarship.html
+	+ https://www.sydney.edu.au/scholarships/a/geoffrey-parsons-australian-scholarship.html
+	+ https://www.sydney.edu.au/scholarships/a/george-margaret-henderson-scholarship.html
 
-	TOFEL (IBT)
-		96 Overall
-		20 in Reading/Listening/Speaking, 22 in Writing
+* 总时间: 
+	+ 3 ~ 4 years full time
+	+ Start time: 1 Jan / 1 Mar / 1 Jul / 1 Oct
 
-	HOW_TO_APPLY:
-		https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html
+* 雅思成绩要求: 
+	+ A minimum result of 7.0 overall and 
+	+ A minimum result of 6.5 in each band
 
-	Supervisors:
-		[Professor Neal Peres Da Costa](https://www.sydney.edu.au/music/about/our-people/academic-staff/neal-peresdacosta.html)
-			* Performing Practices in Romantic Piano Playing
-			* performance research in 19th-century piano playing
-			* 他的学生比较多 ...
+* 托福成绩要求 (IBT)
+	+ 96 Overall
+	+ 20 in Reading/Listening/Speaking, 22 in Writing
+
+* HOW_TO_APPLY:
+	- [https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html](https://www.sydney.edu.au/courses/courses/pr/doctor-of-musical-arts.html)
+
+* Supervisors:
+	[Professor Neal Peres Da Costa](https://www.sydney.edu.au/music/about/our-people/academic-staff/neal-peresdacosta.html)
+		* Performing Practices in Romantic Piano Playing
+		* performance research in 19th-century piano playing
+		* 他的学生比较多 ...
 
 		[Dr David Larkin](https://www.sydney.edu.au/music/about/our-people/academic-staff/david-larkin.html#collapseReStudents)
 			* piano, violin and organ
