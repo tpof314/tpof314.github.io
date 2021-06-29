@@ -27,3 +27,13 @@
 * <a href="https://vod3.buycar5.cn/20210118/1ILjXqn4/1000kb/hls/index.m3u8">《一拳超人 第二季》10</a>
 * <a href="https://vod3.buycar5.cn/20210118/2VlU719N/1000kb/hls/index.m3u8">《一拳超人 第二季》11</a>
 * <a href="https://vod3.buycar5.cn/20210118/Tb96bbkw/1000kb/hls/index.m3u8">《一拳超人 第二季》12</a>
+
+
+<style>
+section.page-header {
+    display: none;    
+}
+</style>
+<script>
+    document.title = "一拳";
+</script>
