@@ -248,35 +248,33 @@ UNESCO’s Representative List of the Intangible Cultural Heritage of Humanity i
 (
 Shanghai Conservatory of Music). She has delivered guest lectures at SOAS (University of London, UK); Leiden University (The Netherlands); the Interdisciplinary Center for East Asian Studies at Goethe University (Frankfurt, Germany); Shanghai Conservatory of Music (China); Guangxi University for Nationalities (广西民族大学, China); National Chengchi University (國立政治大學, Taiwan); National Tsinghua University (國立清華大學, Taiwan); University of Hong Kong (香港大学); and the Melbourne Conservatorium of Music and the Asia Institute at the University of Melbourne. She was also English lecturer at Central South University (中南大学), China, from 2001-2003.
 
-	Catherine’s research has focussed on diverse aspects of the music of Kam minority communities in southwestern China, where she has conducted extensive musical ethnographic fieldwork. Key interests include:
+Catherine’s research has focussed on diverse aspects of the music of Kam minority communities in southwestern China, where she has conducted extensive musical ethnographic fieldwork. Key interests include:
 
 
+China and Chinese musical cultures, especially the music of China’s minority groups
 
-		China and Chinese musical cultures, especially the music of China’s minority groups
+Collaborative ethnomusicological research methods
 
-		Collaborative ethnomusicological research methods
+Fieldwork incorporating digital technology; sustainable digital archiving; and cross-cultural collaborative archive management
 
-		Fieldwork incorporating digital technology; sustainable digital archiving; and cross-cultural collaborative archive management
+Gendered music-making and sociocultural change
 
-		Gendered music-making and sociocultural change
+Intangible cultural heritage
 
-		Intangible cultural heritage
+Linguistics and music – especially the music of tonal-language-speaking communities
 
-		Linguistics and music – especially the music of tonal-language-speaking communities
+Minority music-making
 
-		Minority music-making
+Music and environmental knowledge
 
-		Music and environmental knowledge
+Musical ethnography
 
-		Musical ethnography
+Research ethics
 
-		Research ethics
-
-		The anthropology of musical tradition
-
+The anthropology of musical tradition
 
 
-	Her recent publications include 
+Her recent publications include 
 Environmental Preservation and Cultural Heritage in China
  (co-authored with Anne McLaren, Alex English and He Xinyuan), and 
 Taking Part in Music: Case Studies in Ethnomusicology
@@ -288,15 +286,14 @@ Tradition and Divergence in Southwestern China: Kam Big Song Singing in the Vill
 
 
 
-	Catherine has also collaborated with members of Kam communities to produce several co-presentations and four co-publications (
+Catherine has also collaborated with members of Kam communities to produce several co-presentations and four co-publications (
 Ingram et al. 2011a
 ; Ingram et al. 2011b; Ingram and Wu Zhicheng 2014; Ingram and Wu Jiaping forthcoming), and to establish a digital collection of sustainably archived recorded material and metadata, hosted with the Pacific and Regional Archive of Digital Sources in Endangered Cultures (
 PARADISEC
 ). Her work aims to benefit Kam communities by creating valuable written and audio-visual records, producing analyses which demonstrate the richness and significance of Kam music-making, and making indigenous Kam views known to a wider audience.
 
 
-
-	Catherine’s postdoctoral research at the University of Sydney will explore and compare the musical activities of cultural minorities in Australia and China, looking especially at the role of music in asserting agency and enabling social engagement. As further detailed 
+Catherine’s postdoctoral research at the University of Sydney will explore and compare the musical activities of cultural minorities in Australia and China, looking especially at the role of music in asserting agency and enabling social engagement. As further detailed 
 here
 , she will be undertaking musical ethnographic research with Kam and Zhuang communities in China and South Sudanese migrant communities in Australia on a project entitled 
 The Music-Making of Cultural Minorities in Australia and China: Aesthetics, Agency and Social Engagement
