@@ -1,5 +1,6 @@
 ## 电视台
 * [央视综合 - CCTV1](http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8)
+* [央视财经 - CCTV2](http://ivi.bupt.edu.cn/hls/cctv2.m3u8)
 * [央视纪录片 - CCTV 9](http://39.134.66.66/PLTV/88888888/224/3221225519/index.m3u8)
 * [央视新闻 - CCTV 13](http://39.134.66.66/PLTV/88888888/224/3221225812/index.m3u8)
 * [央视新国际 - CCTV 4](http://39.134.66.66/PLTV/88888888/224/3221225797/index.m3u8)
