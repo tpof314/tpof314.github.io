@@ -3,9 +3,9 @@
 > `['mozart', 'eighteenth', 'beethoven', 'quartet', 'handel', 'liszt', 'manuscript', 'style', 'century', 'published', 'song', 'libretto', 'publication', 'reveals', 'english', 'robert', 'critics', 'die']`
 
 ### Is There Any Scope for Another Edition of Beethoven's Piano Sonatas?
-#### **Author**: Marten Noorduin
-#### **Journal**: Nineteenth-Century Music
-#### **Score**: 0.6898289723877866
+* **Author**: Marten Noorduin
+* **Journal**: Nineteenth-Century Music
+* **Score**: 0.6898289723877866
 
 **Abstract**
 
@@ -13,9 +13,9 @@ Beethoven's piano sonatas have appeared in innumerable editions – most of them
 
 ---
 ### EIGHTEENTH-CENTURY ORATORIO REFORM IN PRACTICE: APOSTOLO ZENO REVISES A FLORENTINE LIBRETTO
-#### **Author**: HUUB VAN DER LINDEN
-#### **Journal**: Eighteenth-Century Music
-#### **Score**: 0.5820465767022173
+* **Author**: HUUB VAN DER LINDEN
+* **Journal**: Eighteenth-Century Music
+* **Score**: 0.5820465767022173
 
 **Abstract**
 
@@ -23,9 +23,9 @@ Although the circulation and revision of Italian opera librettos is a well-known
 
 ---
 ### ‘TROPPO AUDACE’: AMBITION AND MODERATION IN HANDEL'S BILINGUAL REVIVAL OF L'ALLEGRO, IL PENSEROSO, ED IL MODERATO
-#### **Author**: LAWRENCE ZAZZO
-#### **Journal**: Eighteenth-Century Music
-#### **Score**: 0.5489761823367377
+* **Author**: LAWRENCE ZAZZO
+* **Journal**: Eighteenth-Century Music
+* **Score**: 0.5489761823367377
 
 **Abstract**
 
@@ -33,9 +33,9 @@ Winton Dean described Handel's 1740 ode L'Allegro, il Penseroso, ed il Moderato 
 
 ---
 ### Franz Liszt's Heir: Ferruccio Busoni and Weimar
-#### **Author**: Erinn E. Knyt
-#### **Journal**: Nineteenth-Century Music
-#### **Score**: 0.5232713544281916
+* **Author**: Erinn E. Knyt
+* **Journal**: Nineteenth-Century Music
+* **Score**: 0.5232713544281916
 
 **Abstract**
 
@@ -43,9 +43,9 @@ When Franz Liszt died, the world lost an innovative composer, mentor, and pianis
 
 ---
 ### WILLIAM BABELL AS A PERFORMER-COMPOSER AND MUSIC COPYIST
-#### **Author**: ANDREW WOOLLEY
-#### **Journal**: Eighteenth-Century Music
-#### **Score**: 0.5033970204466599
+* **Author**: ANDREW WOOLLEY
+* **Journal**: Eighteenth-Century Music
+* **Score**: 0.5033970204466599
 
 **Abstract**
 
@@ -53,9 +53,9 @@ The career of William Babell (1688–1723), an English composer of German birth,
 
 ---
 ### ‘Obtained by peculiar favour, & much difficulty of the Singer’: Vincenzo Albrici and the Function of Charles II's Italian Ensemble at the English Restoration Court
-#### **Author**: Ester Lebedinski
-#### **Journal**: Royal Musical Association
-#### **Score**: 0.4888051800475184
+* **Author**: Ester Lebedinski
+* **Journal**: Royal Musical Association
+* **Score**: 0.4888051800475184
 
 **Abstract**
 
@@ -63,9 +63,9 @@ This article discusses the function of Vincenzo Albrici and Charles II's Italian
 
 ---
 ### FROM LAVAPIÉS TO STOCKHOLM: EIGHTEENTH-CENTURY VIOLIN FANDANGOS AND THE SHAPING OF MUSICAL ‘SPANISHNESS’
-#### **Author**: ANA LOMBARDÍA
-#### **Journal**: Eighteenth-Century Music
-#### **Score**: 0.48272627758627307
+* **Author**: ANA LOMBARDÍA
+* **Journal**: Eighteenth-Century Music
+* **Score**: 0.48272627758627307
 
 **Abstract**
 
@@ -73,9 +73,9 @@ Since the mid-eighteenth century the fandango has been regarded as the epitome o
 
 ---
 ### Putting Words in the Master's Mouth: Anton Strelezki's Personal Recollections of Chats with Liszt
-#### **Author**: E. Douglas Bomberger
-#### **Journal**: Nineteenth-Century Music
-#### **Score**: 0.48188102670891264
+* **Author**: E. Douglas Bomberger
+* **Journal**: Nineteenth-Century Music
+* **Score**: 0.48188102670891264
 
 **Abstract**
 
@@ -83,9 +83,9 @@ The annals of music history are filled with minor musicians whose fame was ephem
 
 ---
 ### Purcell and the Reception of Lully's ‘Scocca pur’ (LWV 76/3) in England
-#### **Author**: Andrew Woolley
-#### **Journal**: Royal Musical Association
-#### **Score**: 0.4714996190491815
+* **Author**: Andrew Woolley
+* **Journal**: Royal Musical Association
+* **Score**: 0.4714996190491815
 
 **Abstract**
 
@@ -93,9 +93,9 @@ This article examines the English reception of an Italian song by Lully, ‘Scoc
 
 ---
 ### Bound Together: The Intimacies of Music-Book Collecting in the Early American Republic
-#### **Author**: GLENDA GOODMAN
-#### **Journal**: Royal Musical Association
-#### **Score**: 0.4626955101330943
+* **Author**: GLENDA GOODMAN
+* **Journal**: Royal Musical Association
+* **Score**: 0.4626955101330943
 
 **Abstract**
 
@@ -103,9 +103,9 @@ This article is a microhistory of music collecting in eighteenth-century America
 
 ---
 ### Schubert's Self-Elegies
-#### **Author**: James William Sobaskie
-#### **Journal**: Nineteenth-Century Music
-#### **Score**: 0.4613749086995527
+* **Author**: James William Sobaskie
+* **Journal**: Nineteenth-Century Music
+* **Score**: 0.4613749086995527
 
 **Abstract**
 
@@ -113,9 +113,9 @@ The later music of Franz Schubert confers a remarkable blend of impact and intim
 
 ---
 ### THE POLONAISE AND MAZURKA IN MID-EIGHTEENTH-CENTURY DRESDEN: STYLE AND STRUCTURE IN THE MUSIC OF JOHANN CHRISTIAN ROELLIG
-#### **Author**: NIGEL SPRINGTHORPE
-#### **Journal**: Eighteenth-Century Music
-#### **Score**: 0.4504944173058629
+* **Author**: NIGEL SPRINGTHORPE
+* **Journal**: Eighteenth-Century Music
+* **Score**: 0.4504944173058629
 
 **Abstract**
 
@@ -123,9 +123,9 @@ While recent studies have explored the significance of the Polish style in the m
 
 ---
 ### Reassessing Ferdinand Ries in Vienna: Ramifications for Beethoven Biography
-#### **Author**: Jos van der Zanden
-#### **Journal**: Nineteenth-Century Music
-#### **Score**: 0.45049009139539437
+* **Author**: Jos van der Zanden
+* **Journal**: Nineteenth-Century Music
+* **Score**: 0.45049009139539437
 
 **Abstract**
 
@@ -133,9 +133,9 @@ Ferdinand Ries was one of Beethoven's most important piano pupils. In 1838 he pu
 
 ---
 ### Reforming Handel: John Brown and The Cure of Saul (1763)
-#### **Author**: Ilias Chrissochoidis
-#### **Journal**: Royal Musical Association
-#### **Score**: 0.4458070995589547
+* **Author**: Ilias Chrissochoidis
+* **Journal**: Royal Musical Association
+* **Score**: 0.4458070995589547
 
 **Abstract**
 
@@ -143,10 +143,20 @@ This article explores the first attempt to reform Handelian oratorio, by the Rev
 
 ---
 ### THE MOZARTS’ VIENNESE LODGINGS IN 1762 AND THE HOUSE ZUM ROTHEN SÄBEL
-#### **Author**: DEXTER EDGE, MICHAEL LORENZ
-#### **Journal**: Eighteenth-Century Music
-#### **Score**: 0.44505540562020796
+* **Author**: DEXTER EDGE, MICHAEL LORENZ
+* **Journal**: Eighteenth-Century Music
+* **Score**: 0.44505540562020796
 
 **Abstract**
 
 It is generally believed that when the Mozart family arrived in Vienna on 6 October 1762, they initially may have spent a night or two in the inn ‘Zum weißen Ochsen’ on Fleischmarkt, then moved for the remainder of their stay to lodgings on Tiefer Graben, either in a house belonging to Johann Heinrich Ditscher (Otto Erich Deutsch, 1961) or one belonging to Gottlieb Friedrich Fischer (Walter Brauneis, 1991). All modern Mozart biographies transmit either Deutsch's claim or Brauneis's, and many continue to state that the Mozarts stayed at ‘Zum weißen Ochsen’. We have been able to show that none of these claims has any merit, and no primary evidence supports them. The notion that the Mozarts stayed at ‘Zum weißen Ochsen’ can be traced back to an article published in 1860, where it is asserted without evidence; the idea was then popularized in a children's story about Wolfgang. The claim that the Mozarts lodged on Tiefer Graben is based on a fanciful interpretation of a mistranscribed street name in Schiedermair's 1914 edition of Leopold Mozart's letter of 19 October 1762.Leopold actually wrote that the family lodged in ‘Fierberggaßl’. We argue that this refers to the still-existing Färbergasse, and that the Mozarts may have stayed in a house on that street (today the site of Färbergasse 3), with a long narrow wing fitting Leopold's description of their cramped quarters. We present other new details about this episode in Wolfgang's early life, including the identity of a customs official to whom he played a minuet on the violin, and the literary source of Leopold's remark that their lodgings were ‘1000 Schritt lang und 1. Schritt breit’. We also discuss the history of the house name ‘Zum rothen Säbel’, which is used incorrectly in the Mozart literature; at the time of the Mozarts’ visit in 1762, it referred to the house on Färbergasse in which – we argue – they actually stayed.
+
+
+<style>
+section.page-header {
+    display: none;    
+}
+</style>
+<script>
+    document.title = "第4类";
+</script>

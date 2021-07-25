@@ -3,9 +3,9 @@
 > `['concertos', 'festival', 'cello', 'blend', 'microtonal', 'bruckner', 'hop', 'man', 'familiarity', 'gagaku', 'orchestration', 'hanslick', 'suggested', 'band', 'promote', 'fauré', 'like', 'editorial']`
 
 ### Microtonal Restraint
-#### **Author**: ANNIKA FORKERT
-#### **Journal**: Royal Musical Association
-#### **Score**: 0.24422861111569116
+* **Author**: ANNIKA FORKERT
+* **Journal**: Royal Musical Association
+* **Score**: 0.24422861111569116
 
 **Abstract**
 
@@ -13,9 +13,9 @@ This article proposes that the beginnings of twentieth-century microtonal music 
 
 ---
 ### Gabriel Fauré's Middle-Period Songs, Editorial Quandaries and the Chimera of the ‘Original Key’
-#### **Author**: Roy Howat, Emily Kilpatrick
-#### **Journal**: Royal Musical Association
-#### **Score**: 0.2126371844353153
+* **Author**: Roy Howat, Emily Kilpatrick
+* **Journal**: Royal Musical Association
+* **Score**: 0.2126371844353153
 
 **Abstract**
 
@@ -23,9 +23,9 @@ The years 1886–91 saw Gabriel Fauré developing a new boldness and intensity i
 
 ---
 ### Music, Multimedia and Spectacle: The one-man band and audience relationships in the digital age
-#### **Author**: Julian Whittam
-#### **Journal**: Organised Sound
-#### **Score**: 0.17652869401222582
+* **Author**: Julian Whittam
+* **Journal**: Organised Sound
+* **Score**: 0.17652869401222582
 
 **Abstract**
 
@@ -33,9 +33,9 @@ The one-man band is a highly performative musical practice which combines visual
 
 ---
 ### Just Don’t Call it Trip Hop: Reconciling the Bristol sound style with the trip hop genre
-#### **Author**: Jeff Wragg
-#### **Journal**: Organised Sound
-#### **Score**: 0.17650517041958677
+* **Author**: Jeff Wragg
+* **Journal**: Organised Sound
+* **Score**: 0.17650517041958677
 
 **Abstract**
 
@@ -43,9 +43,9 @@ Trip hop music emerged in the early 1990s, however, as a label the term ‘trip 
 
 ---
 ### Haydn's (?) Cello Concertos, 1860-1930: Editions, Performances, Reception
-#### **Author**: George Kennaway
-#### **Journal**: Nineteenth-Century Music
-#### **Score**: 0.16318694519556773
+* **Author**: George Kennaway
+* **Journal**: Nineteenth-Century Music
+* **Score**: 0.16318694519556773
 
 **Abstract**
 
@@ -53,9 +53,9 @@ While there exist numerous nineteenth- and early twentieth-century annotated edi
 
 ---
 ### A Bequest and a Legacy: Editing Anton Bruckner’s Music in ‘Later Times’
-#### **Author**: Paul Hawkshaw
-#### **Journal**: Nineteenth-Century Music
-#### **Score**: 0.144472175474229
+* **Author**: Paul Hawkshaw
+* **Journal**: Nineteenth-Century Music
+* **Score**: 0.144472175474229
 
 **Abstract**
 
@@ -63,9 +63,9 @@ The present study has been prepared on the occasion of the publication of the Ne
 
 ---
 ### THE EARLY HISTORY OF THE CELLO IN NAPLES: GIOVANNI BONONCINI, ROCCO GRECO AND GAETANO FRANCONE IN A FORGOTTEN MANUSCRIPT COLLECTION
-#### **Author**: GUIDO OLIVIERI
-#### **Journal**: Eighteenth-Century Music
-#### **Score**: 0.13326186159006445
+* **Author**: GUIDO OLIVIERI
+* **Journal**: Eighteenth-Century Music
+* **Score**: 0.13326186159006445
 
 **Abstract**
 
@@ -73,9 +73,9 @@ The analysis of a forgotten source sheds light on the early history of the cello
 
 ---
 ### On the Politics of Performing Wagner Outdoors: Open-Air Opera, Gesamtkunstwerk and the Third Reich’s ‘Forest Opera’, 1933–45
-#### **Author**: KIRSTEN PAIGE
-#### **Journal**: Royal Musical Association
-#### **Score**: 0.13324006025079083
+* **Author**: KIRSTEN PAIGE
+* **Journal**: Royal Musical Association
+* **Score**: 0.13324006025079083
 
 **Abstract**
 
@@ -83,9 +83,9 @@ This article explores the politics of performing Wagner outdoors, focusing on th
 
 ---
 ### WILLIAM BATES AND HIS CONCERTOS IN TEN PARTS, OP. 2: AN ENTERPRISING EIGHTEENTH-CENTURY COMPOSER AND AN UNRECOGNIZED ORCHESTRAL SUBGENRE EMPLOYING HORNS
-#### **Author**: MICHAEL TALBOT
-#### **Journal**: Eighteenth-Century Music
-#### **Score**: 0.11363290291837445
+* **Author**: MICHAEL TALBOT
+* **Journal**: Eighteenth-Century Music
+* **Score**: 0.11363290291837445
 
 **Abstract**
 
@@ -93,9 +93,9 @@ William Bates, who died in 1778, was a prolific and, in his day, successful comp
 
 ---
 ### The Feeling Blend: Feeling and emotion in electroacoustic art
-#### **Author**: Gary S. Kendall
-#### **Journal**: Organised Sound
-#### **Score**: 0.11146534803060536
+* **Author**: Gary S. Kendall
+* **Journal**: Organised Sound
+* **Score**: 0.11146534803060536
 
 **Abstract**
 
@@ -103,9 +103,9 @@ Starting from the assumption that meaning in electroacoustic music is an outcome
 
 ---
 ### ANTHONY HART writes:
-#### **Author**: 
-#### **Journal**: Eighteenth-Century Music
-#### **Score**: 0.10864968240902431
+* **Author**: 
+* **Journal**: Eighteenth-Century Music
+* **Score**: 0.10864968240902431
 
 **Abstract**
 
@@ -113,9 +113,9 @@ Early-music performances were a rarity in Malta until a few years ago. Slowly, o
 
 ---
 ### Audification and Non-Standard Synthesis in Construction in Self
-#### **Author**: Ryo Ikeshiro
-#### **Journal**: Organised Sound
-#### **Score**: 0.10779463794078924
+* **Author**: Ryo Ikeshiro
+* **Journal**: Organised Sound
+* **Score**: 0.10779463794078924
 
 **Abstract**
 
@@ -124,9 +124,9 @@ Vickers and Hogg's term ‘indexicality’ is used to contrast audio with contro
 
 ---
 ### Realism, Idealism and the French Reception of Hanslick
-#### **Author**: Noel Verzosa
-#### **Journal**: Nineteenth-Century Music
-#### **Score**: 0.10389592399824708
+* **Author**: Noel Verzosa
+* **Journal**: Nineteenth-Century Music
+* **Score**: 0.10389592399824708
 
 **Abstract**
 
@@ -136,9 +136,9 @@ In this article, I show how this tension between realism and idealism formed the
 
 ---
 ### State Ceremony and Music in Meiji-era Japan
-#### **Author**: Yasuko Tsukahara
-#### **Journal**: Nineteenth-Century Music
-#### **Score**: 0.10235132633275462
+* **Author**: Yasuko Tsukahara
+* **Journal**: Nineteenth-Century Music
+* **Score**: 0.10235132633275462
 
 **Abstract**
 
@@ -146,10 +146,19 @@ The music culture of Japan following the Meiji Restoration of 1868 is characteri
 
 ---
 ### John Bull, Angelica Catalani and Middle-Class Taste at the 1820s British Musical Festival
-#### **Author**: Charles Edward McGuire
-#### **Journal**: Nineteenth-Century Music
-#### **Score**: 0.08220119924926973
+* **Author**: Charles Edward McGuire
+* **Journal**: Nineteenth-Century Music
+* **Score**: 0.08220119924926973
 
 **Abstract**
 
 This article examines the contentious relationship between the prima donna Angelica Catalani and the British musical festival in the 1820s. The inclusion of Catalani, the most famous soprano of her generation, at the great musical festivals in this decade, such as those of Birmingham, York, Derby and Manchester, among other places, was a sign of the aspects of spectacle festival producers thought necessary to capture the middle-class audience. At the time, contemporaries assumed this audience was increasing in number and importance. Catalani attempted to use her fame to dictate musical and aesthetic terms to festival committees, particularly by transposing arias within performances of Handel's Messiah, and interpolating Italian sacred music by Pietro Carlo Guglielmi and Pio Cianchettini into the same. The British musical press responded by invoking the figure John Bull to roundly condemn Catalani: the allegorical everyman, crying ‘cant’ and ‘humbug’ was used to portray the singer as a tasteless and ‘foreign’ other while at the same time forwarding the education of the middle-class audience into aspects of the nascent concept of ‘the composer's intentions’. The condemnation of Catalani was also an attempt to integrate the middle classes into the cultural life of Britain, while denigrating the purported taste of the British aristocracy, which made star turns such as Catalani's possible.
+
+<style>
+section.page-header {
+    display: none;    
+}
+</style>
+<script>
+    document.title = "第4类";
+</script>

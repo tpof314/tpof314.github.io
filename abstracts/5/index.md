@@ -3,9 +3,9 @@
 > `['ears', 'colour', 'transmission', 'pedagogy', 'skills', 'somatic', 'higher', 'sample', 'ecologies', 'views', 'separate', 'metronome', 'aimed', 'teachers', 'man', 'actors', 'conventions', 'genius']`
 
 ### Organising Organised Sound: A coming of age
-#### **Author**: Mary Simoni
-#### **Journal**: Organised Sound
-#### **Score**: 0.37117820785861255
+* **Author**: Mary Simoni
+* **Journal**: Organised Sound
+* **Score**: 0.37117820785861255
 
 **Abstract**
 
@@ -13,9 +13,9 @@ This article puts forth the author’s views on a panorama of contemporary influ
 
 ---
 ### Re-examining Czerny’s and Moscheles’s Metronome Marks for Beethoven’s Piano Sonatas
-#### **Author**: Marten Noorduin
-#### **Journal**: Nineteenth-Century Music
-#### **Score**: 0.3200201766171171
+* **Author**: Marten Noorduin
+* **Journal**: Nineteenth-Century Music
+* **Score**: 0.3200201766171171
 
 **Abstract**
 
@@ -23,9 +23,9 @@ Shortly after Beethoven’s death, several of his closest associates provided pe
 
 ---
 ### THE FACE OF A MUSICAL GENIUS: THOMAS HARDY'S PORTRAIT OF JOSEPH HAYDN
-#### **Author**: ALAN DAVISON
-#### **Journal**: Eighteenth-Century Music
-#### **Score**: 0.18965825351202947
+* **Author**: ALAN DAVISON
+* **Journal**: Eighteenth-Century Music
+* **Score**: 0.18965825351202947
 
 **Abstract**
 
@@ -33,9 +33,9 @@ Haydn's first visit to England in 1791 was accompanied by a publicity war waged 
 
 ---
 ### Youth, Capitivity and Virtue in the Eighteenth-Century Kindertruppen
-#### **Author**: ADELINE MUELLER
-#### **Journal**: Eighteenth-Century Music
-#### **Score**: 0.17382632682233962
+* **Author**: ADELINE MUELLER
+* **Journal**: Eighteenth-Century Music
+* **Score**: 0.17382632682233962
 
 **Abstract**
 
@@ -43,9 +43,9 @@ This article uses Mozart's unfinished singspiel Zaide (k336b, 1780) and its sour
 
 ---
 ### ‘The Open Work’: Ecologies of participation
-#### **Author**: Guy Harries
-#### **Journal**: Organised Sound
-#### **Score**: 0.1540358801735526
+* **Author**: Guy Harries
+* **Journal**: Organised Sound
+* **Score**: 0.1540358801735526
 
 **Abstract**
 
@@ -53,9 +53,9 @@ Audience engagement with a sound work can extend beyond fixed conventions in whi
 
 ---
 ### The Macropolitics of Microsound: Gender and sexual identities in Barry Truax’s Song of Songs
-#### **Author**: Danielle Sofer
-#### **Journal**: Organised Sound
-#### **Score**: 0.14418361298537513
+* **Author**: Danielle Sofer
+* **Journal**: Organised Sound
+* **Score**: 0.14418361298537513
 
 **Abstract**
 
@@ -63,9 +63,9 @@ This analysis explores how Barry Truax’s Song of Songs (1992) for oboe d’amo
 
 ---
 ### Musical Borrowing in Sonification
-#### **Author**: Núria Bonet
-#### **Journal**: Organised Sound
-#### **Score**: 0.1436411743240934
+* **Author**: Núria Bonet
+* **Journal**: Organised Sound
+* **Score**: 0.1436411743240934
 
 **Abstract**
 
@@ -73,9 +73,9 @@ Sonification presents some challenges in communicating information, particularly
 
 ---
 ### The Development of an Inclusive Model to Construct Teacher’s Professional Knowledge: Pedagogic content knowledge for sound-based music as a new subject area
-#### **Author**: Motje Wolf, Sarah Younie
-#### **Journal**: Organised Sound
-#### **Score**: 0.12640450095585964
+* **Author**: Motje Wolf, Sarah Younie
+* **Journal**: Organised Sound
+* **Score**: 0.12640450095585964
 
 **Abstract**
 
@@ -83,9 +83,9 @@ This article outlines a systematic process for developing the different knowledg
 
 ---
 ### Four Key Concepts for Studying Context-based Compositions
-#### **Author**: Anette Vandsø
-#### **Journal**: Organised Sound
-#### **Score**: 0.12554159309292703
+* **Author**: Anette Vandsø
+* **Journal**: Organised Sound
+* **Score**: 0.12554159309292703
 
 **Abstract**
 
@@ -93,9 +93,9 @@ This theoretical article investigates context-based compositions where we cannot
 
 ---
 ### Real-Time Timbral Organisation: Selecting samples based upon similarity1
-#### **Author**: Arne Eigenfeldt, Philippe Pasquier
-#### **Journal**: Organised Sound
-#### **Score**: 0.11049714442115201
+* **Author**: Arne Eigenfeldt, Philippe Pasquier
+* **Journal**: Organised Sound
+* **Score**: 0.11049714442115201
 
 **Abstract**
 
@@ -103,9 +103,9 @@ A comparison is made between two systems of real-time sample selection using tim
 
 ---
 ### ‘Primacy of the Ear’ – But Whose Ear?: The case for auraldiversity in sonic arts practice and discourse
-#### **Author**: John Levack Drever
-#### **Journal**: Organised Sound
-#### **Score**: 0.10999518572975292
+* **Author**: John Levack Drever
+* **Journal**: Organised Sound
+* **Score**: 0.10999518572975292
 
 **Abstract**
 
@@ -113,9 +113,9 @@ Sixty years on from Pierre Schaeffer’s call for ‘primacy of the ear’ (prim
 
 ---
 ### Failure, Neuroscience and Success: Differentiating the pedagogies of music technology from electroacoustic composition
-#### **Author**: Christopher J. Keyes
-#### **Journal**: Organised Sound
-#### **Score**: 0.10064098329767482
+* **Author**: Christopher J. Keyes
+* **Journal**: Organised Sound
+* **Score**: 0.10064098329767482
 
 **Abstract**
 
@@ -123,9 +123,9 @@ Although the pedagogy of music technology more closely resembles that of other a
 
 ---
 ### Widening Participation in Electroacoustic Music: The EARS 2 pedagogical initiatives
-#### **Author**: Leigh Landy, Richard Hall, Mike Uwins
-#### **Journal**: Organised Sound
-#### **Score**: 0.09603244500768565
+* **Author**: Leigh Landy, Richard Hall, Mike Uwins
+* **Journal**: Organised Sound
+* **Score**: 0.09603244500768565
 
 **Abstract**
 
@@ -133,9 +133,9 @@ This articles sketches the history, vision and implementation of the ElectroAcou
 
 ---
 ### Interaction as Material: The techno-somatic dimension
-#### **Author**: Garth Paine
-#### **Journal**: Organised Sound
-#### **Score**: 0.09368964786525874
+* **Author**: Garth Paine
+* **Journal**: Organised Sound
+* **Score**: 0.09368964786525874
 
 **Abstract**
 
@@ -143,10 +143,19 @@ This paper proposes an alternative approach to the analysis and design of intera
 
 ---
 ### Listening With Machines: A shared approach
-#### **Author**: Simon Emmerson
-#### **Journal**: Organised Sound
-#### **Score**: 0.0874348042344924
+* **Author**: Simon Emmerson
+* **Journal**: Organised Sound
+* **Score**: 0.0874348042344924
 
 **Abstract**
 
 The aim of this article is to review the last twenty years of ‘machine listening’1 to sound and music, and to suggest a balanced approach to the human–machine relationship for the future. How might machine listening, and MIR2-based ideas of data storage, retrieval and presentation enhance both our embodied experience of the music and its more reflective study (analysis)? While the issues raised may be pertinent to almost any music, the focus will remain on electroacoustic music in its many forms, whether for interactive composition, performance or analytical endeavour. I suggest a model of listening with – that is, alongside – machines in such a way that our skills may be enhanced. What can we share with machines to mutual advantage?
+
+<style>
+section.page-header {
+    display: none;    
+}
+</style>
+<script>
+    document.title = "第4类";
+</script>
