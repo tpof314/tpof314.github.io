@@ -1,5 +1,5 @@
 ## 电视台
-* [央视综合 - CCTV 1](http://183.207.248.71:80/cntv/live1/HD-8000k-1080P-cctv1/HD-8000k-1080P-cctv1)
+* [央视综合 - CCTV 1](http://183.207.248.71:80/cntv/live1/cctv-1/cctv-1)
 * [央视财经 - CCTV 2](http://183.207.248.71:80/cntv/live1/HD-8000k-1080P-cctv2/HD-8000k-1080P-cctv2)
 * [央视国际 - CCTV 4](http://183.207.248.71:80/cntv/live1/cctv-4/cctv-4)
 * [央视体育 - CCTV 5](http://39.134.216.5/mgsp.live.miguvideo.com:8088/wd_r2/cctv/cctv5hdnew/1200/01.m3u8)
