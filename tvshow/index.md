@@ -1,3 +1,8 @@
+## 萌探探探案
+* [《萌探探探案》20210806上](https://sod.bunediy.com/20210806/sUXjVCji/index.m3u8)
+* [《萌探探探案》20210806下](https://sod.bunediy.com/20210806/iUlW0btY/index.m3u8)
+
+
 ## 锵锵行天下第二季
 
 * <a href="https://vod.bunediy.com/20210221/x0PhyXFd/index.m3u8">《锵锵行天下第二季》20210221</a>
