@@ -3,11 +3,11 @@
 * [《萌探探探案》20210806下](https://sod.bunediy.com/20210806/iUlW0btY/index.m3u8)
 * <a href="https://sod.bunediy.com/20210813/FUFf7lEf/index.m3u8">《萌探探探案》20210813上</a>
 * <a href="https://sod.bunediy.com/20210813/o4CL3yX4/index.m3u8">《萌探探探案》20210813下</a>
-* <a href="https://vod7.wenshibaowenbei.com/20210725/UJAJ1Wq3/1000kb/hls/index.m3u8">《牛气满满的哥哥》20210719</a>
-* <a href="https://vod.bunediy.com/20210725/BnAsJqn9/index.m3u8">《牛气满满的哥哥》20210724</a>
-* <a href="https://sod.bunediy.com/20210801/v5hQCR8g/index.m3u8">《牛气满满的哥哥》20210731</a>
-* <a href="https://sod.bunediy.com/20210808/H7tF09tm/index.m3u8">《牛气满满的哥哥》20210807</a>
 
+* [《牛气满满的哥哥》第20210719期](https://vod7.wenshibaowenbei.com/20210725/UJAJ1Wq3/1000kb/hls/index.m3u8)
+* [《牛气满满的哥哥》第20210724期](https://vod7.wenshibaowenbei.com/20210725/GsQCKeDV/1000kb/hls/index.m3u8)
+* [《牛气满满的哥哥》第20210807期](https://vod9.wenshibaowenbei.com/20210808/uThnzB4w/1000kb/hls/index.m3u8)
+* [《牛气满满的哥哥》第20210814期](https://vod10.bdzybf.com/20210815/Zi9z4Yjn/1000kb/hls/index.m3u8)
 
 ## 锵锵行天下第二季
 
