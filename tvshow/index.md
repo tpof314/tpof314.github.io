@@ -4,10 +4,10 @@
 * <a href="https://sod.bunediy.com/20210813/FUFf7lEf/index.m3u8">《萌探探探案》20210813上</a>
 * <a href="https://sod.bunediy.com/20210813/o4CL3yX4/index.m3u8">《萌探探探案》20210813下</a>
 
-* [《牛气满满的哥哥》第20210719期](https://vod7.wenshibaowenbei.com/20210725/UJAJ1Wq3/1000kb/hls/index.m3u8)
-* [《牛气满满的哥哥》第20210724期](https://vod7.wenshibaowenbei.com/20210725/GsQCKeDV/1000kb/hls/index.m3u8)
-* [《牛气满满的哥哥》第20210807期](https://vod9.wenshibaowenbei.com/20210808/uThnzB4w/1000kb/hls/index.m3u8)
-* [《牛气满满的哥哥》第20210814期](https://vod10.bdzybf.com/20210815/Zi9z4Yjn/1000kb/hls/index.m3u8)
+* [正在播放地球脉动第2季第1集](https://api.xumiaojx.com/v2/m3u8?pt=m3u8&sign=bdf5CQdq3qvv09nI2Rnzzw4n+78k86ygu5o36DnYivTXVBH5XRD5qgF+IEcdjnV/0J/DXVf7A130FlVwzqGQNEY3+6WMCfVwOwcEnSLMnzjr9Sr7Tw&code=Gq8pDHvBks7pavOYegPQITWC5oGEJ9/cRLQ&p=s&shuid=&hd=yh&mode=1&tm=1629588155&token=4fd453eb788c3cfe0dcc9d3eee61f9e2)
+* [正在播放地球脉动第2季第2集](https://api.xumiaojx.com/v2/m3u8?pt=m3u8&sign=bca11c/ZuNI5Gwa+IAyE9dUAeTg4VJiMxQypBv0J6N7XjRCF3FiDJT1O4Tn2vvJ2OQ0cmKunx0gYlCdWVu3RhTR2/4quSeDxEvLKUvoT8viEc37R+w&code=Sfp8BHqVwcnpavOYegPQITWC5oGEJ9/cSbU&p=s&shuid=&hd=yh&mode=1&tm=1629588184&token=54d15b9782d4d02913cee06a909ef76e)
+
+* [传奇影院](https://sxtfyy.com/vodplay/37934-1-2.html)
 
 ## 锵锵行天下第二季
 
