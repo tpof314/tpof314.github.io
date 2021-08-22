@@ -5,18 +5,18 @@
 * <a href="https://sod.bunediy.com/20210813/o4CL3yX4/index.m3u8">《萌探探探案》20210813下</a>
 
 
-* [《奈欧斯奥特曼》01](https://vod6.wenshibaowenbei.com/20210328/msryy3kz/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》02](https://vod6.wenshibaowenbei.com/20210328/N9YJ6tX0/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》03](https://vod6.wenshibaowenbei.com/20210328/nE5HZd1Z/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》04](https://vod6.wenshibaowenbei.com/20210328/lOpvLlSU/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》05](https://vod6.wenshibaowenbei.com/20210328/RYT1Po3H/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》06](https://vod6.wenshibaowenbei.com/20210328/fJLgNGhx/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》07](https://vod6.wenshibaowenbei.com/20210328/efJuWUnY/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》08](https://vod6.wenshibaowenbei.com/20210328/yayZCNcf/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》09](https://vod6.wenshibaowenbei.com/20210328/WHE3VXZF/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》10](https://vod6.wenshibaowenbei.com/20210328/fhFivha4/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》11](https://vod6.wenshibaowenbei.com/20210328/5SorPBes/1000kb/hls/index.m3u8?skipl=1)
-* [《奈欧斯奥特曼》12](https://vod6.wenshibaowenbei.com/20210328/gH977qzY/1000kb/hls/index.m3u8)
+* [《奈欧斯奥特曼》01](https://v4.dious.cc/20210328/Zd3FlOnj/1000kb/hls/index.m3u8)
+* [《奈欧斯奥特曼》02](https://v4.dious.cc/20210328/T1ZOLa1R/1000kb/hls/index.m3u8)
+* [《奈欧斯奥特曼》03](https://v4.dious.cc/20210328/Nub7WUMm/1000kb/hls/index.m3u8)
+* [《奈欧斯奥特曼》04](https://v4.dious.cc/20210328/zryXOXdG/1000kb/hls/index.m3u8)
+* [《奈欧斯奥特曼》05](https://v4.dious.cc/20210328/M2TI0vHK/1000kb/hls/index.m3u8)
+* [《奈欧斯奥特曼》06](https://v4.dious.cc/20210328/26HKoEBz/1000kb/hls/index.m3u8?skipl=1)
+* [《奈欧斯奥特曼》07](https://v4.dious.cc/20210328/44h3773S/1000kb/hls/index.m3u8?skipl=1)
+* [《奈欧斯奥特曼》08](https://v4.dious.cc/20210328/KTwOJyvW/1000kb/hls/index.m3u8)
+* [《奈欧斯奥特曼》09](https://v4.dious.cc/20210328/nm3OtEWH/1000kb/hls/index.m3u8?skipl=1)
+* [《奈欧斯奥特曼》10](https://v4.dious.cc/20210328/e4FZaMZx/1000kb/hls/index.m3u8)
+* [《奈欧斯奥特曼》11](https://v4.dious.cc/20210328/3PxbBMT6/index.m3u8)
+* [《奈欧斯奥特曼》12](https://v4.dious.cc/20210328/djEpCJTi/1000kb/hls/index.m3u8)
 
 * [传奇影院](https://sxtfyy.com/vodplay/37934-1-2.html)
 
