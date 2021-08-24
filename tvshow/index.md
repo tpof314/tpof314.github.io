@@ -5,18 +5,13 @@
 * <a href="https://sod.bunediy.com/20210813/o4CL3yX4/index.m3u8">《萌探探探案》20210813下</a>
 
 
-* [《奈欧斯奥特曼》01](https://v4.dious.cc/20210328/Zd3FlOnj/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》02](https://v4.dious.cc/20210328/T1ZOLa1R/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》03](https://v4.dious.cc/20210328/Nub7WUMm/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》04](https://v4.dious.cc/20210328/zryXOXdG/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》05](https://v4.dious.cc/20210328/M2TI0vHK/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》06](https://v4.dious.cc/20210328/26HKoEBz/1000kb/hls/index.m3u8?skipl=1)
-* [《奈欧斯奥特曼》07](https://v4.dious.cc/20210328/44h3773S/1000kb/hls/index.m3u8?skipl=1)
-* [《奈欧斯奥特曼》08](https://v4.dious.cc/20210328/KTwOJyvW/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》09](https://v4.dious.cc/20210328/nm3OtEWH/1000kb/hls/index.m3u8?skipl=1)
-* [《奈欧斯奥特曼》10](https://v4.dious.cc/20210328/e4FZaMZx/1000kb/hls/index.m3u8)
-* [《奈欧斯奥特曼》11](https://v4.dious.cc/20210328/3PxbBMT6/index.m3u8)
-* [《奈欧斯奥特曼》12](https://v4.dious.cc/20210328/djEpCJTi/1000kb/hls/index.m3u8)
+* [正在播放99赛文奥特曼OVA3](https://migu.vod.pptv.com/cb8f5cffef98560c4b7fec52d8384835.m3u8?type=mhpptv&k=8f8c3bb6c9ba1c8603d39e1104fae0d4-ba5d-1629799494)
+* [正在播放99赛文奥特曼OVA4](https://migu.vod.pptv.com/bdded7c14a9d692a900257fb094b95bb.m3u8?type=mhpptv&k=ea2c64093a31af0dbdf2fc8fbf212b14-e0e1-1629799514)
+* [正在播放99赛文奥特曼OVA5](https://migu.vod.pptv.com/bbccc33a05360c09a44de2dda36d66d4.m3u8?type=mhpptv&k=1c67e33c4f93fe7e98685a586555a423-248c-1629799530)
+* [正在播放99赛文奥特曼OVA6](https://migu.vod.pptv.com/0c84e00295a0f6d719d90baab675afa9.m3u8?type=mhpptv&k=b767974e4c5dfec962efa751ddae064b-7773-1629799546)
+* [正在播放99赛文奥特曼OVA7](https://migu.vod.pptv.com/60ddc7b83a23c3e6d5fc152ce8170877.m3u8?type=mhpptv&k=45fca7549d4fb371cca452bfe102fc0b-3922-1629799562)
+* [正在播放99赛文奥特曼OVA8](https://migu.vod.pptv.com/112ee1d66cb29a17694e44afd0dd7cd4.m3u8?type=mhpptv&k=d15d2cd7a96fe8066627030e6c003eaa-d18d-1629799579)
+* [正在播放99赛文奥特曼OVA9](https://migu.vod.pptv.com/b22a5db3df440cddbf519a3527305376.m3u8?type=mhpptv&k=01d0a1270f4da591f65078350a4fd661-48e2-1629799599)
 
 * [传奇影院](https://sxtfyy.com/vodplay/37934-1-2.html)
 
