@@ -10,7 +10,9 @@
 * [湖南卫视](http://39.134.24.24/PLTV/88888888/224/3221225694/index.m3u8)
 * [浙江卫视](http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8)
 * [东方卫视](http://ivi.bupt.edu.cn/hls/dfhd.m3u8)
-
+* [凤凰中文](https://zb.ios.ifeng.com/live/05QGCOB3T34/index.m3u8)
+* [汕头综合](http://player.ioioz.com/1369/gd/gdtv2.php?id=shantouzh)
+* [揭阳综合](http://player.ioioz.com/1369/gd/gdtv2.php?id=jieyangzh)
 
 
 <style>
