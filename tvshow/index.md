@@ -1,7 +1,12 @@
 ## 萌探探探案
 * [《萌探探探案》20210806上](https://sod.bunediy.com/20210806/sUXjVCji/index.m3u8)
 * [《萌探探探案》20210806下](https://sod.bunediy.com/20210806/iUlW0btY/index.m3u8)
+* <a href="https://sod.bunediy.com/20210813/FUFf7lEf/index.m3u8">《萌探探探案》20210813上</a>
+* <a href="https://sod.bunediy.com/20210813/o4CL3yX4/index.m3u8">《萌探探探案》20210813下</a>
 
+
+* [播放器](https://keen-visvesvaraya-0ac9d3.netlify.app/)
+* [传奇影院](https://sxtfyy.com/vodplay/37934-1-2.html)
 
 ## 锵锵行天下第二季
 
@@ -27,3 +32,5 @@ section.page-header {
 <script>
     document.title = "锵锵行天下第二季";
 </script>
+
+https://v3.dious.cc/20210108/hiGvtd0Z/1000kb/hls/index.m3u8?skipl=1
