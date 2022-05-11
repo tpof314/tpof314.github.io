@@ -1,3 +1,8 @@
+## 神奇动物在哪里（第三部）
+
+* [神奇动物在哪里（第三部）](https://new.iskcd.com/20220511/z5hE9y27/1100kb/hls/playlist_up.m3u8)
+
+
 ## 古宅老友记（英版）
 
 * [古宅老友记 第一季01](https://s1.zoubuting.com/20210812/2AxH1bBi/1200kb/hls/index.m3u8)
