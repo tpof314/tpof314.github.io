@@ -1,6 +1,6 @@
 ## 神奇动物在哪里（第三部）
 
-* [神奇动物在哪里（第三部）](https://new.iskcd.com/20220511/z5hE9y27/1100kb/hls/playlist_up.m3u8)
+* [神奇动物在哪里（第三部）](https://m3u.if101.tv/xm3u8/b2ced90fa15cb50f8c7f030bb9ca3cd556ec04cd975a9378106a59496e2ca9a79921f11e97d0da21.m3u8)
 
 
 ## 古宅老友记（英版）
