@@ -5,6 +5,18 @@
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211028/z5rhywNi/index.m3u8')">大侠霍元甲35</button>
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211027/2J0fIBGL/index.m3u8')">大侠霍元甲36</button>
 
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211028/qI1SAQi1/index.m3u8')">大侠霍元甲37</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211027/nlaM1FjP/index.m3u8')">大侠霍元甲38</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211028/Mz2BsloR/index.m3u8')">大侠霍元甲39</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211028/H8RpwEVz/index.m3u8')">大侠霍元甲40</button>
+
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211027/wd0rghZM/index.m3u8')">大侠霍元甲41</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211028/UDlq51cB/index.m3u8')">大侠霍元甲42</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211027/dzzsaxQi/index.m3u8')">大侠霍元甲43</button>
+
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211028/lXh7ofk2/index.m3u8')">大侠霍元甲44</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211027/L342v4pT/index.m3u8')">大侠霍元甲45</button>
+
 
 <style>
   .btn-link {
