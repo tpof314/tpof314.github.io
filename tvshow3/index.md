@@ -22,6 +22,8 @@
 
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220529/G6k1F46f/index.m3u8')">欢迎光临21</button>
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220529/fvyoRuvA/index.m3u8')">欢迎光临22</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220530/OBjkIjki/index.m3u8')">欢迎光临23</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220530/ZXdbWsFz/index.m3u8')">欢迎光临24</button>
 
 <style>
   .btn-link {
