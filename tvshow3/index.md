@@ -24,6 +24,15 @@
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220529/fvyoRuvA/index.m3u8')">欢迎光临22</button>
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220530/OBjkIjki/index.m3u8')">欢迎光临23</button>
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220530/ZXdbWsFz/index.m3u8')">欢迎光临24</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220531/QxHCVKF6/index.m3u8')">欢迎光临25</button>
+
+
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220531/mSVc1uNC/index.m3u8')">欢迎光临26</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220601/JyoXRWnA/index.m3u8')">欢迎光临27</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220601/KQEavevh/index.m3u8')">欢迎光临28</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220602/7Nx9qtxQ/index.m3u8')">欢迎光临29</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220602/dVwZi8nX/index.m3u8')">欢迎光临30</button>
+
 
 <style>
   .btn-link {
