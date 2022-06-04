@@ -22,13 +22,12 @@
 
 ## 声生不息
 
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220424/u6CP9GE8/index.m3u8')">声生不息01</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220501/mkKnpQRc/index.m3u8')">声生不息02</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220508/dCYkUOp1/index.m3u8')">声生不息03</button>
-
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220515/X4IR1tUg/index.m3u8')">声生不息04</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220522/JpRm5csJ/index.m3u8')">声生不息05</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20220529/1YZ53bJ0/index.m3u8')">声生不息06</button>
+* <button class="btn btn-link" onclick="play('https://qycache.hs-mould.cn/cache/800e751d817bf0db94460af4e723619f/dryZtpQy5cMwc2xL-VeCZrJKwnAdudcUwjZlB6a6KdJ2-8EEOiXMFuoXfbTNLIrZF9ZbAdaI_UX9a4N8EInmnQ/index.m3u8')">声生不息01</button>
+* <button class="btn btn-link" onclick="play('https://qycache.hs-mould.cn/cache/344c8c367bfe86613d60a86c75c5637c/vyMWgFGAX5duoFqcNTvbutuHMiUD9JJC8zUPfzI3DgLaFBk_ePr7VKSjsN8dyl9F8bAe48Qg42Dv-O_Hq21mIQ/index.m3u8')">声生不息02</button>
+* <button class="btn btn-link" onclick="play('https://qycache.hs-mould.cn/cache/0476ae2afaac2df77ba6c52e7d4198d7/TCmFlbSfg-5n-SPo2nfn9koaN9uoQw3Wek687dZgYABg8YPG4gj18wWVmzVKOV0rpgjAJdbcD2S7RCZrnHEp4Q/index.m3u8')">声生不息03</button>
+* <button class="btn btn-link" onclick="play('https://qycache.hs-mould.cn/cache/15b24ba9f5bef4b0492295f54f0dc7fd/Cx77gTLe4IFFXprvb_kMdcN3PN-nyBMhqnV-JMDWVi9xrDL4Qo_mfHcJZzzPwpuP4LH3mDSfEdgxzRcESCTNUQ/index.m3u8')">声生不息04</button>
+* <button class="btn btn-link" onclick="play('https://qycache.hs-mould.cn/cache/9c7d4ba27041557ae2c79795afd9f698/aCPcxkqTsTrL8nneQsecT90mtrDU1F8SZLIv9f8JGmoCyA_uQHlCIgw3DdYplsUXDC4uLufvu3R7btErEaBpgA/index.m3u8')">声生不息05</button>
+* <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20220529/PrYdQRKI/index.m3u8')">声生不息06</button>
 
 <style>
   .btn-link {
