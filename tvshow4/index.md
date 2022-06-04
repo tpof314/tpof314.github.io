@@ -27,7 +27,17 @@
 * <button class="btn btn-link" onclick="play('https://qycache.hs-mould.cn/cache/0476ae2afaac2df77ba6c52e7d4198d7/TCmFlbSfg-5n-SPo2nfn9koaN9uoQw3Wek687dZgYABg8YPG4gj18wWVmzVKOV0rpgjAJdbcD2S7RCZrnHEp4Q/index.m3u8')">声生不息03</button>
 * <button class="btn btn-link" onclick="play('https://qycache.hs-mould.cn/cache/15b24ba9f5bef4b0492295f54f0dc7fd/Cx77gTLe4IFFXprvb_kMdcN3PN-nyBMhqnV-JMDWVi9xrDL4Qo_mfHcJZzzPwpuP4LH3mDSfEdgxzRcESCTNUQ/index.m3u8')">声生不息04</button>
 * <button class="btn btn-link" onclick="play('https://qycache.hs-mould.cn/cache/9c7d4ba27041557ae2c79795afd9f698/aCPcxkqTsTrL8nneQsecT90mtrDU1F8SZLIv9f8JGmoCyA_uQHlCIgw3DdYplsUXDC4uLufvu3R7btErEaBpgA/index.m3u8')">声生不息05</button>
-* <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20220529/PrYdQRKI/index.m3u8')">声生不息06</button>
+
+---
+
+## 电影
+
+
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/559462.m3u8?sign=b001edb5b21af1ddbbc239a0dccc6509')">长津湖2 - 水门桥</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/554564.m3u8?sign=296328636c917eaa19b3909832b7adc3')">狙击手</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/ipfs/562431.m3u8?sign=626a6f335a1faf59889dd28280463cd8')">奇迹·笨小孩</button>
+* <button class="btn btn-link" onclick="play('https://vod1.bdzybf7.com/20220519/8HpQSPyv/2000kb/hls/index.m3u8')">瞬息全宇宙</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/ipfs/559326.m3u8?sign=eacb010b7ba41c9e35008df16891784a')">这个杀手不太冷</button>
 
 <style>
   .btn-link {
