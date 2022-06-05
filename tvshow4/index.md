@@ -37,7 +37,7 @@
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/554564.m3u8?sign=296328636c917eaa19b3909832b7adc3')">狙击手</button>
 * <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/84e2601a-c8ef-41e9-815a-453247f2e518/1e542cb2-a526-4f00-9ff4-99af40e9310e/44871/ba5f1a3d-db58-4616-86fb-49d38616a8a5/SD/playlist.m3u8')">铁道游击队1939</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/511228.m3u8?sign=81ae6bfb6b7837791a028da746a3689b')">幸存者1937</button>
-* <button class="btn btn-link" onclick="play('https://bdyun.hao7788.cc/youku/e85832b383a6daeb53c058315300343a/1nXqnPdSERUO-ebV8k0EdaOBIYDgnJputcU0Ad6A1Tw2ROKvtAbobeXx3mJerQp50TFQK-HSZGsPckHR4vmdpg/index.m3u8')">奇迹·笨小孩</button>
+* <button class="btn btn-link" onclick="play('https://c2.monidai.com/20220207/RVUxb9m5/index.m3u8')">奇迹·笨小孩</button>
 * <button class="btn btn-link" onclick="play('https://vod1.bdzybf7.com/20220519/8HpQSPyv/2000kb/hls/index.m3u8')">瞬息全宇宙</button>
 * <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/2809a11910f1b64dc707d682e49207e67aefd831eb46ef9b5dd34e38113b14db9921f11e97d0da21.m3u8')">这个杀手不太冷静</button>
 
