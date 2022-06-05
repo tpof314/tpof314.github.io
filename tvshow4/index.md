@@ -22,11 +22,11 @@
 
 ## 声生不息
 
-* <button class="btn btn-link" onclick="play('https://qycache.hs-mould.cn/cache/800e751d817bf0db94460af4e723619f/dryZtpQy5cMwc2xL-VeCZrJKwnAdudcUwjZlB6a6KdJ2-8EEOiXMFuoXfbTNLIrZF9ZbAdaI_UX9a4N8EInmnQ/index.m3u8')">声生不息01</button>
-* <button class="btn btn-link" onclick="play('https://qycache.hs-mould.cn/cache/344c8c367bfe86613d60a86c75c5637c/vyMWgFGAX5duoFqcNTvbutuHMiUD9JJC8zUPfzI3DgLaFBk_ePr7VKSjsN8dyl9F8bAe48Qg42Dv-O_Hq21mIQ/index.m3u8')">声生不息02</button>
-* <button class="btn btn-link" onclick="play('https://qycache.hs-mould.cn/cache/0476ae2afaac2df77ba6c52e7d4198d7/TCmFlbSfg-5n-SPo2nfn9koaN9uoQw3Wek687dZgYABg8YPG4gj18wWVmzVKOV0rpgjAJdbcD2S7RCZrnHEp4Q/index.m3u8')">声生不息03</button>
-* <button class="btn btn-link" onclick="play('https://qycache.hs-mould.cn/cache/15b24ba9f5bef4b0492295f54f0dc7fd/Cx77gTLe4IFFXprvb_kMdcN3PN-nyBMhqnV-JMDWVi9xrDL4Qo_mfHcJZzzPwpuP4LH3mDSfEdgxzRcESCTNUQ/index.m3u8')">声生不息04</button>
-* <button class="btn btn-link" onclick="play('https://qycache.hs-mould.cn/cache/9c7d4ba27041557ae2c79795afd9f698/aCPcxkqTsTrL8nneQsecT90mtrDU1F8SZLIv9f8JGmoCyA_uQHlCIgw3DdYplsUXDC4uLufvu3R7btErEaBpgA/index.m3u8')">声生不息05</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/559750.m3u8?sign=5faef93bcb6b942d754cf706fed66186')">声生不息01</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/560535.m3u8?sign=50628da65c2ef69f87ea05f7b2a720fd')">声生不息02</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/561998.m3u8?sign=11ca46627bf9b4d11f2b5618186a2b0f')">声生不息03</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/563477.m3u8?sign=d4ed2aa52e577a1efcf56e52edeb0d5d')">声生不息04</button>
+
 
 ---
 
