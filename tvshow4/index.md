@@ -40,6 +40,8 @@
 * <button class="btn btn-link" onclick="play('https://vod1.bdzybf7.com/20220604/vlxWALuV/2000kb/hls/index.m3u8')">奇迹·笨小孩</button>
 * <button class="btn btn-link" onclick="play('https://vod1.bdzybf7.com/20220519/8HpQSPyv/2000kb/hls/index.m3u8')">瞬息全宇宙</button>
 * <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/2809a11910f1b64dc707d682e49207e67aefd831eb46ef9b5dd34e38113b14db9921f11e97d0da21.m3u8')">这个杀手不太冷静</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/ipfs/561584.m3u8?sign=928d7aec181f4cd798f40ae7e96e363c')">我不是药神</button>
+* <button class="btn btn-link" onclick="play('https://www.taopianplay.com/taopian/84e2601a-c8ef-41e9-815a-453247f2e518/a0ba49ba-87b8-41b4-8ad3-50b8fc26ffd8/7340/ff4f8f90-a4b6-472a-9acd-c8067bccf8f3/SD/playlist.m3u8')">八佰</button>
 
 
 <style>
