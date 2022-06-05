@@ -36,9 +36,12 @@
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/559462.m3u8?sign=b001edb5b21af1ddbbc239a0dccc6509')">长津湖2 - 水门桥</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/554564.m3u8?sign=296328636c917eaa19b3909832b7adc3')">狙击手</button>
 * <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/84e2601a-c8ef-41e9-815a-453247f2e518/1e542cb2-a526-4f00-9ff4-99af40e9310e/44871/ba5f1a3d-db58-4616-86fb-49d38616a8a5/SD/playlist.m3u8')">铁道游击队1939</button>
+* <button class="btn btn-link" onclick="play('https://cloud.renrenmi.cc:2323/jiemi?key=AzEDZAYzBmMHO1R9BEUETAhPBUFVEAJEABg=&sign=43a8ebbb5716b633bce8cfec6194a11b&t=1654392297&ts=1628578630&name=8f4111455fa15220efd967c03ceb6c3b.m3u8')">幸存者1937</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/ipfs/562431.m3u8?sign=626a6f335a1faf59889dd28280463cd8')">奇迹·笨小孩</button>
 * <button class="btn btn-link" onclick="play('https://vod1.bdzybf7.com/20220519/8HpQSPyv/2000kb/hls/index.m3u8')">瞬息全宇宙</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/ipfs/559326.m3u8?sign=eacb010b7ba41c9e35008df16891784a')">这个杀手不太冷</button>
+* <button class="btn btn-link" onclick="play('https://555.1080p.icu:44875/wuduzy/fbd25696ab3c241f5aa1f5088056d99f/aryXR5VL0oLFixzuMMbjW6M_cU7Pm8o3KqqgZW9eRec0HXm2G7aXXm7QMNJmFLx64LM9imolOGdWoWmJUY9aeg/index.m3u8
+')">这个杀手不太冷静</button>
+
 
 <style>
   .btn-link {
