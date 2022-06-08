@@ -38,6 +38,16 @@
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567204.m3u8?sign=dc1ba3fb7d2be50062fe8b46feea1d09')">欢迎光临36</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567205.m3u8?sign=983683546d1f5c68339a02017bb2756a')">欢迎光临37</button>
 
+
+---
+
+* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/45cf05fa223b51020afd067798ce1950cd9f6a7aeb77007ad9ef611cbae578aa9921f11e97d0da21.m3u8')">奇葩说第五季01</button>
+* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/5d5a38c5a511a8e17c3f87034a4956c9fdca809cf908a8d4bb679026438804da9921f11e97d0da21.m3u8')">奇葩说第五季02</button>
+* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/d950f3f0300e47de623071af1806a2a3a7cc0fc05d4e60cb9e72226cd8160fa49921f11e97d0da21.m3u8')">奇葩说第五季03</button>
+* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/5c029934f64d8144a0f91ed6d999fd341c66fb74bfd7176ebeb9eda32ac665919921f11e97d0da21.m3u8')">奇葩说第五季04</button>
+* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/ed888a868b0a1b12834d53691b9c60508f2ab116783433fe5d23e327f49672e39921f11e97d0da21.m3u8')">奇葩说第五季05</button>
+
+
 <style>
   .btn-link {
     background: hsl(171, 100%, 41%);
