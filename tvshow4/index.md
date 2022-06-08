@@ -26,7 +26,8 @@
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/560535.m3u8?sign=50628da65c2ef69f87ea05f7b2a720fd')">声生不息02</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/561998.m3u8?sign=11ca46627bf9b4d11f2b5618186a2b0f')">声生不息03</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/563477.m3u8?sign=d4ed2aa52e577a1efcf56e52edeb0d5d')">声生不息04</button>
-
+* <button class="btn btn-link" onclick="play('https://hd1.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/f7543ced-aa42-4865-9395-62192a339bd8/65899/36c4833c-759a-4081-be5c-e1ca121ea52f/SD/playlist.m3u8')">声生不息05</button>
+* <button class="btn btn-link" onclick="play('https://hd1.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/f7543ced-aa42-4865-9395-62192a339bd8/65899/c9b8c145-9ff1-4621-bbb3-05121de95b6f/SD/playlist.m3u8')">声生不息06</button>
 
 ---
 
