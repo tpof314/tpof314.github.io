@@ -50,6 +50,12 @@
 * <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/4e340f22-33f1-464b-80f6-8f90ff36ba0e/SD/playlist.m3u8')">奇葩说第二季05</button>
 
 
+* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/67e0bba7-e9b3-4a34-830b-a7c2ddcb3e83/SD/playlist.m3u8')">奇葩说第二季06</button>
+* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/ff471bbc-7b36-45ef-a94d-c16c5707f44e/SD/playlist.m3u8')">奇葩说第二季07</button>
+* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/8eacff13-1ddf-40b4-879f-745d08ef4f17/SD/playlist.m3u8')">奇葩说第二季08</button>
+* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/df35e66e-6e77-4c33-9563-1c391173a8ac/SD/playlist.m3u8')">奇葩说第二季09</button>
+* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/5c5298b8-955e-4ba4-b2d9-d8b2d751f75a/SD/playlist.m3u8')">奇葩说第二季10</button>
+
 <style>
   .btn-link {
     background: hsl(171, 100%, 41%);
