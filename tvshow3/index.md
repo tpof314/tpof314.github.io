@@ -41,11 +41,13 @@
 
 ---
 
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/45cf05fa223b51020afd067798ce1950cd9f6a7aeb77007ad9ef611cbae578aa9921f11e97d0da21.m3u8')">奇葩说第五季01</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/5d5a38c5a511a8e17c3f87034a4956c9fdca809cf908a8d4bb679026438804da9921f11e97d0da21.m3u8')">奇葩说第五季02</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/d950f3f0300e47de623071af1806a2a3a7cc0fc05d4e60cb9e72226cd8160fa49921f11e97d0da21.m3u8')">奇葩说第五季03</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/5c029934f64d8144a0f91ed6d999fd341c66fb74bfd7176ebeb9eda32ac665919921f11e97d0da21.m3u8')">奇葩说第五季04</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/ed888a868b0a1b12834d53691b9c60508f2ab116783433fe5d23e327f49672e39921f11e97d0da21.m3u8')">奇葩说第五季05</button>
+## 奇葩说
+
+* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/571df667-5856-4bb2-a9dc-b49e1d1e015d/SD/playlist.m3u8')">奇葩说第二季01</button>
+* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/630c3a35-fccc-4f55-a03b-795f4112584b/SD/playlist.m3u8')">奇葩说第二季02</button>
+* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/aba34dc2-d04b-4809-874f-9b43d256674c/SD/playlist.m3u8')">奇葩说第二季03</button>
+* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/b186bae2-d192-4aec-a145-5bd93211e491/SD/playlist.m3u8')">奇葩说第二季04</button>
+* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/4e340f22-33f1-464b-80f6-8f90ff36ba0e/SD/playlist.m3u8')">奇葩说第二季05</button>
 
 
 <style>
