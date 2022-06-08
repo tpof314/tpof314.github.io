@@ -31,6 +31,12 @@
 
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566944.m3u8?sign=1f2c1f0142341426ea75452be3eda87e')">欢迎光临31</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566945.m3u8?sign=64c897688ace526140c3fa4517c65e61')">欢迎光临32</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567004.m3u8?sign=567a289498f68340fbebbdd3b876e81c')">欢迎光临33</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567103.m3u8?sign=5ca5788127242f7dfdc9d379af17b2d6')">欢迎光临34</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567104.m3u8?sign=dea49023ba8d831c5ff83268aa20c25b')">欢迎光临35</button>
+
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567204.m3u8?sign=dc1ba3fb7d2be50062fe8b46feea1d09')">欢迎光临36</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567205.m3u8?sign=983683546d1f5c68339a02017bb2756a')">欢迎光临37</button>
 
 <style>
   .btn-link {
