@@ -56,6 +56,16 @@
 * <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/df35e66e-6e77-4c33-9563-1c391173a8ac/SD/playlist.m3u8')">奇葩说第二季09</button>
 * <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/5c5298b8-955e-4ba4-b2d9-d8b2d751f75a/SD/playlist.m3u8')">奇葩说第二季10</button>
 
+
+## 脱口秀大会第三季
+
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/Zd6sgfeE/1000kb/hls/index.m3u8')">脱口秀大会第三季01</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/eLSvlH1N/1000kb/hls/index.m3u8')">脱口秀大会第三季02</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/CY2gV040/1000kb/hls/index.m3u8')">脱口秀大会第三季03</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/O2Gu53Xx/1000kb/hls/index.m3u8')">脱口秀大会第三季04</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/4a0vMoJS/1000kb/hls/index.m3u8')">脱口秀大会第三季05</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/zXHNKx99/1000kb/hls/index.m3u8')">脱口秀大会第三季06</button>
+
 <style>
   .btn-link {
     background: hsl(171, 100%, 41%);
