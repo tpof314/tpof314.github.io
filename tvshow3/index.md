@@ -1,7 +1,5 @@
 ## 欢迎光临
 
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/565838.m3u8?sign=d126968d719147e105657893aa0bcfff')">欢迎光临18</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/565839.m3u8?sign=86ece50c4dfb8104474202a1c655763d')">欢迎光临19</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566092.m3u8?sign=3c07dd320ea41138e41be9c615621874')">欢迎光临20</button>
 
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566181.m3u8?sign=d02b43882fa2989e0256464d57584f8f')">欢迎光临21</button>
@@ -52,6 +50,24 @@
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/O2Gu53Xx/1000kb/hls/index.m3u8')">脱口秀大会第三季04</button>
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/4a0vMoJS/1000kb/hls/index.m3u8')">脱口秀大会第三季05</button>
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/zXHNKx99/1000kb/hls/index.m3u8')">脱口秀大会第三季06</button>
+
+
+## 一年一度戏剧大赛
+
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211029/2C1lcCiP/index.m3u8')">第01期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211029/KoIn4VUr/index.m3u8')">第01期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211029/tux6FM4g/index.m3u8')">第02期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20211029/mmbxZhOV/index.m3u8')">第02期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20211029/4GJACU08/index.m3u8')">第03期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211029/GoBtJUJF/index.m3u8')">第03期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211112/o7QzfUgI/index.m3u8')">第04期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211112/ewDfIEev/index.m3u8')">第04期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211112/cIG0AdPd/index.m3u8')">第05期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211112/NJUYGDow/index.m3u8')">第05期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211119/8Ndd3Ijp/index.m3u8')">第06期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211119/lnE1NRSl/index.m3u8')">第06期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211126/WVZEgYS0/index.m3u8')">第07期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211126/RTsylenR/index.m3u8')">第07期 - 下</button>
 
 <style>
   .btn-link {
