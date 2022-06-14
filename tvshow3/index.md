@@ -52,7 +52,7 @@
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/zXHNKx99/1000kb/hls/index.m3u8')">脱口秀大会第三季06</button>
 
 
-## 一年一度戏剧大赛
+## 一年一度喜剧大赛
 
 * <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211029/2C1lcCiP/index.m3u8')">第01期 - 上</button>
 * <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211029/KoIn4VUr/index.m3u8')">第01期 - 下</button>
