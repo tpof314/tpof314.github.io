@@ -69,6 +69,12 @@
 * <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211126/WVZEgYS0/index.m3u8')">第07期 - 上</button>
 * <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211126/RTsylenR/index.m3u8')">第07期 - 下</button>
 
+
+## 电视直播
+
+* <button class="btn btn-link" onclick="play('https://playtv-live.ifeng.com/live/06OLEGEGM4G_tv1.m3u8')">凤凰卫视中文台</button>
+* <button class="btn btn-link" onclick="play('https://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8')">凤凰卫视资讯台</button>
+
 <style>
   .btn-link {
     background: hsl(171, 100%, 41%);
