@@ -57,8 +57,8 @@
 
 ## 一年一度喜剧大赛
 
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211029/2C1lcCiP/index.m3u8')">第01期 - 上</button>
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211029/KoIn4VUr/index.m3u8')">第01期 - 下</button>
+* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_001.m3u8')">第01期 - 上</button>
+* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_002.m3u8')">第01期 - 下</button>
 * <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211029/tux6FM4g/index.m3u8')">第02期 - 上</button>
 * <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20211029/mmbxZhOV/index.m3u8')">第02期 - 下</button>
 * <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20211029/4GJACU08/index.m3u8')">第03期 - 上</button>
