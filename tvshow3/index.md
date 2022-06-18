@@ -50,7 +50,10 @@
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/O2Gu53Xx/1000kb/hls/index.m3u8')">脱口秀大会第三季04</button>
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/4a0vMoJS/1000kb/hls/index.m3u8')">脱口秀大会第三季05</button>
 * <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/zXHNKx99/1000kb/hls/index.m3u8')">脱口秀大会第三季06</button>
-
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/gUujedX2/1000kb/hls/index.m3u8')">脱口秀大会第三季07</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/qnTRF8Ji/1000kb/hls/index.m3u8')">脱口秀大会第三季08</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/DJHk9QdD/1000kb/hls/index.m3u8')">脱口秀大会第三季09</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/RZQdRTwK/1000kb/hls/index.m3u8')">脱口秀大会第三季10</button>
 
 ## 一年一度喜剧大赛
 
@@ -68,6 +71,13 @@
 * <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211119/lnE1NRSl/index.m3u8')">第06期 - 下</button>
 * <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211126/WVZEgYS0/index.m3u8')">第07期 - 上</button>
 * <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211126/RTsylenR/index.m3u8')">第07期 - 下</button>
+
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211203/lYuEGkjN/index.m3u8')">第08期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211203/Lrr3f7Zl/index.m3u8')">第08期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211210/QdJ7eY5Q/index.m3u8')">第09期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211210/22OJO6pb/index.m3u8')">第09期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211217/Mi1Dmiwv/index.m3u8')">第10期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211217/n1TzHeYO/index.m3u8')">第10期 - 下</button>
 
 
 ## 电视直播
