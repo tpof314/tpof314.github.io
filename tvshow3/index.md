@@ -57,25 +57,25 @@
 
 ## 一年一度喜剧大赛
 
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_001.m3u8')">第01期 - 上</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_002.m3u8')">第01期 - 下</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_003.m3u8')">第02期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_001.m3u8')">第01期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_002.m3u8')">第01期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_003.m3u8')">第02期 - 上</button>
 * <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20211029/mmbxZhOV/index.m3u8')">第02期 - 下</button>
 * <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20211029/4GJACU08/index.m3u8')">第03期 - 上</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_006.m3u8')">第03期 - 下</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_007.m3u8')">第04期 - 上</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_008.m3u8')">第04期 - 下</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_009.m3u8')">第05期 - 上</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_010.m3u8')">第05期 - 下</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_011.m3u8')">第06期 - 上</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_012.m3u8')">第06期 - 下</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_013.m3u8')">第07期 - 上</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_014.m3u8')">第07期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_006.m3u8')">第03期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_007.m3u8')">第04期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_008.m3u8')">第04期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_009.m3u8')">第05期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_010.m3u8')">第05期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_011.m3u8')">第06期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_012.m3u8')">第06期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_013.m3u8')">第07期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_014.m3u8')">第07期 - 下</button>
 
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_015.m3u8')">第08期 - 上</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_016.m3u8')">第08期 - 下</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_017.m3u8')">第09期 - 上</button>
-* <button class="btn btn-link" onclick="play('http://github.dgcontinent.com/tvshow3/xiju_018.m3u8')">第09期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_015.m3u8')">第08期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_016.m3u8')">第08期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_017.m3u8')">第09期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_018.m3u8')">第09期 - 下</button>
 * <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_019.m3u8')">第10期 - 上</button>
 * <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_020.m3u8')">第10期 - 下</button>
 
