@@ -79,22 +79,39 @@
 * <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_019.m3u8')">第10期 - 上</button>
 * <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_020.m3u8')">第10期 - 下</button>
 
+---
 
-## 狮子山下的故事
+## 人世间
 
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567642.m3u8?sign=e20f15d1c08e8a71048bc0c3631b4145')">狮子山下的故事001</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567667.m3u8?sign=05c8089e1b919ae387bea011d8cd7dd7')">狮子山下的故事002</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567668.m3u8?sign=36db7f12d8630268d99425498dd9448d')">狮子山下的故事003</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567868.m3u8?sign=8861627df2ddeff0062781e662ace67e')">狮子山下的故事004</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567869.m3u8?sign=dce269138d54214fa246b066ef19a544')">狮子山下的故事005</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567995.m3u8?sign=12cd51a30feed38b9544cfdc7f64b245')">狮子山下的故事006</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567996.m3u8?sign=5122c4366ace663b0b568cf741279147')">狮子山下的故事007</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/568295.m3u8?sign=a1e1b056bf46df268077c7d5b8652c2c')">狮子山下的故事008</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/568296.m3u8?sign=af6ec7e4473e06bc81f79ea927db9ec5')">狮子山下的故事009</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/568703.m3u8?sign=401575cb13aa229caa3e24f3b9286372')">狮子山下的故事010</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/568704.m3u8?sign=c41dddcd9ee48ff305ea568b52e6ef0a')">狮子山下的故事011</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/569443.m3u8?sign=31a53375987dd557f8b47e30e6ec155c')">狮子山下的故事012</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/569444.m3u8?sign=6a3acca0b7f501e04f97c21b3fc5bb84')">狮子山下的故事013</button>
+* **主演:** 雷佳音 辛柏青 宋佳 殷桃 陈道明
+
+上世纪七十年代末，北方某省会城市“光字片”区居住着周姓一家，父亲周志刚在西南参加“大三线”建设，长子周秉义响应国家号召成为第一批下乡知青，长女周蓉追随诗人丈夫远赴贵州乡村，周家只留下小弟周秉昆与周母相依为命。在五十年的岁月里周家人的命运与时代变迁交织在一起，周秉义大学毕业后从政，在大刀阔斧的改革中经历仕途沉浮；周蓉获得博士学位后留校任教，却情路坎坷，阴差阳错旅居法国十二年。周秉昆与美丽又不幸的女子郑娟相濡以沫，通过自己的努力从一名工人成长为文艺工作者，经历下岗的阵痛和“下海”的挑战，在平凡的岁月里扶持邻里亲友共同前进。一家人在完成各自人生使命的同时，也书写了一部当代中国百姓的生活史诗  。
+
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/519347.m3u8?sign=27567597811a10beebdc82fba9290b63')">人世间01</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/519350.m3u8?sign=6c2e9be9864bb7b069a14c341dfda88b')">人世间02</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/519353.m3u8?sign=8d067f17ae01f42d4155b398c0f015b5')">人世间03</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/519356.m3u8?sign=c377e913d2bb6cbb9e55b0c1ebebab53')">人世间04</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/523674.m3u8?sign=18e5d865e87ba23fd9a8b03301f66a6b')">人世间05</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/523678.m3u8?sign=52649ba5a5affa00fbb53ee367435463')">人世间06</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524071.m3u8?sign=5c76af3824597b9d8bee42ad97cc73f4')">人世间07</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524072.m3u8?sign=4dd79138e2ee31032d655d6d012c1e52')">人世间08</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524117.m3u8?sign=98f2490288771fcb8f1fcef872366c76')">人世间09</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524346.m3u8?sign=200bd2304facd0749926dc5f5b55aa3e')">人世间10</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524350.m3u8?sign=45486f31db69ad1d4de22ad4875d7375')">人世间11</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524354.m3u8?sign=ca557a6964368ebfd5fe35b25489e7f3')">人世间12</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/527148.m3u8?sign=77daec6e29a925eddd1e13491b2051fd')">人世间13</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/527153.m3u8?sign=dab36dd61f1ce3069f68671134886026')">人世间14</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/527158.m3u8?sign=fc19b5c4f2288290a4da68277d638ad3')">人世间15</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/527162.m3u8?sign=78f48e2c82c74a9dac2f29aa645bbe7c')">人世间16</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/528230.m3u8?sign=b1466390dfa95839e1abc7c3d76e28d3')">人世间17</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/528232.m3u8?sign=d2b2946c78fd65c3b7c89303d4fc653a')">人世间18</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/529344.m3u8?sign=75d14276475c08309ad24731e1f30211')">人世间19</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/529345.m3u8?sign=64b21e810f4b58c29db89769db5db55d')">人世间20</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/529412.m3u8?sign=fd8efbce3d21bcbb7917c90164fb7d5e')">人世间21</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/529413.m3u8?sign=51b95e0d43729378cdda0e19f7c8a634')">人世间22</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/529494.m3u8?sign=6e7307f4e4545fd635b0933a5c28cb34')">人世间23</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/529495.m3u8?sign=af5541e68f85bf1eeabec32971e61781')">人世间24</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/530034.m3u8?sign=4f047af9236bbb27b208a4e0c354cf30')">人世间25</button>
 
 <style>
   .btn-link {
