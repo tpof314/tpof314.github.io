@@ -80,10 +80,21 @@
 * <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_020.m3u8')">第10期 - 下</button>
 
 
-## 电视直播
+## 狮子山下的故事
 
-* <button class="btn btn-link" onclick="play('https://playtv-live.ifeng.com/live/06OLEGEGM4G_tv1.m3u8')">凤凰卫视中文台</button>
-* <button class="btn btn-link" onclick="play('https://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8')">凤凰卫视资讯台</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567642.m3u8?sign=e20f15d1c08e8a71048bc0c3631b4145'")>狮子山下的故事001</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567667.m3u8?sign=05c8089e1b919ae387bea011d8cd7dd7'")>狮子山下的故事002</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567668.m3u8?sign=36db7f12d8630268d99425498dd9448d'")>狮子山下的故事003</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567868.m3u8?sign=8861627df2ddeff0062781e662ace67e'")>狮子山下的故事004</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567869.m3u8?sign=dce269138d54214fa246b066ef19a544'")>狮子山下的故事005</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567995.m3u8?sign=12cd51a30feed38b9544cfdc7f64b245'")>狮子山下的故事006</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567996.m3u8?sign=5122c4366ace663b0b568cf741279147'")>狮子山下的故事007</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/568295.m3u8?sign=a1e1b056bf46df268077c7d5b8652c2c'")>狮子山下的故事008</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/568296.m3u8?sign=af6ec7e4473e06bc81f79ea927db9ec5'")>狮子山下的故事009</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/568703.m3u8?sign=401575cb13aa229caa3e24f3b9286372'")>狮子山下的故事010</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/568704.m3u8?sign=c41dddcd9ee48ff305ea568b52e6ef0a'")>狮子山下的故事011</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/569443.m3u8?sign=31a53375987dd557f8b47e30e6ec155c'")>狮子山下的故事012</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/569444.m3u8?sign=6a3acca0b7f501e04f97c21b3fc5bb84'")>狮子山下的故事013</button>
 
 <style>
   .btn-link {
