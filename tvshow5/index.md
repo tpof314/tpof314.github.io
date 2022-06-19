@@ -3,7 +3,6 @@
 ## 父亲节
 
 * <button class="btn btn-link" onclick="play('https://res.cloudinary.com/handyman/video/upload/v1655636394/video/fathers_day.mp4')">父亲节照片剪辑</button>
-* <button class="btn btn-link" onclick="play('https://res.cloudinary.com/handyman/video/upload/v1655636565/video/fathers_day_2.mp4')">父亲节照片剪辑2</button>
 
 <style>
   .btn-link {
