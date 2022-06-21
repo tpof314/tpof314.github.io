@@ -101,6 +101,22 @@
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/529495.m3u8?sign=af5541e68f85bf1eeabec32971e61781')">人世间24</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/530034.m3u8?sign=4f047af9236bbb27b208a4e0c354cf30')">人世间25</button>
 
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/530035.m3u8?sign=289290514a0441567074559b811e8894')">人世间26</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/530087.m3u8?sign=0aa3d60eb5ac1c1fba577fac2e979886')">人世间27</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/530088.m3u8?sign=0645c4a13336c83b6bddd4e4834e07a4')">人世间28</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/532212.m3u8?sign=43d59d25716090a995f2df461aad861e')">人世间29</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/532213.m3u8?sign=fe8749e51c8d9f57f50afd99c9f13458')">人世间30</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/532214.m3u8?sign=f2a9d639551216a811a98fe8665dfde9')">人世间31</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/532215.m3u8?sign=3f1aeab3d2085b0f449c0c43adadf826')">人世间32</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/533559.m3u8?sign=d87e7a9c016ecb38cf94599a752ab580')">人世间33</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/533649.m3u8?sign=2c6a509a39a50c77d60888b6874d0c0c')">人世间34</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/533810.m3u8?sign=8e04cd46d163b94dcf641c64e089d141')">人世间35</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/533811.m3u8?sign=0f3b6e7c367ca440ab68c9ce8013b948')">人世间36</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/533933.m3u8?sign=9dbb6c6b8b2834d3f8ef6445e5a5ac71')">人世间37</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/533934.m3u8?sign=a529a0802c88a65ded51d8627173689b')">人世间38</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/535095.m3u8?sign=f3b4cf9433dec70d044019a71c838294')">人世间39</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/535096.m3u8?sign=188b9a597a0c1a0dcfe2378be74d04e5')">人世间40</button>
+
 <style>
   .btn-link {
     background: hsl(171, 100%, 41%);
