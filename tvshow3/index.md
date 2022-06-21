@@ -14,20 +14,17 @@
 
 ---
 
-## 奇葩说
+## 王牌对王牌（第五季）
 
-* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/571df667-5856-4bb2-a9dc-b49e1d1e015d/SD/playlist.m3u8')">奇葩说第二季01</button>
-* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/630c3a35-fccc-4f55-a03b-795f4112584b/SD/playlist.m3u8')">奇葩说第二季02</button>
-* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/aba34dc2-d04b-4809-874f-9b43d256674c/SD/playlist.m3u8')">奇葩说第二季03</button>
-* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/b186bae2-d192-4aec-a145-5bd93211e491/SD/playlist.m3u8')">奇葩说第二季04</button>
-* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/4e340f22-33f1-464b-80f6-8f90ff36ba0e/SD/playlist.m3u8')">奇葩说第二季05</button>
-
-
-* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/67e0bba7-e9b3-4a34-830b-a7c2ddcb3e83/SD/playlist.m3u8')">奇葩说第二季06</button>
-* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/ff471bbc-7b36-45ef-a94d-c16c5707f44e/SD/playlist.m3u8')">奇葩说第二季07</button>
-* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/8eacff13-1ddf-40b4-879f-745d08ef4f17/SD/playlist.m3u8')">奇葩说第二季08</button>
-* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/df35e66e-6e77-4c33-9563-1c391173a8ac/SD/playlist.m3u8')">奇葩说第二季09</button>
-* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/56704/5c5298b8-955e-4ba4-b2d9-d8b2d751f75a/SD/playlist.m3u8')">奇葩说第二季10</button>
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/4065BACCBD2CAA37B234471350138EE8.m3u8')">王牌对王牌（第五季）01</button>
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/344FF8B429FEA3C7AF5C9EF60F371B80.m3u8')">王牌对王牌（第五季）02</button>
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/9A5DBA22625ECF5EFBD0ACA8A46A2A5B.m3u8')">王牌对王牌（第五季）03</button>
+* <button class="btn btn-link" onclick="play('https://v4.szjal.cn/20200501/8EpB59BY/index.m3u8')">王牌对王牌（第五季）04</button>
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/20200502/j4emf9bL/index.m3u8')">王牌对王牌（第五季）05</button>
+* <button class="btn btn-link" onclick="play('https://v4.szjal.cn/20200502/JOZC8nUO/index.m3u8')">王牌对王牌（第五季）06</button>
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/20200502/tjWJbXNB/index.m3u8')">王牌对王牌（第五季）07</button>
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/FBBE3AFFB5EB6706CAC62AB480639F96.m3u8')">王牌对王牌（第五季）08</button>
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/20200502/gulkGQbL/index.m3u8')">王牌对王牌（第五季）09</button>
 
 
 ## 脱口秀大会第三季
