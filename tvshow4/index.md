@@ -6,7 +6,10 @@
 * <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow4/fengliu_004.m3u8')">数风流人物04</button>
 * <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow4/fengliu_005.m3u8')">数风流人物05</button>
 * <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow4/fengliu_006.m3u8')">数风流人物06</button>
-
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220619/QnbBvwrW/1308kb/hls/index.m3u8')">数风流人物07</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220619/hh0YyB36/1420kb/hls/index.m3u8')">数风流人物08</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220620/e4wFNit4/1498kb/hls/index.m3u8')">数风流人物09</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220620/Fqng1Y3T/1352kb/hls/index.m3u8')">数风流人物10</button>
 
 
 ## 时光音乐会

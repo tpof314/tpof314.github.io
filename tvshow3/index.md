@@ -1,17 +1,5 @@
 ## 欢迎光临
 
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566092.m3u8?sign=3c07dd320ea41138e41be9c615621874')">欢迎光临20</button>
-
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566181.m3u8?sign=d02b43882fa2989e0256464d57584f8f')">欢迎光临21</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566182.m3u8?sign=b8d7181d4ac180959f1afd3c3b9683a2')">欢迎光临22</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566362.m3u8?sign=763f43accc0122d617c066e775d491f1')">欢迎光临23</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566363.m3u8?sign=07a8cc570224fa235e0dbc4a3dc1a66e')">欢迎光临24</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566449.m3u8?sign=597fd5b788d1d06c214bea1174bdfdf0')">欢迎光临25</button>
-
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566450.m3u8?sign=9e61069d709319f2d3cbcdfe7647dd11')">欢迎光临26</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566509.m3u8?sign=a6947bc8b8e0f7c0b4dca953818d3a93')">欢迎光临27</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566510.m3u8?sign=1e1ccc44438990c7e3f363a8bbbf0df8')">欢迎光临28</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566652.m3u8?sign=2578edbacaab76863ac066f08289b371')">欢迎光临29</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566653.m3u8?sign=f5a013f98ba25f778d847334182589f0')">欢迎光临30</button>
 
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566944.m3u8?sign=1f2c1f0142341426ea75452be3eda87e')">欢迎光临31</button>
