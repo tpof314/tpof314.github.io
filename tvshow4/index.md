@@ -12,7 +12,8 @@
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220620/Fqng1Y3T/1352kb/hls/index.m3u8')">数风流人物10</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220621/1Qotg7Xj/index.m3u8')">数风流人物11</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220621/B4qmcTY6/1799kb/hls/index.m3u8')">数风流人物12</button>
-
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220622/QTuOt1CZ/index.m3u8')">数风流人物13</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220622/KqZxqjkX/index.m3u8')">数风流人物14</button>
 
 ## 时光音乐会
 
@@ -48,6 +49,15 @@
 * <button class="btn btn-link" onclick="play('https://pps.sd-play.com/20220429/fyTtKwXE/1200kb/hls/index.m3u8?skipl=1')">第6期</button>
 
 ---
+
+## 极限挑战
+
+* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210616/UZXrcJkG/2000kb/hls/index.m3u8')">极限挑战1</button>
+* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210616/bRPgL4Uu/index.m3u8')">极限挑战2</button>
+* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210616/IRopO2eP/2000kb/hls/index.m3u8')">极限挑战3</button>
+* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210616/XQi0JPRe/2000kb/hls/index.m3u8')">极限挑战4</button>
+* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210621/rDRq0dcQ/2000kb/hls/index.m3u8')">极限挑战5</button>
+
 
 ## 电影
 
