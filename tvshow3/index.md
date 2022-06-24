@@ -1,71 +1,3 @@
-## 欢迎光临
-
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566653.m3u8?sign=f5a013f98ba25f778d847334182589f0')">欢迎光临30</button>
-
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566944.m3u8?sign=1f2c1f0142341426ea75452be3eda87e')">欢迎光临31</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/566945.m3u8?sign=64c897688ace526140c3fa4517c65e61')">欢迎光临32</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567004.m3u8?sign=567a289498f68340fbebbdd3b876e81c')">欢迎光临33</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567103.m3u8?sign=5ca5788127242f7dfdc9d379af17b2d6')">欢迎光临34</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567104.m3u8?sign=dea49023ba8d831c5ff83268aa20c25b')">欢迎光临35</button>
-
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567204.m3u8?sign=dc1ba3fb7d2be50062fe8b46feea1d09')">欢迎光临36</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/567205.m3u8?sign=983683546d1f5c68339a02017bb2756a')">欢迎光临37</button>
-
-
----
-
-## 王牌对王牌（第五季）
-
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/4065BACCBD2CAA37B234471350138EE8.m3u8')">王牌对王牌（第五季）01</button>
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/344FF8B429FEA3C7AF5C9EF60F371B80.m3u8')">王牌对王牌（第五季）02</button>
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/9A5DBA22625ECF5EFBD0ACA8A46A2A5B.m3u8')">王牌对王牌（第五季）03</button>
-* <button class="btn btn-link" onclick="play('https://v4.szjal.cn/20200501/8EpB59BY/index.m3u8')">王牌对王牌（第五季）04</button>
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/20200502/j4emf9bL/index.m3u8')">王牌对王牌（第五季）05</button>
-* <button class="btn btn-link" onclick="play('https://v4.szjal.cn/20200502/JOZC8nUO/index.m3u8')">王牌对王牌（第五季）06</button>
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/20200502/tjWJbXNB/index.m3u8')">王牌对王牌（第五季）07</button>
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/FBBE3AFFB5EB6706CAC62AB480639F96.m3u8')">王牌对王牌（第五季）08</button>
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/20200502/gulkGQbL/index.m3u8')">王牌对王牌（第五季）09</button>
-
-
-## 脱口秀大会第三季
-
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/Zd6sgfeE/1000kb/hls/index.m3u8')">脱口秀大会第三季01</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/eLSvlH1N/1000kb/hls/index.m3u8')">脱口秀大会第三季02</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/CY2gV040/1000kb/hls/index.m3u8')">脱口秀大会第三季03</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/O2Gu53Xx/1000kb/hls/index.m3u8')">脱口秀大会第三季04</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/4a0vMoJS/1000kb/hls/index.m3u8')">脱口秀大会第三季05</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/zXHNKx99/1000kb/hls/index.m3u8')">脱口秀大会第三季06</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/gUujedX2/1000kb/hls/index.m3u8')">脱口秀大会第三季07</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/qnTRF8Ji/1000kb/hls/index.m3u8')">脱口秀大会第三季08</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/DJHk9QdD/1000kb/hls/index.m3u8')">脱口秀大会第三季09</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/RZQdRTwK/1000kb/hls/index.m3u8')">脱口秀大会第三季10</button>
-
-## 一年一度喜剧大赛
-
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_001.m3u8')">第01期 - 上</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_002.m3u8')">第01期 - 下</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_003.m3u8')">第02期 - 上</button>
-* <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20211029/mmbxZhOV/index.m3u8')">第02期 - 下</button>
-* <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20211029/4GJACU08/index.m3u8')">第03期 - 上</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_006.m3u8')">第03期 - 下</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_007.m3u8')">第04期 - 上</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_008.m3u8')">第04期 - 下</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_009.m3u8')">第05期 - 上</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_010.m3u8')">第05期 - 下</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_011.m3u8')">第06期 - 上</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_012.m3u8')">第06期 - 下</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_013.m3u8')">第07期 - 上</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_014.m3u8')">第07期 - 下</button>
-
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_015.m3u8')">第08期 - 上</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_016.m3u8')">第08期 - 下</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_017.m3u8')">第09期 - 上</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_018.m3u8')">第09期 - 下</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_019.m3u8')">第10期 - 上</button>
-* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_020.m3u8')">第10期 - 下</button>
-
----
-
 ## 人世间
 
 * **主演:** 雷佳音 辛柏青 宋佳 殷桃 陈道明
@@ -132,6 +64,60 @@
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/539260.m3u8?sign=399253a264aedcd9a0980e00b44ff457')">人世间56</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/539342.m3u8?sign=33301a4a9a31198d90d43e67d51350b1')">人世间57</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/539343.m3u8?sign=2c97bc970c0932a5801b6fd0c88505d4')">人世间58</button>
+
+---
+
+## 王牌对王牌（第五季）
+
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/4065BACCBD2CAA37B234471350138EE8.m3u8')">王牌对王牌（第五季）01</button>
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/344FF8B429FEA3C7AF5C9EF60F371B80.m3u8')">王牌对王牌（第五季）02</button>
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/9A5DBA22625ECF5EFBD0ACA8A46A2A5B.m3u8')">王牌对王牌（第五季）03</button>
+* <button class="btn btn-link" onclick="play('https://v4.szjal.cn/20200501/8EpB59BY/index.m3u8')">王牌对王牌（第五季）04</button>
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/20200502/j4emf9bL/index.m3u8')">王牌对王牌（第五季）05</button>
+* <button class="btn btn-link" onclick="play('https://v4.szjal.cn/20200502/JOZC8nUO/index.m3u8')">王牌对王牌（第五季）06</button>
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/20200502/tjWJbXNB/index.m3u8')">王牌对王牌（第五季）07</button>
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/FBBE3AFFB5EB6706CAC62AB480639F96.m3u8')">王牌对王牌（第五季）08</button>
+* <button class="btn btn-link" onclick="play('https://v4.monidai.com/20200502/gulkGQbL/index.m3u8')">王牌对王牌（第五季）09</button>
+
+
+## 脱口秀大会第三季
+
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/Zd6sgfeE/1000kb/hls/index.m3u8')">脱口秀大会第三季01</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/eLSvlH1N/1000kb/hls/index.m3u8')">脱口秀大会第三季02</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/CY2gV040/1000kb/hls/index.m3u8')">脱口秀大会第三季03</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/O2Gu53Xx/1000kb/hls/index.m3u8')">脱口秀大会第三季04</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/4a0vMoJS/1000kb/hls/index.m3u8')">脱口秀大会第三季05</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/zXHNKx99/1000kb/hls/index.m3u8')">脱口秀大会第三季06</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/gUujedX2/1000kb/hls/index.m3u8')">脱口秀大会第三季07</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/qnTRF8Ji/1000kb/hls/index.m3u8')">脱口秀大会第三季08</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/DJHk9QdD/1000kb/hls/index.m3u8')">脱口秀大会第三季09</button>
+* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/RZQdRTwK/1000kb/hls/index.m3u8')">脱口秀大会第三季10</button>
+
+## 一年一度喜剧大赛
+
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_001.m3u8')">第01期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_002.m3u8')">第01期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_003.m3u8')">第02期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20211029/mmbxZhOV/index.m3u8')">第02期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20211029/4GJACU08/index.m3u8')">第03期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_006.m3u8')">第03期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_007.m3u8')">第04期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_008.m3u8')">第04期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_009.m3u8')">第05期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_010.m3u8')">第05期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_011.m3u8')">第06期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_012.m3u8')">第06期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_013.m3u8')">第07期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_014.m3u8')">第07期 - 下</button>
+
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_015.m3u8')">第08期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_016.m3u8')">第08期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_017.m3u8')">第09期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_018.m3u8')">第09期 - 下</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_019.m3u8')">第10期 - 上</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/xiju_020.m3u8')">第10期 - 下</button>
+
+
 <style>
   .btn-link {
     background: hsl(171, 100%, 41%);
