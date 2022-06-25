@@ -67,6 +67,23 @@
 
 ---
 
+## 人来蜂
+
+**憨豆先生**主演。憨豆先生在这部热闹喜剧中塑造了一个新角色：笨手笨脚的特雷弗。特雷弗找到了一份新工作：替人看豪宅。豪宅中尽是无价的艺术品，以及一辆经典汽车和名为“纸杯蛋糕”的可爱狗狗。但当一只蜜蜂突然闯入时，特雷弗是能控制一切，还是会让他们的激烈竞争导致越来越严重的后果？
+
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220624/nbHWMnnL/2156kb/hls/index.m3u8')">人来蜂01</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220624/qC3oTTKL/1956kb/hls/index.m3u8')">人来蜂02</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220624/QxJ4Wq7Q/index.m3u8')">人来蜂03</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220624/dQMHMHHV/2003kb/hls/index.m3u8')">人来蜂04</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220624/XmeOCXJY/2012kb/hls/index.m3u8')">人来蜂05</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220624/y9jKneaK/1950kb/hls/index.m3u8')">人来蜂06</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220624/FwRgPMMc/index.m3u8')">人来蜂07</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220624/FjoUIbmx/2000kb/hls/index.m3u8')">人来蜂08</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220624/43SrHDLS/index.m3u8')">人来蜂09</button>
+
+
+---
+
 ## 王牌对王牌（第五季）
 
 * <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/4065BACCBD2CAA37B234471350138EE8.m3u8')">王牌对王牌（第五季）01</button>
