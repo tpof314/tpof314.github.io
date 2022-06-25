@@ -80,18 +80,40 @@
 * <button class="btn btn-link" onclick="play('https://v4.monidai.com/20200502/gulkGQbL/index.m3u8')">王牌对王牌（第五季）09</button>
 
 
-## 脱口秀大会第三季
+## 脱口秀大会片段剪辑
 
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/Zd6sgfeE/1000kb/hls/index.m3u8')">脱口秀大会第三季01</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/eLSvlH1N/1000kb/hls/index.m3u8')">脱口秀大会第三季02</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/CY2gV040/1000kb/hls/index.m3u8')">脱口秀大会第三季03</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/O2Gu53Xx/1000kb/hls/index.m3u8')">脱口秀大会第三季04</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/4a0vMoJS/1000kb/hls/index.m3u8')">脱口秀大会第三季05</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/zXHNKx99/1000kb/hls/index.m3u8')">脱口秀大会第三季06</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/gUujedX2/1000kb/hls/index.m3u8')">脱口秀大会第三季07</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/qnTRF8Ji/1000kb/hls/index.m3u8')">脱口秀大会第三季08</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/DJHk9QdD/1000kb/hls/index.m3u8')">脱口秀大会第三季09</button>
-* <button class="btn btn-link" onclick="play('https://new.eduzone.top/20211113/RZQdRTwK/1000kb/hls/index.m3u8')">脱口秀大会第三季10</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220218/6g8HS8dU/index.m3u8')">脱口秀01</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220223/kX2d9NCA/index.m3u8')">脱口秀02</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220224/STPwehrO/index.m3u8')">脱口秀03</button>
+* <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20220226/w1yEYSJP/2397kb/hls/index.m3u8')">脱口秀04</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220302/vA1653wt/index.m3u8')">脱口秀05</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220303/hR1XUAwU/index.m3u8')">脱口秀06</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220304/P4yUOCg1/index.m3u8')">脱口秀07</button>
+* <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20220309/gS5zz81Z/2396kb/hls/index.m3u8')">脱口秀08</button>
+* <button class="btn btn-link" onclick="play('https://sod.kuaibocaiji.com/20220310/y75FtUjx/1997kb/hls/index.m3u8')">脱口秀09</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220312/oSYaEwcO/index.m3u8')">脱口秀10</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220316/7X9mYvYW/index.m3u8')">脱口秀11</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220317/W8qjviNF/index.m3u8')">脱口秀12</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220319/D8JAR2Jr/index.m3u8')">脱口秀13</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220323/fLDKT4PH/index.m3u8')">脱口秀14</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220324/sCKWHpBy/index.m3u8')">脱口秀15</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220325/6t79WYRK/index.m3u8')">脱口秀16</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220326/L8OlOF1H/index.m3u8')">脱口秀17</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220330/eXwbV4Kb/index.m3u8')">脱口秀18</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220331/ijyakEpN/index.m3u8')">脱口秀19</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220401/gFCDY5Tf/index.m3u8')">脱口秀20</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220402/fUK1DzfN/index.m3u8')">脱口秀21</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220407/3RlXNk0Z/index.m3u8')">脱口秀22</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220408/NMjonKcW/index.m3u8')">脱口秀23</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220409/uwN73tfK/index.m3u8')">脱口秀24</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220413/ceHugRIj/index.m3u8')">脱口秀25</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220414/mT1iQ1r4/index.m3u8')">脱口秀26</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220416/Qclorf6L/index.m3u8')">脱口秀27</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220420/l8NuNElg/index.m3u8')">脱口秀28</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220421/inUT1Bzt/index.m3u8')">脱口秀29</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220422/LV32LvL7/index.m3u8')">脱口秀30</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220423/XMHPIXYA/index.m3u8')">脱口秀31</button>
+* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220427/oxC7I7Rz/index.m3u8')">脱口秀32</button>
 
 ## 一年一度喜剧大赛
 
