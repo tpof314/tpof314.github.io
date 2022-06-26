@@ -17,6 +17,7 @@
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220623/0KICB7tB/index.m3u8')">数风流人物15</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220623/s7lLpv1Y/index.m3u8')">数风流人物16</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220624/G24iVYWu/index.m3u8')">数风流人物17</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220625/QFBlxGCL/1787kb/hls/index.m3u8')">数风流人物17</button>
 
 
 ## 时光音乐会
