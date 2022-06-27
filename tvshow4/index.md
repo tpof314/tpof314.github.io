@@ -18,26 +18,8 @@
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220623/s7lLpv1Y/index.m3u8')">数风流人物16</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220624/G24iVYWu/index.m3u8')">数风流人物17</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220625/QFBlxGCL/1787kb/hls/index.m3u8')">数风流人物18</button>
-
-
-## 时光音乐会
-
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211022/NXQFK3nX/index.m3u8')">时光音乐会01</button>
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211029/Xy7pXyVI/index.m3u8')">时光音乐会02</button>
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211106/PTxz5f1L/index.m3u8')">时光音乐会03</button>
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211113/xI8Wm5fd/index.m3u8')">时光音乐会04</button>
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211119/LZJtHU9T/index.m3u8')">时光音乐会05</button>
-
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211127/ahpstwV2/index.m3u8')">时光音乐会06</button>
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211204/cL4besIg/index.m3u8')">时光音乐会07</button>
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211210/O78IzekG/index.m3u8')">时光音乐会08</button>
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211218/H3dtMvoj/index.m3u8')">时光音乐会09</button>
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20211225/v3dwAyNc/index.m3u8')">时光音乐会10</button>
-
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220108/HT0UnGUM/index.m3u8')">时光音乐会11</button>
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220115/pRvaw5AM/index.m3u8')">时光音乐会12</button>
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220122/Pbzy4HAY/index.m3u8')">时光音乐会13</button>
-* <button class="btn btn-link" onclick="play('https://sod.bunediy.com/20220129/rQXW6hPQ/index.m3u8')">时光音乐会14</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220626/wDrIq1LC/index.m3u8')">数风流人物19</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220626/EvQt9bs3/1755kb/hls/index.m3u8')">数风流人物20</button>
 
 
 ---
