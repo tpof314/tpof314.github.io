@@ -4,11 +4,7 @@
 
 上世纪七十年代末，北方某省会城市“光字片”区居住着周姓一家，父亲周志刚在西南参加“大三线”建设，长子周秉义响应国家号召成为第一批下乡知青，长女周蓉追随诗人丈夫远赴贵州乡村，周家只留下小弟周秉昆与周母相依为命。在五十年的岁月里周家人的命运与时代变迁交织在一起，周秉义大学毕业后从政，在大刀阔斧的改革中经历仕途沉浮；周蓉获得博士学位后留校任教，却情路坎坷，阴差阳错旅居法国十二年。周秉昆与美丽又不幸的女子郑娟相濡以沫，通过自己的努力从一名工人成长为文艺工作者，经历下岗的阵痛和“下海”的挑战，在平凡的岁月里扶持邻里亲友共同前进。一家人在完成各自人生使命的同时，也书写了一部当代中国百姓的生活史诗  。
 
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/519347.m3u8?sign=27567597811a10beebdc82fba9290b63')">人世间01</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/519350.m3u8?sign=6c2e9be9864bb7b069a14c341dfda88b')">人世间02</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/519353.m3u8?sign=8d067f17ae01f42d4155b398c0f015b5')">人世间03</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/519356.m3u8?sign=c377e913d2bb6cbb9e55b0c1ebebab53')">人世间04</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/523674.m3u8?sign=18e5d865e87ba23fd9a8b03301f66a6b')">人世间05</button>
+
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/523678.m3u8?sign=52649ba5a5affa00fbb53ee367435463')">人世间06</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524071.m3u8?sign=5c76af3824597b9d8bee42ad97cc73f4')">人世间07</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524072.m3u8?sign=4dd79138e2ee31032d655d6d012c1e52')">人世间08</button>
@@ -73,8 +69,6 @@
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20211029/CCIOqi3E/2000kb/hls/index.m3u8')">奔跑吧黄河02 - 山东济南</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20211105/WT4b2CUS/index.m3u8')">奔跑吧黄河03 - 甘肃兰州</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20211112/SbKTdq19/1667kb/hls/index.m3u8')">奔跑吧黄河04 - 甘肃兰州</button>
-* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20211126/qbGGb6WP/index.m3u8')">奔跑吧黄河05 - 浙江杭州</button>
-
 
 ---
 
