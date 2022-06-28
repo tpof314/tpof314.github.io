@@ -67,6 +67,18 @@
 
 ---
 
+## 奔跑吧2022
+
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220514/UsvNUGYP/index.m3u8')">奔跑吧01 - 四川乐山</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220521/2jqywQBl/2289kb/hls/index.m3u8')">奔跑吧02 - 浙江湖州</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220528/BN21ciQB/index.m3u8')">奔跑吧03 - 浙江湖州</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220604/irga6Al8/index.m3u8')">奔跑吧04 - 四川乐山</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220611/XjARSAjD/2168kb/hls/index.m3u8')">奔跑吧05 - 浙江丽水</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220618/b7jSDhFL/1586kb/hls/index.m3u8')">奔跑吧06 - 浙江丽水</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220625/Qn4DkUpU/index.m3u8')">奔跑吧07 - 浙江金华</button>
+
+---
+
 ## 人来蜂
 
 **憨豆先生**主演。憨豆先生在这部热闹喜剧中塑造了一个新角色：笨手笨脚的特雷弗。特雷弗找到了一份新工作：替人看豪宅。豪宅中尽是无价的艺术品，以及一辆经典汽车和名为“纸杯蛋糕”的可爱狗狗。但当一只蜜蜂突然闯入时，特雷弗是能控制一切，还是会让他们的激烈竞争导致越来越严重的后果？
