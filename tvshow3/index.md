@@ -67,6 +67,17 @@
 
 ---
 
+## 奔跑吧·黄河 2021
+
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20211022/373J3QYt/2000kb/hls/index.m3u8')">奔跑吧黄河01 - 山东寿光</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20211029/CCIOqi3E/2000kb/hls/index.m3u8')">奔跑吧黄河02 - 山东济南</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20211105/WT4b2CUS/index.m3u8')">奔跑吧黄河03 - 甘肃兰州</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20211112/SbKTdq19/1667kb/hls/index.m3u8')">奔跑吧黄河04 - 甘肃兰州</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20211126/qbGGb6WP/index.m3u8')">奔跑吧黄河05 - 浙江杭州</button>
+
+
+---
+
 ## 奔跑吧2022
 
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220514/UsvNUGYP/index.m3u8')">奔跑吧01 - 四川乐山</button>
