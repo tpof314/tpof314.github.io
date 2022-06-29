@@ -21,6 +21,10 @@
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220626/wDrIq1LC/index.m3u8')">数风流人物19</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220626/EvQt9bs3/1755kb/hls/index.m3u8')">数风流人物20</button>
 
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220627/Zzi4Jjgh/1965kb/hls/index.m3u8')">数风流人物21</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220627/mENNa9eq/index.m3u8')">数风流人物22</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220628/SHBBXeo7/1820kb/hls/index.m3u8')">数风流人物23</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220628/kMfOELsp/1715kb/hls/index.m3u8')">数风流人物24</button>
 
 ---
 
