@@ -63,6 +63,36 @@
 
 ---
 
+## 毛雪汪
+
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220628/NnhTP7zV/index.m3u8')">毛雪汪 - 凤凰传奇</button>
+
+---
+
+## 圆桌派
+
+* <button class="btn btn-link" onclick="play('https://v7.monidai.com/20190909/RSkvGtIy/900kb/hls/index.m3u8')">圆桌派 - 陈坤、周迅</button>
+* <button class="btn btn-link" onclick="play('https://v7.monidai.com/20190909/vZqi8r4F/900kb/hls/index.m3u8')">圆桌派 - 王晶</button>
+* <button class="btn btn-link" onclick="play('https://v7.monidai.com/20190909/9eBf9m8n/900kb/hls/index.m3u8')">圆桌派 - 周迅、张亚东</button>
+* <button class="btn btn-link" onclick="play('https://v7.monidai.com/20190909/wlSbn9v9/900kb/hls/index.m3u8')">圆桌派 - 陈坤</button>
+* <button class="btn btn-link" onclick="play('https://v7.monidai.com/20190909/8l2ToIHF/900kb/hls/index.m3u8')">圆桌派 - 魏一平</button>
+
+* <button class="btn btn-link" onclick="play('https://v7.monidai.com/20190909/r6gd9oGJ/900kb/hls/index.m3u8')">圆桌派 - 周轶君、梁文道</button>
+* <button class="btn btn-link" onclick="play('https://v7.monidai.com/20190909/uvBNopdV/900kb/hls/index.m3u8')">圆桌派 - 严歌苓、蒋方舟</button>
+* <button class="btn btn-link" onclick="play('https://v7.monidai.com/20190909/ZfB2eBNn/900kb/hls/index.m3u8')">圆桌派 - 汪海林</button>
+* <button class="btn btn-link" onclick="play('https://v7.monidai.com/20190909/3BtxRm66/900kb/hls/index.m3u8')">圆桌派 - 梁龙、张亚东</button>
+* <button class="btn btn-link" onclick="play('https://v7.monidai.com/20190909/BniRRT1c/900kb/hls/index.m3u8')">圆桌派 - 李玫瑾</button>
+
+* <button class="btn btn-link" onclick="play('https://v7.monidai.com/20190909/HMtJp2TW/900kb/hls/index.m3u8')">圆桌派 - 王蒙</button>
+* <button class="btn btn-link" onclick="play('https://v7.monidai.com/20190909/dkAvFETM/900kb/hls/index.m3u8')">圆桌派 - 李玫瑾</button>
+* <button class="btn btn-link" onclick="play('https://v7.monidai.com/20190909/yRw5w3Zu/900kb/hls/index.m3u8')">圆桌派 - 王蒙</button>
+
+* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/40637/e15105f2-40ef-462a-ab2f-db890cfadc9e/SD/playlist.m3u8')">圆桌派 - 马伊琍</button>
+* <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/40637/b7cc7e70-1946-4d93-9412-c57c4e92e66c/SD/playlist.m3u8')">圆桌派 - 李小牧</button>
+
+
+---
+
 ## 奔跑吧2022
 
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220514/UsvNUGYP/index.m3u8')">奔跑吧01 - 四川乐山</button>
