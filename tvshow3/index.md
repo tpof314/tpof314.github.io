@@ -5,11 +5,6 @@
 上世纪七十年代末，北方某省会城市“光字片”区居住着周姓一家，父亲周志刚在西南参加“大三线”建设，长子周秉义响应国家号召成为第一批下乡知青，长女周蓉追随诗人丈夫远赴贵州乡村，周家只留下小弟周秉昆与周母相依为命。在五十年的岁月里周家人的命运与时代变迁交织在一起，周秉义大学毕业后从政，在大刀阔斧的改革中经历仕途沉浮；周蓉获得博士学位后留校任教，却情路坎坷，阴差阳错旅居法国十二年。周秉昆与美丽又不幸的女子郑娟相濡以沫，通过自己的努力从一名工人成长为文艺工作者，经历下岗的阵痛和“下海”的挑战，在平凡的岁月里扶持邻里亲友共同前进。一家人在完成各自人生使命的同时，也书写了一部当代中国百姓的生活史诗  。
 
 
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/523678.m3u8?sign=52649ba5a5affa00fbb53ee367435463')">人世间06</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524071.m3u8?sign=5c76af3824597b9d8bee42ad97cc73f4')">人世间07</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524072.m3u8?sign=4dd79138e2ee31032d655d6d012c1e52')">人世间08</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524117.m3u8?sign=98f2490288771fcb8f1fcef872366c76')">人世间09</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524346.m3u8?sign=200bd2304facd0749926dc5f5b55aa3e')">人世间10</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524350.m3u8?sign=45486f31db69ad1d4de22ad4875d7375')">人世间11</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/524354.m3u8?sign=ca557a6964368ebfd5fe35b25489e7f3')">人世间12</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/527148.m3u8?sign=77daec6e29a925eddd1e13491b2051fd')">人世间13</button>
