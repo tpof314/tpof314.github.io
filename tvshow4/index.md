@@ -27,6 +27,11 @@
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220628/kMfOELsp/1715kb/hls/index.m3u8')">数风流人物24</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220629/nBQK0SK2/index.m3u8')">数风流人物25</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220629/4J1tj8Ky/index.m3u8')">数风流人物26</button>
+
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220630/CTooLLAm/index.m3u8')">数风流人物27</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220630/OBQbFHQ1/1336kb/hls/index.m3u8')">数风流人物28</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220701/rUCb3zgx/index.m3u8')">数风流人物29</button>
+
 ---
 
 ## 非正式会谈
