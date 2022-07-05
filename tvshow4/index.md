@@ -32,6 +32,13 @@
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220630/OBQbFHQ1/1336kb/hls/index.m3u8')">数风流人物28</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220701/rUCb3zgx/index.m3u8')">数风流人物29</button>
 
+
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220702/4Y6uiZjK/index.m3u8')">数风流人物30</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220703/BTUPJ1uK/1899kb/hls/index.m3u8')">数风流人物31</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220703/6DBOLzLP/index.m3u8')">数风流人物32</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220704/KH5AGXXZ/2111kb/hls/index.m3u8')">数风流人物33</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220704/jCs70ftg/index.m3u8')">数风流人物34</button>
+
 ---
 
 ## 非正式会谈
@@ -44,16 +51,6 @@
 * <button class="btn btn-link" onclick="play('https://pps.sd-play.com/20220422/FyXGtspB/hls/index.m3u8')">第4期</button>
 * <button class="btn btn-link" onclick="play('https://pps.sd-play.com/20220429/SMqPRL8J/1200kb/hls/index.m3u8')">第5期</button>
 * <button class="btn btn-link" onclick="play('https://pps.sd-play.com/20220429/fyTtKwXE/1200kb/hls/index.m3u8?skipl=1')">第6期</button>
-
----
-
-## 极限挑战
-
-* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210616/UZXrcJkG/2000kb/hls/index.m3u8')">极限挑战1</button>
-* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210616/bRPgL4Uu/index.m3u8')">极限挑战2</button>
-* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210616/IRopO2eP/2000kb/hls/index.m3u8')">极限挑战3</button>
-* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210616/XQi0JPRe/2000kb/hls/index.m3u8')">极限挑战4</button>
-* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210621/rDRq0dcQ/2000kb/hls/index.m3u8')">极限挑战5</button>
 
 
 ## 电影

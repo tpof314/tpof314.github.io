@@ -58,6 +58,22 @@
 
 ---
 
+## 极限挑战
+
+* 东方卫视大型星素结合励志体验节目《极限挑战》。常驻嘉宾贾乃亮、雷佳音、王迅、郭京飞、岳云鹏。
+
+* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210616/UZXrcJkG/2000kb/hls/index.m3u8')">极限挑战2021 - 1</button>
+* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210616/bRPgL4Uu/index.m3u8')">极限挑战2021 - 2</button>
+* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210616/IRopO2eP/2000kb/hls/index.m3u8')">极限挑战2021 - 3</button>
+* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210616/XQi0JPRe/2000kb/hls/index.m3u8')">极限挑战2021 - 4</button>
+* <button class="btn btn-link" onclick="play('https://cdn6.shzbgyl.com:65/20210621/rDRq0dcQ/2000kb/hls/index.m3u8')">极限挑战2021 - 5</button>
+
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220627/LLNN9n73/index.m3u8')">极限挑战2022 - 1</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220704/Yx38xGX8/2172kb/hls/index.m3u8')">极限挑战2022 - 2</button>
+
+
+---
+
 ## 毛雪汪
 
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220628/NnhTP7zV/index.m3u8')">毛雪汪 - 凤凰传奇</button>
