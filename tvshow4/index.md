@@ -87,6 +87,32 @@
 * <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/326a2d40dbb8a1ad1f4f33f0c6e68d651e0c3c51849d83e5f98a2bc554f01f219921f11e97d0da21.m3u8')">倚天屠龙记39</button>
 * <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/646e822a5b9d3f419b5bf7b75707da23c5f80f5cc7f067ff5459238033ec2d7a9921f11e97d0da21.m3u8')">倚天屠龙记40</button>
 
+
+---
+
+## 李小龙传奇 (2008)
+
+*主演*：陈国坤 王洛勇 盖克 周舟 
+*导演*：李文歧
+
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433663.m3u8?sign=1b870eaf95acd065f7c7360fe8862ae5')">李小龙传奇01</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433664.m3u8?sign=df20392b8bea0a88bd1a7144524d07b6')">李小龙传奇02</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433665.m3u8?sign=779a5c7c44eb74c232343dd9dd79cfaa')">李小龙传奇03</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433666.m3u8?sign=b7d2dc1679d5b005f455e0225c6a942e')">李小龙传奇04</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433667.m3u8?sign=7902e42dadd941c22b628af930e2d07d')">李小龙传奇05</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433668.m3u8?sign=4cbe7b6939fb4d12ff43ab8b15116318')">李小龙传奇06</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433669.m3u8?sign=2d4f4a6b4fda1842c4eccdf8fc2b435d')">李小龙传奇07</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433670.m3u8?sign=12d364f09a36a14753a8f32791fa63a4')">李小龙传奇08</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433681.m3u8?sign=9c114eef5836f855a7f5346f6d5877c2')">李小龙传奇09</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433682.m3u8?sign=17e3b64bb1a771e43752fb7be4e46417')">李小龙传奇10</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433683.m3u8?sign=73ba64ab32ca6b18d012153f75a77b52')">李小龙传奇11</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433684.m3u8?sign=d19727086297f27734aff3f5af46044d')">李小龙传奇12</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433685.m3u8?sign=173996456b91fcedeaef14a8807fb672')">李小龙传奇13</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433686.m3u8?sign=264bcd47d067dbb20d141cc1c82bc905')">李小龙传奇14</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433687.m3u8?sign=a8d5fcfe2278d1318a9527aca2e2f487')">李小龙传奇15</button>
+
+
+
 ---
 
 ## 非正式会谈
