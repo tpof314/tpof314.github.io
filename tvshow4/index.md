@@ -45,6 +45,7 @@
 
 * <button class="btn btn-link" onclick="play('https://mgtv.sd-play.com/20211022/klUcZBeC/hls/index.m3u8')">倚天屠龙记01</button>
 * <button class="btn btn-link" onclick="play('https://mgtv.sd-play.com/20211022/SzO6fatB/hls/index.m3u8')">倚天屠龙记02</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/yknh2pyr/1200kb/hls/index.m3u8')">倚天屠龙记03</button>
 * <button class="btn btn-link" onclick="play('https://mgtv.sd-play.com/20211022/iRZwev9n/hls/index.m3u8')">倚天屠龙记04</button>
 * <button class="btn btn-link" onclick="play('https://mgtv.sd-play.com/20211022/vaMhurZj/hls/index.m3u8')">倚天屠龙记05</button>
 * <button class="btn btn-link" onclick="play('https://mgtv.sd-play.com/20211022/dRiHNN1F/hls/index.m3u8')">倚天屠龙记06</button>
