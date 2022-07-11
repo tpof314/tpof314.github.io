@@ -56,6 +56,7 @@
 
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220627/LLNN9n73/index.m3u8')">极限挑战2022 - 1</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220704/Yx38xGX8/2172kb/hls/index.m3u8')">极限挑战2022 - 2</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220711/3vOGw2Ao/index.m3u8')">极限挑战2022 - 3</button>
 
 
 ---
@@ -99,6 +100,10 @@
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220611/XjARSAjD/2168kb/hls/index.m3u8')">奔跑吧05 - 浙江丽水</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220618/b7jSDhFL/1586kb/hls/index.m3u8')">奔跑吧06 - 浙江丽水</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220625/Qn4DkUpU/index.m3u8')">奔跑吧07 - 浙江金华</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220709/IAyB80QZ/index.m3u8')">奔跑吧08 - 浙江金华</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220702/DofJ0W8b/1753kb/hls/index.m3u8')">奔跑吧09 - 新疆昌吉</button>
+
+
 
 ---
 
