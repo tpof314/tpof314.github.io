@@ -126,36 +126,7 @@
 * <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/40637/e15105f2-40ef-462a-ab2f-db890cfadc9e/SD/playlist.m3u8')">圆桌派 - 马伊琍</button>
 * <button class="btn btn-link" onclick="play('https://m3u8.taopianplay.com/taopian/665d42bf-730b-461f-8656-4bb8d19b0d0d/0cdfbd92-159d-450a-b292-04a0bcd0adbb/40637/b7cc7e70-1946-4d93-9412-c57c4e92e66c/SD/playlist.m3u8')">圆桌派 - 李小牧</button>
 
-
 ---
-
-## 奔跑吧2022
-
-* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220514/UsvNUGYP/index.m3u8')">奔跑吧01 - 四川乐山</button>
-* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220521/2jqywQBl/2289kb/hls/index.m3u8')">奔跑吧02 - 浙江湖州</button>
-* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220528/BN21ciQB/index.m3u8')">奔跑吧03 - 浙江湖州</button>
-* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220604/irga6Al8/index.m3u8')">奔跑吧04 - 四川乐山</button>
-* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220611/XjARSAjD/2168kb/hls/index.m3u8')">奔跑吧05 - 浙江丽水</button>
-* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220618/b7jSDhFL/1586kb/hls/index.m3u8')">奔跑吧06 - 浙江丽水</button>
-* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220625/Qn4DkUpU/index.m3u8')">奔跑吧07 - 浙江金华</button>
-* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220709/IAyB80QZ/index.m3u8')">奔跑吧08 - 浙江金华</button>
-* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220702/DofJ0W8b/1753kb/hls/index.m3u8')">奔跑吧09 - 新疆昌吉</button>
-
-
----
-
-## 王牌对王牌（第五季）
-
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/4065BACCBD2CAA37B234471350138EE8.m3u8')">王牌对王牌（第五季）01</button>
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/344FF8B429FEA3C7AF5C9EF60F371B80.m3u8')">王牌对王牌（第五季）02</button>
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/9A5DBA22625ECF5EFBD0ACA8A46A2A5B.m3u8')">王牌对王牌（第五季）03</button>
-* <button class="btn btn-link" onclick="play('https://v4.szjal.cn/20200501/8EpB59BY/index.m3u8')">王牌对王牌（第五季）04</button>
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/20200502/j4emf9bL/index.m3u8')">王牌对王牌（第五季）05</button>
-* <button class="btn btn-link" onclick="play('https://v4.szjal.cn/20200502/JOZC8nUO/index.m3u8')">王牌对王牌（第五季）06</button>
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/20200502/tjWJbXNB/index.m3u8')">王牌对王牌（第五季）07</button>
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/ppvod/FBBE3AFFB5EB6706CAC62AB480639F96.m3u8')">王牌对王牌（第五季）08</button>
-* <button class="btn btn-link" onclick="play('https://v4.monidai.com/20200502/gulkGQbL/index.m3u8')">王牌对王牌（第五季）09</button>
-
 
 ## 脱口秀大会片段剪辑
 

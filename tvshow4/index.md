@@ -120,7 +120,8 @@
 * <button class="btn btn-link" onclick="play('https://cdn.zoubuting.com/20210717/WOSMNMT0/hls/index.m3u8')">唐山大兄 (1971)</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/482270.m3u8?sign=5723ce85c99bdd5f55be3f3927a721f7')">精武门 (1972)</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/ipfs/573195.m3u8?sign=a0d04f36a2ad199e3495fb5b999dd275')">猛龙过江 (1972)</button>
-* <button class="btn btn-link" onclick="play('https://hnzy2.kaisacard.com:65/20210526/BJJPVGt3/1500kb/hls/index.m3u8')">龙争虎斗 (1973)</button>
+* <button class="btn btn-link" onclick="play('https://xlzycdn1.sy-precise.com:65/20220409/7H24Kvis/2000kb/hls/index.m3u8')">龙争虎斗 (1973)</button>
+
 
 ---
 
