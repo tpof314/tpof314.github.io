@@ -171,8 +171,6 @@
     var payload = {
         "video_url": url
     };
-    // https://ofhnindco6.execute-api.ap-southeast-2.amazonaws.com/video_pub
-    
     fetch('https://bs9hqgrxpi.execute-api.ap-east-1.amazonaws.com/default/video_pub', {
         method: 'POST',
         headers: {
