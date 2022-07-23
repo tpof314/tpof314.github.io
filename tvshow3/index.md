@@ -217,18 +217,30 @@
 </style>
 
 <script>
-  function play(url) {
+  async function play(url) {
     var payload = {
         "video_url": url
     };
 
-    fetch('https://bs9hqgrxpi.execute-api.ap-east-1.amazonaws.com/default/video_pub', {
+    // fetch('https://bs9hqgrxpi.execute-api.ap-east-1.amazonaws.com/default/video_pub', {
+    //     method: 'POST',
+    //     headers: {
+    //         'Accept': 'application/json',
+    //         'Content-Type': 'application/json'
+    //     },
+    //     body: JSON.stringify(payload)
+    // }).then(resp => console.log(resp));
+    
+    var resp = await fetch('https://bs9hqgrxpi.execute-api.ap-east-1.amazonaws.com/default/video_pub', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(payload)
-    }).then(resp => console.log(resp));
+    });
+
+    console.log(resp);
+
   }
 </script>
