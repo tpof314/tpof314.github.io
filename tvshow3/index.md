@@ -75,7 +75,15 @@
 
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/583672.m3u8?sign=7f8e3aacfdbc3be9bde4fb0f5aa7a93f')">幸福到万家31</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/583673.m3u8?sign=fb96c482499c69ab0e7fcea5600f107d')">幸福到万家32</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/586344.m3u8?sign=7afb19af668f5bc9e45361daf6975720')">幸福到万家33</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/586345.m3u8?sign=f3abbae4433a23a3bf70f9871dfb967e')">幸福到万家34</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/586346.m3u8?sign=c1a2207e504b6ba6934b956e95074e02')">幸福到万家35</button>
 
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/586347.m3u8?sign=6860c495917a88c30c9af41f1e372576')">幸福到万家36</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/586348.m3u8?sign=db6e581012219ca31cd9ba39d4b2616d')">幸福到万家37</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/587117.m3u8?sign=fbb2d6317e1412e1500b773f2e23b682')">幸福到万家38</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/587118.m3u8?sign=e46a12a3da3cb7a7c7d778d8f16fce48')">幸福到万家39</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/587469.m3u8?sign=300bca60ef002ce6a7e69f43efa2cfc6')">幸福到万家40</button>
 ---
 
 ## 人来蜂
@@ -221,15 +229,6 @@
     var payload = {
         "video_url": url
     };
-
-    // fetch('https://bs9hqgrxpi.execute-api.ap-east-1.amazonaws.com/default/video_pub', {
-    //     method: 'POST',
-    //     headers: {
-    //         'Accept': 'application/json',
-    //         'Content-Type': 'application/json'
-    //     },
-    //     body: JSON.stringify(payload)
-    // }).then(resp => console.log(resp));
     
     var resp = await fetch('https://bs9hqgrxpi.execute-api.ap-east-1.amazonaws.com/default/video_pub', {
         method: 'POST',
