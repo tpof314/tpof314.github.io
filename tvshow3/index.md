@@ -2,16 +2,6 @@
 
 * **主演:** 雷佳音 辛柏青 宋佳 殷桃 陈道明
 
-上世纪七十年代末，北方某省会城市“光字片”区居住着周姓一家，父亲周志刚在西南参加“大三线”建设，长子周秉义响应国家号召成为第一批下乡知青，长女周蓉追随诗人丈夫远赴贵州乡村，周家只留下小弟周秉昆与周母相依为命。在五十年的岁月里周家人的命运与时代变迁交织在一起，周秉义大学毕业后从政，在大刀阔斧的改革中经历仕途沉浮；周蓉获得博士学位后留校任教，却情路坎坷，阴差阳错旅居法国十二年。周秉昆与美丽又不幸的女子郑娟相濡以沫，通过自己的努力从一名工人成长为文艺工作者，经历下岗的阵痛和“下海”的挑战，在平凡的岁月里扶持邻里亲友共同前进。一家人在完成各自人生使命的同时，也书写了一部当代中国百姓的生活史诗  。
-
-
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/533810.m3u8?sign=8e04cd46d163b94dcf641c64e089d141')">人世间35</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/533811.m3u8?sign=0f3b6e7c367ca440ab68c9ce8013b948')">人世间36</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/533933.m3u8?sign=9dbb6c6b8b2834d3f8ef6445e5a5ac71')">人世间37</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/533934.m3u8?sign=a529a0802c88a65ded51d8627173689b')">人世间38</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/535095.m3u8?sign=f3b4cf9433dec70d044019a71c838294')">人世间39</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/535096.m3u8?sign=188b9a597a0c1a0dcfe2378be74d04e5')">人世间40</button>
-
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/536003.m3u8?sign=f3ce3ff68058e8a3e5336a20b2251230')">人世间41</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/536004.m3u8?sign=f23e8c9fe29dcc93ea500f93552595ac')">人世间42</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/536563.m3u8?sign=3de3e47ed55e399de4ea940a001ddfbf')">人世间43</button>
