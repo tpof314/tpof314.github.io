@@ -2,17 +2,12 @@
 
 <video class="my-video" id="video" controls></video>
 
-<style>
-section.page-header {
-    display: none;    
-}
-</style>
 <script src="/js/hls.js"></script>
 <script>
   document.title = "播放器"
 
   function get_video_url() {
-    var queryString = window.location
+    var queryString = window.location.search
     var urlParams = new URLSearchParams(queryString)
     var url = urlParams.get("url")
     return url
@@ -63,3 +58,13 @@ section.page-header {
     playVideo(video_url)
   }
 </script>
+
+<style>
+header.page-header {
+  display: none;
+}
+
+video {
+  width: 100%;
+}
+</style>
