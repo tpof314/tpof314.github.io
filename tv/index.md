@@ -1,25 +1,65 @@
-## 电视台
-* [央视综合 - CCTV 1](http://183.207.248.71:80/cntv/live1/cctv-1/cctv-1)
-* [央视财经 - CCTV 2](http://183.207.248.71:80/cntv/live1/HD-8000k-1080P-cctv2/HD-8000k-1080P-cctv2)
-* [央视国际 - CCTV 4](http://183.207.248.71:80/cntv/live1/cctv-4/cctv-4)
-* [央视体育 - CCTV 5](http://39.134.216.5/mgsp.live.miguvideo.com:8088/wd_r2/cctv/cctv5hdnew/1200/01.m3u8)
-* [央视纪录片 - CCTV 9](http://183.207.248.71:80/cntv/live1/HD-8000k-1080P-cctv9/HD-8000k-1080P-cctv9)
-* [央视科教 - CCTV 10](http://183.207.248.71:80/cntv/live1/HD-8000k-1080P-cctv10/HD-8000k-1080P-cctv10)
-* [央视新闻 - CCTV 13](http://183.207.248.71:80/cntv/live1/cctv-13/cctv-13)
+## 播放器
 
-* [湖南卫视](http://39.134.24.24/PLTV/88888888/224/3221225694/index.m3u8)
-* [浙江卫视](http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8)
-* [东方卫视](http://ivi.bupt.edu.cn/hls/dfhd.m3u8)
-* [凤凰中文](https://zb.ios.ifeng.com/live/05QGCOB3T34/index.m3u8)
-* [汕头综合](http://player.ioioz.com/1369/gd/gdtv2.php?id=shantouzh)
-* [揭阳综合](http://player.ioioz.com/1369/gd/gdtv2.php?id=jieyangzh)
-
+<video class="my-video" id="video" controls></video>
 
 <style>
 section.page-header {
     display: none;    
 }
 </style>
+<script src="/js/hls.js"></script>
 <script>
-    document.title = "电视";
+  document.title = "播放器"
+
+  function get_video_url() {
+    var queryString = window.location
+    var urlParams = new URLSearchParams(queryString)
+    var url = urlParams.get("url")
+    return url
+  }
+
+  function playVideo(video_url) {
+    var video = document.getElementById('video');
+
+    // Reset video time
+    video.currentTime = 0
+
+    // 1. Handle MP4 files
+    if (video_url.indexOf(".mp4") > 5) {
+      video.src = video_url;
+      video.addEventListener('canplay', function () {
+        video.muted = false;
+        video.play();
+        pause = false;
+      });
+      return ;
+    }
+
+    // 2. Handle m3u8 streams
+    if (Hls.isSupported()) {
+      var hls = new Hls({
+        debug: false,
+      });
+      hls.loadSource(video_url);
+      hls.attachMedia(video);
+      hls.on(Hls.Events.MEDIA_ATTACHED, function () {
+        video.muted = false;
+        video.play();
+        pause = false;
+      });
+    }
+    else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.src = video_url;
+      video.addEventListener('canplay', function () {
+        video.muted = false;
+        video.play();
+        pause = false;
+      });
+    }
+  }
+
+  window.onload = function() {
+    const video_url = get_video_url()
+    playVideo(video_url)
+  }
 </script>
