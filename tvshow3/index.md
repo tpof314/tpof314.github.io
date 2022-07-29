@@ -65,6 +65,58 @@
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220624/FjoUIbmx/2000kb/hls/index.m3u8')">人来蜂08</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220624/43SrHDLS/index.m3u8')">人来蜂09</button>
 
+---
+
+## 老闺蜜
+
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220203/Ur2cgQzs/2230kb/hls/index.m3u8')">老闺蜜01</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220204/tGpEbtVF/index.m3u8')">老闺蜜02</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220204/K1WJuDur/2092kb/hls/index.m3u8')">老闺蜜03</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220204/1CnCcfIf/index.m3u8')">老闺蜜04</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220206/xpVUEOdb/2082kb/hls/index.m3u8')">老闺蜜05</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220206/TBpmh1G7/2086kb/hls/index.m3u8')">老闺蜜06</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220206/XtxbovqF/index.m3u8')">老闺蜜07</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220206/u6oOuAkH/2088kb/hls/index.m3u8')">老闺蜜08</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220206/WSS37CO6/index.m3u8')">老闺蜜09</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220207/B90EVRGS/2073kb/hls/index.m3u8')">老闺蜜10</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220207/2IAHhGMF/2072kb/hls/index.m3u8')">老闺蜜11</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220207/DngqFuSO/2059kb/hls/index.m3u8')">老闺蜜12</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220208/ZByUlatw/index.m3u8')">老闺蜜13</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220208/WJQZoUlU/index.m3u8')">老闺蜜14</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220208/iwSECazM/2144kb/hls/index.m3u8')">老闺蜜15</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220210/BojMv9AP/index.m3u8')">老闺蜜16</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220210/sV9cs3JH/963kb/hls/index.m3u8')">老闺蜜17</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220210/hxTpObM7/index.m3u8')">老闺蜜18</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220212/F3KQ8xxS/index.m3u8')">老闺蜜19</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220212/PrVxuPKJ/1089kb/hls/index.m3u8')">老闺蜜20</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220212/Rio26QCm/index.m3u8')">老闺蜜21</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220212/NF5lmUoo/1036kb/hls/index.m3u8')">老闺蜜22</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220212/4qtuQrng/1063kb/hls/index.m3u8')">老闺蜜23</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220212/3UgPEiMo/1031kb/hls/index.m3u8')">老闺蜜24</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220214/JOIcVdUv/994kb/hls/index.m3u8')">老闺蜜25</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220214/l6AiNaoP/index.m3u8')">老闺蜜26</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220214/wFGsh2RM/1052kb/hls/index.m3u8')">老闺蜜27</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220214/5KvvmKvW/2100kb/hls/index.m3u8')">老闺蜜28</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220214/RICqZg7J/1016kb/hls/index.m3u8')">老闺蜜29</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220215/9JDv3Pt6/1051kb/hls/index.m3u8')">老闺蜜30</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220215/U4L9GWDg/index.m3u8')">老闺蜜31</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220215/Tp6jjChe/1085kb/hls/index.m3u8')">老闺蜜32</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220215/ex0zoVAL/2038kb/hls/index.m3u8')">老闺蜜33</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220215/6w2qiX7d/index.m3u8')">老闺蜜34</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220216/vlAFlCfc/1992kb/hls/index.m3u8')">老闺蜜35</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220217/LHg4LhCC/index.m3u8')">老闺蜜36</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220217/ktmSy2cy/2097kb/hls/index.m3u8')">老闺蜜37</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220217/Fz3NV2X0/index.m3u8')">老闺蜜38</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220217/3nS1iXOE/2060kb/hls/index.m3u8')">老闺蜜39</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220217/6HWSWq5O/2049kb/hls/index.m3u8')">老闺蜜40</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220217/o1WA2ga0/2090kb/hls/index.m3u8')">老闺蜜41</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220218/pAFwJeij/2081kb/hls/index.m3u8')">老闺蜜42</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220218/XblpZj9G/2007kb/hls/index.m3u8')">老闺蜜43</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220219/LNYEG9lN/2092kb/hls/index.m3u8')">老闺蜜44</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220220/PD55fT3I/2143kb/hls/index.m3u8')">老闺蜜45</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220220/lE2kwyTm/index.m3u8')">老闺蜜46</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220220/CNeWfPdO/index.m3u8')">老闺蜜47</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220220/bOktcFL8/2257kb/hls/index.m3u8')">老闺蜜48</button>
 
 ---
 
