@@ -68,24 +68,24 @@
 * <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/hH8h5KbT/1200kb/hls/index.m3u8')">倚天屠龙记21</button>
 * <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/lzNcXpZV/1200kb/hls/index.m3u8')">倚天屠龙记22</button>
 * <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/IBjL7zEr/1200kb/hls/index.m3u8')">倚天屠龙记23</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/0b4dd3018a10feca2047c6f689f89fab1c7878678a98f2fa713c9431642e5f7a9921f11e97d0da21.m3u8')">倚天屠龙记24</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/a5f5113f8200d6719246d56e77cbd8cbf24b9559494ffc329b4ffb3343926fbe9921f11e97d0da21.m3u8')">倚天屠龙记25</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/5530695f25fcbff9785aaa38ce96bf7716a00aea307052db61b6a8d6424dcbfb9921f11e97d0da21.m3u8')">倚天屠龙记26</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/6973ec2176295a0bc86b1818fb52a467f39ae4897f37fc9f7bbb89acf7daa2b79921f11e97d0da21.m3u8')">倚天屠龙记27</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/8271e1bcb5a633ec8cd8eb0fe16ff13677804a2351ebfca279ca41c73a23d0359921f11e97d0da21.m3u8')">倚天屠龙记28</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/dd752f8088a322fc4bab11a778e1d261f7a04656f35134d1cf869d85827620bf9921f11e97d0da21.m3u8')">倚天屠龙记29</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/4243604a4f7c9dfea888b328cfaddf6ac45ce1a943d57f9d73f75a6b6fdc76be9921f11e97d0da21.m3u8')">倚天屠龙记30</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/z6Ot1klJ/1200kb/hls/index.m3u8')">倚天屠龙记24</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/GCEjnsr5/1200kb/hls/index.m3u8')">倚天屠龙记25</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/aIVWP9OF/1200kb/hls/index.m3u8')">倚天屠龙记26</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/bZ2MlfBM/1200kb/hls/index.m3u8')">倚天屠龙记27</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/Apm1tICe/1200kb/hls/index.m3u8')">倚天屠龙记28</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/ExzHEmMa/1200kb/hls/index.m3u8')">倚天屠龙记29</button>
 
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/f439e479049822cead7ce507a3d1ed3c2e56f0e781405bc6fc6ee2f6ba8ec54b9921f11e97d0da21.m3u8')">倚天屠龙记31</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/7cbf11a1be5a18aa9faf77a9bb9659d97d6b72d7d1e4049761ff57d03d2b1b709921f11e97d0da21.m3u8')">倚天屠龙记32</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/0a6bbcf5ca89c60429f32bd62d4150ccb3472c9fc7ee61887cc22001131cdeab9921f11e97d0da21.m3u8')">倚天屠龙记33</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/768e3bd18caf477ec5581cf149be982ddf7e9f4f264e8cee73757a29bd5ec2db9921f11e97d0da21.m3u8')">倚天屠龙记34</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/e88588c86416ab9c6b72ea53fa56ec255cb1f2c208d02ced05b4c2d764ccfbf49921f11e97d0da21.m3u8')">倚天屠龙记35</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/54932202426c0fa90f1f06408568b54a32db5d4f25ffc673df733d3e1eaafd2d9921f11e97d0da21.m3u8')">倚天屠龙记36</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/657ae76063c02338c96de7ce55bc3a7e1b2bfb92bce7db2daf7134095cd27be69921f11e97d0da21.m3u8')">倚天屠龙记37</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/453ae6ca1e0c9d97766eb9db5e582ea2aa259689bc776c37d74ed59c89c49f819921f11e97d0da21.m3u8')">倚天屠龙记38</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/326a2d40dbb8a1ad1f4f33f0c6e68d651e0c3c51849d83e5f98a2bc554f01f219921f11e97d0da21.m3u8')">倚天屠龙记39</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/646e822a5b9d3f419b5bf7b75707da23c5f80f5cc7f067ff5459238033ec2d7a9921f11e97d0da21.m3u8')">倚天屠龙记40</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/2RbJwLd3/1200kb/hls/index.m3u8')">倚天屠龙记30</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/pvtzpSqh/1200kb/hls/index.m3u8')">倚天屠龙记31</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/YUNaX7pY/1200kb/hls/index.m3u8')">倚天屠龙记32</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/2TbYclRJ/1200kb/hls/index.m3u8')">倚天屠龙记33</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/dkvkJXKB/1200kb/hls/index.m3u8')">倚天屠龙记34</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/UxTqGYWc/1200kb/hls/index.m3u8')">倚天屠龙记35</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/BPD8WvaJ/1200kb/hls/index.m3u8')">倚天屠龙记36</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/0SwjeysH/1200kb/hls/index.m3u8')">倚天屠龙记37</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/AJbxJbBs/1200kb/hls/index.m3u8')">倚天屠龙记38</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/HauDkuQ8/1200kb/hls/index.m3u8')">倚天屠龙记39</button>
+* <button class="btn btn-link" onclick="play('https://v4.cdtlas.com/20211118/N6h64W0b/1200kb/hls/index.m3u8')">倚天屠龙记40</button>
 
 
 ---
