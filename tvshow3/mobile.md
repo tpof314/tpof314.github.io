@@ -52,6 +52,55 @@
 
 ---
 
+## 理想之城
+
+**主演**:  孙俪 / 赵又廷 / 于和伟
+
+该剧以建筑行业为背景，紧扣职场进阶和逆袭这一脉络展开剧情，讲述了造价师苏筱（孙俪 饰）因合作方推诿事件而被迫离职后，机缘巧合下进入赢海集团子公司天成建筑，在高压又精细的造价工作中，即使面对公司内的暗流涌动和天科建筑经济师夏明（赵又廷 饰）的强劲挑战，依旧秉持着“造价表的干净就是工程的干净”的职业信念，在一次次的激烈竞标中脱颖而出、也在一次次的斗智斗勇中经历职场的历练和洗礼，终于迎来事业的高光时刻和对人生理想的新感悟。
+
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/85ncprY9/991kb/hls/index.m3u8')">理想之城01</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/33KRBvbH/index.m3u8')">理想之城02</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/lFGqDdde/897kb/hls/index.m3u8')">理想之城03</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/iO7cS8BV/index.m3u8')">理想之城04</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/fXvCDmo8/index.m3u8')">理想之城05</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/6oJkahIb/index.m3u8')">理想之城06</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/4BU6xKGY/944kb/hls/index.m3u8')">理想之城07</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/Qu4eeAE2/index.m3u8')">理想之城08</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/2soSHRZC/887kb/hls/index.m3u8')">理想之城09</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/l3qESsg0/index.m3u8')">理想之城10</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/OhIkKyui/index.m3u8')">理想之城11</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/DkPs9TR9/936kb/hls/index.m3u8')">理想之城12</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/FNekF02e/795kb/hls/index.m3u8')">理想之城13</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/m9gBQqUC/index.m3u8')">理想之城14</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/sHUHWhRn/897kb/hls/index.m3u8')">理想之城15</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/V7oNOrYS/969kb/hls/index.m3u8')">理想之城16</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/GjsGFjXu/975kb/hls/index.m3u8')">理想之城17</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/05diFv9c/index.m3u8')">理想之城18</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/jP0omvAL/912kb/hls/index.m3u8')">理想之城19</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/FPCcFoWp/837kb/hls/index.m3u8')">理想之城20</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/WMcFbRbX/index.m3u8')">理想之城21</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/XkLI84FZ/977kb/hls/index.m3u8')">理想之城22</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/6Re491vX/928kb/hls/index.m3u8')">理想之城23</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/QGJ8RhOB/index.m3u8')">理想之城24</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/f8QQ2rlM/920kb/hls/index.m3u8')">理想之城25</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/e47ed5gk/871kb/hls/index.m3u8')">理想之城26</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/qUJ6NvdJ/index.m3u8')">理想之城27</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/0viV8U0K/881kb/hls/index.m3u8')">理想之城28</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/PRm99W2R/index.m3u8')">理想之城29</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/e1qmx81a/721kb/hls/index.m3u8')">理想之城30</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/xx097FVi/851kb/hls/index.m3u8')">理想之城31</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/iDizHVG8/index.m3u8')">理想之城32</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/IMFbwRj2/864kb/hls/index.m3u8')">理想之城33</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/xYMAr4v4/773kb/hls/index.m3u8')">理想之城34</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/SY3trOOJ/897kb/hls/index.m3u8')">理想之城35</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/akugoVR3/index.m3u8')">理想之城36</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/P4IC5Shk/873kb/hls/index.m3u8')">理想之城37</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/rXJLzicg/index.m3u8')">理想之城38</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/fEb6iUrH/942kb/hls/index.m3u8')">理想之城39</button>
+* <button class="btn btn-link" onclick="play('https://xlzy4.xlzya.com:65/20220413/FuJcCuNU/index.m3u8')">理想之城40</button>
+
+---
+
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220203/Ur2cgQzs/2230kb/hls/index.m3u8')">老闺蜜01</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220204/tGpEbtVF/index.m3u8')">老闺蜜02</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220204/K1WJuDur/2092kb/hls/index.m3u8')">老闺蜜03</button>
