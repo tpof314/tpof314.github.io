@@ -7,7 +7,7 @@
 
 ## 外星也难民
 
-* <button class="btn btn-link" onclick="play('https://xlzy5.xlzya.com:65/20220715/FHPDWuiY/2305kb/hls/index.m3u8')">外星也难民第三季02</button>
+* <button class="btn btn-link" onclick="play('https://xlzy5.xlzya.com:65/20220715/FHPDWuiY/2305kb/hls/index.m3u8')">外星也难民第三季01</button>
 * <button class="btn btn-link" onclick="play('https://xlzy5.xlzya.com:65/20220715/xKhTPPpL/2340kb/hls/index.m3u8')">外星也难民第三季02</button>
 * <button class="btn btn-link" onclick="play('https://xlzy5.xlzya.com:65/20220715/wLrFPQRX/2327kb/hls/index.m3u8')">外星也难民第三季03</button>
 * <button class="btn btn-link" onclick="play('https://xlzy5.xlzya.com:65/20220721/B3AJ1tOZ/2367kb/hls/index.m3u8')">外星也难民第三季04</button>
