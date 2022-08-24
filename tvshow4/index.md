@@ -1,3 +1,13 @@
+## 红蝎子
+
+* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/g0S8g00S/2000kb/hls/index.m3u8')">红蝎子01</button>
+* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/zQhAbHA5/2000kb/hls/index.m3u8')">红蝎子02</button>
+* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/tYTjIClr/index.m3u8')">红蝎子03</button>
+* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/u1FRdzYk/2000kb/hls/index.m3u8')">红蝎子04</button>
+* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/jcLkqZqM/2000kb/hls/index.m3u8')">红蝎子05</button>
+* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/PCiWzYqf/2000kb/hls/index.m3u8')">红蝎子06</button>
+
+
 ## 数风流人物
 
 * <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow4/fengliu_001.m3u8')">数风流人物01</button>
