@@ -1,33 +1,3 @@
-## 幸福到万家
-
-幸福嫁到万家庄，婚礼上，妹妹被“闹婚”受辱，情急之下，幸福砸伤了村支书万善堂的儿子万传家。一波未平一波又起，村里建保健品厂，要征用幸福婆家的耕地，幸福勇敢与万善堂对簿公堂，最后得到合理补偿。幸福生孩子大出血，万善堂组织村民献血，救了幸福的命，幸福万分感恩。不料，她之前寄出的举报信却引来了纪检人员，万善堂生气发病，引起村民的众怒，幸福俩口子不堪压力，进城打工。在城市生活中，幸福和丈夫冲突不断，婚姻亮起红灯。
-
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/582883.m3u8?sign=8b68ade2cbc738121787854f88386c3c')">幸福到万家21</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/582884.m3u8?sign=dc9312053c0725019915ae62f9a72c8f')">幸福到万家22</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/582885.m3u8?sign=fe26fb710e5f6b3c05861e49fb0a88bf')">幸福到万家23</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/582886.m3u8?sign=768cf3cbb346873e1a61b874c9fb8636')">幸福到万家24</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/582887.m3u8?sign=8f269a6089c43d8ebffb06e180c861f5')">幸福到万家25</button>
-
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/582888.m3u8?sign=f810a5f04c67f14af4903015e68dabe7')">幸福到万家26</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/583306.m3u8?sign=2918546479541953f723f72ebac61792')">幸福到万家27</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/583307.m3u8?sign=154e82b8ab9539932f664d0ab4e591d1')">幸福到万家28</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/583670.m3u8?sign=e87475552d3656fe7774b6ed50f3c302')">幸福到万家29</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/583671.m3u8?sign=ed43c337e87f967c418fe1b2638dfb66')">幸福到万家30</button>
-
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/583672.m3u8?sign=7f8e3aacfdbc3be9bde4fb0f5aa7a93f')">幸福到万家31</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/583673.m3u8?sign=fb96c482499c69ab0e7fcea5600f107d')">幸福到万家32</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/586344.m3u8?sign=7afb19af668f5bc9e45361daf6975720')">幸福到万家33</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/586345.m3u8?sign=f3abbae4433a23a3bf70f9871dfb967e')">幸福到万家34</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/586346.m3u8?sign=c1a2207e504b6ba6934b956e95074e02')">幸福到万家35</button>
-
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/586347.m3u8?sign=6860c495917a88c30c9af41f1e372576')">幸福到万家36</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/586348.m3u8?sign=db6e581012219ca31cd9ba39d4b2616d')">幸福到万家37</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/587117.m3u8?sign=fbb2d6317e1412e1500b773f2e23b682')">幸福到万家38</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/587118.m3u8?sign=e46a12a3da3cb7a7c7d778d8f16fce48')">幸福到万家39</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/587469.m3u8?sign=300bca60ef002ce6a7e69f43efa2cfc6')">幸福到万家40</button>
-
----
-
 ## 分界线
 
 下岗工人马冬生（张国强 饰）因为女儿马瑾突然得重症，蒙面抢劫了一家“黑店”。这家店的老板李兵当年曾强暴过马冬生的徒弟，负责此案的刑警队长于超（何冰 饰）竟是熟人。但是这起案件却带出了一桩贪腐案件和制贩毒大案。李兵的姐夫副市长陈子韬千方百计地想掩盖真相，甚至制造出让人顶包的闹剧。不料，马冬生没有就此逃脱，他以匿名信的方式，向于超揭露了这个阴谋，并承诺自己会投案自首。
