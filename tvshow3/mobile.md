@@ -40,6 +40,10 @@
 
 ## 罚罪
 
+**主演**: 黄景瑜 杨佑宁 盖玥希 李幼斌
+
+该剧以一桩恶性案件为切入口，通过青年刑警常征（黄景瑜 饰）的视角，讲述出两代公安干警为维护一方安宁，扫除犯罪团伙，不畏艰险、前赴后继的英勇故事。在昌武（虚构地）这座小城，在危机重重的战斗第一线，刑侦大队副大队长常征因长期追查实力雄厚的赵啸声家族，而被卷入重重漩涡之中。
+
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618378.m3u8?sign=3d842a42d0434b743d38d4f67a0aa1a0')">罚罪01</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618379.m3u8?sign=1e03fa06d6e25e7200302a583f3bdda5')">罚罪02</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618380.m3u8?sign=a023f9244846882ab7ad340d00ced6d0')">罚罪03</button>
