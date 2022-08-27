@@ -36,6 +36,20 @@
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/614232.m3u8?sign=6b20ae9f2c2412eee958fb14b198bc8e')">分界线32</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/615241.m3u8?sign=8048c78bc3d2c3d69dfa269f285e2c48')">分界线33</button>
 
+
+---
+
+## 罚罪
+
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618378.m3u8?sign=3d842a42d0434b743d38d4f67a0aa1a0')">罚罪01</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618379.m3u8?sign=1e03fa06d6e25e7200302a583f3bdda5')">罚罪02</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618380.m3u8?sign=a023f9244846882ab7ad340d00ced6d0')">罚罪03</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618381.m3u8?sign=f5b4a16c239770d4f2e5b93e4c5fd3d4')">罚罪04</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618382.m3u8?sign=fc5fb0eb9634474036b223c118efd3b4')">罚罪05</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618383.m3u8?sign=dab6503fcaca5ce151d758e7474a8f4a')">罚罪06</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618725.m3u8?sign=d8abb83441ea02a95ead3767fd099b4b')">罚罪07</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618726.m3u8?sign=2e53e5ae0e177b87b8f94390efa56447')">罚罪08</button>
+
 ---
 
 ## 理想之城
