@@ -44,11 +44,6 @@
 
 该剧以一桩恶性案件为切入口，通过青年刑警常征（黄景瑜 饰）的视角，讲述出两代公安干警为维护一方安宁，扫除犯罪团伙，不畏艰险、前赴后继的英勇故事。在昌武（虚构地）这座小城，在危机重重的战斗第一线，刑侦大队副大队长常征因长期追查实力雄厚的赵啸声家族，而被卷入重重漩涡之中。
 
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618383.m3u8?sign=dab6503fcaca5ce151d758e7474a8f4a')">罚罪06</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618725.m3u8?sign=d8abb83441ea02a95ead3767fd099b4b')">罚罪07</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618726.m3u8?sign=2e53e5ae0e177b87b8f94390efa56447')">罚罪08</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618760.m3u8?sign=4429dba24ed7131fc992b51d3544ba4b')">罚罪09</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/618761.m3u8?sign=47028b6a0a35e5ceb4ae002694151ddb')">罚罪10</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/619630.m3u8?sign=2082648c62618d5990a384b3c0276d9d')">罚罪11</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/619631.m3u8?sign=f85f7a6d46e96da81c5d4dfccbb07fd0')">罚罪12</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/620314.m3u8?sign=72d3bdeb4e7503da67f1d67ba1c8ec58')">罚罪13</button>
@@ -61,8 +56,20 @@
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/624995.m3u8?sign=6d6b42ccc0b7419536a895110c1e45fd')">罚罪20</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/626178.m3u8?sign=54b78a081c8f6460396b0be4393265cc')">罚罪21</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/626179.m3u8?sign=8d217571b064552f6312e6695358d4e5')">罚罪22</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/626645.m3u8?sign=0fedd78d08fe3492df7432c61e223d65')">罚罪23</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/626646.m3u8?sign=30f8c60ec62225fcf0d6c3455152f91d')">罚罪24</button>
 
 ---
+
+## 脱口秀大会2022
+
+**领笑员**：李诞 / 那英 / 周迅 / 大张伟 
+
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220830/ynm4bH1e/1861kb/hls/index.m3u8')">第01期_上</button>
+* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220831/6Ej3U2rh/1847kb/hls/index.m3u8')">第01期_下</button>
+
+---
+
 
 ## 理想之城
 
