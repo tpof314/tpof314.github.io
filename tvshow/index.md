@@ -6,6 +6,18 @@
 * <button class="btn btn-link" onclick="play('/tvshow/baixiong_002_r.m3u8')">白熊咖啡馆02</button>
 * <button class="btn btn-link" onclick="play('/tvshow/baixiong_003_r.m3u8')">白熊咖啡馆03</button>
 * <button class="btn btn-link" onclick="play('/tvshow/baixiong_004_r.m3u8')">白熊咖啡馆04</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_005_r.m3u8')">白熊咖啡馆05</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_006_r.m3u8')">白熊咖啡馆06</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_007_r.m3u8')">白熊咖啡馆07</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_008_r.m3u8')">白熊咖啡馆08</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_009_r.m3u8')">白熊咖啡馆09</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_010_r.m3u8')">白熊咖啡馆10</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_011_r.m3u8')">白熊咖啡馆11</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_012_r.m3u8')">白熊咖啡馆12</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_013_r.m3u8')">白熊咖啡馆13</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_014_r.m3u8')">白熊咖啡馆14</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_015_r.m3u8')">白熊咖啡馆15</button>
+
 
 
 ## 电影
