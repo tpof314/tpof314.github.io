@@ -2,10 +2,11 @@
 
 ## 白熊咖啡馆
 
-* <button class="btn btn-link" onclick="play('https://m3.taopianplay1.com:43333/taopian/ecd7f271-487e-48d6-9873-9edc06e79ce8/3a1cedf1-412a-48b2-84b7-c8edb0c53efe/72717/52170683-4f3e-42fb-af0c-f07f5b6e952f/SD/playlist.m3u8')">白熊咖啡馆01</button>
-* <button class="btn btn-link" onclick="play('https://m3.taopianplay1.com:43333/taopian/ecd7f271-487e-48d6-9873-9edc06e79ce8/3a1cedf1-412a-48b2-84b7-c8edb0c53efe/72717/75d79da1-1896-47a9-a6b5-6cd1f8bf357d/SD/playlist.m3u8')">白熊咖啡馆02</button>
-* <button class="btn btn-link" onclick="play('https://m3.taopianplay1.com:43333/taopian/ecd7f271-487e-48d6-9873-9edc06e79ce8/3a1cedf1-412a-48b2-84b7-c8edb0c53efe/72717/b588bfc1-4166-4d52-b99a-237057b3431d/SD/playlist.m3u8')">白熊咖啡馆03</button>
-* <button class="btn btn-link" onclick="play('https://m3.taopianplay1.com:43333/taopian/ecd7f271-487e-48d6-9873-9edc06e79ce8/3a1cedf1-412a-48b2-84b7-c8edb0c53efe/72717/6e428915-c166-44b8-997e-a8f748ed55ee/SD/playlist.m3u8')">白熊咖啡馆04</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_001_r.m3u8')">白熊咖啡馆01</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_002_r.m3u8')">白熊咖啡馆02</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_003_r.m3u8')">白熊咖啡馆03</button>
+* <button class="btn btn-link" onclick="play('/tvshow/baixiong_004_r.m3u8')">白熊咖啡馆04</button>
+
 
 ## 电影
 
