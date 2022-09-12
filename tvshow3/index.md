@@ -62,6 +62,11 @@
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/626870.m3u8?sign=048444343536f9eddb6e13d2e1ef427f')">罚罪25</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/626871.m3u8?sign=d9f3fb19506b6f6538617d3a3301914c')">罚罪26</button>
 
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn3.com/20220911/13197_88e31c3f/1000k/hls/index.m3u8')">罚罪27</button>
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn3.com/20220911/13196_b70fc038/1000k/hls/index.m3u8')">罚罪28</button>
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn7.com/20220912/11149_f4c5fd25/1000k/hls/index.m3u8')">罚罪29</button>
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn7.com/20220912/11150_f37b9da5/1000k/hls/index.m3u8')">罚罪30</button>
+
 ---
 
 ## 脱口秀大会2022
@@ -70,6 +75,9 @@
 
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220830/ynm4bH1e/1861kb/hls/index.m3u8')">第01期_上</button>
 * <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220831/6Ej3U2rh/1847kb/hls/index.m3u8')">第01期_下</button>
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn11.com/20220911/10416_ec46c666/1000k/hls/index.m3u8')">第02期_上</button>
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn11.com/20220911/10417_da6fe128/1000k/hls/index.m3u8')">第02期_下</button>
+
 
 ---
 
