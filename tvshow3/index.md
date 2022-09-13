@@ -66,6 +66,8 @@
 * <button class="btn btn-link" onclick="play('https://vip.lz-cdn3.com/20220911/13196_b70fc038/1000k/hls/index.m3u8')">罚罪28</button>
 * <button class="btn btn-link" onclick="play('https://vip.lz-cdn7.com/20220912/11149_f4c5fd25/1000k/hls/index.m3u8')">罚罪29</button>
 * <button class="btn btn-link" onclick="play('https://vip.lz-cdn7.com/20220912/11150_f37b9da5/1000k/hls/index.m3u8')">罚罪30</button>
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn1.com/20220913/16307_b3836d17/1200k/hls/index.m3u8')">罚罪31</button>
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn1.com/20220913/16308_1d60d0dc/1200k/hls/index.m3u8')">罚罪32</button>
 
 ---
 
