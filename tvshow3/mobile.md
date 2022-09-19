@@ -61,13 +61,12 @@
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/626870.m3u8?sign=048444343536f9eddb6e13d2e1ef427f')">罚罪25</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/626871.m3u8?sign=d9f3fb19506b6f6538617d3a3301914c')">罚罪26</button>
 
-* <button class="btn btn-link" onclick="play('https://vip.lz-cdn3.com/20220911/13197_88e31c3f/1000k/hls/index.m3u8')">罚罪27</button>
-* <button class="btn btn-link" onclick="play('https://vip.lz-cdn3.com/20220911/13196_b70fc038/1000k/hls/index.m3u8')">罚罪28</button>
-* <button class="btn btn-link" onclick="play('https://vip.lz-cdn7.com/20220912/11149_f4c5fd25/1000k/hls/index.m3u8')">罚罪29</button>
-* <button class="btn btn-link" onclick="play('https://vip.lz-cdn7.com/20220912/11150_f37b9da5/1000k/hls/index.m3u8')">罚罪30</button>
-* <button class="btn btn-link" onclick="play('https://vip.lz-cdn1.com/20220913/16307_b3836d17/1200k/hls/index.m3u8')">罚罪31</button>
-* <button class="btn btn-link" onclick="play('https://vip.lz-cdn1.com/20220913/16308_1d60d0dc/1200k/hls/index.m3u8')">罚罪32</button>
-
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/631193.m3u8?sign=cf82a0edd5aaad99b0c2fc5cec01c10b')">罚罪27</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/631194.m3u8?sign=78ab3ae4f66e44afb36000fb3b4b0eab')">罚罪28</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/631195.m3u8?sign=6ceb28f2ce5956ba98a8de7db3333de0')">罚罪29</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/631196.m3u8?sign=ab0bb66c3c6e3724759e204b96812a84')">罚罪30</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/631197.m3u8?sign=4700266531a355037b4e8a9d12a63588')">罚罪31</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/631198.m3u8?sign=973b87e81329eaa4d328126617023cf9')">罚罪32</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/630033.m3u8?sign=55c47b61cad3983b0887a88e3ea93590')">罚罪33</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/630034.m3u8?sign=10d4ce157c01c446d8e0fd4badfd6e2e')">罚罪34</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/631690.m3u8?sign=3705239326ff05cf2fd8eeb07b02c6fa')">罚罪35</button>
