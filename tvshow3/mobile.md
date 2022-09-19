@@ -70,6 +70,8 @@
 
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/630033.m3u8?sign=55c47b61cad3983b0887a88e3ea93590')">罚罪33</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/630034.m3u8?sign=10d4ce157c01c446d8e0fd4badfd6e2e')">罚罪34</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/631690.m3u8?sign=3705239326ff05cf2fd8eeb07b02c6fa')">罚罪35</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/631691.m3u8?sign=2e24a3d1e9ca858b4217f24d131b2ec2')">罚罪36</button>
 
 ---
 
