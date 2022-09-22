@@ -74,6 +74,8 @@
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/632040.m3u8?sign=237bc769f52b48929b4c75da8dd45217')">罚罪37</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/632041.m3u8?sign=733a56eab6b9b4e7419df3ca0c911a6a')">罚罪38</button>
 
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/632260.m3u8?sign=b7f97b46092846adabb4df3059b32a60')">罚罪39</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/632261.m3u8?sign=56389c9409d0fbe3a0f9739a04955fb3')">罚罪40</button>
 ---
 
 ## 脱口秀大会2022
