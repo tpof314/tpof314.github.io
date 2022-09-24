@@ -38,6 +38,16 @@
 
 ---
 
+## 一年一度喜剧大赛（第二季）
+
+**评委**: 马东 于和伟 黄渤 李诞 那英
+
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/633917.m3u8?sign=cdc5d31948eb145efb8e78da99ee07c3')">第01期(上)</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/633918.m3u8?sign=9dc43c37254ffeb80837d7e8a4d6d936')">第01期(下)</button>
+
+
+---
+
 ## 罚罪
 
 **主演**: 黄景瑜 杨佑宁 盖玥希 李幼斌
@@ -76,6 +86,7 @@
 
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/632260.m3u8?sign=b7f97b46092846adabb4df3059b32a60')">罚罪39</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/632261.m3u8?sign=56389c9409d0fbe3a0f9739a04955fb3')">罚罪40</button>
+
 ---
 
 ## 脱口秀大会2022

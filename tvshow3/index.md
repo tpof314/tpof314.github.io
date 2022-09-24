@@ -36,6 +36,14 @@
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/614232.m3u8?sign=6b20ae9f2c2412eee958fb14b198bc8e')">分界线32</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/615241.m3u8?sign=8048c78bc3d2c3d69dfa269f285e2c48')">分界线33</button>
 
+---
+
+## 一年一度喜剧大赛（第二季）
+
+**评委**: 马东 于和伟 黄渤 李诞 那英
+
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/633917.m3u8?sign=cdc5d31948eb145efb8e78da99ee07c3')">第01期(上)</button>
+* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/633918.m3u8?sign=9dc43c37254ffeb80837d7e8a4d6d936')">第01期(下)</button>
 
 ---
 
