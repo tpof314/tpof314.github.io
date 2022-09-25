@@ -1,28 +1,3 @@
-## 红蝎子(2007)
-
-云南边境有一个被国务院、中央军委授予“缉毒先锋站”的云南公安边防总队江桥边防检查站，由于与境外的世界三大毒源之一的金三角相毗邻，使它成为了境外毒品流向我有国内地的过境通道。而近年来，女毒贩日趋增多，但是这里镇守着一批边防缉毒勇士，铸就了一道贩毒分子无法逾越的钢铁长城，也成为了一个个贩毒分子的鬼门关。那些妄图利用乔装后的特殊身份来牟取暴利的贩毒女也难以逃过边防官兵的“火眼金睛”。
-
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/g0S8g00S/2000kb/hls/index.m3u8')">红蝎子01</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/zQhAbHA5/2000kb/hls/index.m3u8')">红蝎子02</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/tYTjIClr/index.m3u8')">红蝎子03</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/u1FRdzYk/2000kb/hls/index.m3u8')">红蝎子04</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/jcLkqZqM/2000kb/hls/index.m3u8')">红蝎子05</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/PCiWzYqf/2000kb/hls/index.m3u8')">红蝎子06</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/eOPeJ3Iu/index.m3u8')">红蝎子07</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/8VPRw7IA/2000kb/hls/index.m3u8')">红蝎子08</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/RvVUjPk4/2000kb/hls/index.m3u8')">红蝎子09</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/cssNEytk/2000kb/hls/index.m3u8')">红蝎子10</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/DDVAi9CQ/2000kb/hls/index.m3u8')">红蝎子11</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/6xDVCdHe/2000kb/hls/index.m3u8')">红蝎子12</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/YiNHPeT2/2000kb/hls/index.m3u8')">红蝎子13</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/aHtNwnjH/2000kb/hls/index.m3u8')">红蝎子14</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/7qKgMxCJ/2000kb/hls/index.m3u8')">红蝎子15</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/HrITZsDk/2000kb/hls/index.m3u8')">红蝎子16</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/l2DRvpZW/2000kb/hls/index.m3u8')">红蝎子17</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/xIlQ1oJN/2000kb/hls/index.m3u8')">红蝎子18</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/nEY6vWKh/2000kb/hls/index.m3u8')">红蝎子19</button>
-* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220419/bqiMTRhL/2000kb/hls/index.m3u8')">红蝎子20</button>
-
 ## 数风流人物
 
 * <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow4/fengliu_001.m3u8')">数风流人物01</button>
@@ -120,6 +95,7 @@
 *主演*：陈国坤 王洛勇 盖克 周舟 
 *导演*：李文歧
 
+* <button class="btn btn-link" onclick="play('https://xlzycdn2.fenjiexiandiving.com:65/20220420/BU8sYMdJ/2000kb/hls/index.m3u8')">李小龙传奇01</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433663.m3u8?sign=1b870eaf95acd065f7c7360fe8862ae5')">李小龙传奇01</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433664.m3u8?sign=df20392b8bea0a88bd1a7144524d07b6')">李小龙传奇02</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/433665.m3u8?sign=779a5c7c44eb74c232343dd9dd79cfaa')">李小龙传奇03</button>
