@@ -15,10 +15,10 @@
 * <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/Kz2GdvAE/hls/index.m3u8')">以家人之名09</button>
 * <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/c1UU5yXG/hls/index.m3u8')">以家人之名10</button>
 
-* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/WX050Xvq/hls/index.m3u8')">以家人之名12</button>
-* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/pwzjRpxD/hls/index.m3u8')">以家人之名13</button>
-* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/c2xfr6M8/hls/index.m3u8')">以家人之名14</button>
-* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/c2xfr6M8/hls/index.m3u8')">以家人之名15</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/jiaren_012_r.m3u8')">以家人之名12</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/jiaren_013_r.m3u8')">以家人之名13</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/jiaren_014_r.m3u8')">以家人之名14</button>
+* <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow3/jiaren_015_r.m3u8')">以家人之名15</button>
 * <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/wgHzQ3m3/hls/index.m3u8')">以家人之名16</button>
 * <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/VdjzgnMK/hls/index.m3u8')">以家人之名17</button>
 * <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/HRLl7X3D/hls/index.m3u8')">以家人之名18</button>
