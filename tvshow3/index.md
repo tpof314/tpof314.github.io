@@ -20,23 +20,22 @@
 * <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7441_8b34becb/1000k/hls/index.m3u8')">以家人之名13</button>
 * <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7439_3ff55987/1000k/hls/index.m3u8')">以家人之名14</button>
 * <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7438_e8be5ec4/1000k/hls/index.m3u8')">以家人之名15</button>
-* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/wgHzQ3m3/hls/index.m3u8')">以家人之名16</button>
-* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/VdjzgnMK/hls/index.m3u8')">以家人之名17</button>
-* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/HRLl7X3D/hls/index.m3u8')">以家人之名18</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7433_70de80ff/1000k/hls/index.m3u8')">以家人之名16</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7435_1c48a6ec/1000k/hls/index.m3u8')">以家人之名17</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7436_83c65c81/1000k/hls/index.m3u8')">以家人之名18</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7437_a69dc746/1000k/hls/index.m3u8')">以家人之名19</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7434_2d07dc8b/1000k/hls/index.m3u8')">以家人之名20</button>
 
-* <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/8tAtqBDQ/hls/index.m3u8')">以家人之名19</button>
-* <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/Oj9QShCI/hls/index.m3u8')">以家人之名20</button>
-
-* <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/MoyHyxrn/hls/index.m3u8')">以家人之名21</button>
-* <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/fiUqpaDy/hls/index.m3u8')">以家人之名22</button>
-* <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/5H8rfbAf/hls/index.m3u8')">以家人之名23</button>
-* <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/MaOISTQg/hls/index.m3u8')">以家人之名24</button>
-* <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/dt29A02c/hls/index.m3u8')">以家人之名25</button>
-* <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/jMHU8Vih/hls/index.m3u8')">以家人之名26</button>
-* <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/EXrulKZf/hls/index.m3u8')">以家人之名27</button>
-* <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/fPUywcrv/hls/index.m3u8')">以家人之名28</button>
-* <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/VnmD4q0u/hls/index.m3u8')">以家人之名29</button>
-* <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/27dcQ6qs/hls/index.m3u8')">以家人之名30</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7431_a65fde1f/1000k/hls/index.m3u8')">以家人之名21</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7430_7216df27/1000k/hls/index.m3u8')">以家人之名22</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7428_a448d328/1000k/hls/index.m3u8')">以家人之名23</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7429_e69a0dca/1000k/hls/index.m3u8')">以家人之名24</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7432_a64135fa/1000k/hls/index.m3u8')">以家人之名25</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7424_c33ab7e5/1000k/hls/index.m3u8')">以家人之名26</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7427_f7944328/1000k/hls/index.m3u8')">以家人之名27</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7422_968da60e/1000k/hls/index.m3u8')">以家人之名28</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7426_4eddff94/1000k/hls/index.m3u8')">以家人之名29</button>
+* <button class="btn btn-link" onclick="play('https://cdn8.vipzyk-video.com/20220717/7425_cd76565a/1000k/hls/index.m3u8')">以家人之名30</button>
 
 * <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/vxIy95vF/hls/index.m3u8')">以家人之名31</button>
 * <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/d3rNtRYB/hls/index.m3u8')">以家人之名32</button>
