@@ -15,14 +15,14 @@
 * <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/Kz2GdvAE/hls/index.m3u8')">以家人之名09</button>
 * <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/c1UU5yXG/hls/index.m3u8')">以家人之名10</button>
 
-* <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/lA46cN1t/hls/index.m3u8')">以家人之名11</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/eaa33e3de1eebbf7a508c47449c7868432385bf8910ef6122d13bcdb92b395729921f11e97d0da21.m3u8')">以家人之名12</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/76db1fb2b025a9613d66d036290f01ca7822435e9732ac12f38354d1cadf17479921f11e97d0da21.m3u8')">以家人之名13</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/b67096086ee36562e537713b6db3f1ecf17a8cd55af85d0fa43b2e723a7c49809921f11e97d0da21.m3u8')">以家人之名14</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/34959308cb6deba36f0d1c491d480368c7fb50a69c41a63718edca482e7084839921f11e97d0da21.m3u8')">以家人之名15</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/767d7a3fef089890a72544b5df37cf9877b27f2ca3c18288ce031be77301ac129921f11e97d0da21.m3u8')">以家人之名16</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/ea56ebc0d1684fef727ba5402b87d491f05de507e69cbc4f0a8d1178647b8bdb9921f11e97d0da21.m3u8')">以家人之名17</button>
-* <button class="btn btn-link" onclick="play('https://m3u.if101.tv/xm3u8/f00a228f9d3e62a8fac7d531b1c818070ed66a6c2ff40080ab48d21214429ff39921f11e97d0da21.m3u8')">以家人之名18</button>
+* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/WX050Xvq/hls/index.m3u8')">以家人之名12</button>
+* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/pwzjRpxD/hls/index.m3u8')">以家人之名13</button>
+* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/c2xfr6M8/hls/index.m3u8')">以家人之名14</button>
+* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/c2xfr6M8/hls/index.m3u8')">以家人之名15</button>
+* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/wgHzQ3m3/hls/index.m3u8')">以家人之名16</button>
+* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/VdjzgnMK/hls/index.m3u8')">以家人之名17</button>
+* <button class="btn btn-link" onclick="play('https://50.czsp.tv/20210627/HRLl7X3D/hls/index.m3u8')">以家人之名18</button>
+
 * <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/8tAtqBDQ/hls/index.m3u8')">以家人之名19</button>
 * <button class="btn btn-link" onclick="play('https://v5.cdtlas.com/20220624/Oj9QShCI/hls/index.m3u8')">以家人之名20</button>
 
