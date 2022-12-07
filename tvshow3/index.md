@@ -26,7 +26,21 @@
 * <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/YkBBMvW3/2000kb/hls/index.m3u8')">下一站婚姻19</button>
 * <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/8i7QQRA4/2000kb/hls/index.m3u8')">下一站婚姻20</button>
 
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/DFvFtnCn/2000kb/hls/index.m3u8')">下一站婚姻21</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/NHfQVunS/2000kb/hls/index.m3u8')">下一站婚姻22</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/ryWSwx6s/2000kb/hls/index.m3u8')">下一站婚姻23</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/YDS0upbR/2000kb/hls/index.m3u8')">下一站婚姻24</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/7Zn6LZPY/2000kb/hls/index.m3u8')">下一站婚姻25</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/unOotj4S/2000kb/hls/index.m3u8')">下一站婚姻26</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/KGmjLD9D/2000kb/hls/index.m3u8')">下一站婚姻27</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/gmfJ3NBu/2000kb/hls/index.m3u8')">下一站婚姻28</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/4u49i053/2000kb/hls/index.m3u8')">下一站婚姻29</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/Ol9iFrMD/2000kb/hls/index.m3u8')">下一站婚姻30</button>
 
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/S2xSIoSO/2000kb/hls/index.m3u8')">下一站婚姻31</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/a0leHEO9/2000kb/hls/index.m3u8')">下一站婚姻32</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/rm8pK12O/2000kb/hls/index.m3u8')">下一站婚姻33</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/UzadIrQz/2000kb/hls/index.m3u8')">下一站婚姻34</button>
 
 
 
