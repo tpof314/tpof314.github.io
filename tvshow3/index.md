@@ -1,8 +1,34 @@
 ## 下一站，婚姻
 
-* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/jaOSi6sX/2000kb/hls/index.m3u8')">下一站，婚姻01</button>
-* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/UnciHcB0/2000kb/hls/index.m3u8')">下一站，婚姻02</button>
-* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/mesVQVyE/2000kb/hls/index.m3u8')">下一站，婚姻03</button>
+* 主演：于和伟 刘涛 邵汶 赵亮 徐松子 
+
+邓草草（刘涛 饰）本来拥有一个人人羡慕的家庭，然而，孩子的走失令这个家庭四分五裂，邓草草亦终日生活在自责和悲伤之中无法自拔。龚箭（于和伟 饰）曾经是一名特种兵，身手了得。退伍之后，他进入了安保公司工作，负责邓草草所居住的小区的安保工作。一来二去之中，邓草草和龚箭相识了。邓草草一直没有放弃过寻找孩子的下落，而龚箭在此之中亦出力良多。幸运的是，邓草草找到了孩子，只是，曾经贴心可爱的乖孩子，如今却变成了个性粗野暴躁的野孩子。在龚箭的帮助下，邓草草渐渐找回了生活的重心……
+
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/jaOSi6sX/2000kb/hls/index.m3u8')">下一站婚姻01</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/UnciHcB0/2000kb/hls/index.m3u8')">下一站婚姻02</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/mesVQVyE/2000kb/hls/index.m3u8')">下一站婚姻03</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/HIm8gMEu/2000kb/hls/index.m3u8')">下一站婚姻04</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/xKSK2tBC/2000kb/hls/index.m3u8')">下一站婚姻05</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220417/Buh2gD8D/2000kb/hls/index.m3u8')">下一站婚姻06</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/6chEh4TU/2000kb/hls/index.m3u8')">下一站婚姻07</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/p7FE2Qiw/2000kb/hls/index.m3u8')">下一站婚姻08</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/DdWPMVf4/2000kb/hls/index.m3u8')">下一站婚姻09</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/6hgT0g8U/2000kb/hls/index.m3u8')">下一站婚姻10</button>
+
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/krJlksjL/2000kb/hls/index.m3u8')">下一站婚姻11</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/X1yQkpaE/2000kb/hls/index.m3u8')">下一站婚姻12</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/xOwVVDAj/2000kb/hls/index.m3u8')">下一站婚姻13</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/bfhtBVxh/2000kb/hls/index.m3u8')">下一站婚姻14</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/UR3s2GvD/2000kb/hls/index.m3u8')">下一站婚姻15</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/58kDu4Ag/2000kb/hls/index.m3u8')">下一站婚姻16</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/zRr5yw0d/2000kb/hls/index.m3u8')">下一站婚姻17</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/tFz6odBc/2000kb/hls/index.m3u8')">下一站婚姻18</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/YkBBMvW3/2000kb/hls/index.m3u8')">下一站婚姻19</button>
+* <button class="btn btn-link" onclick="play('https://vod1.kczybf.com/20220418/8i7QQRA4/2000kb/hls/index.m3u8')">下一站婚姻20</button>
+
+
+
+
 
 ## 以家人之名
 
