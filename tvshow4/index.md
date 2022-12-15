@@ -209,7 +209,7 @@
     var payload = {
         "video_url": url
     };
-    fetch('https://bs9hqgrxpi.execute-api.ap-east-1.amazonaws.com/default/video_pub', {
+    fetch('https://audiodown.fly.dev/api/play_on_tv', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
