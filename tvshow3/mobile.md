@@ -1,3 +1,32 @@
+## 狂飙
+
+* 主演：张译 张颂文 李一桐 张志坚 吴刚 倪大红
+
+京海市一线刑警安欣，在与黑恶势力的斗争中，不断遭到保护伞的打击，始终无法将犯罪分子绳之以法。全国政法队伍教育整顿工作开展后，临江省派出指导组入驻京海，联合公检法司各部门，清除了政法队伍内部的腐败分子，粉碎了黑恶势力的保护伞，一举铲除了盘踞京海多年的强盛集团。
+
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/23c310107a2d3a2d102027828f607a07c7089c76df4b4a1a8dc6b8351f44ce5f9921f11e97d0da21.m3u8')">狂飙01</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/5a51745b93c43d5caa10f74c49da21fd83eaa1d0111a914dbe4472e08f51907c9921f11e97d0da21.m3u8')">狂飙02</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/8b7b64c05f79e300bd387e7ad769b9c699e9acc73cc78536f7c897158c04a3e09921f11e97d0da21.m3u8')">狂飙03</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/17f19a14f8c3676e4529c0271caeb8e6f994b8fa45c122c20fbb56b75d7d23ea9921f11e97d0da21.m3u8')">狂飙04</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/2a07549f6b2a0eca5f01e85940ebbb639dd3814157e108f47bd5a94de0e356629921f11e97d0da21.m3u8')">狂飙05</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/4b9cbccfc99c3fc3c21d450fc4513da02537cdeb81e76baba58528b0a5fad6069921f11e97d0da21.m3u8')">狂飙06</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/f88c73b2cc51bbc12a8c5ecec0ad8e4ad193e170d9293e6e3113b3141d93f3bd9921f11e97d0da21.m3u8')">狂飙07</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/f8a90c0f4a844a7e568d60b6996d80516a9a7f8ebedcef95fa9378c631db95769921f11e97d0da21.m3u8')">狂飙08</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/34886ecb5bf7a285fbabd2b0a31e44748fe3300c6250b48c241ac61a4a2656619921f11e97d0da21.m3u8')">狂飙09</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/1bc139ebb5334a1746780905a154a2b84e3ac71a0601222a36621762e36ce1559921f11e97d0da21.m3u8')">狂飙10</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/34c137304c0ce12db4dcca6c2a6137fa0feccb99c528087373d9ecebe2cbb27e9921f11e97d0da21.m3u8')">狂飙11</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/ae107114deb417440dc1993f8d6daa97600667f003029043da6462d71d54e8f59921f11e97d0da21.m3u8')">狂飙12</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/006f3ac30a1494c5ef184a4b1369c6beaf19bae5e8a27db5308199413f24c4a29921f11e97d0da21.m3u8')">狂飙13</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/debe964c472517c4486f5e060e588dd071fe361c31a5f24a52f89b1897c608f49921f11e97d0da21.m3u8')">狂飙14</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/e89021952e2849fd86c6058def02105548df55e3cfaa2e43e5c0f210caf797f49921f11e97d0da21.m3u8')">狂飙15</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/8b5c797526d5498da7c167eadbf18073af5afdbcba3ba8978f2ab2ac3cf8faeb9921f11e97d0da21.m3u8')">狂飙16</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/c67187e521c6459f9cdd4731bff1e96e3c32d6d99d6c4f68be0469232320c8389921f11e97d0da21.m3u8')">狂飙17</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/66fc95bc2b7ca5c8208b04ca0ed3d7ccd568115ef8daa392ed7c586b358a28639921f11e97d0da21.m3u8')">狂飙18</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/3bd81ec8122d97c92a5309e55a44f40864b6605edc4d65fae6efbd1563b246559921f11e97d0da21.m3u8')">狂飙19</button>
+* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/86fbd6effa34dfd58285a8744c722ab0b8f7e06fdcc5def3307ef9e17e0ab0539921f11e97d0da21.m3u8')">狂飙20</button>
+
+---
+
 ## 以家人之名
 
 * 主演：谭松韵 宋威龙 张新成 孙铱
