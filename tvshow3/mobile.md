@@ -138,26 +138,6 @@
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/614232.m3u8?sign=6b20ae9f2c2412eee958fb14b198bc8e')">分界线32</button>
 * <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/615241.m3u8?sign=8048c78bc3d2c3d69dfa269f285e2c48')">分界线33</button>
 
----
-
-## 一年一度喜剧大赛（第二季）
-
-**评委**: 马东 于和伟 黄渤 李诞 那英
-
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/633917.m3u8?sign=cdc5d31948eb145efb8e78da99ee07c3')">第01期(上)</button>
-* <button class="btn btn-link" onclick="play('https://b.baobuzz.com/m3u8/633918.m3u8?sign=9dc43c37254ffeb80837d7e8a4d6d936')">第01期(下)</button>
-
-
----
-
-## 脱口秀大会2022
-
-**领笑员**：李诞 / 那英 / 周迅 / 大张伟 
-
-* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220830/ynm4bH1e/1861kb/hls/index.m3u8')">第01期_上</button>
-* <button class="btn btn-link" onclick="play('https://cdn7.caoliqi.com:65/20220831/6Ej3U2rh/1847kb/hls/index.m3u8')">第01期_下</button>
-* <button class="btn btn-link" onclick="play('https://vip.lz-cdn11.com/20220911/10416_ec46c666/1000k/hls/index.m3u8')">第02期_上</button>
-* <button class="btn btn-link" onclick="play('https://vip.lz-cdn11.com/20220911/10417_da6fe128/1000k/hls/index.m3u8')">第02期_下</button>
 
 ---
 
