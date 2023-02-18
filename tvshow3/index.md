@@ -13,7 +13,6 @@
 * <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230115/23355_f43e640a/1800k/hls/mixed.m3u8')">狂飙07</button>
 * <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230116/23419_27b37cf8/1800k/hls/mixed.m3u8')">狂飙08</button>
 
-
 * <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230116/23418_139fc861/1800k/hls/mixed.m3u8')">狂飙09</button>
 * <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230117/23466_0094544a/1800k/hls/mixed.m3u8')">狂飙10</button>
 * <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230117/23465_e341c79f/1800k/hls/mixed.m3u8')">狂飙11</button>
@@ -23,32 +22,29 @@
 * <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230119/20_8d21dc5b/2000k/hls/mixed.m3u8')">狂飙15</button>
 * <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230120/40_e60ad997/2000k/hls/mixed.m3u8')">狂飙16</button>
 
-
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/c67187e521c6459f9cdd4731bff1e96e3c32d6d99d6c4f68be0469232320c8389921f11e97d0da21.m3u8')">狂飙17</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/66fc95bc2b7ca5c8208b04ca0ed3d7ccd568115ef8daa392ed7c586b358a28639921f11e97d0da21.m3u8')">狂飙18</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/3bd81ec8122d97c92a5309e55a44f40864b6605edc4d65fae6efbd1563b246559921f11e97d0da21.m3u8')">狂飙19</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/86fbd6effa34dfd58285a8744c722ab0b8f7e06fdcc5def3307ef9e17e0ab0539921f11e97d0da21.m3u8')">狂飙20</button>
-
-
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/f07761f38e3497651a201bd475ddffd72ef5c49fea961e3a788a14502a125e209921f11e97d0da21.m3u8')">狂飙21</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/46bd655e856d4ce478dc8f699ec9deb142af426370c5d452b7619fd67f8abe9d9921f11e97d0da21.m3u8')">狂飙22</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/baa65725101e1f2d92180e4826ad73056722b6a301c66511be21b9796103f2059921f11e97d0da21.m3u8')">狂飙23</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/b80f89fc95ae7ae2ad20c35b409a7bf0c65fed5e15c0e164c2fa362b07dc93169921f11e97d0da21.m3u8')">狂飙24</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/2b04fdd342b730f54cfe3fedef5be260b83cd3e2855c1d69941bd0478f32bd809921f11e97d0da21.m3u8')">狂飙25</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/716558ffa29870a5af94acce0e14383b65b19c9b858b1b283a5bdabe42442cb99921f11e97d0da21.m3u8')">狂飙26</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/f249febd40da1fb8d52b71bfae436c3215a7ff25764c1ba15ce52f6810afd1419921f11e97d0da21.m3u8')">狂飙27</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/796f2762705ecfab1de5aadcf50b2c7f10c7f5952b5bbe3961c126512af881e99921f11e97d0da21.m3u8')">狂飙28</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/b0d99cc26dfc0718bf0ff4abfc016ab8dceb071e341db7dc1e2a019d41b5bfa39921f11e97d0da21.m3u8')">狂飙29</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/a352362752d6089fc32bde53ce9e147309f689243be7615e05902c4338ada8de9921f11e97d0da21.m3u8')">狂飙30</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/829148071144b5f25dca0046277b62e44659b8892d4523401896d4a6641070a59921f11e97d0da21.m3u8')">狂飙31</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/9db94495df417d27a4a542eed5f4f9857c563c9c3639934a78cd77fbf4192bdb9921f11e97d0da21.m3u8')">狂飙32</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/d7fa09b3c782a7e98bf69c488f0d0db99f624920fe2a963c1334134e339078589921f11e97d0da21.m3u8')">狂飙33</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/637ac6fb46201259fc635cc86a3f7fd7b43b0e0e1e56fcd7cc9f5c7f2b7bfc649921f11e97d0da21.m3u8')">狂飙34</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/2532fe057652df7c9071db7a021514136b93f8cf9f22a3a528b5dad24150eb6b9921f11e97d0da21.m3u8')">狂飙35</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/559a3a962d2f55e46aba0d7169d16060b4bd65d06fbbafa53d60642ab5ac50f79921f11e97d0da21.m3u8')">狂飙36</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/f99c0ac0417da48dae07d3bdc377402388650880ee43301dcd7307eec8a28bba9921f11e97d0da21.m3u8')">狂飙37</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/fca16173f2da04fad46af2a8c62307009824f1e6ae5232212e155cd3ae1d8de49921f11e97d0da21.m3u8')">狂飙38</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/98f9eb22225b4c328828de3a97eb1066c66d824f01fcc8b13f7cc4cff478bcbb9921f11e97d0da21.m3u8')">狂飙39</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230121/23543_4f58c1fd/1800k/hls/mixed.m3u8')">狂飙17</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230122/23566_c2819f34/1800k/hls/mixed.m3u8')">狂飙18</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230122/23565_0c2ae732/1800k/hls/mixed.m3u8')">狂飙19</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230123/23579_1a67afc6/1800k/hls/mixed.m3u8')">狂飙20</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230123/23578_e3d66498/1800k/hls/mixed.m3u8')">狂飙21</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230124/115_aa734ff7/2000k/hls/mixed.m3u8')">狂飙22</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230124/114_d696d594/2000k/hls/mixed.m3u8')">狂飙23</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230125/23613_326a56c0/1800k/hls/mixed.m3u8')">狂飙24</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230125/23612_9783c1ee/1800k/hls/mixed.m3u8')">狂飙25</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230126/155_7258f3cc/2000k/hls/mixed.m3u8')">狂飙26</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230127/198_7877b31c/2000k/hls/mixed.m3u8')">狂飙27</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230127/197_e1fe4c05/2000k/hls/mixed.m3u8')">狂飙28</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230127/196_604186b7/2000k/hls/mixed.m3u8')">狂飙29</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230128/23649_fd06986f/1800k/hls/mixed.m3u8')">狂飙30</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230128/23648_622b2fa9/1800k/hls/mixed.m3u8')">狂飙31</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230129/248_18bd48a7/2000k/hls/mixed.m3u8')">狂飙32</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230129/247_61a22a1f/2000k/hls/mixed.m3u8')">狂飙33</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230130/23690_ec7e6c19/1800k/hls/mixed.m3u8')">狂飙34</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230130/23689_605a61b6/1800k/hls/mixed.m3u8')">狂飙35</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230131/297_cc76dd2f/2000k/hls/mixed.m3u8')">狂飙36</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230131/296_f35955e8/2000k/hls/mixed.m3u8')">狂飙37</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230201/23716_c10840ec/1800k/hls/mixed.m3u8')">狂飙38</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230201/23715_44218045/1800k/hls/mixed.m3u8')">狂飙39</button>
 
 ---
 
