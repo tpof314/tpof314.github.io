@@ -4,9 +4,10 @@
 
 京海市一线刑警安欣，在与黑恶势力的斗争中，不断遭到保护伞的打击，始终无法将犯罪分子绳之以法。全国政法队伍教育整顿工作开展后，临江省派出指导组入驻京海，联合公检法司各部门，清除了政法队伍内部的腐败分子，粉碎了黑恶势力的保护伞，一举铲除了盘踞京海多年的强盛集团。
 
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/23c310107a2d3a2d102027828f607a07c7089c76df4b4a1a8dc6b8351f44ce5f9921f11e97d0da21.m3u8')">狂飙01</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/5a51745b93c43d5caa10f74c49da21fd83eaa1d0111a914dbe4472e08f51907c9921f11e97d0da21.m3u8')">狂飙02</button>
-* <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/8b7b64c05f79e300bd387e7ad769b9c699e9acc73cc78536f7c897158c04a3e09921f11e97d0da21.m3u8')">狂飙03</button>
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn3.com/20230114/17154_db8125dc/1800k/hls/mixed.m3u8')">狂飙01</button>
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn3.com/20230114/17153_ab4d621a/1800k/hls/mixed.m3u8')">狂飙02</button>
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn3.com/20230114/17152_a52e37f9/1800k/hls/mixed.m3u8')">狂飙03</button>
+
 * <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/17f19a14f8c3676e4529c0271caeb8e6f994b8fa45c122c20fbb56b75d7d23ea9921f11e97d0da21.m3u8')">狂飙04</button>
 * <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/2a07549f6b2a0eca5f01e85940ebbb639dd3814157e108f47bd5a94de0e356629921f11e97d0da21.m3u8')">狂飙05</button>
 * <button class="btn btn-link" onclick="play('https://m3u.haiwaikan.com/xm3u8/4b9cbccfc99c3fc3c21d450fc4513da02537cdeb81e76baba58528b0a5fad6069921f11e97d0da21.m3u8')">狂飙06</button>
