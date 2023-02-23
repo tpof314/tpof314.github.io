@@ -4,14 +4,14 @@
 
 京海市一线刑警安欣，在与黑恶势力的斗争中，不断遭到保护伞的打击，始终无法将犯罪分子绳之以法。全国政法队伍教育整顿工作开展后，临江省派出指导组入驻京海，联合公检法司各部门，清除了政法队伍内部的腐败分子，粉碎了黑恶势力的保护伞，一举铲除了盘踞京海多年的强盛集团。
 
-* <button class="btn btn-link" onclick="play('https://vip.lz-cdn3.com/20230114/17154_db8125dc/1800k/hls/mixed.m3u8')">狂飙01</button>
-* <button class="btn btn-link" onclick="play('https://vip.lz-cdn3.com/20230114/17153_ab4d621a/1800k/hls/mixed.m3u8')">狂飙02</button>
-* <button class="btn btn-link" onclick="play('https://vip.lz-cdn3.com/20230114/17152_a52e37f9/1800k/hls/mixed.m3u8')">狂飙03</button>
-* <button class="btn btn-link" onclick="play('https://vip.lz-cdn3.com/20230114/17151_4542e04e/1800k/hls/mixed.m3u8')">狂飙04</button>
-* <button class="btn btn-link" onclick="play('https://vip.lz-cdn3.com/20230114/17150_abade231/1800k/hls/mixed.m3u8')">狂飙05</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230115/23356_f73a5483/1800k/hls/mixed.m3u8')">狂飙06</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230115/23355_f43e640a/1800k/hls/mixed.m3u8')">狂飙07</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230116/23419_27b37cf8/1800k/hls/mixed.m3u8')">狂飙08</button>
+* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/DdwR0j8b/index.m3u8')">狂飙01</button>
+* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/mbkO2Z6b/index.m3u8')">狂飙02</button>
+* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/1aK58Oxd/index.m3u8')">狂飙03</button>
+* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/BeXkQ6gd/index.m3u8')">狂飙04</button>
+* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/Le3K62Re/index.m3u8')">狂飙05</button>
+* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/nelM2Pla/index.m3u8')">狂飙06</button>
+* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/QbYlyR0a/index.m3u8')">狂飙07</button>
+* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/wdL5YqAe/index.m3u8')">狂飙08</button>
 
 * <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230116/23418_139fc861/1800k/hls/mixed.m3u8')">狂飙09</button>
 * <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230117/23466_0094544a/1800k/hls/mixed.m3u8')">狂飙10</button>
