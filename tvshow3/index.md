@@ -12,12 +12,11 @@
 * <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/nelM2Pla/index.m3u8')">狂飙06</button>
 * <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/QbYlyR0a/index.m3u8')">狂飙07</button>
 * <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/wdL5YqAe/index.m3u8')">狂飙08</button>
-
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230116/23418_139fc861/1800k/hls/mixed.m3u8')">狂飙09</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230117/23466_0094544a/1800k/hls/mixed.m3u8')">狂飙10</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230117/23465_e341c79f/1800k/hls/mixed.m3u8')">狂飙11</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230118/14_5c240b76/2000k/hls/mixed.m3u8')">狂飙12</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230118/13_66033d12/2000k/hls/mixed.m3u8')">狂飙13</button>
+* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/mepXR1Ne/index.m3u8')">狂飙09</button>
+* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/6dBRRpNd/index.m3u8')">狂飙10</button>
+* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/xbo66m3a/index.m3u8')">狂飙11</button>
+* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/qaQ5530a/index.m3u8')">狂飙12</button>
+* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/mepXXGpe/index.m3u8')">狂飙13</button>
 * <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230119/21_7325557b/2000k/hls/mixed.m3u8')">狂飙14</button>
 * <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230119/20_8d21dc5b/2000k/hls/mixed.m3u8')">狂飙15</button>
 * <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230120/40_e60ad997/2000k/hls/mixed.m3u8')">狂飙16</button>
