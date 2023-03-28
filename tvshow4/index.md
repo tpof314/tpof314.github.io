@@ -1,3 +1,13 @@
+## 锵锵行天下第三季
+
+节目是一档深度文化体验旅行脱口秀，窦文涛作为节目主持人，与其老友嘉宾共同出游，以独特视角、个性体验、多维碰撞的智者对谈旅行方式， 探索意料之外的极致绝境，拓开这个世界的未知维度， 为观众带来触动和启发。 
+
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn12.com/20230311/6049_72a11a5c/index.m3u8')">第01集</button>
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn12.com/20230316/6203_fbb99a4f/index.m3u8')">第02集</button>
+* <button class="btn btn-link" onclick="play('https://vip.lz-cdn12.com/20230324/6515_0436fe5d/index.m3u8')">第03集</button>
+
+---
+
 ## 数风流人物
 
 * <button class="btn btn-link" onclick="play('https://github.dgcontinent.com/tvshow4/fengliu_001.m3u8')">数风流人物01</button>
