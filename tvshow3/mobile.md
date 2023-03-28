@@ -1,50 +1,17 @@
-## 狂飙
+## 他是谁
 
-* 主演：张译 张颂文 李一桐 张志坚 吴刚 倪大红
+* 主演： 张译,陈雨锶,丁勇岱,俞灏明,赵阳,刘冠麟
 
-京海市一线刑警安欣，在与黑恶势力的斗争中，不断遭到保护伞的打击，始终无法将犯罪分子绳之以法。全国政法队伍教育整顿工作开展后，临江省派出指导组入驻京海，联合公检法司各部门，清除了政法队伍内部的腐败分子，粉碎了黑恶势力的保护伞，一举铲除了盘踞京海多年的强盛集团。
+1988年，刑警卫国平（张译 饰）在追捕连环谜案的行动中目睹战友牺牲，而凶手却逃跑了，此事成为卫国平的心结。八年后，宁江市发生了骇人听闻的凶杀案，此时卫国平已成长为成熟的刑警队长。他在带领队员调查的过程中相继破获了不少相关案件，但是凶杀案始终充满疑云，并且很多线索与八年前的连环谜案有关，这些发现让卫国平振奋但也成为他后来判断案情的阻碍。在案件的推进过程中，一个庞大的犯罪集团逐渐浮出水面……
 
-* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/DdwR0j8b/index.m3u8')">狂飙01</button>
-* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/mbkO2Z6b/index.m3u8')">狂飙02</button>
-* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/1aK58Oxd/index.m3u8')">狂飙03</button>
-* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/BeXkQ6gd/index.m3u8')">狂飙04</button>
-* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/Le3K62Re/index.m3u8')">狂飙05</button>
-* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/nelM2Pla/index.m3u8')">狂飙06</button>
-* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/QbYlyR0a/index.m3u8')">狂飙07</button>
-* <button class="btn btn-link" onclick="play('https://hnzy.bfvvs.com/play/wdL5YqAe/index.m3u8')">狂飙08</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230314/1046_fda81721/index.m3u8')">第01集</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230314/1045_41a72987/index.m3u8')">第02集</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230314/1044_65aaeaaf/index.m3u8')">第03集</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230314/1043_52b653f8/index.m3u8')">第04集</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230315/24542_c70db16e/index.m3u8')">第05集</button>
+* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230315/24541_a014ac6f/index.m3u8')">第06集</button>
+* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230316/1105_104d5331/index.m3u8')">第07集</button>
 
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230116/23418_139fc861/1800k/hls/mixed.m3u8')">狂飙09</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230117/23466_0094544a/1800k/hls/mixed.m3u8')">狂飙10</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230117/23465_e341c79f/1800k/hls/mixed.m3u8')">狂飙11</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230118/14_5c240b76/2000k/hls/mixed.m3u8')">狂飙12</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230118/13_66033d12/2000k/hls/mixed.m3u8')">狂飙13</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230119/21_7325557b/2000k/hls/mixed.m3u8')">狂飙14</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230119/20_8d21dc5b/2000k/hls/mixed.m3u8')">狂飙15</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230120/40_e60ad997/2000k/hls/mixed.m3u8')">狂飙16</button>
-
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230121/23543_4f58c1fd/1800k/hls/mixed.m3u8')">狂飙17</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230122/23566_c2819f34/1800k/hls/mixed.m3u8')">狂飙18</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230122/23565_0c2ae732/1800k/hls/mixed.m3u8')">狂飙19</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230123/23579_1a67afc6/1800k/hls/mixed.m3u8')">狂飙20</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230123/23578_e3d66498/1800k/hls/mixed.m3u8')">狂飙21</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230124/115_aa734ff7/2000k/hls/mixed.m3u8')">狂飙22</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230124/114_d696d594/2000k/hls/mixed.m3u8')">狂飙23</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230125/23613_326a56c0/1800k/hls/mixed.m3u8')">狂飙24</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230125/23612_9783c1ee/1800k/hls/mixed.m3u8')">狂飙25</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230126/155_7258f3cc/2000k/hls/mixed.m3u8')">狂飙26</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230127/198_7877b31c/2000k/hls/mixed.m3u8')">狂飙27</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230127/197_e1fe4c05/2000k/hls/mixed.m3u8')">狂飙28</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230127/196_604186b7/2000k/hls/mixed.m3u8')">狂飙29</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230128/23649_fd06986f/1800k/hls/mixed.m3u8')">狂飙30</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230128/23648_622b2fa9/1800k/hls/mixed.m3u8')">狂飙31</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230129/248_18bd48a7/2000k/hls/mixed.m3u8')">狂飙32</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230129/247_61a22a1f/2000k/hls/mixed.m3u8')">狂飙33</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230130/23690_ec7e6c19/1800k/hls/mixed.m3u8')">狂飙34</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230130/23689_605a61b6/1800k/hls/mixed.m3u8')">狂飙35</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230131/297_cc76dd2f/2000k/hls/mixed.m3u8')">狂飙36</button>
-* <button class="btn btn-link" onclick="play('https://hd.lz-cdn18.com/20230131/296_f35955e8/2000k/hls/mixed.m3u8')">狂飙37</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230201/23716_c10840ec/1800k/hls/mixed.m3u8')">狂飙38</button>
-* <button class="btn btn-link" onclick="play('https://vip.lzcdn2.com/20230201/23715_44218045/1800k/hls/mixed.m3u8')">狂飙39</button>
 
 ---
 
