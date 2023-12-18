@@ -9,6 +9,7 @@
 * <button class="btn btn-link" onclick="play('https://s.xlzys.com/play/Xe00NO5e/index.m3u8')">克里斯·海姆斯沃斯：挑战极限05</button>
 * <button class="btn btn-link" onclick="play('https://s.xlzys.com/play/nel2lDjb/index.m3u8')">克里斯·海姆斯沃斯：挑战极限06</button>
 
+
 <style>
   .btn-link {
     background: hsl(171, 100%, 41%);
@@ -26,17 +27,6 @@
 
 <script>
   function play(url) {
-    var payload = {
-        "video_url": url
-    };
-
-    fetch('https://ofhnindco6.execute-api.ap-southeast-2.amazonaws.com/video_pub', {
-        method: 'POST',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(payload)
-    }).then(resp => console.log(resp));
+    window.location.href = "/tv/?url=" + url;
   }
 </script>
