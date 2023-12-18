@@ -1,6 +1,6 @@
 ## 克里斯·海姆斯沃斯：挑战极限
 
-![poster](https://movie.douban.com/subject/34951619/photos?type=R)
+![poster](https://img1.doubanio.com/view/photo/l/public/p2893794070.webp)
 
 * <button class="btn btn-link" onclick="play('https://s.xlzys.com/play/qaQ6lvGb/index.m3u8')">克里斯·海姆斯沃斯：挑战极限01</button>
 * <button class="btn btn-link" onclick="play('https://s.xlzys.com/play/BeXrvnvb/index.m3u8')">克里斯·海姆斯沃斯：挑战极限02</button>
