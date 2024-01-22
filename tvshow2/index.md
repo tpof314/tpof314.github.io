@@ -30,7 +30,7 @@
         "video_url": url
     };
 
-    fetch('https://ofhnindco6.execute-api.ap-southeast-2.amazonaws.com/video_pub', {
+    fetch('https://audiodown.dgcontinent.com/api/play_on_tv', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
