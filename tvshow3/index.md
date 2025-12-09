@@ -5,6 +5,14 @@
 * <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251125/0MSpPa0u/1372kb/hls/index.m3u8')">第03集</button>
 * <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251125/14iO25kp/1343kb/hls/index.m3u8')">第04集</button>
 
+* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251126/g4hFtjEv/1542kb/hls/index.m3u8')">第05集</button>
+* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251126/MYKr9AjD/1302kb/hls/index.m3u8')">第06集</button>
+* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251127/i58JI47Y/1181kb/hls/index.m3u8')">第07集</button>
+* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251127/vXBYJJcA//1215kb/hls/index.m3u8')">第08集</button>
+
+* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251128/VGlZblmS/1152kb/hls/index.m3u8')">第09集</button>
+* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251128/eTNsWXmc/1215kb/hls/index.m3u8')">第10集</button>
+
 
 <style>
   .btn-link {
