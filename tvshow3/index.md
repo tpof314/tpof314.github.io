@@ -1,17 +1,17 @@
 ## 大生意人
 
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251125/cCmjNytV/1459kb/hls/index.m3u8')">第01集</button>
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251125/6TshPGUj/1339kb/hls/index.m3u8')">第02集</button>
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251125/0MSpPa0u/1372kb/hls/index.m3u8')">第03集</button>
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251125/14iO25kp/1343kb/hls/index.m3u8')">第04集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cinema.com/20251125/41572_12c43b11/3000k/hls/mixed.m3u8')">第1集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cinema.com/20251125/41573_e4c72549/3000k/hls/mixed.m3u8')">第2集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cinema.com/20251125/41574_2c2cd764/3000k/hls/mixed.m3u8')">第3集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cinema.com/20251125/41575_c3a3a3c8/3000k/hls/mixed.m3u8')">第4集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251126/62891_8a3d71a4/3000k/hls/mixed.m3u8')">第5集</button>
 
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251126/g4hFtjEv/1542kb/hls/index.m3u8')">第05集</button>
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251126/MYKr9AjD/1302kb/hls/index.m3u8')">第06集</button>
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251127/i58JI47Y/1181kb/hls/index.m3u8')">第07集</button>
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251127/vXBYJJcA/1215kb/hls/index.m3u8')">第08集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251126/62892_c9b5df2a/3000k/hls/mixed.m3u8')">第6集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cinema.com/20251127/41768_c78c31af/3000k/hls/mixed.m3u8')">第7集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cinema.com/20251127/41769_639b1cbf/3000k/hls/mixed.m3u8')">第8集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251128/63072_74d8f6fc/3000k/hls/mixed.m3u8')">第9集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251128/63073_67f17eb9/3000k/hls/mixed.m3u8')">第10集</button>
 
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251128/VGlZblmS/1152kb/hls/index.m3u8')">第09集</button>
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251128/eTNsWXmc/1215kb/hls/index.m3u8')">第10集</button>
 * <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251129/MkFDu2O4/1310kb/hls/index.m3u8')">第11集</button>
 * <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251129/ykw6l5Pf/1354kb/hls/index.m3u8')">第12集</button>
 
