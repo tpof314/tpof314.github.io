@@ -12,12 +12,22 @@
 * <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251128/63072_74d8f6fc/3000k/hls/mixed.m3u8')">第9集</button>
 * <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251128/63073_67f17eb9/3000k/hls/mixed.m3u8')">第10集</button>
 
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251129/MkFDu2O4/1310kb/hls/index.m3u8')">第11集</button>
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251129/ykw6l5Pf/1354kb/hls/index.m3u8')">第12集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cinema.com/20251129/41922_ab1417ec/3000k/hls/mixed.m3u8')">第11集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cinema.com/20251129/41923_09a0cc9c/3000k/hls/mixed.m3u8')">第12集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251130/63280_9d5cc282/3000k/hls/mixed.m3u8')">第13集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251130/63281_d2d39ff7/3000k/hls/mixed.m3u8')">第14集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251201/63356_f33413eb/3000k/hls/mixed.m3u8')">第15集</button>
 
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251130/L1E5GLPR/1279kb/hls/index.m3u8')">第13集</button>
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251130/GX3VjazA/1265kb/hls/index.m3u8')">第14集</button>
-* <button class="btn btn-link" onclick="play('https://bfikuncdn.com/20251201/8U0aMqzO/1269kb/hls/index.m3u8')">第15集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251201/63357_bee5ca25/3000k/hls/mixed.m3u8')">第16集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cinema.com/20251202/42175_14a479de/3000k/hls/mixed.m3u8')">第17集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cinema.com/20251202/42176_788e8dcc/3000k/hls/mixed.m3u8')">第18集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251203/63547_4c80ba4f/3000k/hls/mixed.m3u8')">第19集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251203/63548_22cc9980/3000k/hls/mixed.m3u8')">第20集</button>
+
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cinema.com/20251204/42356_624de0e2/3000k/hls/mixed.m3u8')">第21集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cinema.com/20251204/42357_59a05c7d/3000k/hls/mixed.m3u8')">第22集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251205/63776_29badebf/3000k/hls/mixed.m3u8')">第23集</button>
+* <button class="btn btn-link" onclick="play('https://vip.dytt-cine.com/20251205/63777_1a5ac893/3000k/hls/mixed.m3u8')">第24集</button>
 
 <style>
   .btn-link {
