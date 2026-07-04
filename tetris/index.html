@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#dcecff" />
+    <title>WebGL Tetris</title>
+    <script type="module" crossorigin src="/assets/index-DjkzmobF.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D0s92DbV.css">
+  </head>
+  <body>
+    <main id="app">
+      <section class="game-shell" aria-label="3D Tetris game">
+        <div class="stage-area">
+          <div class="hud-layer">
+            <div class="hud top-left" aria-label="Game stats">
+              <div class="stat">
+                <span>Score</span>
+                <strong id="score">0</strong>
+              </div>
+              <div class="stat-row">
+                <div class="stat">
+                  <span>Level</span>
+                  <strong id="level">1</strong>
+                </div>
+                <div class="stat">
+                  <span>Lines</span>
+                  <strong id="lines">0</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="hud top-right" aria-label="Piece dashboards">
+              <div class="preview-card">
+                <span>Next</span>
+                <canvas id="next-preview" width="112" height="112" aria-label="Next piece"></canvas>
+              </div>
+              <div class="preview-card">
+                <span>Hold</span>
+                <canvas id="hold-preview" width="112" height="112" aria-label="Held piece"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="play-stage">
+            <div id="game-canvas" class="game-canvas" aria-hidden="true"></div>
+
+            <div class="center-message hidden" id="message" role="status" aria-live="polite">
+              <strong id="message-title">Paused</strong>
+              <span id="message-detail">Press P to continue</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls" aria-label="Game controls">
+          <div class="phone-move-row" aria-label="Phone movement controls">
+            <button id="phone-left-button" class="symbol-button" type="button" aria-label="Move left">←</button>
+            <button id="phone-rotate-button" class="symbol-button" type="button" aria-label="Rotate">↻</button>
+            <button id="phone-right-button" class="symbol-button" type="button" aria-label="Move right">→</button>
+            <button id="phone-soft-button" class="symbol-button" type="button" aria-label="Soft drop">↓</button>
+          </div>
+          <div class="action-row">
+            <button id="hold-button" type="button">Hold</button>
+            <button id="pause-button" type="button">Pause</button>
+            <button id="drop-button" type="button">Drop</button>
+            <button id="reset-view-button" type="button">Reset</button>
+          </div>
+          <div class="view-row">
+            <label class="view-control" for="view-rotation">
+              <span>View</span>
+              <input id="view-rotation" type="range" min="-38" max="38" value="0" />
+            </label>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
