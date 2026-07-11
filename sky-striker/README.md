@@ -52,6 +52,10 @@ Then visit `http://<your-computer-ip>:8000` on your phone.
 - **Parallax starfield**, engine thrust particles, persisted mute + high score
 - **HUD**: health bar, score, stage, weapon level, shield count, boss bar
 - **Crash overlay** + safe storage for cross-browser resilience
+- **Sound effects** — synthesized in-code via Web Audio (no audio files):
+  shooting, tiered explosions, power-up pickups, boss hits/death, player
+  damage, shield absorb, UI clicks. Audio unlocks on the Start tap; the mute
+  toggle persists. Background music remains intentionally deferred.
 
 ## Project structure
 
@@ -61,7 +65,7 @@ sky-striker/
 ├── css/style.css
 ├── README.md
 └── src/
-    ├── config.js           # ALL tuning (enemies, waves, powerups, bosses...)
+    ├── config.js           # ALL tuning (enemies, waves, powerups, bosses, sfx)
     ├── main.js
     ├── data/stages.js      # per-stage wave definitions
     ├── entities/
@@ -70,18 +74,18 @@ sky-striker/
     │   ├── PowerUp.js  Boss.js  Player.js
     ├── systems/
     │   ├── Background.js  TextureFactory.js  Explosions.js
-    │   ├── WaveManager.js  Storage.js
+    │   ├── WaveManager.js  Storage.js  SFX.js
     └── scenes/
         ├── BootScene.js  PreloadScene.js  TitleScene.js
         ├── GameScene.js  HUDScene.js      GameOverScene.js
 ```
 
-## Next phase
+## Possible next steps
 
-1. **SFX** — shoot / explosion / power-up / boss-hit / boss-death (mute toggle
-   already wired; audio was intentionally deferred)
-2. Optional polish: per-boss intro cards, distinct boss movement flourishes,
-   enemy object-pooling if profiling shows GC pressure
+1. Background music (a synth loop or a licensed track) — the mute toggle and
+   audio unlock are already in place
+2. Difficulty tuning / balancing pass after playtesting
+3. Polish: per-boss intro cards, attack telegraphs, screen-shake tuning
 
 ## Tuning
 

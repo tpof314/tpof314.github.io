@@ -43,7 +43,7 @@ class GameOverScene extends Phaser.Scene {
     }).setOrigin(0.5);
     btn.add([g, label]);
     btn.setInteractive(new Phaser.Geom.Rectangle(-bw / 2, -bh / 2, bw, bh), Phaser.Geom.Rectangle.Contains);
-    btn.on('pointerdown', () => this.scene.start('Game'));
+    btn.on('pointerdown', () => { SFX.unlock(); SFX.uiClick(); this.scene.start('Game'); });
 
     this.add.text(cx, CONFIG.HEIGHT - 60, 'Tap RETRY to fly again', {
       fontFamily: 'monospace', fontSize: '13px', color: '#6f93b3',

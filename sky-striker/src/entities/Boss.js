@@ -115,6 +115,7 @@ class Boss extends Phaser.Physics.Arcade.Sprite {
     // Final blast + hand off to the scene
     this.scene.time.delayedCall(n * 130 + 160, () => {
       this.scene.explosions.play(this.x, this.y, 'boss');
+      SFX.bossDeath();
       if (this.scene._screenFlash) this.scene._screenFlash(0xffffff, 0.85, 260);
       const scene = this.scene;
       this.destroy();

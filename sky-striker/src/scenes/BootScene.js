@@ -13,6 +13,7 @@ class BootScene extends Phaser.Scene {
     const muted = SafeStorage.get(CONFIG.storage.muted) === 'true';
     this.registry.set('muted', muted);
     this.sound.setMute(muted);
+    SFX.setMuted(muted);
 
     const hi = parseInt(SafeStorage.get(CONFIG.storage.highScore, '0'), 10);
     this.registry.set('highScore', hi);

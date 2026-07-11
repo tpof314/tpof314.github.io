@@ -12,7 +12,7 @@
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="theme-color" content="#0b1021" />
   <title>Sky Striker</title>
-  <link rel="stylesheet" href="css/style.css?v=1.1.0" />
+  <link rel="stylesheet" href="css/style.css?v=1.3.0" />
 </head>
 <body>
   <!-- Visible crash reporter. Turns silent freezes / blank screens into a
@@ -74,36 +74,37 @@
 
   <!-- Game source, loaded in dependency order (classic scripts:
        runs directly from file:// with no bundler or dev server) -->
-  <script src="src/config.js?v=1.1.0"></script>
-  <script src="src/systems/Storage.js?v=1.1.0"></script>
-  <script src="src/data/stages.js?v=1.1.0"></script>
+  <script src="src/config.js?v=1.3.0"></script>
+  <script src="src/systems/Storage.js?v=1.3.0"></script>
+  <script src="src/systems/SFX.js?v=1.3.0"></script>
+  <script src="src/data/stages.js?v=1.3.0"></script>
 
   <!-- Entities -->
-  <script src="src/entities/Bullet.js?v=1.1.0"></script>
-  <script src="src/entities/EnemyBullet.js?v=1.1.0"></script>
-  <script src="src/entities/Enemy.js?v=1.1.0"></script>
-  <script src="src/entities/enemies/Grunt.js?v=1.1.0"></script>
-  <script src="src/entities/enemies/Weaver.js?v=1.1.0"></script>
-  <script src="src/entities/enemies/Gunner.js?v=1.1.0"></script>
-  <script src="src/entities/PowerUp.js?v=1.1.0"></script>
-  <script src="src/entities/Boss.js?v=1.1.0"></script>
-  <script src="src/entities/Player.js?v=1.1.0"></script>
+  <script src="src/entities/Bullet.js?v=1.3.0"></script>
+  <script src="src/entities/EnemyBullet.js?v=1.3.0"></script>
+  <script src="src/entities/Enemy.js?v=1.3.0"></script>
+  <script src="src/entities/enemies/Grunt.js?v=1.3.0"></script>
+  <script src="src/entities/enemies/Weaver.js?v=1.3.0"></script>
+  <script src="src/entities/enemies/Gunner.js?v=1.3.0"></script>
+  <script src="src/entities/PowerUp.js?v=1.3.0"></script>
+  <script src="src/entities/Boss.js?v=1.3.0"></script>
+  <script src="src/entities/Player.js?v=1.3.0"></script>
 
   <!-- Systems -->
-  <script src="src/systems/Background.js?v=1.1.0"></script>
-  <script src="src/systems/TextureFactory.js?v=1.1.0"></script>
-  <script src="src/systems/Explosions.js?v=1.1.0"></script>
-  <script src="src/systems/WaveManager.js?v=1.1.0"></script>
+  <script src="src/systems/Background.js?v=1.3.0"></script>
+  <script src="src/systems/TextureFactory.js?v=1.3.0"></script>
+  <script src="src/systems/Explosions.js?v=1.3.0"></script>
+  <script src="src/systems/WaveManager.js?v=1.3.0"></script>
 
   <!-- Scenes -->
-  <script src="src/scenes/BootScene.js?v=1.1.0"></script>
-  <script src="src/scenes/PreloadScene.js?v=1.1.0"></script>
-  <script src="src/scenes/TitleScene.js?v=1.1.0"></script>
-  <script src="src/scenes/GameScene.js?v=1.1.0"></script>
-  <script src="src/scenes/HUDScene.js?v=1.1.0"></script>
-  <script src="src/scenes/GameOverScene.js?v=1.1.0"></script>
+  <script src="src/scenes/BootScene.js?v=1.3.0"></script>
+  <script src="src/scenes/PreloadScene.js?v=1.3.0"></script>
+  <script src="src/scenes/TitleScene.js?v=1.3.0"></script>
+  <script src="src/scenes/GameScene.js?v=1.3.0"></script>
+  <script src="src/scenes/HUDScene.js?v=1.3.0"></script>
+  <script src="src/scenes/GameOverScene.js?v=1.3.0"></script>
 
-  <script src="src/main.js?v=1.1.0"></script>
+  <script src="src/main.js?v=1.3.0"></script>
 
   <!-- Hide the splash once the first game frame is ready -->
   <script>

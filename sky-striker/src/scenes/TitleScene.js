@@ -34,7 +34,11 @@ class TitleScene extends Phaser.Scene {
     btn.add([g, label]);
     btn.setSize(bw, bh);
     btn.setInteractive(new Phaser.Geom.Rectangle(-bw / 2, -bh / 2, bw, bh), Phaser.Geom.Rectangle.Contains);
-    btn.on('pointerdown', () => this.scene.start('Game'));
+    btn.on('pointerdown', () => {
+      SFX.unlock();   // start audio within the user gesture (required by browsers)
+      SFX.uiClick();
+      this.scene.start('Game');
+    });
 
     // Gentle pulse to draw the eye
     this.tweens.add({ targets: btn, scale: 1.05, duration: 700, yoyo: true, repeat: -1, ease: 'Sine.inOut' });
@@ -48,6 +52,9 @@ class TitleScene extends Phaser.Scene {
       const m = !this.registry.get('muted');
       this.registry.set('muted', m);
       this.sound.setMute(m);
+      SFX.unlock();
+      SFX.setMuted(m);
+      if (!m) SFX.uiClick(); // audible confirmation when turning sound on
       SafeStorage.set(CONFIG.storage.muted, m);
       this._refreshMute();
     });

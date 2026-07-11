@@ -9,7 +9,14 @@
 const CONFIG = {
   // Build stamp — shown on the title screen and logged at boot so you can
   // confirm which build is actually running (helps catch stale caches).
-  version: '1.1.0',
+  version: '1.3.0',
+
+  // --- SFX (synthesized via Web Audio; no audio files needed) ---
+  sfx: {
+    masterVolume: 0.45,
+    shootThrottleMs: 85,    // rapid auto-fire: don't play every single shot
+    bossHitThrottleMs: 70,  // boss takes many hits/sec: throttle the tick
+  },
 
   // --- Design resolution (portrait, ~9:16). Scaled to fit any screen. ---
   WIDTH: 450,

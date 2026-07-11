@@ -144,6 +144,7 @@ class Player extends Phaser.Physics.Arcade.Sprite {
     }
 
     // Hook: this.scene.sfx('shoot');  <-- wired when SFX assets are added
+    SFX.shoot();
   }
 
   setWeaponLevel(level) {
@@ -166,12 +167,14 @@ class Player extends Phaser.Physics.Arcade.Sprite {
       this.invulnUntil = time + CONFIG.player.invulnMs;
       this._updateShieldVisual();
       this._syncRegistry();
+      SFX.shield();
       return;
     }
 
     this.health = Math.max(0, this.health - amount);
     this.invulnUntil = time + CONFIG.player.invulnMs;
     this._syncRegistry();
+    SFX.hit();
     if (this.health <= 0) this.scene.events.emit('player-dead');
   }
 

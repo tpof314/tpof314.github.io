@@ -118,6 +118,7 @@ class GameScene extends Phaser.Scene {
     if (!bullet || !bullet.active || boss.dying) return;
     bullet.deactivate();
     boss.takeDamage(bullet.damage);
+    SFX.bossHit();
   }
 
   _playerHitsBoss(a, b) {
@@ -154,7 +155,7 @@ class GameScene extends Phaser.Scene {
     if (type === 'weapon')      { player.upgradeWeapon(); this._popup(player.x, player.y - 30, 'WEAPON UP'); }
     else if (type === 'shield') { player.addShield(CONFIG.powerup.shieldHits); this._popup(player.x, player.y - 30, 'SHIELD'); }
     else                        { this.addScore(CONFIG.powerup.scoreValue); this._popup(player.x, player.y - 30, '+' + CONFIG.powerup.scoreValue); }
-    // Hook: this.sfx('powerup');
+    SFX.powerup(type);
   }
 
   // ---- Called by Enemy.die() -------------------------------
@@ -162,7 +163,9 @@ class GameScene extends Phaser.Scene {
   onEnemyKilled(enemy) {
     this.addScore(enemy.score);
     const sizeByType = { grunt: 'small', weaver: 'medium', gunner: 'large' };
-    this.explosions.play(enemy.x, enemy.y, sizeByType[enemy.typeKey] || 'small', enemy.tintTopLeft);
+    const size = sizeByType[enemy.typeKey] || 'small';
+    this.explosions.play(enemy.x, enemy.y, size, enemy.tintTopLeft);
+    SFX.explosion(size);
     if (enemy.base.dropsPowerup) this._dropPowerup(enemy.x, enemy.y);
   }
 
