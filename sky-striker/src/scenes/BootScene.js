@@ -7,6 +7,8 @@ class BootScene extends Phaser.Scene {
   constructor() { super('Boot'); }
 
   create() {
+    console.log('Sky Striker — build ' + CONFIG.version);
+
     // Restore persisted preferences
     const muted = SafeStorage.get(CONFIG.storage.muted) === 'true';
     this.registry.set('muted', muted);

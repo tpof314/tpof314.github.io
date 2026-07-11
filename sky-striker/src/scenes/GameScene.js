@@ -44,7 +44,8 @@ class GameScene extends Phaser.Scene {
     // --- HUD overlay ---
     this.scene.launch('HUD');
 
-    // --- Events ---
+    // --- Events (off-first guards against duplicate listeners on restart) ---
+    this.events.off('enemy-removed');
     this.events.once('player-dead', () => this._endRun('lose'));
     this.events.on('enemy-removed', () => this.waveManager && this.waveManager.checkClear());
     this.events.once('shutdown', () => this._cleanup());
@@ -56,6 +57,7 @@ class GameScene extends Phaser.Scene {
   // ---- Run / stage lifecycle -------------------------------
 
   _startRun() {
+    this._runEnded = false;
     this.registry.set('score', 0);
     this.registry.set('stage', 1);
     this.registry.set('health', CONFIG.player.startHealth);
@@ -63,6 +65,7 @@ class GameScene extends Phaser.Scene {
     this.registry.set('weaponLevel', CONFIG.weapon.startLevel);
     this.registry.set('shield', 0);
     this.registry.set('outcome', null);
+    this.registry.set('bossActive', false);
   }
 
   _startStage(stage) {
@@ -72,19 +75,56 @@ class GameScene extends Phaser.Scene {
     this._banner('STAGE ' + stage);
   }
 
-  onStageCleared() {
-    const stage = this.registry.get('stage') || 1;
+  // Waves cleared -> summon the stage boss (called by WaveManager).
+  onWavesCleared() {
+    this._banner('WARNING', () => this._spawnBoss(this.registry.get('stage') || 1), '#ff5b5b');
+  }
 
-    // >>> BOSS HOOK: spawn the stage boss here instead of advancing. <<<
+  _spawnBoss(stage) {
+    const cfg = CONFIG.bosses[stage];
+    if (!cfg) { this._advanceOrWin(stage); return; } // safety
+    this.boss = new Boss(this, cfg, stage);
+    this._bossColliders = [
+      this.physics.add.overlap(this.player.bullets, this.boss, this._bulletHitsBoss, null, this),
+      this.physics.add.overlap(this.player, this.boss, this._playerHitsBoss, null, this),
+    ];
+  }
 
-    if (stage >= CONFIG.totalStages) {
-      this._endRun('win');
-      return;
+  // Boss destroyed -> clear stage (called by Boss at end of death sequence).
+  onBossDefeated(cfg, score) {
+    this.addScore(score);
+    if (this._bossColliders) {
+      this._bossColliders.forEach((c) => c && c.destroy());
+      this._bossColliders = null;
     }
+    this.boss = null;
+    this._advanceOrWin(this.registry.get('stage') || 1);
+  }
+
+  _advanceOrWin(stage) {
+    if (stage >= CONFIG.totalStages) { this._endRun('win'); return; }
     this._banner('STAGE CLEAR', () => this._startStage(stage + 1));
   }
 
   // ---- Collision handlers ----------------------------------
+
+  // NOTE: overlap(group, sprite) routes through Phaser's sprite-vs-group
+  // path, which passes the sprite (boss) FIRST and the bullet second —
+  // the opposite of the argument order given. Resolve by identity so this
+  // is correct regardless of which slot each object lands in.
+  _bulletHitsBoss(a, b) {
+    const boss = (a === this.boss) ? a : b;
+    const bullet = (boss === a) ? b : a;
+    if (!bullet || !bullet.active || boss.dying) return;
+    bullet.deactivate();
+    boss.takeDamage(bullet.damage);
+  }
+
+  _playerHitsBoss(a, b) {
+    const boss = (a === this.boss) ? a : b;
+    if (boss.dying) return;
+    this.player.takeDamage(boss.contactDamage, this.time.now);
+  }
 
   _bulletHitsEnemy(bullet, enemy) {
     if (!bullet.active || !enemy.active) return;
@@ -142,14 +182,22 @@ class GameScene extends Phaser.Scene {
     this.registry.set('score', (this.registry.get('score') || 0) + points);
   }
 
-  _banner(text, onDone) {
+  _banner(text, onDone, color) {
     const t = this.add.text(CONFIG.WIDTH / 2, CONFIG.HEIGHT / 2, text, {
-      fontFamily: 'Arial Black, sans-serif', fontSize: '40px', color: '#eaf2ff',
+      fontFamily: 'Arial Black, sans-serif', fontSize: '40px', color: color || '#eaf2ff',
     }).setOrigin(0.5).setDepth(30).setAlpha(0);
     this.tweens.add({
       targets: t, alpha: 1, duration: 300, yoyo: true, hold: 700,
       onComplete: () => { t.destroy(); if (onDone) onDone(); },
     });
+  }
+
+  // Full-screen colour flash (phase changes, boss death).
+  _screenFlash(color = 0xffffff, alpha = 0.7, ms = 200) {
+    const r = this.add.rectangle(CONFIG.WIDTH / 2, CONFIG.HEIGHT / 2,
+      CONFIG.WIDTH, CONFIG.HEIGHT, color, alpha).setDepth(40);
+    this.tweens.add({ targets: r, alpha: 0, duration: ms,
+      onComplete: () => r.destroy() });
   }
 
   _popup(x, y, text) {
@@ -161,6 +209,8 @@ class GameScene extends Phaser.Scene {
   }
 
   _endRun(outcome) {
+    if (this._runEnded) return;
+    this._runEnded = true;
     const score = this.registry.get('score') || 0;
     const hi = this.registry.get('highScore') || 0;
     if (score > hi) {
@@ -175,6 +225,12 @@ class GameScene extends Phaser.Scene {
 
   _cleanup() {
     if (this.waveManager) { this.waveManager.destroy(); this.waveManager = null; }
+    this.registry.set('bossActive', false);
+    if (this._bossColliders) {
+      this._bossColliders.forEach((c) => c && c.destroy());
+      this._bossColliders = null;
+    }
+    this.boss = null;
   }
 
   update(_, delta) {

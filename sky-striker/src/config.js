@@ -7,6 +7,10 @@
    ============================================================ */
 
 const CONFIG = {
+  // Build stamp — shown on the title screen and logged at boot so you can
+  // confirm which build is actually running (helps catch stale caches).
+  version: '1.1.0',
+
   // --- Design resolution (portrait, ~9:16). Scaled to fit any screen. ---
   WIDTH: 450,
   HEIGHT: 800,
@@ -73,7 +77,7 @@ const CONFIG = {
   },
 
   enemyBullet: {
-    poolSize: 96,
+    poolSize: 200,             // larger pool for bullet-heavy boss patterns
     damage: 10,
   },
 
@@ -110,6 +114,86 @@ const CONFIG = {
     { grunt: 0x9b6cff, weaver: 0x4de1c4, gunner: 0xff5b8a },
     { grunt: 0xff3b3b, weaver: 0xb04dff, gunner: 0xff9500 },
   ],
+
+  /* ---- Bosses (one per stage) --------------------------------
+     Each boss has 3 phases entered at 100% / 66% / 33% health.
+     A phase is a list of attack "steps"; each step fires its
+     pattern on its own `every` (ms) cadence, so slow heavy
+     attacks layer over fast light ones.
+     Attack fns: spread | aimed | radial | spiral | rain
+  ------------------------------------------------------------- */
+  bosses: {
+    1: {
+      name: 'AEGIS INTERCEPTOR', tex: 'boss1', tint: 0xff6b6b,
+      healthBase: 130, contactDamage: 18, score: 3000,
+      movement: 'sweep', moveSpeed: 90, hoverY: 130,
+      phases: [
+        { steps: [ { fn: 'spread', count: 5, arc: 40, speed: 200, every: 1300 },
+                   { fn: 'aimed',  count: 1, arc: 0,  speed: 220, every: 1700 } ] },
+        { steps: [ { fn: 'spread', count: 7, arc: 55, speed: 220, every: 1100 },
+                   { fn: 'aimed',  count: 3, arc: 18, speed: 220, every: 1400 } ] },
+        { steps: [ { fn: 'spread', count: 7, arc: 70, speed: 240, every: 950 },
+                   { fn: 'aimed',  count: 3, arc: 22, speed: 240, every: 1100 },
+                   { fn: 'radial', count: 12, speed: 180, every: 2600 } ] },
+      ],
+    },
+    2: {
+      name: 'IRON DESTROYER', tex: 'boss2', tint: 0xffa23e,
+      healthBase: 180, contactDamage: 20, score: 4000,
+      movement: 'sweep', moveSpeed: 105, hoverY: 130,
+      phases: [
+        { steps: [ { fn: 'aimed',  count: 3, arc: 18, speed: 220, every: 1300 },
+                   { fn: 'radial', count: 12, speed: 180, every: 2400 } ] },
+        { steps: [ { fn: 'spread', count: 9, arc: 80, speed: 220, every: 1100 },
+                   { fn: 'radial', count: 16, speed: 190, every: 2100 } ] },
+        { steps: [ { fn: 'radial', count: 18, speed: 200, every: 1500 },
+                   { fn: 'aimed',  count: 5, arc: 30, speed: 240, every: 1200 } ] },
+      ],
+    },
+    3: {
+      name: 'VORTEX WARSHIP', tex: 'boss3', tint: 0x6cc0ff,
+      healthBase: 235, contactDamage: 20, score: 5000,
+      movement: 'hover', moveSpeed: 0, hoverY: 125,
+      phases: [
+        { steps: [ { fn: 'spiral', arms: 3, speed: 180, rot: 9,  every: 130 },
+                   { fn: 'aimed',  count: 2, arc: 16, speed: 220, every: 1500 } ] },
+        { steps: [ { fn: 'spiral', arms: 4, speed: 190, rot: 12, every: 120 },
+                   { fn: 'radial', count: 14, speed: 190, every: 2200 } ] },
+        { steps: [ { fn: 'spiral', arms: 5, speed: 200, rot: 15, every: 115 },
+                   { fn: 'aimed',  count: 4, arc: 26, speed: 240, every: 1200 } ] },
+      ],
+    },
+    4: {
+      name: 'BASTION FORTRESS', tex: 'boss4', tint: 0xc06cff,
+      healthBase: 300, contactDamage: 22, score: 6000,
+      movement: 'sweep', moveSpeed: 120, hoverY: 128,
+      phases: [
+        { steps: [ { fn: 'rain',  count: 6,  speed: 210, every: 900 },
+                   { fn: 'aimed', count: 3,  arc: 20, speed: 220, every: 1500 } ] },
+        { steps: [ { fn: 'rain',  count: 8,  speed: 220, every: 800 },
+                   { fn: 'radial', count: 16, speed: 190, every: 2200 } ] },
+        { steps: [ { fn: 'rain',  count: 10, speed: 240, every: 700 },
+                   { fn: 'aimed', count: 5,  arc: 30, speed: 240, every: 1100 },
+                   { fn: 'radial', count: 18, speed: 200, every: 2000 } ] },
+      ],
+    },
+    5: {
+      name: 'OMEGA MOTHERSHIP', tex: 'boss5', tint: 0xff3b3b,
+      healthBase: 390, contactDamage: 24, score: 10000,
+      movement: 'figure8', moveSpeed: 0, hoverY: 130,
+      phases: [
+        { steps: [ { fn: 'spiral', arms: 4, speed: 190, rot: 11, every: 125 },
+                   { fn: 'aimed',  count: 3, arc: 20, speed: 230, every: 1300 } ] },
+        { steps: [ { fn: 'spiral', arms: 5, speed: 200, rot: 13, every: 120 },
+                   { fn: 'rain',   count: 8, speed: 230, every: 850 },
+                   { fn: 'radial', count: 16, speed: 200, every: 2000 } ] },
+        { steps: [ { fn: 'spiral', arms: 5, speed: 215, rot: 16, every: 120 },
+                   { fn: 'rain',   count: 9, speed: 250, every: 750 },
+                   { fn: 'aimed',  count: 5, arc: 30, speed: 250, every: 1050 },
+                   { fn: 'radial', count: 18, speed: 210, every: 1800 } ] },
+      ],
+    },
+  },
 
   // --- Storage keys ---
   storage: {

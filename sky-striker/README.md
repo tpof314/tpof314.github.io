@@ -43,8 +43,15 @@ Then visit `http://<your-computer-ip>:8000` on your phone.
   sized by what died (small/medium/large)
 - **Shield** system with a visible bubble around the ship
 - **Stage progression** across all 5 stages → Victory screen
+- **Bosses** — 5 unique bosses (distinct silhouettes), one per stage. Each
+  slides in, sweeps/hovers, and runs a **3-phase attack script** (phases at
+  100%/66%/33% HP) layering patterns like spread, aimed volleys, radial rings,
+  rotating spirals and falling barrages. A **boss health bar** shows in the HUD,
+  and a **staggered explosion death sequence** (with flash + shake) clears the
+  stage. Clearing the final boss triggers Victory.
 - **Parallax starfield**, engine thrust particles, persisted mute + high score
-- **HUD**: health bar, score, stage, weapon level, shield count
+- **HUD**: health bar, score, stage, weapon level, shield count, boss bar
+- **Crash overlay** + safe storage for cross-browser resilience
 
 ## Project structure
 
@@ -54,38 +61,27 @@ sky-striker/
 ├── css/style.css
 ├── README.md
 └── src/
-    ├── config.js           # ALL tuning values (enemies, waves, powerups...)
+    ├── config.js           # ALL tuning (enemies, waves, powerups, bosses...)
     ├── main.js
-    ├── data/
-    │   └── stages.js       # per-stage wave definitions
+    ├── data/stages.js      # per-stage wave definitions
     ├── entities/
-    │   ├── Bullet.js
-    │   ├── EnemyBullet.js
-    │   ├── Enemy.js        # base archetype
-    │   ├── enemies/
-    │   │   ├── Grunt.js
-    │   │   ├── Weaver.js
-    │   │   └── Gunner.js
-    │   ├── PowerUp.js
-    │   └── Player.js
+    │   ├── Bullet.js  EnemyBullet.js  Enemy.js
+    │   ├── enemies/ Grunt.js  Weaver.js  Gunner.js
+    │   ├── PowerUp.js  Boss.js  Player.js
     ├── systems/
-    │   ├── Background.js
-    │   ├── TextureFactory.js
-    │   ├── Explosions.js
-    │   └── WaveManager.js
+    │   ├── Background.js  TextureFactory.js  Explosions.js
+    │   ├── WaveManager.js  Storage.js
     └── scenes/
         ├── BootScene.js  PreloadScene.js  TitleScene.js
         ├── GameScene.js  HUDScene.js      GameOverScene.js
 ```
 
-## Next phase (hook marked in `GameScene.onStageCleared`)
+## Next phase
 
-1. **Bosses** — 5 unique bosses with multi-phase attacks; the final wave
-   triggers the boss, and the boss's death clears the stage (right now waves
-   clearing advances the stage directly — the boss slots into that hook)
-2. **SFX** — shoot / explosion / power-up / boss-hit (mute toggle already wired)
-3. Optional: enemy object-pooling if profiling shows GC pressure (bullets and
-   particles are already pooled; enemies are create/destroy for now)
+1. **SFX** — shoot / explosion / power-up / boss-hit / boss-death (mute toggle
+   already wired; audio was intentionally deferred)
+2. Optional polish: per-boss intro cards, distinct boss movement flourishes,
+   enemy object-pooling if profiling shows GC pressure
 
 ## Tuning
 

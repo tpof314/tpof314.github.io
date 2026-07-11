@@ -56,6 +56,11 @@ class TitleScene extends Phaser.Scene {
       'Drag to move  \u2022  Auto-fire  \u2022  Survive 5 stages', {
       fontFamily: 'monospace', fontSize: '13px', color: '#6f93b3',
     }).setOrigin(0.5);
+
+    // Build stamp — confirms which version is loaded (catch stale caches)
+    this.add.text(CONFIG.WIDTH - 8, CONFIG.HEIGHT - 8, 'build ' + CONFIG.version, {
+      fontFamily: 'monospace', fontSize: '10px', color: '#3f5a72',
+    }).setOrigin(1, 1);
   }
 
   _refreshMute() {

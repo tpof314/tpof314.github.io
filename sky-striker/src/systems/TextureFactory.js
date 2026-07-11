@@ -21,6 +21,7 @@ const TextureFactory = {
     this._dot(scene, 'spark', 0xffffff, 6);
     this._ring(scene);
     this._powerups(scene);
+    this._bosses(scene);
   },
 
   _player(scene) {
@@ -173,4 +174,79 @@ const TextureFactory = {
 
   // Player shield bubble (drawn once, toggled on the player at runtime).
   shieldBubbleKey: 'shieldBubble',
+
+  // Five distinct boss silhouettes, drawn neutral white, tinted at runtime.
+  _bosses(scene) {
+    const mk = (key, w, h, draw) => {
+      const g = scene.make.graphics({ x: 0, y: 0, add: false });
+      g.fillStyle(0xffffff, 1);
+      draw(g, w, h);
+      g.fillStyle(0x1b2338, 1); // cockpit/core accent
+      draw._core && draw._core(g, w, h);
+      g.generateTexture(key, w, h);
+      g.destroy();
+    };
+
+    // boss1 — wide carrier chevron
+    mk('boss1', 150, 90, (g, w, h) => {
+      g.fillTriangle(0, 20, w / 2, h, w, 20);
+      g.fillRect(w * 0.2, 6, w * 0.6, 26);
+      g.fillStyle(0x1b2338, 1);
+      g.fillCircle(w / 2, 30, 9);
+      g.fillStyle(0xffffff, 1);
+    });
+
+    // boss2 — hexagonal battlecruiser with side prongs
+    mk('boss2', 150, 100, (g, w, h) => {
+      const cx = w / 2, cy = h / 2, r = 42;
+      g.beginPath();
+      for (let i = 0; i < 6; i++) {
+        const a = Math.PI / 6 + i * Math.PI / 3;
+        const px = cx + Math.cos(a) * r, py = cy + Math.sin(a) * r * 0.8;
+        i === 0 ? g.moveTo(px, py) : g.lineTo(px, py);
+      }
+      g.closePath(); g.fillPath();
+      g.fillTriangle(2, cy - 6, 34, cy - 2, 34, cy + 10);       // left prong
+      g.fillTriangle(w - 2, cy - 6, w - 34, cy - 2, w - 34, cy + 10); // right prong
+      g.fillStyle(0x1b2338, 1); g.fillCircle(cx, cy, 12);
+      g.fillStyle(0xffffff, 1);
+    });
+
+    // boss3 — saucer with orbital ring
+    mk('boss3', 150, 96, (g, w, h) => {
+      const cx = w / 2, cy = h / 2;
+      g.fillEllipse(cx, cy, 120, 46);
+      g.fillEllipse(cx, cy - 12, 56, 40);
+      g.lineStyle(5, 0xffffff, 1);
+      g.strokeEllipse(cx, cy + 8, 140, 30);
+      g.fillStyle(0x1b2338, 1); g.fillCircle(cx, cy - 12, 12);
+      g.fillStyle(0xffffff, 1);
+    });
+
+    // boss4 — blocky fortress with turrets
+    mk('boss4', 156, 96, (g, w, h) => {
+      g.fillRoundedRect(10, 20, w - 20, h - 34, 8);
+      g.fillRect(0, 34, 18, 40);       // left tower
+      g.fillRect(w - 18, 34, 18, 40);  // right tower
+      g.fillRect(w / 2 - 22, 6, 44, 24); // center keep
+      g.fillStyle(0x1b2338, 1);
+      g.fillRect(24, 40, 16, 16);
+      g.fillRect(w - 40, 40, 16, 16);
+      g.fillRect(w / 2 - 8, 12, 16, 12);
+      g.fillStyle(0xffffff, 1);
+    });
+
+    // boss5 — layered mothership
+    mk('boss5', 168, 108, (g, w, h) => {
+      const cx = w / 2, cy = h / 2;
+      g.fillEllipse(cx, cy, 150, 60);
+      g.fillTriangle(cx, h, 20, cy + 6, w - 20, cy + 6);
+      g.fillEllipse(cx, cy - 14, 70, 46);
+      g.fillStyle(0x1b2338, 1);
+      g.fillCircle(cx, cy - 12, 16);
+      g.fillStyle(0xffffff, 1);
+      g.fillCircle(cx - 46, cy, 8);
+      g.fillCircle(cx + 46, cy, 8);
+    });
+  },
 };

@@ -4,9 +4,8 @@
    stage cleared once every wave has spawned AND every enemy is
    gone. GameScene calls checkClear() whenever an enemy is
    removed so the "kill everything" gate resolves promptly.
-
-   NEXT PHASE: instead of clearing immediately, the final wave
-   will trigger a boss; the boss's death then clears the stage.
+   When cleared it calls scene.onWavesCleared(), which summons
+   the stage boss; the boss's death then advances the stage.
    ============================================================ */
 
 const ENEMY_CLASSES = { grunt: Grunt, weaver: Weaver, gunner: Gunner };
@@ -77,7 +76,7 @@ class WaveManager {
     if (this.spawnsPending > 0) return;
     if (this.scene.enemies.countActive(true) > 0) return;
     this._cleared = true;
-    this.scene.onStageCleared();
+    this.scene.onWavesCleared();
   }
 
   destroy() {

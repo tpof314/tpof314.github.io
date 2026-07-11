@@ -33,6 +33,13 @@ class HUDScene extends Phaser.Scene {
     this.shieldText = this.add.text(CONFIG.WIDTH / 2, pad, '', {
       fontFamily: 'monospace', fontSize: '13px', color: '#35d0ff',
     }).setOrigin(0.5, 0);
+
+    // Boss health bar (hidden unless a boss is active)
+    this.bossName = this.add.text(CONFIG.WIDTH / 2, 40, '', {
+      fontFamily: 'Arial Black, sans-serif', fontSize: '13px', color: '#ffd7d7',
+    }).setOrigin(0.5, 0).setVisible(false);
+    this.bossBarBg = this.add.graphics();
+    this.bossBarFill = this.add.graphics();
   }
 
   update() {
@@ -62,5 +69,21 @@ class HUDScene extends Phaser.Scene {
 
     const shield = r.get('shield') || 0;
     this.shieldText.setText(shield > 0 ? 'SHIELD x' + shield : '');
+
+    // Boss health bar
+    const bossActive = r.get('bossActive');
+    this.bossName.setVisible(!!bossActive);
+    this.bossBarBg.clear();
+    this.bossBarFill.clear();
+    if (bossActive) {
+      const bx = 30, by = 60, bw = CONFIG.WIDTH - 60, bh = 12;
+      const bfrac = Phaser.Math.Clamp(
+        (r.get('bossHealth') || 0) / (r.get('bossMaxHealth') || 1), 0, 1);
+      this.bossName.setText(r.get('bossName') || 'BOSS');
+      this.bossBarBg.fillStyle(0x2a1020, 1);
+      this.bossBarBg.fillRoundedRect(bx, by, bw, bh, 5);
+      this.bossBarFill.fillStyle(0xff5b5b, 1);
+      if (bfrac > 0) this.bossBarFill.fillRoundedRect(bx + 2, by + 2, (bw - 4) * bfrac, bh - 4, 3);
+    }
   }
 }
