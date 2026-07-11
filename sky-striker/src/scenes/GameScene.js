@@ -150,11 +150,11 @@ class GameScene extends Phaser.Scene {
     const type = pu.type;
     pu.destroy();
     this.explosions.play(player.x, player.y - 20, 'small', CONFIG.colors[
-      type === 'weapon' ? 'pwWeapon' : type === 'shield' ? 'pwShield' : 'pwScore']);
+      type === 'weapon' ? 'pwWeapon' : type === 'shield' ? 'pwShield' : 'pwHealth']);
 
     if (type === 'weapon')      { player.upgradeWeapon(); this._popup(player.x, player.y - 30, 'WEAPON UP'); }
     else if (type === 'shield') { player.addShield(CONFIG.powerup.shieldHits); this._popup(player.x, player.y - 30, 'SHIELD'); }
-    else                        { this.addScore(CONFIG.powerup.scoreValue); this._popup(player.x, player.y - 30, '+' + CONFIG.powerup.scoreValue); }
+    else                        { player.heal(CONFIG.powerup.healValue); this._popup(player.x, player.y - 30, '+' + CONFIG.powerup.healValue + ' HP', '#38e08a'); }
     SFX.powerup(type);
   }
 
@@ -172,7 +172,7 @@ class GameScene extends Phaser.Scene {
   _dropPowerup(x, y) {
     const w = CONFIG.powerup.weights;
     const r = Math.random();
-    let type = 'score';
+    let type = 'health';
     if (r < w.weapon) type = 'weapon';
     else if (r < w.weapon + w.shield) type = 'shield';
     const pu = new PowerUp(this, x, y, type);
@@ -203,9 +203,9 @@ class GameScene extends Phaser.Scene {
       onComplete: () => r.destroy() });
   }
 
-  _popup(x, y, text) {
+  _popup(x, y, text, color) {
     const t = this.add.text(x, y, text, {
-      fontFamily: 'monospace', fontSize: '14px', color: '#ffe14d',
+      fontFamily: 'monospace', fontSize: '14px', color: color || '#ffe14d',
     }).setOrigin(0.5).setDepth(25);
     this.tweens.add({ targets: t, y: y - 30, alpha: 0, duration: 700,
                       onComplete: () => t.destroy() });

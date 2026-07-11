@@ -161,14 +161,14 @@ const TextureFactory = {
     g.generateTexture('pw_shield', s, s);
     g.destroy();
 
-    // score
+    // health (green cross)
     g = scene.make.graphics({ x: 0, y: 0, add: false });
-    s = box(g, CONFIG.colors.pwScore);
-    g.fillStyle(CONFIG.colors.pwScore, 1);
-    g.fillCircle(s * 0.5, s * 0.5, s * 0.16);
-    g.fillStyle(CONFIG.colors.pwScore, 0.5);
-    g.fillCircle(s * 0.5, s * 0.5, s * 0.26);
-    g.generateTexture('pw_score', s, s);
+    s = box(g, CONFIG.colors.pwHealth);
+    g.fillStyle(CONFIG.colors.pwHealth, 1);
+    const cw = s * 0.16, cl = s * 0.46;
+    g.fillRect(s * 0.5 - cw / 2, s * 0.5 - cl / 2, cw, cl); // vertical bar
+    g.fillRect(s * 0.5 - cl / 2, s * 0.5 - cw / 2, cl, cw); // horizontal bar
+    g.generateTexture('pw_health', s, s);
     g.destroy();
   },
 

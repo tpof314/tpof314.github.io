@@ -9,6 +9,9 @@ class BootScene extends Phaser.Scene {
   create() {
     console.log('Sky Striker — build ' + CONFIG.version);
 
+    // Install native first-gesture audio unlock (critical for iOS).
+    SFX.installUnlockHandlers();
+
     // Restore persisted preferences
     const muted = SafeStorage.get(CONFIG.storage.muted) === 'true';
     this.registry.set('muted', muted);

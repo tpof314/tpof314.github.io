@@ -1,11 +1,11 @@
 /* ============================================================
    PowerUp — dropped by Gunner-type enemies. Falls slowly with a
    gentle wobble; despawns if not collected in time. Type is one
-   of 'weapon' | 'shield' | 'score'; the GameScene applies the
+   of 'weapon' | 'shield' | 'health'; the GameScene applies the
    effect on pickup.
    ============================================================ */
 
-const POWERUP_TEX = { weapon: 'pw_weapon', shield: 'pw_shield', score: 'pw_score' };
+const POWERUP_TEX = { weapon: 'pw_weapon', shield: 'pw_shield', health: 'pw_health' };
 
 class PowerUp extends Phaser.Physics.Arcade.Sprite {
   constructor(scene, x, y, type) {

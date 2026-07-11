@@ -17,6 +17,8 @@ const SFX = {
   muted: false,
   _lastShoot: 0,
   _lastBossHit: 0,
+  _installed: false,
+  _kicked: false,
 
   _vol() { return CONFIG.sfx.masterVolume; },
 
@@ -36,10 +38,47 @@ const SFX = {
     return this.ctx;
   },
 
-  // Call from a user gesture (tap/click) to start/resume audio.
+  // Install native DOM listeners that unlock audio on the FIRST real user
+  // gesture. This is essential on iOS: Phaser dispatches its pointer events
+  // from its render loop, which is detached from the native touch event, so
+  // unlocking from a Phaser callback is too late to satisfy iOS. A native
+  // listener fires inside the real gesture. Call once at boot.
+  installUnlockHandlers() {
+    if (this._installed) return;
+    this._installed = true;
+    const self = this;
+    const onGesture = function () { self.unlock(); };
+    const evs = ['touchstart', 'touchend', 'pointerdown', 'mousedown', 'click', 'keydown'];
+    const target = (typeof document !== 'undefined') ? document : window;
+    evs.forEach(function (e) {
+      target.addEventListener(e, onGesture, { capture: true, passive: true });
+    });
+    // iOS suspends/interrupts audio on backgrounding; resume on return.
+    if (typeof document !== 'undefined' && document.addEventListener) {
+      document.addEventListener('visibilitychange', function () {
+        if (!document.hidden) self.unlock();
+      });
+    }
+  },
+
+  // Create/resume the context and play a silent buffer to wake iOS audio.
+  // Must run inside a user gesture (native listeners above ensure this).
   unlock() {
     const ctx = this.ensureContext();
-    if (ctx && ctx.state === 'suspended') ctx.resume().catch(function () {});
+    if (!ctx) return;
+    if (ctx.state === 'suspended' || ctx.state === 'interrupted') {
+      ctx.resume().catch(function () {});
+    }
+    if (!this._kicked) {
+      try {
+        const buf = ctx.createBuffer(1, 1, 22050);
+        const src = ctx.createBufferSource();
+        src.buffer = buf;
+        src.connect(ctx.destination);
+        src.start(0);
+        this._kicked = true;
+      } catch (e) { /* ignore */ }
+    }
   },
 
   setMuted(m) {
@@ -51,7 +90,7 @@ const SFX = {
     if (this.muted) return null;
     const ctx = this.ensureContext();
     if (!ctx) return null;
-    if (ctx.state === 'suspended') ctx.resume().catch(function () {});
+    if (ctx.state === 'suspended' || ctx.state === 'interrupted') ctx.resume().catch(function () {});
     return ctx;
   },
 
@@ -141,8 +180,10 @@ const SFX = {
   },
 
   powerup(kind) {
-    const base = kind === 'score' ? 660 : kind === 'shield' ? 520 : 440;
-    const notes = kind === 'score' ? [base, base * 1.5] : [base, base * 1.26, base * 1.5];
+    // health = warm ascending triad; shield = lower; weapon = brighter
+    const base = kind === 'health' ? 523 : kind === 'shield' ? 480 : 440;
+    const notes = kind === 'health' ? [base, base * 1.25, base * 1.5]
+                : [base, base * 1.26, base * 1.5];
     for (let i = 0; i < notes.length; i++) {
       this._tone({ type: 'triangle', freq: notes[i], dur: 0.12, gain: 0.16, delay: i * 0.06, attack: 0.005 });
     }

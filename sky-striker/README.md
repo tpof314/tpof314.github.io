@@ -37,7 +37,7 @@ Then visit `http://<your-computer-ip>:8000` on your phone.
   evasive), Gunner (slow, fires *aimed* shots, drops power-ups)
 - **Data-driven wave manager**: 5 waves per stage, escalating enemy count /
   speed / health per stage; "clear everything" gates stage completion
-- **Power-ups** dropped by Gunners: Weapon-up, Shield (absorbs hits), Score
+- **Power-ups** dropped by Gunners: Weapon-up, Shield (absorbs hits), Health (restores HP)
 - **Collisions**: bullets↔enemies, ram damage, enemy-bullets↔player, pickups
 - **Tiered explosions**: procedural bursts + shockwave ring + camera shake,
   sized by what died (small/medium/large)

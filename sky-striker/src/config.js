@@ -9,7 +9,7 @@
 const CONFIG = {
   // Build stamp — shown on the title screen and logged at boot so you can
   // confirm which build is actually running (helps catch stale caches).
-  version: '1.3.0',
+  version: '1.3.2',
 
   // --- SFX (synthesized via Web Audio; no audio files needed) ---
   sfx: {
@@ -93,8 +93,8 @@ const CONFIG = {
     fallSpeed: 110,
     lifespanMs: 9000,           // despawns if not collected
     // Weighted drop chance when a Gunner dies
-    weights: { weapon: 0.5, shield: 0.25, score: 0.25 },
-    scoreValue: 250,
+    weights: { weapon: 0.5, shield: 0.25, health: 0.25 },
+    healValue: 30,              // HP restored per health pickup
     shieldHits: 2,              // hits absorbed per shield pickup
   },
 
@@ -219,7 +219,7 @@ const CONFIG = {
     powerup:    0x9b5cff,
     pwWeapon:   0xffe14d,
     pwShield:   0x35d0ff,
-    pwScore:    0x38e08a,
+    pwHealth:   0x38e08a,
     shield:     0x35d0ff,
     hpGood:     0x38e08a,
     hpMid:      0xf4c430,

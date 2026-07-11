@@ -184,6 +184,11 @@ class Player extends Phaser.Physics.Arcade.Sprite {
     this._syncRegistry();
   }
 
+  heal(amount) {
+    this.health = Math.min(CONFIG.player.maxHealth, this.health + amount);
+    this._syncRegistry();
+  }
+
   _updateShieldVisual() {
     this.shieldSprite.setVisible(this.shield > 0);
   }
