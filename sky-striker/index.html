@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Mobile-first: lock zoom, use full screen incl. notch areas -->
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#0b1021" />
+  <title>Sky Striker</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Visible crash reporter. Turns silent freezes / blank screens into a
+       readable message (crucial for diagnosing device-specific failures). -->
+  <div id="error-overlay" hidden>
+    <div class="eo-card">
+      <h2>Something went wrong</h2>
+      <pre id="error-text"></pre>
+      <p class="eo-hint">Screenshot this and send it over — it tells us exactly what failed on this device.</p>
+      <button onclick="location.reload()">Reload</button>
+    </div>
+  </div>
+
+  <div id="boot-splash">
+    <h1>SKY STRIKER</h1>
+    <p>Loading…</p>
+  </div>
+
+  <div id="game-root"></div>
+
+  <!-- Error capture installed FIRST so it catches everything after it. -->
+  <script>
+    (function () {
+      window.__reportGameError = function (msg) {
+        try {
+          var ov = document.getElementById('error-overlay');
+          var tx = document.getElementById('error-text');
+          if (tx) tx.textContent = String(msg);
+          if (ov) ov.hidden = false;
+          var sp = document.getElementById('boot-splash');
+          if (sp) sp.style.display = 'none';
+        } catch (e) {}
+      };
+      window.addEventListener('error', function (ev) {
+        // Resource load failures (e.g. Phaser CDN) have no ev.message.
+        if (ev && ev.message) {
+          window.__reportGameError(ev.message +
+            (ev.filename ? '\n\n' + ev.filename + ':' + ev.lineno : ''));
+        }
+      });
+      window.addEventListener('unhandledrejection', function (ev) {
+        window.__reportGameError('Unhandled promise rejection:\n' +
+          (ev && ev.reason ? ev.reason : 'unknown'));
+      });
+    })();
+  </script>
+
+  <!-- Phaser 3 from CDN. onerror reports a failed load explicitly. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.80.1/phaser.min.js"
+          onerror="window.__reportGameError('Failed to load the game engine (Phaser) from the CDN. Check this device\'s internet/CDN access, or host phaser.min.js locally.')"></script>
+
+  <!-- Confirm Phaser actually loaded before running game scripts. -->
+  <script>
+    if (typeof Phaser === 'undefined') {
+      window.__reportGameError('Game engine (Phaser) did not load. ' +
+        'This device may be blocking the CDN. Consider hosting phaser.min.js locally.');
+    }
+  </script>
+
+  <!-- Game source, loaded in dependency order (classic scripts:
+       runs directly from file:// with no bundler or dev server) -->
+  <script src="src/config.js"></script>
+  <script src="src/systems/Storage.js"></script>
+  <script src="src/data/stages.js"></script>
+
+  <!-- Entities -->
+  <script src="src/entities/Bullet.js"></script>
+  <script src="src/entities/EnemyBullet.js"></script>
+  <script src="src/entities/Enemy.js"></script>
+  <script src="src/entities/enemies/Grunt.js"></script>
+  <script src="src/entities/enemies/Weaver.js"></script>
+  <script src="src/entities/enemies/Gunner.js"></script>
+  <script src="src/entities/PowerUp.js"></script>
+  <script src="src/entities/Player.js"></script>
+
+  <!-- Systems -->
+  <script src="src/systems/Background.js"></script>
+  <script src="src/systems/TextureFactory.js"></script>
+  <script src="src/systems/Explosions.js"></script>
+  <script src="src/systems/WaveManager.js"></script>
+
+  <!-- Scenes -->
+  <script src="src/scenes/BootScene.js"></script>
+  <script src="src/scenes/PreloadScene.js"></script>
+  <script src="src/scenes/TitleScene.js"></script>
+  <script src="src/scenes/GameScene.js"></script>
+  <script src="src/scenes/HUDScene.js"></script>
+  <script src="src/scenes/GameOverScene.js"></script>
+
+  <script src="src/main.js"></script>
+
+  <!-- Hide the splash once the first game frame is ready -->
+  <script>
+    (function () {
+      var splash = document.getElementById('boot-splash');
+      if (!splash) return;
+      var hide = function () {
+        splash.classList.add('hidden');
+        setTimeout(function () { if (splash.parentNode) splash.remove(); }, 500);
+      };
+      window.addEventListener('load', function () { setTimeout(hide, 600); });
+    })();
+  </script>
+</body>
+</html>
