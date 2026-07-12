@@ -58,14 +58,16 @@ class GameScene extends Phaser.Scene {
 
   _startRun() {
     this._runEnded = false;
+    const maxHp = Math.round(CONFIG.player.maxHealth * Difficulty.mods().playerHpMul);
     this.registry.set('score', 0);
     this.registry.set('stage', 1);
-    this.registry.set('health', CONFIG.player.startHealth);
-    this.registry.set('maxHealth', CONFIG.player.maxHealth);
+    this.registry.set('health', maxHp);
+    this.registry.set('maxHealth', maxHp);
     this.registry.set('weaponLevel', CONFIG.weapon.startLevel);
     this.registry.set('shield', 0);
     this.registry.set('outcome', null);
     this.registry.set('bossActive', false);
+    this.registry.set('difficulty', Difficulty.current);
   }
 
   _startStage(stage) {

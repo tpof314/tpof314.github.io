@@ -19,8 +19,8 @@ class Boss extends Phaser.Physics.Arcade.Sprite {
     this.stage = stage;
     this.setDepth(8);
 
-    this.maxHealth = cfg.healthBase;
-    this.health = cfg.healthBase;
+    this.maxHealth = Math.round(cfg.healthBase * Difficulty.mods().bossHpMul);
+    this.health = this.maxHealth;
     this.contactDamage = cfg.contactDamage;
     this.score = cfg.score;
     this.setTint(cfg.tint);

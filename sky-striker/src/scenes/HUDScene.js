@@ -64,7 +64,10 @@ class HUDScene extends Phaser.Scene {
 
     const score = r.get('score') || 0;
     this.scoreText.setText(score.toString().padStart(6, '0'));
-    this.stageText.setText('STAGE ' + (r.get('stage') || 1) + ' / ' + CONFIG.totalStages);
+    const diffKey = r.get('difficulty') || 'normal';
+    const diffLabel = (CONFIG.difficulties[diffKey] || {}).label || '';
+    this.stageText.setText('STAGE ' + (r.get('stage') || 1) + ' / ' + CONFIG.totalStages +
+      (diffLabel ? '   ' + diffLabel : ''));
     this.wpnText.setText('WPN Lv.' + (r.get('weaponLevel') || 1));
 
     const shield = r.get('shield') || 0;

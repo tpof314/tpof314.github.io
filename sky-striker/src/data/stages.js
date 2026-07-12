@@ -9,7 +9,8 @@
    ============================================================ */
 
 function buildStageWaves(stage) {
-  const d = (CONFIG.stageScaling[stage] || { density: 1 }).density;
+  const stageDensity = (CONFIG.stageScaling[stage] || { density: 1 }).density;
+  const d = stageDensity * Difficulty.mods().densityMul;
   const n = (c) => Math.max(1, Math.round(c * d));
 
   return [

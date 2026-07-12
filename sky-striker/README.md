@@ -42,6 +42,7 @@ Then visit `http://<your-computer-ip>:8000` on your phone.
 - **Tiered explosions**: procedural bursts + shockwave ring + camera shake,
   sized by what died (small/medium/large)
 - **Shield** system with a visible bubble around the ship
+- **Difficulty select** (Easy/Normal/Hard) on the title screen; choice persists
 - **Stage progression** across all 5 stages → Victory screen
 - **Bosses** — 5 unique bosses (distinct silhouettes), one per stage. Each
   slides in, sweeps/hovers, and runs a **3-phase attack script** (phases at

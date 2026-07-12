@@ -19,6 +19,9 @@ const SFX = {
   _lastBossHit: 0,
   _installed: false,
   _kicked: false,
+  _htmlUnlocked: false,
+  _silentAudio: null,
+  _silentURI: null,
 
   _vol() { return CONFIG.sfx.masterVolume; },
 
@@ -65,20 +68,64 @@ const SFX = {
   // Must run inside a user gesture (native listeners above ensure this).
   unlock() {
     const ctx = this.ensureContext();
-    if (!ctx) return;
-    if (ctx.state === 'suspended' || ctx.state === 'interrupted') {
-      ctx.resume().catch(function () {});
+    if (ctx) {
+      if (ctx.state === 'suspended' || ctx.state === 'interrupted') {
+        ctx.resume().catch(function () {});
+      }
+      if (!this._kicked) {
+        try {
+          const buf = ctx.createBuffer(1, 1, 22050);
+          const src = ctx.createBufferSource();
+          src.buffer = buf;
+          src.connect(ctx.destination);
+          src.start(0);
+          this._kicked = true;
+        } catch (e) { /* ignore */ }
+      }
     }
-    if (!this._kicked) {
-      try {
-        const buf = ctx.createBuffer(1, 1, 22050);
-        const src = ctx.createBufferSource();
-        src.buffer = buf;
-        src.connect(ctx.destination);
-        src.start(0);
-        this._kicked = true;
-      } catch (e) { /* ignore */ }
-    }
+    // Also start silent HTML5 media so audio ignores the iOS ring/silent switch.
+    this._html5Unlock();
+  },
+
+  // Play a looping silent audio clip. On iOS this switches the audio session
+  // to "playback", which lets Web Audio play through the speaker even when
+  // the hardware mute (ring/silent) switch is on.
+  _html5Unlock() {
+    if (this._htmlUnlocked) return;
+    if (typeof Audio === 'undefined') return;
+    try {
+      if (!this._silentURI) this._silentURI = this._makeSilentWav(0.5, 8000);
+      const a = new Audio(this._silentURI);
+      a.loop = true;
+      a.playsInline = true;
+      if (a.setAttribute) a.setAttribute('playsinline', '');
+      const p = a.play();
+      if (p && p.catch) p.catch(function () {});
+      this._silentAudio = a;
+      this._htmlUnlocked = true;
+    } catch (e) { /* ignore */ }
+  },
+
+  // Build a small silent WAV as a data URI (no asset file needed).
+  _makeSilentWav(seconds, rate) {
+    if (typeof btoa === 'undefined' || typeof ArrayBuffer === 'undefined') return '';
+    const numSamples = Math.floor(seconds * rate);
+    const dataSize = numSamples * 2; // 16-bit mono
+    const buffer = new ArrayBuffer(44 + dataSize);
+    const view = new DataView(buffer);
+    const put = function (off, str) {
+      for (let i = 0; i < str.length; i++) view.setUint8(off + i, str.charCodeAt(i));
+    };
+    put(0, 'RIFF'); view.setUint32(4, 36 + dataSize, true); put(8, 'WAVE');
+    put(12, 'fmt '); view.setUint32(16, 16, true); view.setUint16(20, 1, true);
+    view.setUint16(22, 1, true); view.setUint32(24, rate, true);
+    view.setUint32(28, rate * 2, true); view.setUint16(32, 2, true); view.setUint16(34, 16, true);
+    put(36, 'data'); view.setUint32(40, dataSize, true);
+    // samples remain zero (silence)
+    let bin = '';
+    const bytes = new Uint8Array(buffer);
+    for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+    return 'data:audio/wav;base64,' + btoa(bin);
   },
 
   setMuted(m) {

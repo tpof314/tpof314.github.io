@@ -23,15 +23,19 @@ class Enemy extends Phaser.Physics.Arcade.Sprite {
   // Called by WaveManager right after construction.
   spawn(stage) {
     const scale = CONFIG.stageScaling[stage] || { hp: 1, speed: 1 };
-    this.maxHealth = Math.round(this.base.health * scale.hp);
+    const d = Difficulty.mods();
+    this.maxHealth = Math.max(1, Math.round(this.base.health * scale.hp * d.hpMul));
     this.health = this.maxHealth;
-    this.speed = this.base.speed * scale.speed;
+    this.speed = this.base.speed * scale.speed * d.speedMul;
     this.score = this.base.score;
     this.contactDamage = this.base.contactDamage;
+    // Effective (difficulty-adjusted) firing values
+    this.bulletSpeed = this.base.bulletSpeed * d.bulletSpeedMul;
+    this.fireIntervalMs = this.base.fireIntervalMs * d.fireRateMul;
     this.spawnX = this.x;
     this._age = 0;
-    this._fireTimer = this.base.fireIntervalMs
-      ? Phaser.Math.Between(400, this.base.fireIntervalMs) : 0;
+    this._fireTimer = this.fireIntervalMs
+      ? Phaser.Math.Between(400, this.fireIntervalMs) : 0;
 
     // Per-stage re-skin
     const tints = CONFIG.stageTints[stage];
@@ -71,7 +75,7 @@ class Enemy extends Phaser.Physics.Arcade.Sprite {
 
   // Fire straight down (overridden by Gunner for aimed shots).
   _fire() {
-    this._emitBullet(0, this.base.bulletSpeed);
+    this._emitBullet(0, this.bulletSpeed);
   }
 
   preUpdate(time, delta) {
@@ -86,7 +90,7 @@ class Enemy extends Phaser.Physics.Arcade.Sprite {
       this._fireTimer -= delta;
       if (this._fireTimer <= 0 && this.y > 0 && this.y < CONFIG.HEIGHT * 0.85) {
         this._fire();
-        this._fireTimer = this.base.fireIntervalMs;
+        this._fireTimer = this.fireIntervalMs;
       }
     }
 

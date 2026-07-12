@@ -16,7 +16,7 @@ class Gunner extends Enemy {
     const p = this.scene.player;
     if (!p || !p.active) { super._fire(); return; }
     const ang = Math.atan2(p.y - this.y, p.x - this.x);
-    const spd = this.base.bulletSpeed;
+    const spd = this.bulletSpeed;
     this._emitBullet(Math.cos(ang) * spd, Math.sin(ang) * spd);
   }
 }

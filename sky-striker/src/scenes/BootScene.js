@@ -12,6 +12,9 @@ class BootScene extends Phaser.Scene {
     // Install native first-gesture audio unlock (critical for iOS).
     SFX.installUnlockHandlers();
 
+    // Restore saved difficulty selection
+    Difficulty.load();
+
     // Restore persisted preferences
     const muted = SafeStorage.get(CONFIG.storage.muted) === 'true';
     this.registry.set('muted', muted);

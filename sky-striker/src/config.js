@@ -9,7 +9,7 @@
 const CONFIG = {
   // Build stamp — shown on the title screen and logged at boot so you can
   // confirm which build is actually running (helps catch stale caches).
-  version: '1.3.2',
+  version: '1.5.0',
 
   // --- SFX (synthesized via Web Audio; no audio files needed) ---
   sfx: {
@@ -50,7 +50,7 @@ const CONFIG = {
     // Damage per bullet per level
     damageByLevel: [0, 1, 1, 1, 1.5, 2],
     // (tunable) seconds without a weapon pickup before level drops by 1
-    decaySeconds: 25,
+    decaySeconds: 32,
   },
 
   // --- Bullets ---
@@ -72,14 +72,14 @@ const CONFIG = {
   enemies: {
     // Grunt: straight-line dive, occasional straight-down shot
     grunt:  { health: 2,  speed: 150, score: 100, size: 34,
-              fireIntervalMs: 1800, bulletSpeed: 260, contactDamage: 12 },
+              fireIntervalMs: 2400, bulletSpeed: 210, contactDamage: 12 },
     // Weaver: sine-wave descent, hard to hit, does not fire
     weaver: { health: 3,  speed: 130, score: 150, size: 32,
               fireIntervalMs: 0,    bulletSpeed: 0,   contactDamage: 12,
               waveAmplitude: 90, waveFreq: 2.4 },
     // Gunner: slow, fires AIMED shots, drops power-ups on death
     gunner: { health: 6,  speed: 70,  score: 300, size: 40,
-              fireIntervalMs: 1400, bulletSpeed: 240, contactDamage: 16,
+              fireIntervalMs: 1800, bulletSpeed: 200, contactDamage: 16,
               dropsPowerup: true },
   },
 
@@ -103,13 +103,14 @@ const CONFIG = {
 
   // --- Per-stage difficulty scaling (index by stage 1..5) ---
   // Multipliers applied to enemy health/speed + wave density.
+  // Tuned down (v1.4.0): thinner waves + gentler late-stage ramp.
   stageScaling: [
     null, // index 0 unused
-    { hp: 1.0, speed: 1.0,  density: 1.0 },
-    { hp: 1.2, speed: 1.1,  density: 1.2 },
-    { hp: 1.5, speed: 1.2,  density: 1.4 },
-    { hp: 1.9, speed: 1.35, density: 1.6 },
-    { hp: 2.4, speed: 1.5,  density: 1.9 },
+    { hp: 1.0,  speed: 1.0,  density: 0.85 },
+    { hp: 1.15, speed: 1.05, density: 1.0 },
+    { hp: 1.4,  speed: 1.12, density: 1.15 },
+    { hp: 1.7,  speed: 1.22, density: 1.3 },
+    { hp: 2.1,  speed: 1.35, density: 1.5 },
   ],
 
   // Per-stage enemy tint (re-skin the shared shapes each stage)
@@ -202,10 +203,35 @@ const CONFIG = {
     },
   },
 
+  // --- Difficulty presets ---------------------------------------
+  // Multipliers applied ON TOP of the base balance. 'normal' == the
+  // tuned v1.4.0 baseline (all 1.0). fireRateMul multiplies the fire
+  // INTERVAL, so >1 = fires less often (easier).
+  difficulties: {
+    easy: {
+      label: 'EASY', desc: 'Fewer, slower foes', color: 0x38e08a,
+      hpMul: 0.85, speedMul: 0.9,  densityMul: 0.8, fireRateMul: 1.35,
+      bulletSpeedMul: 0.85, playerHpMul: 1.25, bossHpMul: 0.8,
+    },
+    normal: {
+      label: 'NORMAL', desc: 'Balanced', color: 0x35d0ff,
+      hpMul: 1.0, speedMul: 1.0, densityMul: 1.0, fireRateMul: 1.0,
+      bulletSpeedMul: 1.0, playerHpMul: 1.0, bossHpMul: 1.0,
+    },
+    hard: {
+      label: 'HARD', desc: 'Denser, faster', color: 0xff5b5b,
+      hpMul: 1.2, speedMul: 1.12, densityMul: 1.3, fireRateMul: 0.8,
+      bulletSpeedMul: 1.15, playerHpMul: 0.85, bossHpMul: 1.25,
+    },
+  },
+  difficultyOrder: ['easy', 'normal', 'hard'],
+  defaultDifficulty: 'normal',
+
   // --- Storage keys ---
   storage: {
     highScore: 'skystriker_highscore',
     muted: 'skystriker_muted',
+    difficulty: 'skystriker_difficulty',
   },
 
   // --- Palette (flat vector / cartoon) ---

@@ -35,7 +35,8 @@ class Player extends Phaser.Physics.Arcade.Sprite {
     this._decayTimer = 0;
 
     // --- Health / survivability ---
-    this.health = CONFIG.player.maxHealth;
+    this.maxHealth = Math.round(CONFIG.player.maxHealth * Difficulty.mods().playerHpMul);
+    this.health = this.maxHealth;
     this.invulnUntil = 0;
     this.shield = 0; // hits absorbed before health is touched
 
@@ -185,7 +186,7 @@ class Player extends Phaser.Physics.Arcade.Sprite {
   }
 
   heal(amount) {
-    this.health = Math.min(CONFIG.player.maxHealth, this.health + amount);
+    this.health = Math.min(this.maxHealth, this.health + amount);
     this._syncRegistry();
   }
 
@@ -196,6 +197,7 @@ class Player extends Phaser.Physics.Arcade.Sprite {
   _syncRegistry() {
     const r = this.scene.registry;
     r.set('health', this.health);
+    r.set('maxHealth', this.maxHealth);
     r.set('weaponLevel', this.weaponLevel);
     r.set('shield', this.shield);
   }
