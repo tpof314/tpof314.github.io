@@ -1,0 +1,1457 @@
+<!doctype html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>新西兰南岛环线 · South Island Grand Loop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Spectral:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+/* ---------------------------------------------------------------
+   Tokens
+   --------------------------------------------------------------- */
+:root{
+  --sea:#cfe0e2;
+  --land:#e6e8de;
+  --land-edge:#9aa89b;
+  --lake:#3e9ca3;
+  --alp:#c3c6b6;
+  --paper:#f3f4ee;
+  --surface:#ffffff;
+  --surface-2:#eceee5;
+  --ink:#16211d;
+  --ink-2:#4b5a52;
+  --ink-3:#7b8a80;
+  --hair:#ccd2c7;
+  --car:#a8283c;
+  --car-soft:#d99aa5;
+  --walk:#2f6b4f;
+  --bike:#b5811e;
+  --transit:#3e5c8a;
+  --focus:#1b6f76;
+  --star-op:0;
+  --shade:rgba(22,33,29,.10);
+  --radius:14px;
+  --fs-base:15px;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --sea:#080d14;
+    --land:#121a1c;
+    --land-edge:#33474a;
+    --lake:#1f5f6b;
+    --alp:#233034;
+    --paper:#070b0f;
+    --surface:#0e1519;
+    --surface-2:#141d22;
+    --ink:#e4ece8;
+    --ink-2:#9fb2ac;
+    --ink-3:#6f847e;
+    --hair:#222f33;
+    --car:#e8677c;
+    --car-soft:#6d2e3a;
+    --walk:#5fbf8c;
+    --bike:#e0b055;
+    --transit:#7fa3de;
+    --focus:#5fd0d8;
+    --star-op:1;
+    --shade:rgba(0,0,0,.5);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --sea:#080d14;
+  --land:#121a1c;
+  --land-edge:#33474a;
+  --lake:#1f5f6b;
+  --alp:#233034;
+  --paper:#070b0f;
+  --surface:#0e1519;
+  --surface-2:#141d22;
+  --ink:#e4ece8;
+  --ink-2:#9fb2ac;
+  --ink-3:#6f847e;
+  --hair:#222f33;
+  --car:#e8677c;
+  --car-soft:#6d2e3a;
+  --walk:#5fbf8c;
+  --bike:#e0b055;
+  --transit:#7fa3de;
+  --focus:#5fd0d8;
+  --star-op:1;
+  --shade:rgba(0,0,0,.5);
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{
+  height:100%;margin:0;background:var(--paper);color:var(--ink);
+  font-family:Archivo,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:var(--fs-base);line-height:1.5;
+  -webkit-text-size-adjust:100%;
+  font-variant-numeric:tabular-nums;
+}
+h1,h2,h3{font-family:Spectral,Georgia,"Songti SC",serif;font-weight:400;margin:0;letter-spacing:.005em}
+button{font:inherit;color:inherit;font-variant-numeric:tabular-nums}
+:focus-visible{outline:2.5px solid var(--focus);outline-offset:2px;border-radius:4px}
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* ---------------------------------------------------------------
+   Shell
+   --------------------------------------------------------------- */
+.app{height:100%;display:flex;flex-direction:column;overflow:hidden}
+
+.topbar{
+  display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;
+  padding:12px 18px;border-bottom:1px solid var(--hair);background:var(--surface);
+}
+.brand h1{font-size:21px;line-height:1.15}
+.brand p{margin:1px 0 0;font-size:12.5px;color:var(--ink-3);letter-spacing:.02em}
+.totals{display:flex;gap:16px;margin-left:auto;align-items:baseline}
+.total b{font-family:Spectral,serif;font-weight:600;font-size:19px}
+.total span{font-size:11.5px;color:var(--ink-3);display:block;line-height:1.2}
+.topbar .chips{display:flex;gap:6px;align-items:center}
+
+.chip{
+  border:1px solid var(--hair);background:var(--surface);border-radius:999px;
+  min-height:34px;padding:0 13px;cursor:pointer;font-size:13px;color:var(--ink-2);
+  display:inline-flex;align-items:center;gap:6px;
+}
+.chip[aria-pressed="true"],.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip:active{transform:translateY(1px)}
+
+main{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) 388px}
+
+/* map column */
+.stage{position:relative;min-width:0;display:flex;flex-direction:column;background:var(--sea)}
+.mapbox{position:relative;flex:1;min-height:0;overflow:hidden}
+svg.map{display:block;width:100%;height:100%;touch-action:none;cursor:grab;user-select:none}
+svg.map.dragging{cursor:grabbing}
+
+/* map furniture */
+.overlay{position:absolute;pointer-events:none;inset:0}
+.overlay>*{pointer-events:auto}
+.pad{position:absolute;top:12px;right:12px;display:flex;flex-direction:column;gap:6px}
+.sq{
+  width:44px;height:44px;border-radius:12px;border:1px solid var(--hair);
+  background:var(--surface);color:var(--ink);cursor:pointer;display:grid;place-items:center;
+  font-size:17px;line-height:1;box-shadow:0 1px 2px var(--shade);
+}
+.sq:active{background:var(--surface-2)}
+.sq[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+.legend{
+  position:absolute;left:12px;bottom:12px;background:var(--surface);border:1px solid var(--hair);
+  border-radius:var(--radius);padding:9px 11px;max-width:min(300px,calc(100% - 24px));
+  box-shadow:0 1px 3px var(--shade);
+}
+.legend h3{font-size:13px;margin-bottom:6px;color:var(--ink-2)}
+.legend .rows{display:flex;flex-direction:column;gap:2px}
+.lrow{display:flex;align-items:center;gap:9px;min-height:36px;padding:0 6px 0 2px;border-radius:8px;
+  background:none;border:0;cursor:pointer;width:100%;text-align:left;font-size:13px}
+.lrow:active{background:var(--surface-2)}
+.lrow .key{width:30px;height:0;border-top-width:3px;border-top-style:solid;flex:none;border-radius:2px}
+.lrow[aria-pressed="false"]{opacity:.42}
+.lrow[aria-pressed="false"] .key{border-top-style:dotted}
+.lrow em{font-style:normal;color:var(--ink-3);font-size:12px;margin-left:auto}
+
+.scalebar{position:absolute;right:14px;bottom:14px;text-align:right;font-size:11px;color:var(--ink-2);
+  background:color-mix(in srgb,var(--surface) 82%,transparent);padding:3px 6px;border-radius:6px}
+.scalebar .bar{height:5px;border:1px solid var(--ink-2);border-top:0;margin-top:2px}
+
+/* elevation strip */
+.elev{border-top:1px solid var(--hair);background:var(--surface);padding:6px 14px 8px;flex:none;display:none}
+body[data-elev="on"] .elev{display:block}
+.elev-head{display:flex;justify-content:space-between;align-items:baseline;font-size:11.5px;color:var(--ink-3)}
+.elev svg{display:block;width:100%;height:78px;overflow:visible}
+
+/* right rail */
+.rail{border-left:1px solid var(--hair);background:var(--surface);overflow-y:auto;overscroll-behavior:contain;
+  -webkit-overflow-scrolling:touch}
+.rail-inner{padding:16px 18px 34px}
+
+.eyebrow{font-size:12px;color:var(--ink-3);margin:0 0 3px}
+.stop-title{font-size:26px;line-height:1.1;display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.stop-title small{font-family:Archivo,sans-serif;font-size:14px;color:var(--ink-3);font-weight:400;letter-spacing:.01em}
+.badge{display:inline-grid;place-items:center;min-width:26px;height:26px;border-radius:50%;
+  font-family:Archivo,sans-serif;font-size:13px;font-weight:600;background:var(--ink);color:var(--paper);flex:none}
+.badge.origin,.badge.destination{background:var(--car);color:#fff}
+
+.lede{font-family:Spectral,Georgia,serif;font-size:17px;line-height:1.55;margin:12px 0 0;color:var(--ink)}
+ul.facts{margin:14px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
+ul.facts li{display:flex;gap:10px;font-size:14px;line-height:1.45;color:var(--ink-2)}
+ul.facts li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--lake);flex:none;margin-top:7px}
+
+.metrics{display:flex;gap:0;margin:16px 0 0;border:1px solid var(--hair);border-radius:var(--radius);overflow:hidden}
+.metric{flex:1;padding:9px 11px;border-right:1px solid var(--hair)}
+.metric:last-child{border-right:0}
+.metric b{display:block;font-family:Spectral,serif;font-size:18px;font-weight:600}
+.metric span{font-size:11.5px;color:var(--ink-3)}
+
+.legcard{margin-top:16px;border:1px solid var(--hair);border-radius:var(--radius);overflow:hidden}
+.legcard h3{font-size:14px;font-family:Archivo,sans-serif;font-weight:600;padding:9px 12px;background:var(--surface-2)}
+.legcard .body{padding:10px 12px;font-size:13.5px;color:var(--ink-2)}
+.legline{display:flex;align-items:center;gap:8px;font-size:13.5px;margin-bottom:6px}
+.legline i{width:22px;border-top:3px solid var(--car);flex:none;border-radius:2px;font-style:normal}
+
+.railnav{display:flex;gap:8px;margin-top:18px}
+.railnav button{flex:1;min-height:44px;border-radius:11px;border:1px solid var(--hair);background:var(--surface);cursor:pointer;font-size:13.5px}
+.railnav button:active{background:var(--surface-2)}
+.railnav button[disabled]{opacity:.4;cursor:default}
+
+/* list view */
+.listview{display:none;padding:14px 18px 40px;overflow-y:auto}
+body[data-view="list"] .stage{display:none}
+body[data-view="list"] main{grid-template-columns:minmax(0,1fr)}
+body[data-view="list"] .rail{border-left:0}
+body[data-view="list"] .rail-inner{display:none}
+body[data-view="list"] .listview{display:block;max-width:760px;margin:0 auto}
+
+.entry{border-top:1px solid var(--hair);padding:14px 0}
+.entry:first-child{border-top:0}
+.entry summary{display:flex;gap:12px;align-items:flex-start;cursor:pointer;list-style:none;min-height:44px}
+.entry summary::-webkit-details-marker{display:none}
+.entry h3{font-size:20px;line-height:1.2}
+.entry .sub{font-size:12.5px;color:var(--ink-3);margin-top:2px}
+.entry .open-map{margin-left:auto;font-size:12.5px;color:var(--focus);white-space:nowrap;align-self:center}
+.entry[open] .open-map{opacity:.5}
+.hop{display:flex;align-items:center;gap:9px;font-size:12.5px;color:var(--ink-3);padding:7px 0 7px 38px}
+.hop i{width:20px;border-top:2px dashed var(--car);flex:none}
+
+/* ---------------------------------------------------------------
+   SVG classes
+   --------------------------------------------------------------- */
+.coast{fill:var(--land);stroke:var(--land-edge);stroke-width:1.1;vector-effect:non-scaling-stroke;stroke-linejoin:round}
+.lake{fill:none;stroke:var(--lake);stroke-linecap:round;stroke-linejoin:round;opacity:.92}
+.ridge{fill:none;stroke:var(--alp);stroke-linecap:round;stroke-linejoin:round}
+.geoname{fill:var(--ink-3);font-family:Spectral,serif;font-style:italic;font-size:12px;letter-spacing:.06em}
+.star{fill:#fff;opacity:var(--star-op)}
+
+.leg{fill:none;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke;
+  stroke-width:4;cursor:pointer;transition:stroke-width .18s ease,opacity .18s ease}
+.leg.mode-car{stroke:var(--car)}
+.leg.mode-walk{stroke:var(--walk);stroke-width:3;stroke-dasharray:1 7}
+.leg.mode-bike{stroke:var(--bike);stroke-width:3;stroke-dasharray:9 5}
+.leg.mode-transit{stroke:var(--transit);stroke-width:3;stroke-dasharray:2 6}
+.leg.casing{stroke:var(--surface);stroke-width:8;opacity:.75;pointer-events:none}
+.leg.pending{opacity:.3}
+.leg.dim{opacity:.18}
+.leg.sel{stroke-width:7}
+.leg-hit{fill:none;stroke:transparent;stroke-width:22;vector-effect:non-scaling-stroke;cursor:pointer}
+.draw{transition:stroke-dashoffset 1.15s cubic-bezier(.4,.05,.25,1)}
+
+.marker{cursor:pointer}
+.marker .hit{fill:transparent}
+.marker .disc{fill:var(--surface);stroke:var(--car);stroke-width:3}
+.marker.origin .disc,.marker.destination .disc{fill:var(--car);stroke:var(--surface)}
+.marker .num{font-family:Archivo,sans-serif;font-size:12px;font-weight:600;text-anchor:middle;fill:var(--car);
+  dominant-baseline:central;pointer-events:none}
+.marker.origin .num,.marker.destination .num{fill:#fff}
+.marker .ring{fill:none;stroke:var(--car);stroke-width:2;opacity:0}
+.marker.sel .ring{opacity:.9;animation:pulse 1.9s ease-out infinite}
+.marker.visited .disc{stroke:var(--walk)}
+.marker .lbl{font-family:Spectral,serif;font-size:14px;fill:var(--ink);paint-order:stroke;
+  stroke:var(--land);stroke-width:3.5px;stroke-linejoin:round;pointer-events:none}
+.marker .lbl-en{font-family:Archivo,sans-serif;font-size:10.5px;fill:var(--ink-3);paint-order:stroke;
+  stroke:var(--land);stroke-width:3px;pointer-events:none;letter-spacing:.02em}
+.marker.sel .lbl{font-weight:600}
+@keyframes pulse{0%{r:16;opacity:.85}100%{r:30;opacity:0}}
+
+.hoplabel rect{fill:var(--surface);stroke:var(--hair)}
+.hoplabel text{font-family:Archivo,sans-serif;font-size:10.5px;fill:var(--ink-2);text-anchor:middle;dominant-baseline:central}
+.hoplabel.off{display:none}
+
+.tracker{fill:var(--focus);stroke:var(--surface);stroke-width:2.5}
+.tracker-halo{fill:var(--focus);opacity:.22}
+
+.eline{fill:none;stroke:var(--car);stroke-width:1.6}
+.earea{fill:var(--car);opacity:.1}
+.egrid{stroke:var(--hair);stroke-width:1}
+.etick{fill:var(--ink-3);font-size:9px;font-family:Archivo,sans-serif}
+.edot{fill:var(--surface);stroke:var(--car);stroke-width:1.6;cursor:pointer}
+.edot.sel{fill:var(--car)}
+.epeak{fill:var(--ink-3);font-size:9px;font-family:Archivo,sans-serif;text-anchor:middle}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+}
+
+/* ---------------------------------------------------------------
+   Mobile
+   --------------------------------------------------------------- */
+@media (max-width:860px){
+  main{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr)}
+  .rail{border-left:0;border-top:1px solid var(--hair)}
+  .stage{height:clamp(270px,44vh,430px)}
+}
+@media (max-width:600px){
+  :root{--fs-base:15.5px}
+  .topbar{padding:10px 14px;gap:10px}
+  .brand h1{font-size:18px}
+  .totals{width:100%;margin-left:0;order:3;gap:20px}
+  .topbar .chips{order:2;margin-left:auto}
+  .rail-inner{padding:14px 16px 40px}
+  .stop-title{font-size:23px}
+  .legend{left:8px;bottom:8px;right:8px;max-width:none;padding:4px 6px}
+  .legend h3{display:none}
+  .legend .rows{flex-direction:row;flex-wrap:nowrap;gap:2px;overflow-x:auto;
+    scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .legend .rows::-webkit-scrollbar{display:none}
+  .lrow{width:auto;flex:0 0 auto;min-height:44px;padding:0 10px;white-space:nowrap}
+  .lrow .key{width:22px}
+  .lrow em{display:none}
+  .scalebar{display:none}
+  .pad{top:8px;right:8px}
+  .sq{width:46px;height:46px}
+  .listview{padding:12px 16px 40px}
+}
+</style>
+</head>
+<body data-view="map" data-elev="off">
+<div class="app">
+
+  <header class="topbar">
+    <div class="brand">
+      <h1 id="tripTitle">新西兰南岛环线</h1>
+      <p id="tripSub">Christchurch · Kaikōura · Hanmer Springs · Wānaka · Queenstown · Aoraki/Mt Cook · Tekapo</p>
+    </div>
+    <div class="totals" aria-hidden="true">
+      <div class="total"><b id="tDist">1,503 km</b><span id="tDistL">总里程</span></div>
+      <div class="total"><b id="tTime">19 h 50</b><span id="tTimeL">净驾驶</span></div>
+      <div class="total"><b id="tStops">8</b><span id="tStopsL">站点</span></div>
+    </div>
+    <div class="chips">
+      <button class="chip" id="viewBtn" aria-pressed="false">列表</button>
+      <button class="chip" id="langBtn">EN</button>
+      <button class="chip" id="themeBtn" title="Day / Dark sky">暗夜</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="stage" aria-label="路线地图 Route map">
+      <div class="mapbox" id="mapbox">
+        <svg class="map" id="map" role="application" tabindex="0"
+             aria-label="新西兰南岛环线交互地图。使用方向键在站点之间移动，回车键查看详情，加号减号缩放。"
+             aria-describedby="srSummary" preserveAspectRatio="xMidYMid meet">
+          <rect id="ocean" x="-3000" y="-3000" width="9000" height="9000" fill="var(--sea)"/>
+          <g id="stars"></g>
+          <g id="geo"></g>
+          <g id="geonames"></g>
+          <g id="routes"></g>
+          <g id="hoplabels"></g>
+          <g id="tracker" style="display:none">
+            <circle class="tracker-halo" r="13"/><circle class="tracker" r="6"/>
+          </g>
+          <g id="markers"></g>
+        </svg>
+
+        <div class="overlay">
+          <div class="pad">
+            <button class="sq" id="zIn" aria-label="放大 Zoom in">＋</button>
+            <button class="sq" id="zOut" aria-label="缩小 Zoom out">－</button>
+            <button class="sq" id="zReset" aria-label="回到全程 Fit route">◎</button>
+            <button class="sq" id="playBtn" aria-label="播放行程 Play the trip" aria-pressed="false">▶</button>
+            <button class="sq" id="elevBtn" aria-label="海拔剖面 Elevation profile" aria-pressed="false">⛰</button>
+          </div>
+
+          <div class="legend">
+            <h3 id="legendH">显示图层</h3>
+            <div class="rows" id="legendRows"></div>
+          </div>
+
+          <div class="scalebar" aria-hidden="true">
+            <span id="scaleTxt">100 km</span>
+            <div class="bar" id="scaleBar" style="width:80px"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="elev" id="elevWrap">
+        <div class="elev-head">
+          <span id="elevTitle">海拔剖面（近似）</span>
+          <span id="elevMax">最高点 林迪斯山口 971 m</span>
+        </div>
+        <svg id="elevSvg" viewBox="0 0 1000 120" preserveAspectRatio="none" role="img"
+             aria-label="沿线海拔剖面图，从基督城的海平面爬升至皇冠山脉 1121 米。"></svg>
+      </div>
+    </section>
+
+    <aside class="rail" id="rail" aria-label="站点详情 Stop details">
+      <div class="rail-inner" id="detail"></div>
+      <div class="listview" id="listview"></div>
+    </aside>
+  </main>
+</div>
+
+<p class="sr" id="srSummary"></p>
+<p class="sr" aria-live="polite" id="live"></p>
+
+<script>
+(() => {
+"use strict";
+
+/* =============================================================
+   1. Trip data
+   ============================================================= */
+const TRIP = {
+  totalDistance: 1503,          // km
+  totalDuration: 1190,          // minutes of driving
+  waypoints: [
+    {
+      id:"chc", num:1, type:"origin", lat:-43.5321, lng:172.6362, elev:20, anchor:"e",
+      label:{zh:"基督城", en:"Christchurch"},
+      address:{zh:"坎特伯雷大区 · 南岛东岸", en:"Canterbury, east coast"},
+      arrive:{dist:0, dur:0}, stay:{zh:"0.5–1 天", en:"Half a day – 1 day"},
+      lede:{
+        zh:"南岛最大的城市，也是这条环线的起点与终点；2011 年地震后它重建成了一座花园、集装箱商店与街头艺术混在一起的城市。",
+        en:"The South Island's largest city and both ends of this loop, rebuilt after the 2011 earthquake into a mix of gardens, container shops and street art."},
+      bullets:{
+        zh:["在机场或市区取车，加满油、买张电话卡并下载离线地图",
+            "雅芳河撑篙、哈格利公园与坎特伯雷博物馆彼此步行可达",
+            "坂茂设计的纸板教堂，以及 185 张白椅地震纪念装置",
+            "Riverside Market 与 New Regent Street 解决第一顿饭和补给"],
+        en:["Pick up the car at the airport or in town, fill the tank, get a SIM and offline maps",
+            "Punting on the Avon, Hagley Park and Canterbury Museum are all within a walk",
+            "Shigeru Ban's Cardboard Cathedral and the 185 Empty Chairs earthquake memorial",
+            "Riverside Market and New Regent Street for the first meal and supplies"]}
+    },
+    {
+      id:"kai", num:2, type:"stop", lat:-42.4006, lng:173.6800, elev:10, anchor:"e",
+      label:{zh:"凯库拉", en:"Kaikōura"},
+      address:{zh:"坎特伯雷北部 · 太平洋岸", en:"North Canterbury, Pacific coast"},
+      arrive:{dist:183, dur:150}, stay:{zh:"1 晚", en:"1 night"},
+      lede:{
+        zh:"雪山直接掉进太平洋，离岸不远就是上千米深的海沟，抹香鲸因此常年留在这里。",
+        en:"Snow peaks drop straight into the Pacific, and a canyon a thousand metres deep just offshore keeps sperm whales here all year."},
+      bullets:{
+        zh:["全年可观抹香鲸；出海前一晚查风浪，取消率不低",
+            "与暗色斑纹海豚共游；Point Kean 海豹群需保持 20 米距离",
+            "kōura 在毛利语里就是小龙虾，路边的 Nins Bin 是经典一站",
+            "半岛步道环线约 3 小时，免费而且视野最好",
+            "2016 年 7.8 级地震后 SH1 已全线通车，个别路段仍有临时限速"],
+        en:["Sperm whales year-round; check the swell the night before, trips get cancelled often",
+            "Swim with dusky dolphins; keep 20 m back from the fur seals at Point Kean",
+            "kōura is Māori for crayfish — the Nins Bin caravan is the classic stop",
+            "The Peninsula Walkway loop takes about 3 hours, free and the best view of the lot",
+            "SH1 has fully reopened since the 2016 magnitude 7.8 quake, with some temporary limits"]}
+    },
+    {
+      id:"han", num:3, type:"stop", lat:-42.5233, lng:172.8283, elev:386, anchor:"n",
+      label:{zh:"汉默温泉", en:"Hanmer Springs"},
+      address:{zh:"坎特伯雷北部 · 内陆山谷", en:"North Canterbury, inland basin"},
+      arrive:{dist:316, dur:270}, stay:{zh:"1 晚", en:"1 night"},
+      lede:{
+        zh:"藏在森林盆地里的温泉小镇，从凯库拉沿 SH70 内陆公路两小时就到，是全程最放松的一站。",
+        en:"A thermal village tucked into a forested basin two hours inland from Kaikōura — the most restful stop on the loop."},
+      bullets:{
+        zh:["22 个池子，水温 33–42°C，傍晚人最少",
+            "Conical Hill 观景步道来回约 40 分钟，泡汤前正好活动一下",
+            "汉默森林公园里有大量步道与山地车道",
+            "Waiau 峡谷可以玩蹦极和喷射快艇"],
+        en:["22 pools between 33 and 42 °C; early evening is the quietest",
+            "The Conical Hill lookout is a 40-minute return walk, ideal before a soak",
+            "Hanmer Forest Park is dense with walking and mountain-bike trails",
+            "Bungy and jet boating in the Waiau gorge"]}
+    },
+    {
+      id:"wan", num:4, type:"stop", lat:-44.7031, lng:169.1321, elev:300, anchor:"w",
+      label:{zh:"瓦纳卡", en:"Wānaka"},
+      address:{zh:"奥塔哥大区 · 瓦纳卡湖南岸", en:"Otago, southern shore of Lake Wānaka"},
+      arrive:{dist:836, dur:660}, stay:{zh:"1–2 晚", en:"1–2 nights"},
+      lede:{
+        zh:"走完全程最长的一段（约 520 km）之后到达，瓦纳卡基本上是皇后镇的安静版本。",
+        en:"Reached after the longest drive of the trip, about 520 km. Wānaka is essentially the quiet version of Queenstown."},
+      bullets:{
+        zh:["#ThatWanakaTree 就长在湖边浅水里，日出逆光最好看",
+            "Roys Peak 往返 16 km、爬升 1,200 m，需要 5–6 小时",
+            "阿斯派灵山国家公园的门口：Rob Roy 冰川步道",
+            "Puzzling World 适合带孩子；Glendhu Bay 沿湖骑行轻松好走",
+            "途中翻过林迪斯山口（971 m），秋天整片金黄的塔斯克草"],
+        en:["#ThatWanakaTree stands in the shallows minutes from town, best backlit at sunrise",
+            "Roys Peak is 16 km return with 1,200 m of climbing — allow 5 to 6 hours",
+            "The doorstep of Mount Aspiring National Park and the Rob Roy Glacier track",
+            "Puzzling World for families; the Glendhu Bay trail for an easy ride along the lake",
+            "The drive crosses Lindis Pass at 971 m, gold tussock the whole way in autumn"]}
+    },
+    {
+      id:"qtn", num:5, type:"stop", lat:-45.0312, lng:168.6626, elev:310, anchor:"w",
+      label:{zh:"皇后镇", en:"Queenstown"},
+      address:{zh:"奥塔哥大区 · 瓦卡蒂普湖畔", en:"Otago, on Lake Wakatipu"},
+      arrive:{dist:906, dur:730}, stay:{zh:"2 晚", en:"2 nights"},
+      lede:{
+        zh:"卓越山脚下、瓦卡蒂普湖畔的冒险之都，翻过皇冠山脉公路就到——那是新西兰最高的铺装公路，1,121 米。",
+        en:"The adventure capital, under The Remarkables on Lake Wakatipu, reached over the Crown Range — New Zealand's highest sealed road at 1,121 m."},
+      bullets:{
+        zh:["卡瓦劳大桥 1988 年开出了世界上第一个商业蹦极点",
+            "天空缆车加山顶 Luge；黄昏上山光线最好",
+            "1912 年下水的 TSS Earnslaw 蒸汽船每天仍在横渡湖面",
+            "Fergburger 要排队；Gibbston Valley 的黑皮诺值得绕路",
+            "可以作为米尔福德峡湾一日游或格林诺奇公路的基地"],
+        en:["The world's first commercial bungy opened at the Kawarau Bridge in 1988",
+            "Skyline Gondola and the summit luge; go up late afternoon for the light",
+            "The TSS Earnslaw, launched 1912, still steams across the lake daily",
+            "Expect a queue at Fergburger; Gibbston Valley pinot noir is worth the detour",
+            "A good base for a Milford Sound day trip or the Glenorchy road"]}
+    },
+    {
+      id:"cook", num:6, type:"stop", lat:-43.7340, lng:170.0983, elev:760, anchor:"w",
+      label:{zh:"库克山国家公园", en:"Aoraki / Mount Cook"},
+      address:{zh:"坎特伯雷 · 库克山村 (Mt Cook Village)", en:"Canterbury, Mount Cook Village"},
+      arrive:{dist:1171, dur:930}, stay:{zh:"1–2 晚", en:"1–2 nights"},
+      lede:{
+        zh:"新西兰最高峰 3,724 米，全国 19 座三千米以上的山峰都挤在这一座国家公园里。",
+        en:"New Zealand's highest peak at 3,724 m, in a single park that holds all 19 of the country's summits above 3,000 m."},
+      bullets:{
+        zh:["胡克谷步道往返 10 km、约 3 小时，几乎全平，性价比最高的一条",
+            "塔斯曼冰川是新西兰最长的冰川，终碛湖可以坐船靠近浮冰",
+            "园区属奥拉基·麦肯奇国际暗夜保护区，晴夜银河肉眼可见",
+            "Hermitage 酒店里有希拉里爵士高山中心",
+            "注意高山鹦鹉 kea，它会啃掉车上的橡胶条",
+            "村内住宿很少，旺季请提前几个月订"],
+        en:["The Hooker Valley Track is 10 km return, about 3 hours, almost flat — the best payoff per step",
+            "The Tasman is the country's longest glacier; boats run among the icebergs on its lake",
+            "Inside the Aoraki Mackenzie International Dark Sky Reserve — the Milky Way is naked-eye",
+            "The Hillary Alpine Centre sits inside The Hermitage hotel",
+            "Watch for kea, the alpine parrot: they strip the rubber off parked cars",
+            "The village has very few beds — book months ahead in summer"]}
+    },
+    {
+      id:"tek", num:7, type:"stop", lat:-44.0049, lng:170.4790, elev:710, anchor:"s",
+      label:{zh:"蒂卡波湖", en:"Lake Tekapo"},
+      address:{zh:"坎特伯雷 · 麦肯奇盆地", en:"Canterbury, Mackenzie Basin"},
+      arrive:{dist:1276, dur:1010}, stay:{zh:"1 晚", en:"1 night"},
+      lede:{
+        zh:"冰川磨出的岩粉悬在水里，把湖染成不太真实的松石绿，这是回程前最后一个高光。",
+        en:"Rock flour ground by glaciers hangs in the water and turns the lake an implausible turquoise — the last highlight before the run home."},
+      bullets:{
+        zh:["好牧羊人教堂（1935 年）就在湖边，日出与夜空的经典机位",
+            "约翰山天文台的观星导览需要预约，冬夜最清澈",
+            "Tekapo Springs 有温泉池，冬天还有户外滑冰场",
+            "鲁冰花 11–12 月盛开，虽然它其实是外来入侵物种"],
+        en:["The Church of the Good Shepherd (1935) sits right on the shore — the classic sunrise and night frame",
+            "Stargazing tours at the Mt John Observatory need booking; winter nights are clearest",
+            "Tekapo Springs has hot pools and an outdoor ice rink in winter",
+            "Lupins bloom in November and December, gorgeous and thoroughly invasive"]}
+    },
+    {
+      id:"chc2", num:8, type:"destination", lat:-43.5321, lng:172.6362, elev:20, anchor:"se",
+      offset:[19,17],
+      label:{zh:"回到基督城", en:"Back to Christchurch"},
+      address:{zh:"与起点同址 · 环线闭合", en:"Same place as the start — the loop closes"},
+      arrive:{dist:1503, dur:1190}, stay:{zh:"—", en:"—"},
+      lede:{
+        zh:"沿 SH8 翻过伯克山口、再接 SH1 回到坎特伯雷平原，环线在这里闭合，总里程约 1,500 km。",
+        en:"Over Burkes Pass on SH8 and back onto the Canterbury Plains by SH1. The loop closes here at about 1,500 km."},
+      bullets:{
+        zh:["途经 Fairlie，Fairlie Bakehouse 的派值得专门停一次车",
+            "还车前在 Rolleston 或 Hornby 加油，机场油价更高",
+            "多出一天可以加上阿卡罗阿与班克斯半岛",
+            "利特尔顿周六市集和港丘缆车适合最后半天",
+            "全程约 1,503 km、20 小时净驾驶，建议安排 8–10 天"],
+        en:["Through Fairlie — the Fairlie Bakehouse pie is worth a dedicated stop",
+            "Refuel at Rolleston or Hornby before returning the car; airport pumps cost more",
+            "With one spare day, add Akaroa and Banks Peninsula",
+            "Lyttelton's Saturday market and the Port Hills gondola suit a last half day",
+            "1,503 km and about 20 hours of driving in total — comfortable over 8 to 10 days"]}
+    }
+  ],
+  routes: [
+    { from:"chc", to:"kai", mode:"car", distance:183, duration:150,
+      note:{zh:"SH1 沿海公路，经过 Waipara 酒区与 Cheviot；地震后重建路段较多，注意临时限速。",
+            en:"Coastal SH1 through the Waipara wine district and Cheviot; watch for temporary limits on rebuilt sections."},
+      via:[[-43.38,172.70],[-43.16,172.73],[-42.98,172.95],[-42.81,173.27],[-42.55,173.50]] },
+    { from:"kai", to:"han", mode:"car", distance:133, duration:120,
+      note:{zh:"SH70 内陆凯库拉公路：窄、弯多、信号断续，但比 SH1 好看得多。",
+            en:"The SH70 Inland Road: narrow, winding, patchy phone signal, and far better looking than SH1."},
+      via:[[-42.50,173.50],[-42.62,173.20],[-42.66,173.00],[-42.58,172.87]] },
+    { from:"han", to:"wan", mode:"car", distance:520, duration:390,
+      note:{zh:"全程最长的一段。建议在 Geraldine 或 Fairlie 分两次休息，翻过伯克山口与林迪斯山口。",
+            en:"The longest leg by far. Break it at Geraldine or Fairlie; it crosses Burkes Pass and Lindis Pass."},
+      via:[[-42.65,172.85],[-42.78,172.85],[-43.05,172.65],[-43.30,172.45],[-43.63,171.85],[-43.95,171.50],
+           [-44.09,171.24],[-44.10,170.83],[-44.08,170.62],[-44.00,170.48],[-44.26,170.10],[-44.49,169.97],
+           [-44.62,169.65],[-44.80,169.40],[-44.75,169.28]] },
+    { from:"wan", to:"qtn", mode:"car", distance:70, duration:70,
+      note:{zh:"皇冠山脉公路，新西兰最高的铺装公路（1,121 m）。冬季可能要求携带防滑链，部分租车合同禁止走这条路。",
+            en:"The Crown Range Road, NZ's highest sealed road at 1,121 m. Chains may be required in winter and some rental contracts exclude it."},
+      via:[[-44.78,169.05],[-44.87,168.95],[-44.95,168.87],[-44.99,168.78],[-45.00,168.70]] },
+    { from:"qtn", to:"cook", mode:"car", distance:265, duration:200,
+      note:{zh:"经克伦威尔与林迪斯山口回到麦肯奇盆地，最后沿 SH80 贴着普卡基湖开进库克山村。",
+            en:"Via Cromwell and Lindis Pass back into the Mackenzie Basin, then SH80 along Lake Pukaki into the village."},
+      via:[[-45.02,168.75],[-45.04,169.00],[-45.04,169.20],[-44.90,169.32],[-44.80,169.40],[-44.62,169.65],
+           [-44.49,169.97],[-44.26,170.10],[-44.10,170.14],[-43.95,170.12],[-43.80,170.11]] },
+    { from:"cook", to:"tek", mode:"car", distance:105, duration:80,
+      note:{zh:"沿普卡基湖西岸南下再向东，湖边观景台值得停一次车。",
+            en:"South along the west shore of Lake Pukaki then east; the lookout is worth pulling over for."},
+      via:[[-43.85,170.11],[-44.05,170.13],[-44.19,170.14],[-44.14,170.28],[-44.05,170.40]] },
+    { from:"tek", to:"chc2", mode:"car", distance:227, duration:180,
+      note:{zh:"翻过伯克山口，经 Fairlie 与 Geraldine 下到坎特伯雷平原，最后一段是笔直的 SH1。",
+            en:"Over Burkes Pass, through Fairlie and Geraldine onto the Canterbury Plains, finishing on a dead-straight SH1."},
+      via:[[-44.03,170.60],[-44.09,170.83],[-44.07,171.05],[-44.09,171.24],[-43.95,171.55],[-43.90,171.75],
+           [-43.75,172.02],[-43.62,172.35],[-43.55,172.55]] }
+  ],
+  /* Optional side trips, loaded after first paint */
+  spurs: [
+    { at:"cook", mode:"walk", distance:10, duration:180,
+      label:{zh:"胡克谷步道", en:"Hooker Valley Track"},
+      via:[[-43.734,170.098],[-43.722,170.092],[-43.703,170.090],[-43.687,170.083]] },
+    { at:"qtn", mode:"transit", distance:0.7, duration:5,
+      label:{zh:"天空缆车", en:"Skyline Gondola"},
+      via:[[-45.031,168.663],[-45.0265,168.6585],[-45.0215,168.6535]] },
+    { at:"wan", mode:"bike", distance:12, duration:60,
+      label:{zh:"格伦杜湾骑行道", en:"Glendhu Bay trail"},
+      via:[[-44.703,169.132],[-44.695,169.070],[-44.706,169.010],[-44.722,168.960]] }
+  ]
+};
+
+/* Approximate road elevation profile: [km from start, metres, optional名称] */
+const PROFILE = [
+  [0,20,{zh:"基督城",en:"Christchurch"}],[60,30],[120,80],[183,10,{zh:"凯库拉",en:"Kaikōura"}],
+  [250,480],[316,386,{zh:"汉默温泉",en:"Hanmer Springs"}],[356,180],[416,30],[526,320],[596,90],
+  [636,300],[656,709],[691,710],[741,470],[761,415],[791,971,{zh:"林迪斯山口",en:"Lindis Pass"}],
+  [806,300],[836,300,{zh:"瓦纳卡",en:"Wānaka"}],[871,1121,{zh:"皇冠山脉",en:"Crown Range"}],
+  [906,310,{zh:"皇后镇",en:"Queenstown"}],[966,220],[1030,971],[1060,415],[1105,470],
+  [1171,760,{zh:"库克山村",en:"Mt Cook Village"}],[1240,520],[1276,710,{zh:"蒂卡波湖",en:"Lake Tekapo"}],
+  [1300,709],[1320,300],[1360,90],[1420,100],[1503,20,{zh:"基督城",en:"Christchurch"}]
+];
+
+/* Simplified South Island coastline, clockwise from Cape Farewell [lat,lng] */
+const COAST = [
+  [-40.51,172.68],[-40.50,173.01],[-40.72,172.83],[-40.86,172.86],[-40.92,173.02],[-41.10,173.00],
+  [-41.27,173.28],[-41.10,173.60],[-41.00,173.86],[-41.00,174.33],[-41.30,174.15],[-41.52,174.05],
+  [-41.72,174.27],[-42.00,173.95],[-42.42,173.72],[-42.65,173.30],[-43.10,172.78],[-43.30,172.72],
+  [-43.55,172.76],[-43.72,173.10],[-43.90,172.98],[-43.86,172.66],[-44.05,171.58],[-44.40,171.25],
+  [-44.93,171.13],[-45.10,170.97],[-45.45,170.85],[-45.77,170.73],[-45.90,170.55],[-46.10,170.30],
+  [-46.45,169.82],[-46.55,169.40],[-46.67,169.00],[-46.58,168.60],[-46.60,168.35],[-46.35,168.00],
+  [-46.30,167.70],[-46.25,167.40],[-46.18,167.00],[-46.12,166.72],[-45.90,166.60],[-45.75,166.65],
+  [-45.45,166.85],[-45.20,166.90],[-44.95,167.20],[-44.67,167.55],[-44.57,167.75],[-44.35,168.00],
+  [-44.15,168.30],[-43.97,168.62],[-43.88,169.03],[-43.55,169.60],[-43.35,169.95],[-43.05,170.40],
+  [-42.72,170.97],[-42.45,171.20],[-42.10,171.35],[-41.75,171.46],[-41.50,171.90],[-41.25,172.11],
+  [-40.95,172.15],[-40.82,172.20],[-40.60,172.45]
+];
+const STEWART = [[-46.78,167.85],[-46.72,168.10],[-46.90,168.20],[-47.10,168.05],[-47.15,167.75],[-46.95,167.60]];
+
+const LAKES = [
+  { w:7, pts:[[-43.87,170.48],[-43.95,170.51],[-44.03,170.52]], name:{zh:"蒂卡波湖",en:"Tekapo"} },
+  { w:8, pts:[[-43.90,170.13],[-44.02,170.15],[-44.18,170.14]], name:{zh:"普卡基湖",en:"Pukaki"} },
+  { w:7, pts:[[-44.42,169.12],[-44.55,169.14],[-44.70,169.14]] },
+  { w:6, pts:[[-44.40,169.28],[-44.55,169.30],[-44.65,169.26]] },
+  { w:8, pts:[[-44.85,168.35],[-44.98,168.60],[-45.10,168.72],[-45.33,168.75]] },
+  { w:9, pts:[[-45.10,167.72],[-45.30,167.78],[-45.52,167.80]] },
+  { w:6, pts:[[-45.75,167.20],[-45.88,167.25]] }
+];
+const RIDGE = [[-42.10,172.70],[-42.40,172.30],[-42.95,171.60],[-43.35,170.90],[-43.60,170.14],
+               [-44.00,169.60],[-44.40,168.90],[-44.90,168.20],[-45.30,167.60]];
+const GEONAMES = [
+  { lat:-43.9, lng:174.6, t:{zh:"太平洋",en:"Pacific Ocean"}, a:"middle" },
+  { lat:-42.6, lng:169.6, t:{zh:"塔斯曼海",en:"Tasman Sea"}, a:"middle" },
+  { lat:-43.9, lng:169.9, t:{zh:"南阿尔卑斯山脉",en:"Southern Alps"}, a:"middle", rot:-38 },
+  { lat:-44.25,lng:170.55, t:{zh:"麦肯奇盆地",en:"Mackenzie Basin"}, a:"middle" },
+  { lat:-43.75,lng:172.10, t:{zh:"坎特伯雷平原",en:"Canterbury Plains"}, a:"middle" }
+];
+
+/* =============================================================
+   2. i18n
+   ============================================================= */
+const UI = {
+  zh:{ title:"新西兰南岛环线", sub:"从坎特伯雷平原出发，绕过南阿尔卑斯，八站之后回到出发的那条街",
+       list:"列表", map:"地图", dark:"暗夜", light:"白天",
+       dist:"总里程", time:"净驾驶", stops:"站点", layers:"显示图层",
+       car:"自驾路段", walk:"步行段", bike:"骑行段", transit:"缆车", labels:"路段标签",
+       elev:"海拔剖面（近似）", highest:"最高点 皇冠山脉 1,121 m",
+       stopOf:"第 %n 站 / 共 8 站", origin:"起点", destination:"终点", waypoint:"途经",
+       cumulative:"累计里程", elapsed:"累计驾驶", altitude:"海拔", stay:"建议停留",
+       prev:"上一站", next:"下一站", legTo:"下一段 · 到", arriveBy:"抵达方式",
+       playing:"停止", play:"播放行程", openMap:"在地图上查看",
+       modes:{car:"自驾",walk:"步行",bike:"骑行",transit:"缆车"},
+       srIntro:"本行程从基督城出发，顺时针经凯库拉、汉默温泉、瓦纳卡、皇后镇、库克山国家公园、蒂卡波湖后返回基督城，共 8 个站点、7 个驾驶路段，总里程 1503 公里，净驾驶约 19 小时 50 分。",
+       selected:"已选择第 %n 站 %s" },
+  en:{ title:"South Island Grand Loop", sub:"Out across the Canterbury Plains, around the Southern Alps, and back to the street you started on",
+       list:"List", map:"Map", dark:"Dark sky", light:"Day",
+       dist:"Total distance", time:"Driving time", stops:"Stops", layers:"Layers",
+       car:"Driving legs", walk:"Walking", bike:"Cycling", transit:"Gondola", labels:"Leg labels",
+       elev:"Elevation profile (approximate)", highest:"Highest point: Crown Range 1,121 m",
+       stopOf:"Stop %n of 8", origin:"Start", destination:"Finish", waypoint:"Waypoint",
+       cumulative:"Distance so far", elapsed:"Driving so far", altitude:"Elevation", stay:"Suggested stay",
+       prev:"Previous", next:"Next", legTo:"Next leg to", arriveBy:"Getting here",
+       playing:"Stop", play:"Play the trip", openMap:"Show on the map",
+       modes:{car:"Drive",walk:"Walk",bike:"Bike",transit:"Gondola"},
+       srIntro:"The trip starts in Christchurch and runs clockwise through Kaikōura, Hanmer Springs, Wānaka, Queenstown, Aoraki Mount Cook National Park and Lake Tekapo before returning to Christchurch: 8 stops, 7 driving legs, 1,503 kilometres and about 19 hours 50 minutes of driving.",
+       selected:"Selected stop %n, %s" }
+};
+let lang = (navigator.language||"").toLowerCase().startsWith("zh") ? "zh" : "zh"; // route was given in Chinese first
+const t = k => UI[lang][k];
+
+/* =============================================================
+   3. Projection + geometry helpers
+   ============================================================= */
+const LNG0 = 166.0, LAT0 = -40.3, KX = 100*Math.cos(43.8*Math.PI/180), KY = 100;
+const project = (lat,lng) => ({ x:(lng-LNG0)*KX, y:(LAT0-lat)*KY });
+const pt = p => project(p[0],p[1]);
+
+function smooth(pts, tension=0.22, closed=false){
+  const n = pts.length;
+  if(n < 2) return "";
+  const get = i => closed ? pts[(i+n)%n] : pts[Math.max(0,Math.min(n-1,i))];
+  let d = `M${pts[0].x.toFixed(2)} ${pts[0].y.toFixed(2)}`;
+  const last = closed ? n : n-1;
+  for(let i=0;i<last;i++){
+    const p0=get(i-1),p1=get(i),p2=get(i+1),p3=get(i+2);
+    d += `C${(p1.x+(p2.x-p0.x)*tension).toFixed(2)} ${(p1.y+(p2.y-p0.y)*tension).toFixed(2)} `
+      +  `${(p2.x-(p3.x-p1.x)*tension).toFixed(2)} ${(p2.y-(p3.y-p1.y)*tension).toFixed(2)} `
+      +  `${p2.x.toFixed(2)} ${p2.y.toFixed(2)}`;
+  }
+  return closed ? d+"Z" : d;
+}
+const el = (tag,attrs={}) => {
+  const n = document.createElementNS("http://www.w3.org/2000/svg",tag);
+  for(const k in attrs) n.setAttribute(k,attrs[k]);
+  return n;
+};
+const fmtKm = k => k>=100 ? Math.round(k).toLocaleString("en-US") : k;
+const fmtMin = m => { const h=Math.floor(m/60), mm=m%60;
+  return lang==="zh" ? (h?`${h} 小时 ${mm?mm+" 分":""}`.trim():`${mm} 分`)
+                     : (h?`${h} h${mm?" "+mm:""}`:`${mm} min`); };
+
+/* =============================================================
+   4. Build the map
+   ============================================================= */
+const svg      = document.getElementById("map");
+const gGeo     = document.getElementById("geo");
+const gNames   = document.getElementById("geonames");
+const gRoutes  = document.getElementById("routes");
+const gHops    = document.getElementById("hoplabels");
+const gMarkers = document.getElementById("markers");
+const gStars   = document.getElementById("stars");
+const trackerG = document.getElementById("tracker");
+
+const wp   = TRIP.waypoints;
+const byId = Object.fromEntries(wp.map(w=>[w.id,w]));
+const pos  = w => { const p = project(w.lat,w.lng); if(w.offset){p.x+=w.offset[0];p.y+=w.offset[1];} return p; };
+
+/* land, lakes, ridge */
+gGeo.appendChild(el("path",{ class:"coast", d:smooth(COAST.map(pt),0.2,true) }));
+gGeo.appendChild(el("path",{ class:"coast", d:smooth(STEWART.map(pt),0.25,true) }));
+LAKES.forEach(l => gGeo.appendChild(el("path",{ class:"lake", d:smooth(l.pts.map(pt),0.2), "stroke-width":l.w })));
+gGeo.appendChild(el("path",{ class:"ridge", d:smooth(RIDGE.map(pt),0.25), "stroke-width":22, opacity:.3 }));
+gGeo.appendChild(el("path",{ class:"ridge", d:smooth(RIDGE.map(pt),0.25), "stroke-width":11, opacity:.35 }));
+
+/* a few peak ticks along the divide, plus the Aoraki triangle */
+RIDGE.forEach((p,i) => {
+  if(i===0) return;
+  const a = pt(RIDGE[i-1]), b = pt(p), mx=(a.x+b.x)/2, my=(a.y+b.y)/2, s = i===4?8:4.5;
+  gGeo.appendChild(el("path",{ class:"ridge","stroke-width":i===4?2.4:1.4,
+    d:`M${mx-s} ${my+s*0.7}L${mx} ${my-s*0.9}L${mx+s} ${my+s*0.7}` }));
+});
+
+/* dark-sky star field (visible only in dark mode) */
+let seed = 7;
+const rnd = () => (seed = (seed*16807)%2147483647)/2147483647;
+for(let i=0;i<90;i++){
+  gStars.appendChild(el("circle",{ class:"star", cx:(rnd()*700-40).toFixed(1),
+    cy:(rnd()*760-30).toFixed(1), r:(rnd()*1.1+0.35).toFixed(2), opacity:"" }));
+}
+gStars.querySelectorAll("circle").forEach(c=>c.style.opacity = "calc(var(--star-op) * "+(0.25+rnd()*0.6).toFixed(2)+")");
+
+GEONAMES.forEach(g => {
+  const p = project(g.lat,g.lng);
+  const tx = el("text",{ class:"geoname", "text-anchor":g.a, "data-x":p.x, "data-y":p.y, "data-rot":g.rot||0 });
+  tx.textContent = g.t[lang];
+  tx._geo = g;
+  gNames.appendChild(tx);
+});
+
+/* routes */
+const legEls = [];
+function legPoints(r){
+  const a = byId[r.from], b = byId[r.to];
+  return [pos(a), ...r.via.map(pt), pos(b)];
+}
+TRIP.routes.forEach((r,i) => {
+  const d = smooth(legPoints(r),0.2);
+  const casing = el("path",{ class:"leg casing", d });
+  const path   = el("path",{ class:`leg mode-${r.mode} draw`, d, id:`leg-${i}`,
+                   role:"img", "aria-label":legAria(r) });
+  const hit    = el("path",{ class:"leg-hit", d, "data-leg":i });
+  gRoutes.append(casing, path, hit);
+  legEls.push({ r, path, casing, hit, idx:i, kind:"leg" });
+});
+
+function legAria(r){
+  const a=byId[r.from], b=byId[r.to];
+  return lang==="zh"
+    ? `${a.label.zh} 到 ${b.label.zh}，${r.distance} 公里，约 ${fmtMin(r.duration)}，${UI.zh.modes[r.mode]}`
+    : `${a.label.en} to ${b.label.en}, ${r.distance} km, about ${fmtMin(r.duration)}, ${UI.en.modes[r.mode]}`;
+}
+
+/* markers */
+const markerEls = wp.map(w => {
+  const g = el("g",{ class:`marker ${w.type}`, role:"button", tabindex:"0", "data-id":w.id });
+  g.append(
+    el("circle",{ class:"hit", r:22 }),
+    el("circle",{ class:"ring", r:16 }),
+    el("circle",{ class:"disc", r:11 })
+  );
+  const num = el("text",{ class:"num", y:0 }); num.textContent = w.num; g.appendChild(num);
+  const lbl = el("text",{ class:"lbl" }); g.appendChild(lbl);
+  const len = el("text",{ class:"lbl-en" }); g.appendChild(len);
+  g._w = w; g._lbl = lbl; g._len = len;
+  gMarkers.appendChild(g);
+  return g;
+});
+function layoutLabels(){
+  markerEls.forEach(g => {
+    const a = g._w.anchor, L = g._lbl, E = g._len;
+    let x=17,y=-2,anchor="start",y2=11;
+    if(a==="w"){ x=-17; anchor="end"; }
+    if(a==="n"){ x=0; y=-20; anchor="middle"; y2=-8; }
+    if(a==="s"){ x=0; y=26; anchor="middle"; y2=38; }
+    if(a==="se"){ x=15; y=20; anchor="start"; y2=32; }
+    L.setAttribute("x",x); L.setAttribute("y",y); L.setAttribute("text-anchor",anchor);
+    E.setAttribute("x",x); E.setAttribute("y",y2); E.setAttribute("text-anchor",anchor);
+    L.textContent = g._w.label[lang==="zh"?"zh":"en"];
+    E.textContent = lang==="zh" ? g._w.label.en : g._w.label.zh;
+    g.setAttribute("aria-label", markerAria(g._w));
+  });
+}
+function markerAria(w){
+  const roleTxt = w.type==="origin"?t("origin"):w.type==="destination"?t("destination"):t("waypoint");
+  return lang==="zh"
+    ? `第 ${w.num} 站，${w.label.zh} ${w.label.en}，${roleTxt}，累计 ${w.arrive.dist} 公里`
+    : `Stop ${w.num}, ${w.label.en}, ${roleTxt}, ${w.arrive.dist} km into the trip`;
+}
+layoutLabels();
+
+/* =============================================================
+   5. Viewport: pan / zoom / culling
+   ============================================================= */
+const WORLD = { x:-30, y:-20, w:700, h:760 };
+let view = { x:160, y:175, w:430, h:340 };
+let rect = svg.getBoundingClientRect();
+let rafPending = false;
+
+function routeBBox(){
+  let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;
+  wp.forEach(w => { const p=pos(w); x0=Math.min(x0,p.x);y0=Math.min(y0,p.y);x1=Math.max(x1,p.x);y1=Math.max(y1,p.y); });
+  const padX=(x1-x0)*0.14+18, padY=(y1-y0)*0.14+18;
+  return { x:x0-padX, y:y0-padY, w:(x1-x0)+padX*2, h:(y1-y0)+padY*2 };
+}
+function fit(box){
+  rect = svg.getBoundingClientRect();
+  const ar = rect.width/Math.max(rect.height,1);
+  let w = box.w, h = box.h;
+  if(w/h < ar) w = h*ar; else h = w/ar;
+  view = { x:box.x+box.w/2-w/2, y:box.y+box.h/2-h/2, w, h };
+  clamp(); apply();
+}
+function clamp(){
+  const maxW = WORLD.w*2.2, minW = 26;
+  if(view.w > maxW){ const k=maxW/view.w; view.x+=view.w*(1-k)/2; view.y+=view.h*(1-k)/2; view.w*=k; view.h*=k; }
+  if(view.w < minW){ const k=minW/view.w; view.x-=view.w*(k-1)/2; view.y-=view.h*(k-1)/2; view.w*=k; view.h*=k; }
+  const mx = view.w*0.6, my = view.h*0.6;
+  view.x = Math.max(WORLD.x-mx, Math.min(WORLD.x+WORLD.w+mx-view.w, view.x));
+  view.y = Math.max(WORLD.y-my, Math.min(WORLD.y+WORLD.h+my-view.h, view.y));
+}
+function apply(){
+  if(rafPending) return;
+  rafPending = true;
+  requestAnimationFrame(() => {
+    rafPending = false;
+    svg.setAttribute("viewBox", `${view.x.toFixed(2)} ${view.y.toFixed(2)} ${view.w.toFixed(2)} ${view.h.toFixed(2)}`);
+    const k = view.w / Math.max(rect.width,1);                 // svg units per css pixel
+    const vis = (p,m=28) => p.x > view.x-m*k && p.x < view.x+view.w+m*k && p.y > view.y-m*k && p.y < view.y+view.h+m*k;
+    markerEls.forEach(g => {
+      const p = pos(g._w);
+      g.setAttribute("transform", `translate(${p.x} ${p.y}) scale(${k})`);
+      g.style.display = vis(p) ? "" : "none";                  // cull off-screen waypoints
+      g.style.opacity = view.w > 900 && g._w.type === "stop" ? ".55" : "";
+    });
+    gNames.querySelectorAll("text").forEach(tx => {
+      const x=+tx.dataset.x, y=+tx.dataset.y, r=+tx.dataset.rot;
+      tx.setAttribute("transform",`translate(${x} ${y}) scale(${k}) rotate(${r})`);
+      tx.style.display = view.w < 140 ? "none" : "";
+    });
+    positionHops(k);
+    updateScale(k);
+    if(tracker.visible) placeTracker(k);
+  });
+}
+function updateScale(k){
+  const kmPerUnit = 111 / KY;                                   // 1 y-unit = 1.11 km
+  const targets = [10,20,50,100,200,500];
+  const pxFor = km => (km/kmPerUnit)/k;
+  let chosen = targets.find(km => pxFor(km) > 56) || 500;
+  document.getElementById("scaleBar").style.width = Math.round(pxFor(chosen))+"px";
+  document.getElementById("scaleTxt").textContent = chosen+" km";
+}
+
+/* pointer pan + pinch zoom */
+const pointers = new Map();
+let panStart = null, pinchStart = null, moved = 0;
+svg.addEventListener("pointerdown", e => {
+  svg.setPointerCapture(e.pointerId);
+  pointers.set(e.pointerId, { x:e.clientX, y:e.clientY });
+  moved = 0;
+  if(pointers.size === 1){ panStart = { c:{x:e.clientX,y:e.clientY}, v:{...view} }; }
+  if(pointers.size === 2){
+    const [a,b] = [...pointers.values()];
+    pinchStart = { dist:Math.hypot(a.x-b.x,a.y-b.y), mid:{x:(a.x+b.x)/2,y:(a.y+b.y)/2}, v:{...view} };
+    panStart = null;
+    svg.classList.remove("dragging");
+  }
+});
+svg.addEventListener("pointermove", e => {
+  if(!pointers.has(e.pointerId)) return;
+  pointers.set(e.pointerId, { x:e.clientX, y:e.clientY });
+  rect = rect.width ? rect : svg.getBoundingClientRect();
+  if(pointers.size === 1 && panStart){
+    const dx = e.clientX - panStart.c.x, dy = e.clientY - panStart.c.y;
+    moved = Math.max(moved, Math.hypot(dx,dy));
+    if(moved > 4) svg.classList.add("dragging");
+    view.x = panStart.v.x - dx * (panStart.v.w/rect.width);
+    view.y = panStart.v.y - dy * (panStart.v.h/rect.height);
+    clamp(); apply();
+  } else if(pointers.size === 2 && pinchStart){
+    const [a,b] = [...pointers.values()];
+    const dist = Math.hypot(a.x-b.x,a.y-b.y);
+    const f = pinchStart.dist / Math.max(dist,1);
+    const mid = { x:(a.x+b.x)/2, y:(a.y+b.y)/2 };
+    zoomAbout(mid, f, pinchStart.v, pinchStart.mid);
+    moved = 99;
+  }
+});
+function endPointer(e){
+  pointers.delete(e.pointerId);
+  if(pointers.size < 2) pinchStart = null;
+  if(pointers.size === 0){ panStart = null; svg.classList.remove("dragging"); }
+  else { const [p] = [...pointers.values()]; panStart = { c:{x:p.x,y:p.y}, v:{...view} }; }
+}
+svg.addEventListener("pointerup", endPointer);
+svg.addEventListener("pointercancel", endPointer);
+svg.addEventListener("pointerleave", e => { if(e.pointerType==="mouse") endPointer(e); });
+
+function zoomAbout(client, factor, base=view, baseClient=client){
+  rect = svg.getBoundingClientRect();
+  const nw = Math.max(26, Math.min(WORLD.w*2.2, base.w*factor));
+  const nf = nw/base.w, nh = base.h*nf;
+  const rx = (baseClient.x - rect.left)/rect.width, ry = (baseClient.y - rect.top)/rect.height;
+  const anchorX = base.x + rx*base.w, anchorY = base.y + ry*base.h;
+  const dx = (client.x - baseClient.x) * (nw/rect.width);
+  const dy = (client.y - baseClient.y) * (nh/rect.height);
+  view = { x:anchorX - rx*nw - dx, y:anchorY - ry*nh - dy, w:nw, h:nh };
+  clamp(); apply();
+}
+svg.addEventListener("wheel", e => {
+  e.preventDefault();
+  const f = Math.exp((e.deltaMode===1 ? e.deltaY*16 : e.deltaY) * 0.0016);
+  zoomAbout({x:e.clientX,y:e.clientY}, f);
+}, { passive:false });
+
+const zoomCentre = f => {
+  rect = svg.getBoundingClientRect();
+  zoomAbout({ x:rect.left+rect.width/2, y:rect.top+rect.height/2 }, f);
+};
+document.getElementById("zIn").onclick  = () => zoomCentre(1/1.45);
+document.getElementById("zOut").onclick = () => zoomCentre(1.45);
+document.getElementById("zReset").onclick = () => { fit(routeBBox()); };
+
+function centreOn(w, targetW){
+  const p = pos(w), nw = targetW || Math.min(view.w, 150), nh = nw*(view.h/view.w);
+  animateView({ x:p.x-nw/2, y:p.y-nh/2, w:nw, h:nh });
+}
+let animId = null;
+function animateView(to){
+  cancelAnimationFrame(animId);
+  const from = {...view}, t0 = performance.now(), dur = 520;
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if(reduce){ view = to; clamp(); apply(); return; }
+  const step = now => {
+    const k = Math.min(1,(now-t0)/dur), e = 1-Math.pow(1-k,3);
+    view = { x:from.x+(to.x-from.x)*e, y:from.y+(to.y-from.y)*e,
+             w:from.w+(to.w-from.w)*e, h:from.h+(to.h-from.h)*e };
+    clamp(); apply();
+    if(k<1) animId = requestAnimationFrame(step);
+  };
+  animId = requestAnimationFrame(step);
+}
+
+/* =============================================================
+   6. Selection & panels
+   ============================================================= */
+let selected = wp[0].id, selectedLeg = null, progress = 0;
+const detail = document.getElementById("detail");
+const live   = document.getElementById("live");
+
+function selectStop(id, opts={}){
+  selected = id; selectedLeg = null;
+  const w = byId[id];
+  markerEls.forEach(g => {
+    g.classList.toggle("sel", g._w.id===id);
+    g.classList.toggle("visited", g._w.num <= progress);
+  });
+  highlightLegs();
+  renderDetail(w);
+  if(opts.centre) centreOn(w, opts.zoom);
+  if(opts.focus) markerEls.find(g=>g._w.id===id).focus();
+  live.textContent = t("selected").replace("%n",w.num).replace("%s",w.label[lang]);
+  syncHash();
+  drawElevation();
+}
+function highlightLegs(){
+  const w = byId[selected];
+  legEls.forEach(L => {
+    const related = L.kind==="leg"
+      ? (L.r.from===selected || L.r.to===selected)
+      : L.r.at===selected;
+    const isSel = selectedLeg === L.idx;
+    L.path.classList.toggle("sel", isSel || (selectedLeg===null && related));
+    L.path.classList.toggle("dim", selectedLeg!==null ? !isSel : false);
+    if(L.kind==="leg") L.path.classList.toggle("pending", progress>0 && L.idx >= progress);
+  });
+  void w;
+}
+function selectLeg(i){
+  selectedLeg = i; 
+  legEls.forEach(L => { L.path.classList.toggle("sel", L.idx===i); L.path.classList.toggle("dim", L.idx!==i); });
+  const L = legEls[i];
+  renderLegDetail(L);
+  live.textContent = L.path.getAttribute("aria-label");
+}
+
+function modeSwatch(mode){ return `<i style="border-top-color:var(--${mode})"></i>`; }
+
+function renderDetail(w){
+  const i = wp.indexOf(w);
+  const inLeg  = TRIP.routes.find(r => r.to===w.id);
+  const outLeg = TRIP.routes.find(r => r.from===w.id);
+  const roleTxt = w.type==="origin"?t("origin"):w.type==="destination"?t("destination"):t("stopOf").replace("%n",w.num);
+  detail.innerHTML = `
+    <p class="eyebrow">${roleTxt}</p>
+    <h2 class="stop-title"><span class="badge ${w.type}">${w.num}</span>${w.label[lang]}
+      <small>${w.label[lang==="zh"?"en":"zh"]}</small></h2>
+    <p class="eyebrow" style="margin-top:6px">${w.address[lang]}</p>
+    <p class="lede">${w.lede[lang]}</p>
+    <ul class="facts">${w.bullets[lang].map(b=>`<li><span>${b}</span></li>`).join("")}</ul>
+    <div class="metrics">
+      <div class="metric"><b>${fmtKm(w.arrive.dist)} km</b><span>${t("cumulative")}</span></div>
+      <div class="metric"><b>${fmtMin(w.arrive.dur)}</b><span>${t("elapsed")}</span></div>
+      <div class="metric"><b>${w.elev} m</b><span>${t("altitude")}</span></div>
+    </div>
+    ${inLeg ? legBlock(inLeg, t("arriveBy")) : ""}
+    ${outLeg ? legBlock(outLeg, `${t("legTo")} ${byId[outLeg.to].label[lang]}`) : ""}
+    <div class="railnav">
+      <button id="prevBtn" ${i===0?"disabled":""}>${t("prev")}</button>
+      <button id="nextBtn" ${i===wp.length-1?"disabled":""}>${t("next")}</button>
+    </div>`;
+  const prev = document.getElementById("prevBtn"), next = document.getElementById("nextBtn");
+  if(prev) prev.onclick = () => selectStop(wp[i-1].id,{centre:true});
+  if(next) next.onclick = () => selectStop(wp[i+1].id,{centre:true});
+}
+function legBlock(r, heading){
+  return `<div class="legcard">
+    <h3>${heading}</h3>
+    <div class="body">
+      <div class="legline">${modeSwatch(r.mode)}<span>${lang==="zh"
+        ? `${t("modes")[r.mode]}${r.distance} 公里，约 ${fmtMin(r.duration)}`
+        : `${r.distance} km by ${t("modes")[r.mode].toLowerCase()}, about ${fmtMin(r.duration)}`}</span></div>
+      ${r.note ? `<div>${r.note[lang]}</div>` : ""}
+    </div></div>`;
+}
+function renderLegDetail(L){
+  const r = L.r;
+  if(L.kind === "spur"){
+    const host = byId[r.at];
+    detail.innerHTML = `<p class="eyebrow">${host.label[lang]}</p>
+      <h2 class="stop-title">${r.label[lang]}</h2>
+      <p class="lede">${t("modes")[r.mode]} · ${r.distance} km · ${fmtMin(r.duration)}</p>
+      <div class="railnav"><button id="backBtn">${host.label[lang]}</button></div>`;
+    document.getElementById("backBtn").onclick = () => selectStop(host.id);
+    return;
+  }
+  const a = byId[r.from], b = byId[r.to];
+  detail.innerHTML = `
+    <p class="eyebrow">${a.label[lang]} → ${b.label[lang]}</p>
+    <h2 class="stop-title">${r.distance} km</h2>
+    <p class="lede">${r.note[lang]}</p>
+    <div class="metrics">
+      <div class="metric"><b>${fmtMin(r.duration)}</b><span>${t("time")}</span></div>
+      <div class="metric"><b>${t("modes")[r.mode]}</b><span>${t("arriveBy")}</span></div>
+    </div>
+    <div class="railnav">
+      <button id="fromBtn">${a.label[lang]}</button>
+      <button id="toBtn">${b.label[lang]}</button>
+    </div>`;
+  document.getElementById("fromBtn").onclick = () => selectStop(a.id,{centre:true});
+  document.getElementById("toBtn").onclick   = () => selectStop(b.id,{centre:true});
+}
+
+/* marker + leg events */
+markerEls.forEach(g => {
+  g.addEventListener("click", e => { if(moved>5) return; e.stopPropagation(); selectStop(g._w.id); });
+  g.addEventListener("keydown", e => {
+    if(e.key==="Enter"||e.key===" "){ e.preventDefault(); selectStop(g._w.id,{centre:true}); }
+  });
+});
+gRoutes.addEventListener("click", e => {
+  const i = e.target.dataset.leg;
+  if(i!==undefined && moved<=5) selectLeg(+i);
+});
+
+/* =============================================================
+   7. Leg labels along the route
+   ============================================================= */
+const hopEls = [];
+function buildHops(){
+  legEls.forEach(L => {
+    const g = el("g",{ class:"hoplabel" });
+    const rct = el("rect",{ rx:6, height:17, y:-8.5 });
+    const tx  = el("text");
+    tx.textContent = L.kind==="leg"
+      ? `${L.r.distance} km / ${fmtMin(L.r.duration)}`
+      : `${L.r.label[lang]} ${L.r.distance} km`;
+    g.append(rct,tx); gHops.appendChild(g);
+    const w = tx.getComputedTextLength ? Math.max(48, tx.getComputedTextLength()+14) : 70;
+    rct.setAttribute("width",w); rct.setAttribute("x",-w/2);
+    L.hop = g;
+    hopEls.push(L);
+  });
+  positionHops(view.w/Math.max(rect.width,1));
+}
+function positionHops(k){
+  hopEls.forEach(L => {
+    if(!L.hop) return;
+    const len = L.path.getTotalLength();
+    const p = L.path.getPointAtLength(len*0.5);
+    L.hop.setAttribute("transform",`translate(${p.x} ${p.y}) scale(${k})`);
+    L.hop.style.display = (showLabels && !L.path.classList.contains("hidden")) ? "" : "none";
+  });
+}
+
+/* =============================================================
+   8. Layers
+   ============================================================= */
+let showLabels = true;
+const modeOn = { car:true, walk:true, bike:true, transit:true };
+function buildLegend(){
+  const rows = document.getElementById("legendRows");
+  rows.innerHTML = "";
+  const counts = { car:0, walk:0, bike:0, transit:0 };
+  legEls.forEach(L => counts[L.r.mode] += L.r.distance);
+  ["car","walk","bike","transit"].forEach(m => {
+    const b = document.createElement("button");
+    b.className = "lrow"; b.setAttribute("aria-pressed", modeOn[m]);
+    b.innerHTML = `<span class="key" style="border-top-color:var(--${m});${m!=="car"?"border-top-style:dashed":""}"></span>
+                   <span>${t(m)}</span><em>${Math.round(counts[m])} km</em>`;
+    b.onclick = () => { modeOn[m] = !modeOn[m]; b.setAttribute("aria-pressed",modeOn[m]); applyLayers(); };
+    rows.appendChild(b);
+  });
+  const lb = document.createElement("button");
+  lb.className = "lrow"; lb.setAttribute("aria-pressed", showLabels);
+  lb.innerHTML = `<span class="key" style="border-top-color:var(--ink-3);border-top-style:dotted"></span><span>${t("labels")}</span>`;
+  lb.onclick = () => { showLabels = !showLabels; lb.setAttribute("aria-pressed",showLabels);
+                       positionHops(view.w/Math.max(rect.width,1)); };
+  rows.appendChild(lb);
+  document.getElementById("legendH").textContent = t("layers");
+}
+function applyLayers(){
+  legEls.forEach(L => {
+    const on = modeOn[L.r.mode];
+    L.path.classList.toggle("hidden", !on);
+    L.path.style.display = on ? "" : "none";
+    L.casing.style.display = on ? "" : "none";
+    L.hit.style.display = on ? "" : "none";
+  });
+  positionHops(view.w/Math.max(rect.width,1));
+}
+
+/* =============================================================
+   9. Breadcrumb playback
+   ============================================================= */
+const tracker = { visible:false, x:0, y:0 };
+let playing = false, playRaf = null;
+function placeTracker(k){
+  trackerG.setAttribute("transform",`translate(${tracker.x} ${tracker.y}) scale(${k})`);
+}
+function play(){
+  if(playing){ stopPlay(); return; }
+  playing = true;
+  const btn = document.getElementById("playBtn");
+  btn.textContent = "■"; btn.setAttribute("aria-pressed","true"); btn.setAttribute("aria-label",t("playing"));
+  tracker.visible = true; trackerG.style.display = "";
+  const carLegs = legEls.filter(L => L.kind==="leg");
+  let li = 0, t0 = performance.now();
+  progress = 0; highlightLegs();
+  const step = now => {
+    if(!playing) return;
+    const L = carLegs[li];
+    const dur = Math.max(900, L.r.duration*11);
+    const k = Math.min(1,(now-t0)/dur);
+    const p = L.path.getPointAtLength(L.path.getTotalLength()*k);
+    tracker.x = p.x; tracker.y = p.y;
+    placeTracker(view.w/Math.max(rect.width,1));
+    if(k >= 1){
+      li++; progress = li; t0 = now;
+      markerEls.forEach(g => g.classList.toggle("visited", g._w.num <= progress));
+      highlightLegs();
+      if(li >= carLegs.length){ stopPlay(true); return; }
+      selectStop(carLegs[li].r.from, {});
+    }
+    playRaf = requestAnimationFrame(step);
+  };
+  selectStop(wp[0].id,{});
+  playRaf = requestAnimationFrame(step);
+}
+function stopPlay(finished){
+  playing = false; cancelAnimationFrame(playRaf);
+  const btn = document.getElementById("playBtn");
+  btn.textContent = "▶"; btn.setAttribute("aria-pressed","false"); btn.setAttribute("aria-label",t("play"));
+  if(finished){ progress = legEls.filter(L=>L.kind==="leg").length; selectStop(wp[wp.length-1].id,{}); }
+  else { tracker.visible=false; trackerG.style.display="none"; progress = 0; }
+  markerEls.forEach(g => g.classList.toggle("visited", g._w.num <= progress));
+  highlightLegs();
+}
+document.getElementById("playBtn").onclick = play;
+
+/* =============================================================
+   10. Elevation profile
+   ============================================================= */
+const esvg = document.getElementById("elevSvg");
+function drawElevation(){
+  const W=1000,H=120,pad=14, maxD=TRIP.totalDistance, maxE=1200;
+  const X = d => (d/maxD)*W;
+  const Y = e => H-pad-(e/maxE)*(H-pad*2);
+  const pts = PROFILE.map(p => `${X(p[0]).toFixed(1)},${Y(p[1]).toFixed(1)}`).join(" ");
+  let html = "";
+  [0,500,1000].forEach(e => {
+    html += `<line class="egrid" x1="0" y1="${Y(e)}" x2="${W}" y2="${Y(e)}"/>`
+         +  `<text class="etick" x="2" y="${Y(e)-3}">${e} m</text>`;
+  });
+  html += `<polygon class="earea" points="0,${H} ${pts} ${W},${H}"/>`;
+  html += `<polyline class="eline" points="${pts}" vector-effect="non-scaling-stroke"/>`;
+  PROFILE.forEach(p => {
+    if(!p[2]) return;
+    const isStop = wp.some(w => w.label.en === p[2].en && Math.abs(w.arrive.dist-p[0])<3);
+    const w = wp.find(w => w.label.en === p[2].en && Math.abs(w.arrive.dist-p[0])<3);
+    const sel = w && w.id===selected;
+    html += `<circle class="edot ${sel?"sel":""}" cx="${X(p[0]).toFixed(1)}" cy="${Y(p[1]).toFixed(1)}" r="${isStop?4:3}"
+              ${w?`data-stop="${w.id}"`:""}/>`;
+    if(p[1] > 900) html += `<text class="epeak" x="${X(p[0]).toFixed(1)}" y="${(Y(p[1])-8).toFixed(1)}">${p[1]} m</text>`;
+  });
+  esvg.innerHTML = html;
+  esvg.querySelectorAll("[data-stop]").forEach(c =>
+    c.addEventListener("click", () => selectStop(c.dataset.stop,{centre:true})));
+}
+
+/* =============================================================
+   11. List view
+   ============================================================= */
+function renderList(){
+  const box = document.getElementById("listview");
+  const head = lang==="zh"
+    ? `${fmtKm(TRIP.totalDistance)} 公里，${fmtMin(TRIP.totalDuration)} 净驾驶，${wp.length} 站`
+    : `${fmtKm(TRIP.totalDistance)} km and ${fmtMin(TRIP.totalDuration)} of driving across ${wp.length} stops`;
+  let html = `<h2 style="font-size:24px;margin-bottom:4px">${t("title")}</h2>
+    <p class="eyebrow" style="margin-bottom:12px">${head}</p>`;
+  wp.forEach((w,i) => {
+    html += `<div class="entry"><details ${w.id===selected?"open":""} data-id="${w.id}">
+      <summary>
+        <span class="badge ${w.type}">${w.num}</span>
+        <span><h3>${w.label[lang]} <span style="font-family:Archivo,sans-serif;font-size:13px;color:var(--ink-3)">${w.label[lang==="zh"?"en":"zh"]}</span></h3>
+        <div class="sub">${lang==="zh"
+          ? `${w.address[lang]}，累计 ${fmtKm(w.arrive.dist)} 公里，建议停留 ${w.stay.zh}`
+          : `${w.address[lang]}, ${fmtKm(w.arrive.dist)} km in, stay ${w.stay.en.toLowerCase()}`}</div></span>
+        <span class="open-map">${t("openMap")}</span>
+      </summary>
+      <p class="lede" style="font-size:16px">${w.lede[lang]}</p>
+      <ul class="facts">${w.bullets[lang].map(b=>`<li><span>${b}</span></li>`).join("")}</ul>
+    </details></div>`;
+    const r = TRIP.routes.find(r => r.from===w.id);
+    if(r) html += `<div class="hop"><i></i>${lang==="zh"
+      ? `${r.distance} 公里，${fmtMin(r.duration)}。${r.note.zh}`
+      : `${r.distance} km, ${fmtMin(r.duration)}. ${r.note.en}`}</div>`;
+  });
+  box.innerHTML = html;
+  box.querySelectorAll(".open-map").forEach(s => s.addEventListener("click", e => {
+    e.preventDefault();
+    const id = e.target.closest("details").dataset.id;
+    setView("map"); selectStop(id,{centre:true});
+  }));
+  box.querySelectorAll("details").forEach(d => d.addEventListener("toggle", () => {
+    if(d.open) selectStop(d.dataset.id,{});
+  }));
+}
+function setView(v){
+  document.body.dataset.view = v;
+  const btn = document.getElementById("viewBtn");
+  btn.textContent = v==="map" ? t("list") : t("map");
+  btn.setAttribute("aria-pressed", v==="list");
+  if(v==="list") renderList();
+  else { rect = svg.getBoundingClientRect(); apply(); }
+  syncHash();
+}
+document.getElementById("viewBtn").onclick = () =>
+  setView(document.body.dataset.view === "map" ? "list" : "map");
+
+/* =============================================================
+   12. Theme, language, keyboard, hash
+   ============================================================= */
+function setTheme(mode){
+  document.documentElement.dataset.theme = mode;
+  document.getElementById("themeBtn").textContent = mode==="dark" ? t("light") : t("dark");
+  try{ localStorage.setItem("nzloop-theme", mode); }catch(e){}
+}
+document.getElementById("themeBtn").onclick = () => {
+  const cur = document.documentElement.dataset.theme
+    || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  setTheme(cur === "dark" ? "light" : "dark");
+};
+try{
+  const saved = localStorage.getItem("nzloop-theme");
+  if(saved) setTheme(saved);
+  else document.getElementById("themeBtn").textContent =
+    matchMedia("(prefers-color-scheme: dark)").matches ? UI.zh.light : UI.zh.dark;
+}catch(e){}
+
+function setLang(l){
+  lang = l;
+  document.documentElement.lang = l==="zh" ? "zh-CN" : "en";
+  document.getElementById("langBtn").textContent = l==="zh" ? "EN" : "中文";
+  document.getElementById("tripTitle").textContent = t("title");
+  document.getElementById("tripSub").textContent = t("sub");
+  document.getElementById("tDist").textContent  = fmtKm(TRIP.totalDistance)+" km";
+  document.getElementById("tTime").textContent  = fmtMin(TRIP.totalDuration);
+  document.getElementById("tStops").textContent = wp.length;
+  document.getElementById("tDistL").textContent = t("dist");
+  document.getElementById("tTimeL").textContent = t("time");
+  document.getElementById("tStopsL").textContent= t("stops");
+  document.getElementById("elevTitle").textContent = t("elev");
+  document.getElementById("elevMax").textContent = t("highest");
+  document.getElementById("srSummary").textContent = t("srIntro");
+  document.getElementById("themeBtn").textContent =
+    (document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"))==="dark" ? t("light") : t("dark");
+  gNames.querySelectorAll("text").forEach(tx => tx.textContent = tx._geo.t[lang]);
+  legEls.forEach(L => { if(L.kind==="leg") L.path.setAttribute("aria-label", legAria(L.r)); });
+  hopEls.forEach(L => {
+    const tx = L.hop.querySelector("text");
+    tx.textContent = L.kind==="leg" ? `${L.r.distance} km / ${fmtMin(L.r.duration)}` : `${L.r.label[lang]} ${L.r.distance} km`;
+    const r = L.hop.querySelector("rect"), w = Math.max(48, tx.getComputedTextLength()+14);
+    r.setAttribute("width",w); r.setAttribute("x",-w/2);
+  });
+  layoutLabels(); buildLegend(); renderDetail(byId[selected]); drawElevation();
+  document.getElementById("viewBtn").textContent =
+    document.body.dataset.view==="map" ? t("list") : t("map");
+  if(document.body.dataset.view==="list") renderList();
+  apply(); syncHash();
+}
+document.getElementById("langBtn").onclick = () => setLang(lang==="zh" ? "en" : "zh");
+
+/* keyboard: arrows move between stops, Enter selects, shift+arrows pan */
+svg.addEventListener("keydown", e => {
+  const i = wp.findIndex(w => w.id===selected);
+  const panStep = view.w*0.18;
+  if(e.shiftKey && e.key.startsWith("Arrow")){
+    if(e.key==="ArrowLeft") view.x -= panStep;
+    if(e.key==="ArrowRight") view.x += panStep;
+    if(e.key==="ArrowUp") view.y -= panStep;
+    if(e.key==="ArrowDown") view.y += panStep;
+    clamp(); apply(); e.preventDefault(); return;
+  }
+  if(e.key==="ArrowRight"||e.key==="ArrowDown"){ selectStop(wp[Math.min(wp.length-1,i+1)].id,{centre:true}); e.preventDefault(); }
+  else if(e.key==="ArrowLeft"||e.key==="ArrowUp"){ selectStop(wp[Math.max(0,i-1)].id,{centre:true}); e.preventDefault(); }
+  else if(e.key==="Enter"){ centreOn(byId[selected], 90); e.preventDefault(); }
+  else if(e.key==="+"||e.key==="="){ zoomCentre(1/1.45); e.preventDefault(); }
+  else if(e.key==="-"){ zoomCentre(1.45); e.preventDefault(); }
+  else if(e.key==="0"){ fit(routeBBox()); e.preventDefault(); }
+});
+
+let hashTimer = null;
+function syncHash(){
+  clearTimeout(hashTimer);
+  hashTimer = setTimeout(() => {
+    const h = `#${document.body.dataset.view}/${lang}/${selected}`;
+    try{ if(location.hash !== h) history.replaceState(null,"",h); }catch(err){}
+  }, 320);
+}
+function readHash(){
+  const parts = (location.hash || "").replace(/^#/,"").split("/");
+  if(parts.length < 3) return;
+  const [v,l,id] = parts;
+  if(l === "en" || l === "zh") lang = l;
+  if(id && byId[id]) selected = id;
+  if(v === "list") document.body.dataset.view = "list";
+}
+
+/* debounced resize */
+let rTimer = null;
+addEventListener("resize", () => {
+  clearTimeout(rTimer);
+  rTimer = setTimeout(() => {
+    const cx = view.x+view.w/2, cy = view.y+view.h/2;
+    rect = svg.getBoundingClientRect();
+    const ar = rect.width/Math.max(rect.height,1);
+    view.w = view.h*ar; view.x = cx-view.w/2; view.y = cy-view.h/2;
+    clamp(); apply();
+  }, 130);
+});
+document.getElementById("elevBtn").onclick = e => {
+  const on = document.body.dataset.elev !== "on";
+  document.body.dataset.elev = on ? "on" : "off";
+  e.currentTarget.setAttribute("aria-pressed", on);
+  setTimeout(() => { rect = svg.getBoundingClientRect(); apply(); }, 60);
+};
+
+/* =============================================================
+   13. Boot — draw animation first, side trips lazily
+   ============================================================= */
+readHash();
+if(innerWidth > 860){
+  document.body.dataset.elev = "on";
+  document.getElementById("elevBtn").setAttribute("aria-pressed","true");
+}
+setLang(lang);
+fit(routeBBox());
+selectStop(selected,{});
+
+/* animated route drawing */
+const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+legEls.forEach((L,i) => {
+  const len = L.path.getTotalLength();
+  [L.path,L.casing].forEach(p => {
+    p.style.strokeDasharray = L.r.mode==="car" ? `${len}` : p===L.casing ? `${len}` : "";
+    p.style.strokeDashoffset = len;
+  });
+  if(L.r.mode!=="car") L.path.style.strokeDasharray = `${len}`;
+  requestAnimationFrame(() => setTimeout(() => {
+    L.path.style.transitionDelay = "0ms";
+    L.path.style.strokeDashoffset = "0";
+    L.casing.style.transition = "stroke-dashoffset 1.15s cubic-bezier(.4,.05,.25,1)";
+    L.casing.style.strokeDashoffset = "0";
+    if(L.r.mode!=="car") setTimeout(()=>{ L.path.style.strokeDasharray = ""; }, 1250);
+  }, reduceMotion ? 0 : i*260));
+});
+
+/* side trips + leg labels load after the main route is on screen */
+const idle = window.requestIdleCallback || (f => setTimeout(f,400));
+idle(() => {
+  TRIP.spurs.forEach((s,i) => {
+    const pts = s.via.map(pt), d = smooth(pts,0.2);
+    const path = el("path",{ class:`leg mode-${s.mode}`, d, role:"img",
+      "aria-label":`${s.label[lang]} ${s.distance} km` });
+    const hit  = el("path",{ class:"leg-hit", d, "data-leg":legEls.length });
+    gRoutes.append(path,hit);
+    legEls.push({ r:s, path, casing:{ style:{}, classList:{toggle(){}} }, hit, idx:legEls.length, kind:"spur" });
+  });
+  buildHops();
+  buildLegend();
+  applyLayers();
+  drawElevation();
+  apply();
+});
+})();
+</script>
+</body>
+</html>
