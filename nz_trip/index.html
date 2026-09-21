@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>新西兰南岛环线 · South Island Grand Loop</title>
+<title>新西兰南岛之旅 · South Island Journey</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Spectral:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -317,13 +317,13 @@ body[data-view="list"] .listview{display:block;max-width:760px;margin:0 auto}
 
   <header class="topbar">
     <div class="brand">
-      <h1 id="tripTitle">新西兰南岛环线</h1>
-      <p id="tripSub">Christchurch · Kaikōura · Hanmer Springs · Wānaka · Queenstown · Aoraki/Mt Cook · Tekapo</p>
+      <h1 id="tripTitle">新西兰南岛之旅</h1>
+      <p id="tripSub">Christchurch · Kaikōura · Hanmer Springs · Lake Tekapo · Aoraki/Mt Cook · Wānaka · Queenstown</p>
     </div>
     <div class="totals" aria-hidden="true">
-      <div class="total"><b id="tDist">1,503 km</b><span id="tDistL">总里程</span></div>
-      <div class="total"><b id="tTime">19 h 50</b><span id="tTimeL">净驾驶</span></div>
-      <div class="total"><b id="tStops">8</b><span id="tStopsL">站点</span></div>
+      <div class="total"><b id="tDist">1,011 km</b><span id="tDistL">总里程</span></div>
+      <div class="total"><b id="tTime">12 h 30</b><span id="tTimeL">净驾驶</span></div>
+      <div class="total"><b id="tStops">7</b><span id="tStopsL">站点</span></div>
     </div>
     <div class="chips">
       <button class="chip" id="viewBtn" aria-pressed="false">列表</button>
@@ -336,7 +336,7 @@ body[data-view="list"] .listview{display:block;max-width:760px;margin:0 auto}
     <section class="stage" aria-label="路线地图 Route map">
       <div class="mapbox" id="mapbox">
         <svg class="map" id="map" role="application" tabindex="0"
-             aria-label="新西兰南岛环线交互地图。使用方向键在站点之间移动，回车键查看详情，加号减号缩放。"
+             aria-label="新西兰南岛之旅交互地图。使用方向键在站点之间移动，回车键查看详情，加号减号缩放。"
              aria-describedby="srSummary" preserveAspectRatio="xMidYMid meet">
           <rect id="ocean" x="-3000" y="-3000" width="9000" height="9000" fill="var(--sea)"/>
           <g id="stars"></g>
@@ -374,10 +374,10 @@ body[data-view="list"] .listview{display:block;max-width:760px;margin:0 auto}
       <div class="elev" id="elevWrap">
         <div class="elev-head">
           <span id="elevTitle">海拔剖面（近似）</span>
-          <span id="elevMax">最高点 林迪斯山口 971 m</span>
+          <span id="elevMax">最高点 皇冠山脉 1,121 m</span>
         </div>
         <svg id="elevSvg" viewBox="0 0 1000 120" preserveAspectRatio="none" role="img"
-             aria-label="沿线海拔剖面图，从基督城的海平面爬升至皇冠山脉 1121 米。"></svg>
+             aria-label="沿线海拔剖面图，从基督城的海平面爬升至皇冠山脉 1,121 米，最终抵达皇后镇。"></svg>
       </div>
     </section>
 
@@ -399,200 +399,167 @@ body[data-view="list"] .listview{display:block;max-width:760px;margin:0 auto}
    1. Trip data
    ============================================================= */
 const TRIP = {
-  totalDistance: 1503,          // km
-  totalDuration: 1190,          // minutes of driving
+  totalDistance: 1011,          // km
+  totalDuration: 750,           // minutes of driving
   waypoints: [
     {
       id:"chc", num:1, type:"origin", lat:-43.5321, lng:172.6362, elev:20, anchor:"e",
       label:{zh:"基督城", en:"Christchurch"},
       address:{zh:"坎特伯雷大区 · 南岛东岸", en:"Canterbury, east coast"},
-      arrive:{dist:0, dur:0}, stay:{zh:"0.5–1 天", en:"Half a day – 1 day"},
+      arrive:{dist:0, dur:0}, stay:{zh:"第 1 天", en:"Day 1"},
       lede:{
-        zh:"南岛最大的城市，也是这条环线的起点与终点；2011 年地震后它重建成了一座花园、集装箱商店与街头艺术混在一起的城市。",
-        en:"The South Island's largest city and both ends of this loop, rebuilt after the 2011 earthquake into a mix of gardens, container shops and street art."},
+        zh:"下午 3:00 抵达基督城机场，取车后进入市区休息，漫步植物园与哈格利公园，适应时差。",
+        en:"Arrive Christchurch Airport around 3 pm, pick up the car and settle into the city. Walk the Botanic Gardens and Hagley Park to stretch the legs."},
       bullets:{
-        zh:["在机场或市区取车，加满油、买张电话卡并下载离线地图",
-            "雅芳河撑篙、哈格利公园与坎特伯雷博物馆彼此步行可达",
-            "坂茂设计的纸板教堂，以及 185 张白椅地震纪念装置",
-            "Riverside Market 与 New Regent Street 解决第一顿饭和补给"],
+        zh:["机场或市区取车，加满油、买电话卡并下载离线地图",
+            "哈格利公园与坎特伯雷植物园彼此相连，适合傍晚散步",
+            "坂茂纸板教堂与 185 张白椅地震纪念装置可顺路参观",
+            "Riverside Market 解决第一顿饭与补给"],
         en:["Pick up the car at the airport or in town, fill the tank, get a SIM and offline maps",
-            "Punting on the Avon, Hagley Park and Canterbury Museum are all within a walk",
-            "Shigeru Ban's Cardboard Cathedral and the 185 Empty Chairs earthquake memorial",
-            "Riverside Market and New Regent Street for the first meal and supplies"]}
+            "Hagley Park and the Botanic Gardens are linked and ideal for an evening stroll",
+            "Shigeru Ban's Cardboard Cathedral and the 185 Empty Chairs memorial are nearby",
+            "Riverside Market for the first meal and supplies"]}
     },
     {
       id:"kai", num:2, type:"stop", lat:-42.4006, lng:173.6800, elev:10, anchor:"e",
       label:{zh:"凯库拉", en:"Kaikōura"},
       address:{zh:"坎特伯雷北部 · 太平洋岸", en:"North Canterbury, Pacific coast"},
-      arrive:{dist:183, dur:150}, stay:{zh:"1 晚", en:"1 night"},
+      arrive:{dist:183, dur:150}, stay:{zh:"第 2 天 · 1 晚", en:"Day 2 · 1 night"},
       lede:{
-        zh:"雪山直接掉进太平洋，离岸不远就是上千米深的海沟，抹香鲸因此常年留在这里。",
-        en:"Snow peaks drop straight into the Pacific, and a canyon a thousand metres deep just offshore keeps sperm whales here all year."},
+        zh:"从基督城沿海北上约 2.5 小时到达。雪山直接掉进太平洋，看海豹、享用新鲜海鲜是这一站的重点。",
+        en:"A 2.5-hour coastal drive north from Christchurch. Snow peaks drop into the Pacific — seals and fresh seafood are the main attractions."},
       bullets:{
-        zh:["全年可观抹香鲸；出海前一晚查风浪，取消率不低",
-            "与暗色斑纹海豚共游；Point Kean 海豹群需保持 20 米距离",
-            "kōura 在毛利语里就是小龙虾，路边的 Nins Bin 是经典一站",
-            "半岛步道环线约 3 小时，免费而且视野最好",
-            "2016 年 7.8 级地震后 SH1 已全线通车，个别路段仍有临时限速"],
-        en:["Sperm whales year-round; check the swell the night before, trips get cancelled often",
-            "Swim with dusky dolphins; keep 20 m back from the fur seals at Point Kean",
+        zh:["Point Kean 海豹群需保持 20 米距离，近距离观察即可",
+            "kōura 在毛利语里就是小龙虾，路边 Nins Bin 是经典一站",
+            "全年可观抹香鲸；出海前一晚查风浪，取消率不低",
+            "半岛步道环线约 3 小时，免费且视野绝佳"],
+        en:["Keep 20 m from the fur seals at Point Kean — they are easy to watch from a distance",
             "kōura is Māori for crayfish — the Nins Bin caravan is the classic stop",
-            "The Peninsula Walkway loop takes about 3 hours, free and the best view of the lot",
-            "SH1 has fully reopened since the 2016 magnitude 7.8 quake, with some temporary limits"]}
+            "Sperm whales year-round; check the swell the night before, trips often cancel",
+            "The Peninsula Walkway loop takes about 3 hours, free and the best views"]}
     },
     {
       id:"han", num:3, type:"stop", lat:-42.5233, lng:172.8283, elev:386, anchor:"n",
       label:{zh:"汉默温泉", en:"Hanmer Springs"},
       address:{zh:"坎特伯雷北部 · 内陆山谷", en:"North Canterbury, inland basin"},
-      arrive:{dist:316, dur:270}, stay:{zh:"1 晚", en:"1 night"},
+      arrive:{dist:316, dur:270}, stay:{zh:"第 3 天 · 1 晚", en:"Day 3 · 1 night"},
       lede:{
-        zh:"藏在森林盆地里的温泉小镇，从凯库拉沿 SH70 内陆公路两小时就到，是全程最放松的一站。",
-        en:"A thermal village tucked into a forested basin two hours inland from Kaikōura — the most restful stop on the loop."},
+        zh:"从凯库拉沿 SH70 内陆公路约 2 小时到达。藏在森林盆地里的温泉小镇，是全程最放松的一站，重点体验露天天然地热温泉。",
+        en:"Two hours inland from Kaikōura on the SH70. A thermal village in a forested basin — the most restful stop, centred on the outdoor hot pools."},
       bullets:{
-        zh:["22 个池子，水温 33–42°C，傍晚人最少",
-            "Conical Hill 观景步道来回约 40 分钟，泡汤前正好活动一下",
-            "汉默森林公园里有大量步道与山地车道",
-            "Waiau 峡谷可以玩蹦极和喷射快艇"],
-        en:["22 pools between 33 and 42 °C; early evening is the quietest",
-            "The Conical Hill lookout is a 40-minute return walk, ideal before a soak",
+        zh:["22 个池子，水温 33–42°C，傍晚人最少，最适合泡汤",
+            "Conical Hill 观景步道来回约 40 分钟，泡汤前正好活动",
+            "汉默森林公园有大量步道与山地车道",
+            "Waiau 峡谷可玩蹦极和喷射快艇（可选）"],
+        en:["22 pools between 33 and 42 °C; early evening is quietest and best for a soak",
+            "Conical Hill lookout is a 40-minute return walk, ideal before the pools",
             "Hanmer Forest Park is dense with walking and mountain-bike trails",
-            "Bungy and jet boating in the Waiau gorge"]}
+            "Optional bungy and jet boating in the Waiau gorge"]}
     },
     {
-      id:"wan", num:4, type:"stop", lat:-44.7031, lng:169.1321, elev:300, anchor:"w",
-      label:{zh:"瓦纳卡", en:"Wānaka"},
-      address:{zh:"奥塔哥大区 · 瓦纳卡湖南岸", en:"Otago, southern shore of Lake Wānaka"},
-      arrive:{dist:836, dur:660}, stay:{zh:"1–2 晚", en:"1–2 nights"},
-      lede:{
-        zh:"走完全程最长的一段（约 520 km）之后到达，瓦纳卡基本上是皇后镇的安静版本。",
-        en:"Reached after the longest drive of the trip, about 520 km. Wānaka is essentially the quiet version of Queenstown."},
-      bullets:{
-        zh:["#ThatWanakaTree 就长在湖边浅水里，日出逆光最好看",
-            "Roys Peak 往返 16 km、爬升 1,200 m，需要 5–6 小时",
-            "阿斯派灵山国家公园的门口：Rob Roy 冰川步道",
-            "Puzzling World 适合带孩子；Glendhu Bay 沿湖骑行轻松好走",
-            "途中翻过林迪斯山口（971 m），秋天整片金黄的塔斯克草"],
-        en:["#ThatWanakaTree stands in the shallows minutes from town, best backlit at sunrise",
-            "Roys Peak is 16 km return with 1,200 m of climbing — allow 5 to 6 hours",
-            "The doorstep of Mount Aspiring National Park and the Rob Roy Glacier track",
-            "Puzzling World for families; the Glendhu Bay trail for an easy ride along the lake",
-            "The drive crosses Lindis Pass at 971 m, gold tussock the whole way in autumn"]}
-    },
-    {
-      id:"qtn", num:5, type:"stop", lat:-45.0312, lng:168.6626, elev:310, anchor:"w",
-      label:{zh:"皇后镇", en:"Queenstown"},
-      address:{zh:"奥塔哥大区 · 瓦卡蒂普湖畔", en:"Otago, on Lake Wakatipu"},
-      arrive:{dist:906, dur:730}, stay:{zh:"2 晚", en:"2 nights"},
-      lede:{
-        zh:"卓越山脚下、瓦卡蒂普湖畔的冒险之都，翻过皇冠山脉公路就到——那是新西兰最高的铺装公路，1,121 米。",
-        en:"The adventure capital, under The Remarkables on Lake Wakatipu, reached over the Crown Range — New Zealand's highest sealed road at 1,121 m."},
-      bullets:{
-        zh:["卡瓦劳大桥 1988 年开出了世界上第一个商业蹦极点",
-            "天空缆车加山顶 Luge；黄昏上山光线最好",
-            "1912 年下水的 TSS Earnslaw 蒸汽船每天仍在横渡湖面",
-            "Fergburger 要排队；Gibbston Valley 的黑皮诺值得绕路",
-            "可以作为米尔福德峡湾一日游或格林诺奇公路的基地"],
-        en:["The world's first commercial bungy opened at the Kawarau Bridge in 1988",
-            "Skyline Gondola and the summit luge; go up late afternoon for the light",
-            "The TSS Earnslaw, launched 1912, still steams across the lake daily",
-            "Expect a queue at Fergburger; Gibbston Valley pinot noir is worth the detour",
-            "A good base for a Milford Sound day trip or the Glenorchy road"]}
-    },
-    {
-      id:"cook", num:6, type:"stop", lat:-43.7340, lng:170.0983, elev:760, anchor:"w",
-      label:{zh:"库克山国家公园", en:"Aoraki / Mount Cook"},
-      address:{zh:"坎特伯雷 · 库克山村 (Mt Cook Village)", en:"Canterbury, Mount Cook Village"},
-      arrive:{dist:1171, dur:930}, stay:{zh:"1–2 晚", en:"1–2 nights"},
-      lede:{
-        zh:"新西兰最高峰 3,724 米，全国 19 座三千米以上的山峰都挤在这一座国家公园里。",
-        en:"New Zealand's highest peak at 3,724 m, in a single park that holds all 19 of the country's summits above 3,000 m."},
-      bullets:{
-        zh:["胡克谷步道往返 10 km、约 3 小时，几乎全平，性价比最高的一条",
-            "塔斯曼冰川是新西兰最长的冰川，终碛湖可以坐船靠近浮冰",
-            "园区属奥拉基·麦肯奇国际暗夜保护区，晴夜银河肉眼可见",
-            "Hermitage 酒店里有希拉里爵士高山中心",
-            "注意高山鹦鹉 kea，它会啃掉车上的橡胶条",
-            "村内住宿很少，旺季请提前几个月订"],
-        en:["The Hooker Valley Track is 10 km return, about 3 hours, almost flat — the best payoff per step",
-            "The Tasman is the country's longest glacier; boats run among the icebergs on its lake",
-            "Inside the Aoraki Mackenzie International Dark Sky Reserve — the Milky Way is naked-eye",
-            "The Hillary Alpine Centre sits inside The Hermitage hotel",
-            "Watch for kea, the alpine parrot: they strip the rubber off parked cars",
-            "The village has very few beds — book months ahead in summer"]}
-    },
-    {
-      id:"tek", num:7, type:"stop", lat:-44.0049, lng:170.4790, elev:710, anchor:"s",
+      id:"tek", num:4, type:"stop", lat:-44.0049, lng:170.4790, elev:710, anchor:"s",
       label:{zh:"蒂卡波湖", en:"Lake Tekapo"},
       address:{zh:"坎特伯雷 · 麦肯奇盆地", en:"Canterbury, Mackenzie Basin"},
-      arrive:{dist:1276, dur:1010}, stay:{zh:"1 晚", en:"1 night"},
+      arrive:{dist:636, dur:480}, stay:{zh:"第 4 天 · 1 晚", en:"Day 4 · 1 night"},
       lede:{
-        zh:"冰川磨出的岩粉悬在水里，把湖染成不太真实的松石绿，这是回程前最后一个高光。",
-        en:"Rock flour ground by glaciers hangs in the water and turns the lake an implausible turquoise — the last highlight before the run home."},
+        zh:"从汉默温泉南下约 3.5 小时到达。冰川磨出的岩粉把湖染成松石绿，好牧羊人教堂与夜间观星是这一站的高光。",
+        en:"About 3.5 hours south from Hanmer Springs. Rock flour turns the lake an unreal turquoise — Church of the Good Shepherd and night-sky viewing are the highlights."},
       bullets:{
         zh:["好牧羊人教堂（1935 年）就在湖边，日出与夜空的经典机位",
-            "约翰山天文台的观星导览需要预约，冬夜最清澈",
+            "约翰山天文台观星导览需预约，冬夜最清澈",
             "Tekapo Springs 有温泉池，冬天还有户外滑冰场",
-            "鲁冰花 11–12 月盛开，虽然它其实是外来入侵物种"],
-        en:["The Church of the Good Shepherd (1935) sits right on the shore — the classic sunrise and night frame",
-            "Stargazing tours at the Mt John Observatory need booking; winter nights are clearest",
+            "鲁冰花 11–12 月盛开（外来入侵物种，但景色惊艳）"],
+        en:["Church of the Good Shepherd (1935) sits right on the shore — classic sunrise and night shots",
+            "Stargazing tours at Mt John Observatory need booking; winter nights are clearest",
             "Tekapo Springs has hot pools and an outdoor ice rink in winter",
-            "Lupins bloom in November and December, gorgeous and thoroughly invasive"]}
+            "Lupins bloom Nov–Dec — gorgeous and thoroughly invasive"]}
     },
     {
-      id:"chc2", num:8, type:"destination", lat:-43.5321, lng:172.6362, elev:20, anchor:"se",
-      offset:[19,17],
-      label:{zh:"回到基督城", en:"Back to Christchurch"},
-      address:{zh:"与起点同址 · 环线闭合", en:"Same place as the start — the loop closes"},
-      arrive:{dist:1503, dur:1190}, stay:{zh:"—", en:"—"},
+      id:"cook", num:5, type:"stop", lat:-43.7340, lng:170.0983, elev:760, anchor:"w",
+      label:{zh:"库克山国家公园", en:"Aoraki / Mount Cook"},
+      address:{zh:"坎特伯雷 · 库克山村 (Mt Cook Village)", en:"Canterbury, Mount Cook Village"},
+      arrive:{dist:741, dur:560}, stay:{zh:"第 5 天 · 1 晚", en:"Day 5 · 1 night"},
       lede:{
-        zh:"沿 SH8 翻过伯克山口、再接 SH1 回到坎特伯雷平原，环线在这里闭合，总里程约 1,500 km。",
-        en:"Over Burkes Pass on SH8 and back onto the Canterbury Plains by SH1. The loop closes here at about 1,500 km."},
+        zh:"从蒂卡波湖约 1.5 小时到达。沿普卡基湖观景，走进塔斯曼冰川平缓步道，新西兰最高峰就在眼前。",
+        en:"1.5 hours from Lake Tekapo. Views along Lake Pukaki, then an easy walk toward the Tasman Glacier with Aoraki / Mount Cook rising above."},
       bullets:{
-        zh:["途经 Fairlie，Fairlie Bakehouse 的派值得专门停一次车",
-            "还车前在 Rolleston 或 Hornby 加油，机场油价更高",
-            "多出一天可以加上阿卡罗阿与班克斯半岛",
-            "利特尔顿周六市集和港丘缆车适合最后半天",
-            "全程约 1,503 km、20 小时净驾驶，建议安排 8–10 天"],
-        en:["Through Fairlie — the Fairlie Bakehouse pie is worth a dedicated stop",
-            "Refuel at Rolleston or Hornby before returning the car; airport pumps cost more",
-            "With one spare day, add Akaroa and Banks Peninsula",
-            "Lyttelton's Saturday market and the Port Hills gondola suit a last half day",
-            "1,503 km and about 20 hours of driving in total — comfortable over 8 to 10 days"]}
+        zh:["普卡基湖观景台值得停一次车，湖水与雪山对比强烈",
+            "胡克谷步道往返 10 km、约 3 小时，几乎全平，性价比最高",
+            "塔斯曼冰川终碛湖可坐船靠近浮冰（可选）",
+            "注意高山鹦鹉 kea，它会啃掉车上的橡胶条",
+            "村内住宿很少，旺季请提前预订"],
+        en:["The Lake Pukaki lookout is worth a stop — intense contrast of water and peaks",
+            "Hooker Valley Track is 10 km return, about 3 hours, almost flat — best payoff per step",
+            "Optional boat among icebergs on the Tasman Glacier terminal lake",
+            "Watch for kea: they strip rubber from parked cars",
+            "Few beds in the village — book ahead in summer"]}
+    },
+    {
+      id:"wan", num:6, type:"stop", lat:-44.7031, lng:169.1321, elev:300, anchor:"w",
+      label:{zh:"瓦纳卡", en:"Wānaka"},
+      address:{zh:"奥塔哥大区 · 瓦纳卡湖南岸", en:"Otago, southern shore of Lake Wānaka"},
+      arrive:{dist:941, dur:680}, stay:{zh:"第 6 天 · 1 晚", en:"Day 6 · 1 night"},
+      lede:{
+        zh:"从库克山经林迪斯山口约 2 小时到达。打卡湖边孤树 #ThatWanakaTree，瓦纳卡是皇后镇的安静版本。",
+        en:"About 2 hours via Lindis Pass from Mount Cook. Photograph #ThatWanakaTree in the shallows — Wānaka is the quieter sibling of Queenstown."},
+      bullets:{
+        zh:["#ThatWanakaTree 就长在湖边浅水里，日出逆光最好看",
+            "途中翻过林迪斯山口（971 m），秋天整片金黄的塔斯克草",
+            "Roys Peak 往返 16 km、爬升 1,200 m，需要 5–6 小时（可选）",
+            "Puzzling World 适合带孩子；Glendhu Bay 沿湖骑行轻松"],
+        en:["#ThatWanakaTree stands in the shallows minutes from town, best backlit at sunrise",
+            "The drive crosses Lindis Pass at 971 m — gold tussock in autumn",
+            "Optional Roys Peak: 16 km return, 1,200 m climb, 5–6 hours",
+            "Puzzling World for families; Glendhu Bay trail for an easy lakeside ride"]}
+    },
+    {
+      id:"qtn", num:7, type:"destination", lat:-45.0312, lng:168.6626, elev:310, anchor:"w",
+      label:{zh:"皇后镇", en:"Queenstown"},
+      address:{zh:"奥塔哥大区 · 瓦卡蒂普湖畔", en:"Otago, on Lake Wakatipu"},
+      arrive:{dist:1011, dur:750}, stay:{zh:"第 7–8 天", en:"Days 7–8"},
+      lede:{
+        zh:"从瓦纳卡约 1.5 小时到达。第 7 天乘天空缆车俯瞰全景；第 8 天悠闲早餐后机场还车离境。",
+        en:"1.5 hours from Wānaka. Day 7: ride the Skyline Gondola for the panorama. Day 8: leisurely breakfast, return the car at the airport and depart."},
+      bullets:{
+        zh:["天空缆车加山顶 Luge；黄昏上山光线最好",
+            "卡瓦劳大桥是世界上第一个商业蹦极点（可选）",
+            "1912 年下水的 TSS Earnslaw 蒸汽船仍在横渡湖面",
+            "Fergburger 要排队；Gibbston Valley 黑皮诺值得绕路",
+            "第 8 天还车前在市区或机场附近加油，悠闲早餐后离境"],
+        en:["Skyline Gondola and summit luge; go up late afternoon for the light",
+            "Optional: the world's first commercial bungy at Kawarau Bridge (1988)",
+            "The TSS Earnslaw (launched 1912) still steams across the lake daily",
+            "Expect a queue at Fergburger; Gibbston Valley pinot is worth the detour",
+            "Day 8: refuel near town or airport, leisurely breakfast, then depart"]}
     }
   ],
   routes: [
     { from:"chc", to:"kai", mode:"car", distance:183, duration:150,
-      note:{zh:"SH1 沿海公路，经过 Waipara 酒区与 Cheviot；地震后重建路段较多，注意临时限速。",
-            en:"Coastal SH1 through the Waipara wine district and Cheviot; watch for temporary limits on rebuilt sections."},
+      note:{zh:"SH1 沿海公路，经过 Waipara 酒区与 Cheviot；车程约 2.5 小时。",
+            en:"Coastal SH1 through the Waipara wine district and Cheviot; about 2.5 hours."},
       via:[[-43.38,172.70],[-43.16,172.73],[-42.98,172.95],[-42.81,173.27],[-42.55,173.50]] },
     { from:"kai", to:"han", mode:"car", distance:133, duration:120,
-      note:{zh:"SH70 内陆凯库拉公路：窄、弯多、信号断续，但比 SH1 好看得多。",
-            en:"The SH70 Inland Road: narrow, winding, patchy phone signal, and far better looking than SH1."},
+      note:{zh:"SH70 内陆凯库拉公路：窄、弯多、信号断续，但风景远胜 SH1。车程约 2 小时。",
+            en:"The SH70 Inland Road: narrow, winding, patchy signal, far better scenery than SH1. About 2 hours."},
       via:[[-42.50,173.50],[-42.62,173.20],[-42.66,173.00],[-42.58,172.87]] },
-    { from:"han", to:"wan", mode:"car", distance:520, duration:390,
-      note:{zh:"全程最长的一段。建议在 Geraldine 或 Fairlie 分两次休息，翻过伯克山口与林迪斯山口。",
-            en:"The longest leg by far. Break it at Geraldine or Fairlie; it crosses Burkes Pass and Lindis Pass."},
-      via:[[-42.65,172.85],[-42.78,172.85],[-43.05,172.65],[-43.30,172.45],[-43.63,171.85],[-43.95,171.50],
-           [-44.09,171.24],[-44.10,170.83],[-44.08,170.62],[-44.00,170.48],[-44.26,170.10],[-44.49,169.97],
-           [-44.62,169.65],[-44.80,169.40],[-44.75,169.28]] },
+    { from:"han", to:"tek", mode:"car", distance:320, duration:210,
+      note:{zh:"南下经 Culverden、Fairlie 进入麦肯奇盆地，车程约 3.5 小时。建议中途在 Fairlie 休息。",
+            en:"South via Culverden and Fairlie into the Mackenzie Basin; about 3.5 hours. Break at Fairlie."},
+      via:[[-42.65,172.85],[-42.90,172.70],[-43.20,172.40],[-43.50,172.00],[-43.80,171.60],
+           [-44.00,171.20],[-44.10,170.90],[-44.08,170.62],[-44.00,170.48]] },
+    { from:"tek", to:"cook", mode:"car", distance:105, duration:80,
+      note:{zh:"沿普卡基湖西岸北上进入库克山村，车程约 1.5 小时。湖边观景台值得停一次。",
+            en:"North along the west shore of Lake Pukaki into the village; about 1.5 hours. The lookout is worth a stop."},
+      via:[[-43.95,170.40],[-43.90,170.25],[-43.85,170.13],[-43.80,170.11]] },
+    { from:"cook", to:"wan", mode:"car", distance:200, duration:120,
+      note:{zh:"经 Twizel、Omarama 翻过林迪斯山口（971 m）进入瓦纳卡，车程约 2 小时。",
+            en:"Via Twizel and Omarama over Lindis Pass (971 m) into Wānaka; about 2 hours."},
+      via:[[-43.85,170.11],[-44.05,170.13],[-44.20,170.10],[-44.35,169.90],[-44.50,169.70],
+           [-44.60,169.50],[-44.70,169.30],[-44.72,169.20]] },
     { from:"wan", to:"qtn", mode:"car", distance:70, duration:70,
-      note:{zh:"皇冠山脉公路，新西兰最高的铺装公路（1,121 m）。冬季可能要求携带防滑链，部分租车合同禁止走这条路。",
-            en:"The Crown Range Road, NZ's highest sealed road at 1,121 m. Chains may be required in winter and some rental contracts exclude it."},
-      via:[[-44.78,169.05],[-44.87,168.95],[-44.95,168.87],[-44.99,168.78],[-45.00,168.70]] },
-    { from:"qtn", to:"cook", mode:"car", distance:265, duration:200,
-      note:{zh:"经克伦威尔与林迪斯山口回到麦肯奇盆地，最后沿 SH80 贴着普卡基湖开进库克山村。",
-            en:"Via Cromwell and Lindis Pass back into the Mackenzie Basin, then SH80 along Lake Pukaki into the village."},
-      via:[[-45.02,168.75],[-45.04,169.00],[-45.04,169.20],[-44.90,169.32],[-44.80,169.40],[-44.62,169.65],
-           [-44.49,169.97],[-44.26,170.10],[-44.10,170.14],[-43.95,170.12],[-43.80,170.11]] },
-    { from:"cook", to:"tek", mode:"car", distance:105, duration:80,
-      note:{zh:"沿普卡基湖西岸南下再向东，湖边观景台值得停一次车。",
-            en:"South along the west shore of Lake Pukaki then east; the lookout is worth pulling over for."},
-      via:[[-43.85,170.11],[-44.05,170.13],[-44.19,170.14],[-44.14,170.28],[-44.05,170.40]] },
-    { from:"tek", to:"chc2", mode:"car", distance:227, duration:180,
-      note:{zh:"翻过伯克山口，经 Fairlie 与 Geraldine 下到坎特伯雷平原，最后一段是笔直的 SH1。",
-            en:"Over Burkes Pass, through Fairlie and Geraldine onto the Canterbury Plains, finishing on a dead-straight SH1."},
-      via:[[-44.03,170.60],[-44.09,170.83],[-44.07,171.05],[-44.09,171.24],[-43.95,171.55],[-43.90,171.75],
-           [-43.75,172.02],[-43.62,172.35],[-43.55,172.55]] }
+      note:{zh:"皇冠山脉公路，新西兰最高的铺装公路（1,121 m）。车程约 1.5 小时。冬季可能要求防滑链。",
+            en:"The Crown Range Road, NZ's highest sealed road at 1,121 m. About 1.5 hours. Chains may be required in winter."},
+      via:[[-44.78,169.05],[-44.87,168.95],[-44.95,168.87],[-44.99,168.78],[-45.00,168.70]] }
   ],
   /* Optional side trips, loaded after first paint */
   spurs: [
@@ -611,13 +578,12 @@ const TRIP = {
 /* Approximate road elevation profile: [km from start, metres, optional名称] */
 const PROFILE = [
   [0,20,{zh:"基督城",en:"Christchurch"}],[60,30],[120,80],[183,10,{zh:"凯库拉",en:"Kaikōura"}],
-  [250,480],[316,386,{zh:"汉默温泉",en:"Hanmer Springs"}],[356,180],[416,30],[526,320],[596,90],
-  [636,300],[656,709],[691,710],[741,470],[761,415],[791,971,{zh:"林迪斯山口",en:"Lindis Pass"}],
-  [806,300],[836,300,{zh:"瓦纳卡",en:"Wānaka"}],[871,1121,{zh:"皇冠山脉",en:"Crown Range"}],
-  [906,310,{zh:"皇后镇",en:"Queenstown"}],[966,220],[1030,971],[1060,415],[1105,470],
-  [1171,760,{zh:"库克山村",en:"Mt Cook Village"}],[1240,520],[1276,710,{zh:"蒂卡波湖",en:"Lake Tekapo"}],
-  [1300,709],[1320,300],[1360,90],[1420,100],[1503,20,{zh:"基督城",en:"Christchurch"}]
+  [250,480],[316,386,{zh:"汉默温泉",en:"Hanmer Springs"}],[380,200],[450,80],[520,320],
+  [580,90],[636,710,{zh:"蒂卡波湖",en:"Lake Tekapo"}],[680,520],[741,760,{zh:"库克山村",en:"Mt Cook Village"}],
+  [800,520],[850,415],[900,971,{zh:"林迪斯山口",en:"Lindis Pass"}],[941,300,{zh:"瓦纳卡",en:"Wānaka"}],
+  [980,1121,{zh:"皇冠山脉",en:"Crown Range"}],[1011,310,{zh:"皇后镇",en:"Queenstown"}]
 ];
+
 
 /* Simplified South Island coastline, clockwise from Cape Farewell [lat,lng] */
 const COAST = [
@@ -658,29 +624,29 @@ const GEONAMES = [
    2. i18n
    ============================================================= */
 const UI = {
-  zh:{ title:"新西兰南岛环线", sub:"从坎特伯雷平原出发，绕过南阿尔卑斯，八站之后回到出发的那条街",
+  zh:{ title:"新西兰南岛之旅", sub:"从基督城出发，经凯库拉、汉默温泉、蒂卡波湖、库克山、瓦纳卡，最终抵达皇后镇",
        list:"列表", map:"地图", dark:"暗夜", light:"白天",
        dist:"总里程", time:"净驾驶", stops:"站点", layers:"显示图层",
        car:"自驾路段", walk:"步行段", bike:"骑行段", transit:"缆车", labels:"路段标签",
        elev:"海拔剖面（近似）", highest:"最高点 皇冠山脉 1,121 m",
-       stopOf:"第 %n 站 / 共 8 站", origin:"起点", destination:"终点", waypoint:"途经",
+       stopOf:"第 %n 站 / 共 7 站", origin:"起点", destination:"终点", waypoint:"途经",
        cumulative:"累计里程", elapsed:"累计驾驶", altitude:"海拔", stay:"建议停留",
        prev:"上一站", next:"下一站", legTo:"下一段 · 到", arriveBy:"抵达方式",
        playing:"停止", play:"播放行程", openMap:"在地图上查看",
        modes:{car:"自驾",walk:"步行",bike:"骑行",transit:"缆车"},
-       srIntro:"本行程从基督城出发，顺时针经凯库拉、汉默温泉、瓦纳卡、皇后镇、库克山国家公园、蒂卡波湖后返回基督城，共 8 个站点、7 个驾驶路段，总里程 1503 公里，净驾驶约 19 小时 50 分。",
+       srIntro:"本行程从基督城出发，经凯库拉、汉默温泉、蒂卡波湖、库克山国家公园、瓦纳卡，最终抵达皇后镇，共 7 个站点、6 个驾驶路段，总里程约 1011 公里，净驾驶约 12 小时 30 分。适合 8 天行程。",
        selected:"已选择第 %n 站 %s" },
-  en:{ title:"South Island Grand Loop", sub:"Out across the Canterbury Plains, around the Southern Alps, and back to the street you started on",
+  en:{ title:"South Island Journey", sub:"From Christchurch through Kaikōura, Hanmer Springs, Lake Tekapo, Aoraki/Mt Cook and Wānaka, finishing in Queenstown",
        list:"List", map:"Map", dark:"Dark sky", light:"Day",
        dist:"Total distance", time:"Driving time", stops:"Stops", layers:"Layers",
        car:"Driving legs", walk:"Walking", bike:"Cycling", transit:"Gondola", labels:"Leg labels",
        elev:"Elevation profile (approximate)", highest:"Highest point: Crown Range 1,121 m",
-       stopOf:"Stop %n of 8", origin:"Start", destination:"Finish", waypoint:"Waypoint",
+       stopOf:"Stop %n of 7", origin:"Start", destination:"Finish", waypoint:"Waypoint",
        cumulative:"Distance so far", elapsed:"Driving so far", altitude:"Elevation", stay:"Suggested stay",
        prev:"Previous", next:"Next", legTo:"Next leg to", arriveBy:"Getting here",
        playing:"Stop", play:"Play the trip", openMap:"Show on the map",
        modes:{car:"Drive",walk:"Walk",bike:"Bike",transit:"Gondola"},
-       srIntro:"The trip starts in Christchurch and runs clockwise through Kaikōura, Hanmer Springs, Wānaka, Queenstown, Aoraki Mount Cook National Park and Lake Tekapo before returning to Christchurch: 8 stops, 7 driving legs, 1,503 kilometres and about 19 hours 50 minutes of driving.",
+       srIntro:"The trip starts in Christchurch and runs through Kaikōura, Hanmer Springs, Lake Tekapo, Aoraki Mount Cook National Park and Wānaka, finishing in Queenstown: 7 stops, 6 driving legs, about 1,011 kilometres and 12 hours 30 minutes of driving. Designed as an 8-day itinerary.",
        selected:"Selected stop %n, %s" }
 };
 let lang = (navigator.language||"").toLowerCase().startsWith("zh") ? "zh" : "zh"; // route was given in Chinese first
