@@ -261,8 +261,10 @@
     </div>
 
     <script>
+        const mapWrapper = document.getElementById("map-wrapper");
         const width = 800;
-        const height = 1000;
+        // Dynamically calculate the SVG coordinate height to match the wrapper's actual aspect ratio
+        const height = width * (mapWrapper.clientHeight / mapWrapper.clientWidth) || 1000;
 
         const svg = d3.select("#map")
             .attr("viewBox", `0 0 ${width} ${height}`)
