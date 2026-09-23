@@ -134,11 +134,17 @@
         }
 
         @media (max-width: 600px) {
+            body {
+                padding-bottom: 3% !important;
+            }
             #map-wrapper {
-                aspect-ratio: 4/5;
+                flex-grow: 1;
+                aspect-ratio: auto;
                 border-radius: 0;
                 border-left: none;
                 border-right: none;
+                border-bottom: none;
+                margin-bottom: 0;
             }
             .controls {
                 bottom: 10px;
