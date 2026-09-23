@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Zealand South Island Road Trip - Bilingual</title>
+    <title>新西兰南岛 9 日自驾之旅</title>
     <!-- Load D3.js, TopoJSON, and Tailwind CSS -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://unpkg.com/topojson-client@3"></script>
@@ -108,7 +108,7 @@
             width: 40px;
             height: 40px;
             border-radius: 8px;
-            font-size: 20px;
+            font-size: 24px;
             font-weight: bold;
             display: flex;
             align-items: center;
@@ -135,7 +135,7 @@
 
         @media (max-width: 600px) {
             #map-wrapper {
-                aspect-ratio: 3/4;
+                aspect-ratio: 4/5;
                 border-radius: 0;
                 border-left: none;
                 border-right: none;
@@ -145,22 +145,113 @@
                 right: 10px;
             }
         }
+
+        /* Place information popup */
+        #place-modal {
+            position: fixed;
+            inset: 0;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            background: rgba(15, 23, 42, 0.48);
+            z-index: 100;
+        }
+        #place-modal.open { display: flex; }
+        .place-card {
+            width: min(680px, 100%);
+            max-height: min(82vh, 760px);
+            overflow-y: auto;
+            background: white;
+            border-radius: 18px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+            padding: 24px;
+            position: relative;
+            color: #334155;
+        }
+        .place-close {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            width: 44px;
+            height: 44px;
+            border: 1px solid #cbd5e1;
+            border-radius: 50%;
+            background: white;
+            color: #334155;
+            font-size: 28px;
+            line-height: 1;
+            cursor: pointer;
+        }
+        .place-card h2 {
+            margin: 0 48px 6px 0;
+            font-size: 28px;
+            line-height: 1.25;
+            color: #0f172a;
+        }
+        .place-card .place-en {
+            margin: 0 0 18px;
+            color: #64748b;
+            font-size: 16px;
+        }
+        .place-card h3 {
+            margin: 20px 0 8px;
+            font-size: 19px;
+            color: #0f172a;
+        }
+        .place-card p, .place-card li {
+            font-size: 17px;
+            line-height: 1.7;
+        }
+        .place-card ul {
+            margin: 8px 0 0;
+            padding-left: 22px;
+        }
+        .place-hint {
+            margin-top: 14px;
+            padding: 10px 12px;
+            border-radius: 10px;
+            background: #f1f5f9;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        .point, .city-label { cursor: pointer; }
+        @media (max-width: 600px) {
+            .place-card {
+                padding: 20px;
+                border-radius: 16px;
+                max-height: 88vh;
+            }
+            .place-card h2 { font-size: 25px; }
+            .place-card p, .place-card li { font-size: 17px; }
+            .city-label .en { font-size: 17px !important; }
+            .city-label .zh { font-size: 16px !important; }
+        }
     </style>
 </head>
-<body class="p-4 sm:p-8">
+<body class="p-3 sm:p-8">
 
     <div class="text-center w-full max-w-4xl mb-6 mt-4">
-        <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-800 mb-2">South Island Road Trip</h1>
-        <p class="text-sm sm:text-base text-slate-500">Christchurch ➔ Lake Tekapo ➔ Wanaka ➔ Queenstown ➔ Dunedin ➔ Christchurch</p>
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-800 mb-2">新西兰南岛自驾之旅</h1>
+        <p class="text-base sm:text-lg text-slate-600 leading-relaxed">基督城 ➔ 蒂卡波湖 ➔ 库克山 ➔ 瓦纳卡 ➔ 皇后镇 ➔ 但尼丁 ➔ 奥马鲁 ➔ 基督城</p>
     </div>
 
     <div id="map-wrapper">
         <div class="controls">
             <button id="zoom-in" class="control-btn" title="Zoom In">+</button>
             <button id="zoom-out" class="control-btn" title="Zoom Out">−</button>
-            <button id="zoom-reset" class="control-btn" title="Reset View" style="font-size: 14px;">↺</button>
+            <button id="zoom-reset" class="control-btn" title="Reset View" style="font-size: 18px;">↺</button>
         </div>
         <svg id="map"></svg>
+    </div>
+
+    <div id="place-modal" role="dialog" aria-modal="true" aria-labelledby="place-title">
+        <div class="place-card">
+            <button class="place-close" id="place-close" aria-label="关闭">×</button>
+            <h2 id="place-title"></h2>
+            <p id="place-en" class="place-en"></p>
+            <div id="place-content"></div>
+        </div>
     </div>
 
     <script>
@@ -183,40 +274,86 @@
 
         // Data definition for cities (Bilingual)
         const cities = [
-            { en: "Christchurch", zh: "基督城", coords: [172.6362, -43.5320], offset: [15, -10], anchor: "start" },
-            { en: "Lake Tekapo", zh: "蒂卡波湖", coords: [170.4794, -44.0047], offset: [-15, -15], anchor: "end" },
-            { en: "Wanaka", zh: "瓦纳卡", coords: [169.1321, -44.7032], offset: [-15, -15], anchor: "end" },
-            { en: "Queenstown", zh: "皇后镇", coords: [168.6626, -45.0311], offset: [-15, 10], anchor: "end" },
-            { en: "Dunedin", zh: "但尼丁", coords: [170.5028, -45.8788], offset: [15, 10], anchor: "start" }
+            {
+                en: "Christchurch", zh: "基督城", coords: [172.6362, -43.5320],
+                offset: [15, -10], anchor: "start",
+                title: "基督城", intro: "南岛自驾的起点与终点，适合用较轻松的节奏开始旅程。",
+                sections: [
+                    ["值得看看", ["基督城植物园", "坎特伯雷博物馆（开放时）", "基督城美术馆", "市中心与雅芳河"]],
+                    ["适合你的玩法", ["第一天不要安排太满，把它作为调整节奏、补给和熟悉右侧驾驶的时间。"]]
+                ]
+            },
+            {
+                en: "Lake Tekapo", zh: "蒂卡波湖", coords: [170.4794, -44.0047],
+                offset: [-15, -15], anchor: "end",
+                title: "蒂卡波湖", intro: "蓝绿色湖水、牧场与南阿尔卑斯山构成的经典南岛景观，也是观星的好地方。",
+                sections: [
+                    ["值得看看", ["好牧羊人教堂", "蒂卡波湖湖畔", "麦肯齐盆地景观"]],
+                    ["推荐活动", ["农场体验：适合喜欢农场与乡村景观的你。", "夜间观星：这里属于奥拉基·麦肯齐国际暗夜天空保护区。"]],
+                    ["建议停留", ["住 1 晚；如果特别重视观星，也可以住 2 晚。"]]
+                ]
+            },
+            {
+                en: "Aoraki / Mt Cook", zh: "奥拉基／库克山", coords: [170.0950, -43.7360],
+                offset: [15, -12], anchor: "start",
+                title: "奥拉基／库克山国家公园", intro: "从蒂卡波出发约 1 小时多，是整段行程中最值得专门留宿的高山冰川景观区域之一。",
+                sections: [
+                    ["值得看看", ["普卡基湖及湖畔观景点", "库克山村", "塔斯曼冰川与蓝湖一带"]],
+                    ["短途活动", ["Kea Point Track：适合希望控制运动量、又想近距离感受高山景观的行程。", "也可以只做较短的冰川观景步道和观景点停留。"]],
+                    ["建议停留", ["住 1 晚，争取日落和第二天清晨的山景。"]]
+                ]
+            },
+            {
+                en: "Wanaka", zh: "瓦纳卡", coords: [169.1321, -44.7032],
+                offset: [-15, -15], anchor: "end",
+                title: "瓦纳卡", intro: "比皇后镇更悠闲的湖畔小镇，湖泊、山景、农场和自然体验结合得很好。",
+                sections: [
+                    ["值得看看", ["瓦纳卡湖", "孤独树（That Wānaka Tree）", "湖畔步道"]],
+                    ["推荐活动", ["瓦纳卡薰衣草农场：农场、花园与乡村景观。", "Mou Waho Island：乘船前往无捕食者保护区，进行轻松自然步行；岛上还有一座湖，形成“湖中岛、岛中湖”的独特景观。"]],
+                    ["建议停留", ["住 1 晚；如果希望减少赶路，可以住 2 晚。"]]
+                ]
+            },
+            {
+                en: "Queenstown", zh: "皇后镇", coords: [168.6626, -45.0311],
+                offset: [-15, 10], anchor: "end",
+                title: "皇后镇", intro: "山、湖和度假小镇结合的南岛核心目的地，不需要参加极限运动也值得停留。",
+                sections: [
+                    ["值得看看", ["瓦卡蒂普湖", "皇后镇花园", "湖畔与市中心", "附近的 Arrowtown 箭镇"]],
+                    ["推荐活动", ["TSS Earnslaw 蒸汽船＋Walter Peak 高地农场：蒸汽船、湖景、牧场和动物一次结合。", "Skyline 缆车：不用徒步登山也能获得俯瞰皇后镇和湖泊的视野。"]],
+                    ["建议停留", ["住 2 晚。第二天安排成轻松的湖泊＋农场日，不必追求刺激项目。"]]
+                ]
+            },
+            {
+                en: "Dunedin", zh: "但尼丁", coords: [170.5028, -45.8788],
+                offset: [15, 10], anchor: "start",
+                title: "但尼丁", intro: "历史建筑、大学城气质与奥塔哥半岛野生动物结合的城市，非常适合你的兴趣。",
+                sections: [
+                    ["值得看看", ["但尼丁市区历史建筑", "奥塔哥半岛", "拉纳克城堡"]],
+                    ["动物与自然", ["Royal Albatross Centre：皇家信天翁繁殖地。", "奥塔哥半岛还可以看到海豹、海狮和企鹅，并欣赏壮阔海岸线。"]],
+                    ["建议停留", ["住 1 晚；如果想慢慢探索半岛，可以把第二天上午也留给这里。"]]
+                ]
+            },
+            {
+                en: "Oamaru", zh: "奥马鲁", coords: [170.9680, -45.0970],
+                offset: [15, -12], anchor: "start",
+                title: "奥马鲁", intro: "它不只是但尼丁到基督城之间的中途住宿点：维多利亚时代建筑和小蓝企鹅让这里很值得住一晚。",
+                sections: [
+                    ["值得看看", ["维多利亚历史街区", "Steampunk HQ 蒸汽朋克主题景点", "奥马鲁港"]],
+                    ["动物亮点", ["小蓝企鹅：傍晚返回海岸，是这里最值得安排时间的体验之一。"]],
+                    ["建议停留", ["住 1 晚。建议下午抵达，逛历史街区，傍晚看企鹅归巢。"]]
+                ]
+            }
         ];
 
         // Define segments with intermediate coordinates and Chinese labels
         const routeSegments = [
-            {
-                coords: [ [172.6362, -43.5320], [171.2, -43.8], [170.4794, -44.0047] ],
-                label: "226公里 • 2小时50分",
-                labelPos: [171.2, -43.8] // Midpoint
-            },
-            {
-                coords: [ [170.4794, -44.0047], [169.8, -44.4], [169.1321, -44.7032] ],
-                label: "200公里 • 2小时15分",
-                labelPos: [169.8, -44.4]
-            },
-            {
-                coords: [ [169.1321, -44.7032], [168.9, -44.9], [168.6626, -45.0311] ],
-                label: "68公里 • 1小时",
-                labelPos: [168.9, -44.9]
-            },
-            {
-                coords: [ [168.6626, -45.0311], [169.5, -45.5], [170.5028, -45.8788] ],
-                label: "282公里 • 3小时30分",
-                labelPos: [169.5, -45.5]
-            },
-            {
-                coords: [ [170.5028, -45.8788], [171.1, -44.5], [172.6362, -43.5320] ],
-                label: "360公里 • 4小时30分",
-                labelPos: [171.1, -44.5]
-            }
+            { coords: [[172.6362,-43.5320],[171.2,-43.8],[170.4794,-44.0047]], label: "约 3 小时", labelPos: [171.2,-43.8] },
+            { coords: [[170.4794,-44.0047],[170.0950,-43.7360]], label: "约 1 小时 15 分", labelPos: [170.28,-43.86] },
+            { coords: [[170.0950,-43.7360],[169.6,-44.3],[169.1321,-44.7032]], label: "约 2.5 小时", labelPos: [169.55,-44.3] },
+            { coords: [[169.1321,-44.7032],[168.9,-44.9],[168.6626,-45.0311]], label: "约 1–1.5 小时", labelPos: [168.9,-44.9] },
+            { coords: [[168.6626,-45.0311],[169.5,-45.5],[170.5028,-45.8788]], label: "约 3.5 小时", labelPos: [169.55,-45.45] },
+            { coords: [[170.5028,-45.8788],[170.75,-45.45],[170.9680,-45.0970]], label: "约 1.5 小时", labelPos: [170.75,-45.45] },
+            { coords: [[170.9680,-45.0970],[171.7,-44.2],[172.6362,-43.5320]], label: "约 3 小时 20 分", labelPos: [171.7,-44.2] }
         ];
 
         // Use Catmull-Rom spline to interpolate curves organically through points
@@ -254,11 +391,11 @@
                     .style("font-size", function() {
                         // Make English slightly larger than Chinese
                         const isZh = d3.select(this).classed("zh");
-                        return isZh ? (12 / k) + "px" : (14 / k) + "px";
+                        return isZh ? (16 / k) + "px" : (18 / k) + "px";
                     });
                     
                 g.selectAll(".route-label")
-                    .style("font-size", (12 / k) + "px")
+                    .style("font-size", (16 / k) + "px")
                     .style("stroke-width", (3.5 / k) + "px");
             });
 
@@ -291,7 +428,7 @@
                 .attr("text-anchor", "middle")
                 .text(d => d.label)
                 // Initialize default styles so it inherits correctly on zoom
-                .style("font-size", "12px")
+                .style("font-size", "16px")
                 .style("stroke-width", "3.5px");
 
             // Draw city marker dots
@@ -318,7 +455,7 @@
                 .attr("x", d => projection(d.coords)[0] + d.offset[0])
                 .attr("dy", "0")
                 .text(d => d.en)
-                .style("font-size", "14px");
+                .style("font-size", "18px");
 
             // Chinese Line
             cityLabels.append("tspan")
@@ -326,9 +463,47 @@
                 .attr("x", d => projection(d.coords)[0] + d.offset[0])
                 .attr("dy", "1.2em") // Pushes the Chinese text down automatically based on font-size
                 .text(d => d.zh)
-                .style("font-size", "12px");
+                .style("font-size", "16px");
+
+            // Make every place marker and label touch/click friendly.
+            g.selectAll(".point")
+                .on("click", (event, d) => { event.stopPropagation(); showPlace(d); })
+                .on("touchstart", (event, d) => { event.stopPropagation(); showPlace(d); });
+
+            cityLabels
+                .on("click", (event, d) => { event.stopPropagation(); showPlace(d); })
+                .on("touchstart", (event, d) => { event.stopPropagation(); showPlace(d); });
 
         }).catch(err => console.error("Error loading map data:", err));
+
+
+        // Interactive place information
+        const modal = document.getElementById("place-modal");
+        const closeBtn = document.getElementById("place-close");
+        const titleEl = document.getElementById("place-title");
+        const enEl = document.getElementById("place-en");
+        const contentEl = document.getElementById("place-content");
+
+        function showPlace(d) {
+            titleEl.textContent = d.title;
+            enEl.textContent = d.en;
+            contentEl.innerHTML = d.sections.map(([heading, items]) =>
+                `<h3>${heading}</h3><ul>${items.map(item => `<li>${item}</li>`).join("")}</ul>`
+            ).join("") + `<div class="place-hint">点击右上角 × 关闭介绍；在手机上也可以点击地图上的地点名称或红色标记重新打开。</div>`;
+            modal.classList.add("open");
+        }
+
+        function hidePlace() {
+            modal.classList.remove("open");
+        }
+
+        closeBtn.addEventListener("click", hidePlace);
+        modal.addEventListener("click", (e) => {
+            if (e.target === modal) hidePlace();
+        });
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "Escape") hidePlace();
+        });
 
         d3.select("#zoom-in").on("click", () => {
             svg.transition().duration(300).call(zoom.scaleBy, 1.5);
